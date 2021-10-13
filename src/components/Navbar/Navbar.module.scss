@@ -1,3 +1,44 @@
-.Navbar {
+.NavbarLayout {
+  color: var(--conun-blue);
   display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 35px 0;
+  width: 80%;
+
+  & .NavbarLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+
+    & > a {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+
+      & .NetworkCircle {
+        background-color: green;
+        border-radius: 50%;
+        height: 10px;
+        margin-right: 10px;
+        width: 10px;
+      }
+      & > p {
+        margin: 0;
+      }
+    }
+
+    & .ConunLogo {
+      margin-right: 30px;
+      width: 70px;
+    }
+  }
+  & .NavbarRight {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+  }
 }
