@@ -10,9 +10,10 @@ interface Layout {
 function Layout({ children }: Layout) {
   return (
     <div className={styles.Appwrapper}>
-      <Navbar />
-
-      {children}
+      <div className={styles.Layout}>
+        <Navbar />
+        {children}
+      </div>
     </div>
   );
 }

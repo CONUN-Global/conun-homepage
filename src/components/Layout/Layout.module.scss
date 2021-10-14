@@ -1,6 +1,10 @@
 .Appwrapper {
-  background-image: url("../../assets/background/bg_left.png");
-  background-size: cover;
-  height: 100vh;
-  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  & .Layout {
+    height: 100vh;
+    min-height: 100vh;
+    position: absolute;
+    width: 100%;
+  }
 }

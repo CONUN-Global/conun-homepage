@@ -1,27 +1,37 @@
-.Main {
-  color: var(--conun-blue);
-  font-family: "Barlow", sans-serif;
-  margin-top: 180px;
-  width: 553px;
+// .Main {
+//   color: var(--conun-blue);
+//   font-family: "Barlow", sans-serif;
+//   margin-top: 180px;
+//   width: 553px;
 
-  & .Title {
-    font-size: 50px;
-    letter-spacing: 0.045em;
-    margin-bottom: 70px;
-  }
-  & .Description {
-    font-size: 18px;
-    font-weight: normal;
-    margin-bottom: 50px;
-  }
-  & .LearnMoreButton {
-    background: linear-gradient(99.17deg, #77aceb 12.18%, #1d428a 106.22%);
-    border-radius: 50px;
-    box-shadow: 20px 20px 30px rgba(51, 88, 159, 0.4);
-    color: white;
-    letter-spacing: 0.035em;
-    padding: 18px 36px;
-    text-align: center;
-    text-transform: uppercase;
-  }
+//   & .Title {
+//     font-size: 50px;
+//     letter-spacing: 0.045em;
+//     margin-bottom: 70px;
+//   }
+//   & .Description {
+//     font-size: 18px;
+//     font-weight: normal;
+//     margin-bottom: 50px;
+//   }
+//   & .LearnMoreButton {
+//     background: linear-gradient(99.17deg, #77aceb 12.18%, #1d428a 106.22%);
+//     border-radius: 50px;
+//     box-shadow: 20px 20px 30px rgba(51, 88, 159, 0.4);
+//     color: white;
+//     letter-spacing: 0.035em;
+//     padding: 18px 36px;
+//     text-align: center;
+//     text-transform: uppercase;
+//   }
+// }
+.Main {
+  width: 100%;
+}
+
+.Slide {
+  background-color: khaki;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }

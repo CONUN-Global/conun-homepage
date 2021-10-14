@@ -9,6 +9,8 @@ type AppState = {
   setCurrentLocale: (locale: Locale) => void;
   currentNetwork: Network;
   setCurrentNetwork: (network: Network) => void;
+  activeSlide: number;
+  setActiveSlide: (num: number) => void;
 };
 const useStore = create<AppState>((set) => ({
   currentLocale: "en",
@@ -21,6 +23,8 @@ const useStore = create<AppState>((set) => ({
     set({
       currentNetwork: network,
     }),
+  activeSlide: 0,
+  setActiveSlide: (num) => set({ activeSlide: num }),
 }));
 
 export default useStore;
