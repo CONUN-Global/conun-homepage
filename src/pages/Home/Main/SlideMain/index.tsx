@@ -18,9 +18,7 @@ interface SlideMainProps {
 }
 function SlideMain({ page, index }: SlideMainProps) {
   const currentSlide = useCarouselContext();
-  //   console.log("currentSlide", currentSlide);
   const setActiveSlide = useStore((state) => state.setActiveSlide);
-  //   const activeSlide = useStore((state) => state.activeSlide);
 
   useEffect(() => {
     setActiveSlide(currentSlide);
@@ -28,11 +26,13 @@ function SlideMain({ page, index }: SlideMainProps) {
 
   return (
     <Slide innerClassName={styles.CardContainer} index={index}>
-      <h1 className={styles.Title}>{page.title}sssss</h1>
-      <p className={styles.Description}>{page.description}</p>
-      <Link href="/#about">
-        <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
-      </Link>
+      <div className={styles.Main}>
+        <h1 className={styles.Title}>{page.title}</h1>
+        <p className={styles.Description}>{page.description}</p>
+        <Link href="/#about">
+          <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
+        </Link>
+      </div>
     </Slide>
   );
 }

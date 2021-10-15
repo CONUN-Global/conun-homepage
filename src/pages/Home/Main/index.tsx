@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import classNames from "classnames";
+
 import { CarouselProvider, Slider, Dot } from "pure-react-carousel";
 import useStore from "@/store/store";
 import SlideMain from "./SlideMain";
@@ -28,27 +30,32 @@ const MAIN_PAGES = [
   },
 ];
 function Main() {
-  //   const ref = useRef<HTMLDivElement>(null);
-  //   const [windowWidth, setWindowWidth] = useState(0);
-  //   const [windowHeight, setWindowHeight] = useState(0);
+  const [size, setSize] = useState({
+    height: 10,
+    width: 16,
+  });
+
   const activeSlide = useStore((state) => state.activeSlide);
 
-  //   useEffect(() => {
-  //     if (ref) {
-  //       console.log("ref size", ref.current?.offsetWidth || 0);
-  //       console.log("ref size", ref.current?.offsetHeight || 0);
-  //       setWindowWidth(ref.current?.offsetWidth || 0);
-  //       setWindowHeight(ref.current?.offsetHeight || 0);
-  //     }
-  //   }, [ref]);
+  useEffect(() => {
+    const handleResize = () => {
+      setSize({
+        height: window.innerHeight,
+        width: window.innerWidth,
+      });
+    };
+    console.log("resized to: ", window.innerWidth, "x", window.innerHeight);
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  });
 
   return (
-    // <div ref={ref} className={styles.Main}>
-
     <CarouselProvider
       className={styles.Main}
-      naturalSlideWidth={800}
-      naturalSlideHeight={800}
+      naturalSlideWidth={size.width}
+      naturalSlideHeight={size.height}
       interval={2000}
       totalSlides={3}
       orientation={"horizontal"}
@@ -60,11 +67,17 @@ function Main() {
           <SlideMain key={i} page={page} index={i} />
         ))}
       </Slider>
-      {MAIN_PAGES.map((page, i) => (
-        <Dot key={i} slide={i}>
-          {i}
-        </Dot>
-      ))}
+      <div className={styles.Dots}>
+        {MAIN_PAGES.map((page, i) => (
+          <Dot
+            key={i}
+            slide={i}
+            className={classNames(styles.Dot, {
+              [styles.active]: activeSlide === i,
+            })}
+          ></Dot>
+        ))}
+      </div>
     </CarouselProvider>
   );
 }
