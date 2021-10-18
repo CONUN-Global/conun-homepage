@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
-
+import Link from "next/link";
 import { CarouselProvider, Slider, Dot } from "pure-react-carousel";
+
 import useStore from "@/store/store";
+
 import SlideMain from "./SlideMain";
 
 import styles from "./Main.module.scss";
@@ -31,8 +33,8 @@ const MAIN_PAGES = [
 ];
 function Main() {
   const [size, setSize] = useState({
-    height: 10,
-    width: 16,
+    height: 9,
+    width: 18,
   });
 
   const activeSlide = useStore((state) => state.activeSlide);
@@ -77,6 +79,14 @@ function Main() {
             })}
           ></Dot>
         ))}
+      </div>
+      <div className={styles.DownloadBar}>
+        <p>Version 1.2.1 of CONUN Drive is now available.</p>
+        <Link href="https://dappstore.conun.io/">
+          <a target="_blank" className={styles.DownloadLink} rel="noreferrer">
+            Download Now
+          </a>
+        </Link>
       </div>
     </CarouselProvider>
   );
