@@ -1,6 +1,7 @@
 import classNames from "classnames";
 
 import styles from "./Button.module.scss";
+
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   noStyle?: boolean;
