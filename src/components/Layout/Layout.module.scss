@@ -1,0 +1,9 @@
+.Appwrapper {
+  position: relative;
+  width: 100%;
+  & .Layout {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+  }
+}
