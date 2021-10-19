@@ -1,18 +1,15 @@
 import { useEffect } from "react";
-import Link from "next/link";
 import { Slide } from "pure-react-carousel";
+import Link from "next/link";
 
 import useStore from "@/store/store";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
 
 import styles from "./SlideMain.module.scss";
+import { Pages } from "@/types/index";
 interface SlideMainProps {
-  page: {
-    title: string;
-    description: string;
-    btnMsg: string;
-  };
+  page: Pages;
   index: number;
 }
 function SlideMain({ page, index }: SlideMainProps) {

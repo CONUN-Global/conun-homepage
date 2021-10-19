@@ -1,20 +1,38 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-10-19 13:39+0900\n"
+"POT-Creation-Date: 2021-10-19 17:22+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
 
-#: src/pages/Home/Main/index.tsx:19
+#: src/pages/Home/Main/index.tsx:20
+#: src/pages/Home/Main/index.tsx:27
 msgid "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants."
 msgstr "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants."
 
-#: src/pages/Home/Main/index.tsx:17
+#: src/pages/Home/Main/index.tsx:18
+#: src/pages/Home/Main/index.tsx:25
 msgid "Explore, Share, and Earn with CONUN Drive"
 msgstr "Explore, Share, and Earn with CONUN Drive"
 
-#: src/pages/Home/Main/index.tsx:21
+#: src/pages/Home/Main/index.tsx:29
+msgid "Find out More"
+msgstr "Find out More"
+
+#: src/pages/Home/Main/index.tsx:22
 msgid "Learn More"
 msgstr "Learn More"
+
+#: src/pages/Home/Main/index.tsx:34
+msgid "On our distributed supercomputing platform high power computing is accessible through our P2P ecosystem."
+msgstr "On our distributed supercomputing platform high power computing is accessible through our P2P ecosystem."
+
+#: src/pages/Home/Main/index.tsx:36
+msgid "Start Now"
+msgstr "Start Now"
+
+#: src/pages/Home/Main/index.tsx:32
+msgid "Your Resource for high power computing"
+msgstr "Your Resource for high power computing"

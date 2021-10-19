@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const currentLocale = useStore((store) => store.currentLocale);
 
   useEffect(() => {
-    activate(currentLocale);
+    activate(currentLocale.value);
   }, [currentLocale]);
 
   return (
