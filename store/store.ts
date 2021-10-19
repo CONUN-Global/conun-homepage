@@ -1,4 +1,5 @@
 import create from "zustand";
+
 type Locale = "en" | "ko";
 type Network = {
   value: "main" | "test";

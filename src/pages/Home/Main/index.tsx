@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 import Link from "next/link";
 import { CarouselProvider, Slider, Dot } from "pure-react-carousel";
-
 import useStore from "@/store/store";
-
+import { Trans } from "@lingui/macro";
 import SlideMain from "./SlideMain";
 
 import styles from "./Main.module.scss";
@@ -13,10 +12,11 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 
 const MAIN_PAGES = [
   {
-    title: "Explore, Share, and Earn with CONUN Drive",
-    description:
-      "Based on desktop grid computing technology, CONUN&apos;s Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants.",
-    btnMsg: "Learn More",
+    title: <Trans id="Explore, Share, and Earn with CONUN Drive" />,
+    description: (
+      <Trans id="Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants." />
+    ),
+    btnMsg: <Trans id="Learn More" />,
   },
   {
     title: "Explore, Share, and Earn with CONUN Drive",

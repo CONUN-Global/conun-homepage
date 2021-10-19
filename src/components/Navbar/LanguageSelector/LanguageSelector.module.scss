@@ -5,12 +5,41 @@
     margin-right: 10px;
     width: 20px;
   }
-  & .LocaleSelect {
-    -webkit-appearance: none;
-    background: transparent;
-    border: none;
-    color: var(--conun-blue);
-    cursor: pointer;
-    width: 60px;
+  & .LanguageDropdown {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70px;
+
+    & .Current {
+      background: transparent;
+      color: var(--conun-blue);
+      cursor: pointer;
+      font-weight: 600;
+      position: relative;
+    }
+    & .LocaleSelect {
+      align-items: center;
+      -webkit-appearance: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      list-style: none;
+      outline: none;
+      position: absolute;
+      top: 50px;
+
+      & .LocaleOption {
+        color: var(--conun-blue);
+        padding: 5px;
+
+        &:hover {
+          border: 1px solid var(--conun-blue);
+        }
+      }
+    }
   }
 }
