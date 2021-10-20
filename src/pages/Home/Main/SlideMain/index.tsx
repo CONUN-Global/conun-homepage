@@ -7,6 +7,8 @@ import useStore from "@/store/store";
 import useCarouselContext from "@/hooks/useCarouselContext";
 
 import styles from "./SlideMain.module.scss";
+
+import FirstSlideIcon from "@/assets/icons/main_icon_1.svg";
 import { Pages } from "@/types/index";
 interface SlideMainProps {
   page: Pages;
@@ -28,6 +30,9 @@ function SlideMain({ page, index }: SlideMainProps) {
         <Link href="/#about">
           <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
         </Link>
+      </div>
+      <div>
+        <FirstSlideIcon className={styles.FirstSlideIcon} />
       </div>
     </Slide>
   );
