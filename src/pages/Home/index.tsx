@@ -1,6 +1,8 @@
 import Main from "./Main";
-import AboutIntro from "./LandingPage/AboutIntro";
-import AboutCardsSection from "./LandingPage/AboutCardsSection";
+import AboutIntro from "./About/AboutIntro";
+import AboutCardsSection from "./About/AboutCardsSection";
+import VideoSection from "./About/VideoSection";
+import Product from "./About/Product";
 import styles from "./Home.module.scss";
 
 function Home() {
@@ -9,6 +11,8 @@ function Home() {
       <Main />
       <AboutIntro />
       <AboutCardsSection />
+      <VideoSection />
+      <Product />
     </div>
   );
 }

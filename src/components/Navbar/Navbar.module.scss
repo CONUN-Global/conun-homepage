@@ -1,15 +1,7 @@
 .NavbarLayout {
-  align-items: center;
   color: var(--conun-blue);
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  left: 0;
-  padding: 20px 150px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
 
   & .NavbarLeft {
     display: flex;

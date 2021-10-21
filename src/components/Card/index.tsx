@@ -6,24 +6,50 @@ export interface CardProps {
   title: string;
   description: string;
   image?: React.ReactNode;
-  btnMsg?: React.ReactNode;
-  noStyle?: boolean;
+  btnMsg?: string;
+  horizontal?: boolean;
+  header?: string;
+  className?: string;
 }
-function Card(card: CardProps) {
-  const { title, description, image, btnMsg } = card;
-  {
+function Card({
+  title,
+  description,
+  image,
+  btnMsg,
+  horizontal,
+  header,
+  ...props
+}: CardProps) {
+  if (horizontal) {
     return (
-      <div>
-        <div className={styles.Icon}>{image}</div>
-        <h3>
-          <Trans id={title} />
-        </h3>
-        <p>
-          <Trans id={description} />
-        </p>
-        <Button>{btnMsg}</Button>
+      <div className={styles.NoStyleCard} {...props}>
+        <div className={styles.IconContainer}>{image}</div>
+        <div className={styles.TextContainer}>
+          {header && <p>{header}</p>}
+          <h3 className={styles.Title}>
+            <Trans id={title} />
+          </h3>
+          <p className={styles.Description}>
+            <Trans id={description} />
+          </p>
+          <Button>{btnMsg}</Button>
+        </div>
       </div>
     );
   }
+  return (
+    <div className={styles.Card} {...props}>
+      <div className={styles.IconContainer}>{image}</div>
+      <h3 className={styles.Title}>
+        <Trans id={title} />
+      </h3>
+      <p className={styles.Description}>
+        <Trans id={description} />
+      </p>
+      <Button variant={"primary"} round>
+        {btnMsg}
+      </Button>
+    </div>
+  );
 }
 export default Card;

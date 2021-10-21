@@ -31,7 +31,7 @@ const MAIN_PAGES: Pages[] = [
   {
     title: <Trans id="Your Resource for high power computing" />,
     description: (
-      <Trans id="On our distributed supercomputing platform high power computing is accessible through our P2P ecosystem." />
+      <Trans id="Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants." />
     ),
     btnMsg: <Trans id="Start Now" />,
   },

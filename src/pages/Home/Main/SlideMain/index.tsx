@@ -23,16 +23,18 @@ function SlideMain({ page, index }: SlideMainProps) {
   }, [currentSlide, setActiveSlide]);
 
   return (
-    <Slide innerClassName={styles.CardContainer} index={index}>
-      <div className={styles.Main}>
-        <h1 className={styles.Title}>{page.title}</h1>
-        <p className={styles.Description}>{page.description}</p>
-        <Link href="/#about">
-          <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
-        </Link>
-      </div>
-      <div>
-        <FirstSlideIcon className={styles.FirstSlideIcon} />
+    <Slide innerClassName={styles.SlideContainer} index={index}>
+      <div className={styles.Slides}>
+        <div className={styles.Main}>
+          <h1 className={styles.Title}>{page.title}</h1>
+          <p className={styles.Description}>{page.description}</p>
+          <Link href="/#about">
+            <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
+          </Link>
+        </div>
+        <div className={styles.IconContainer}>
+          <FirstSlideIcon className={styles.FirstSlideIcon} />
+        </div>
       </div>
     </Slide>
   );
