@@ -1,4 +1,4 @@
-.Card {
+.VerticalCard {
   align-items: center;
   background-color: #fff;
   color: var(--conun-blue);
@@ -28,9 +28,43 @@
   }
 }
 
-.NoStyleCard {
+.HorizontalCard {
+  background-color: #fff;
   display: flex;
   flex-direction: row;
-  height: 444px;
-  width: 644px;
+  height: 494px;
+  margin-bottom: 30px;
+  padding: 70px;
+  width: 1239px;
+
+  &.border {
+    border: 1px solid #085ed5;
+  }
+  &.round {
+    border-radius: 10px;
+  }
+
+  & .IconContainer {
+    height: 354px;
+    width: 374px;
+  }
+  & .TextContainer {
+    margin-left: 70px;
+
+    & .Header {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    & .Title {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    & .Description {
+      font-size: 18px;
+      line-height: 172%;
+      margin-bottom: 70px;
+    }
+  }
 }

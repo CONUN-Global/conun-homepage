@@ -24,7 +24,7 @@ function Button({
   if (noStyle) {
     return (
       <button
-        className={classNames(styles.noStyleButton, className)}
+        className={classNames(styles.NoStyleButton, className)}
         {...props}
       >
         {children}

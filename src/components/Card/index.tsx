@@ -1,8 +1,10 @@
 import { Trans } from "@lingui/macro";
 import Button from "@/components/Button";
 import styles from "./Card.module.scss";
+import classNames from "classnames";
 
 export interface CardProps {
+  id?: string;
   title: string;
   description: string;
   image?: React.ReactNode;
@@ -10,6 +12,8 @@ export interface CardProps {
   horizontal?: boolean;
   header?: string;
   className?: string;
+  border?: boolean;
+  round?: boolean;
 }
 function Card({
   title,
@@ -18,27 +22,43 @@ function Card({
   btnMsg,
   horizontal,
   header,
+  border,
+  round,
+  className,
   ...props
 }: CardProps) {
   if (horizontal) {
     return (
-      <div className={styles.NoStyleCard} {...props}>
+      <div
+        className={classNames(styles.HorizontalCard, className, {
+          [styles.border]: border,
+          [styles.round]: round,
+        })}
+        {...props}
+      >
         <div className={styles.IconContainer}>{image}</div>
         <div className={styles.TextContainer}>
-          {header && <p>{header}</p>}
+          {header && <p className={styles.Header}>{header}</p>}
           <h3 className={styles.Title}>
             <Trans id={title} />
           </h3>
           <p className={styles.Description}>
             <Trans id={description} />
           </p>
-          <Button>{btnMsg}</Button>
+          <Button
+            className={styles.Button}
+            variant="primary"
+            size="small"
+            round
+          >
+            {btnMsg}
+          </Button>
         </div>
       </div>
     );
   }
   return (
-    <div className={styles.Card} {...props}>
+    <div className={classNames(styles.VerticalCard, className)} {...props}>
       <div className={styles.IconContainer}>{image}</div>
       <h3 className={styles.Title}>
         <Trans id={title} />
@@ -46,7 +66,7 @@ function Card({
       <p className={styles.Description}>
         <Trans id={description} />
       </p>
-      <Button variant={"primary"} round>
+      <Button variant="primary" size="small" round>
         {btnMsg}
       </Button>
     </div>
