@@ -1,49 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap");
-.About {
-  align-items: center;
-  color: var(--conun-blue);
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  justify-content: space-between;
-  padding: 0 200px;
-  width: 100%;
+.AboutPage {
+  background-image: url("../../../../assets/background/blocks_bg.png");
+  padding-top: 525px;
 
-  & .AboutLeftContainer {
-    text-transform: uppercase;
-    width: 30%;
+  & .AboutIntroSection {
+    align-items: center;
+    color: var(--conun-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px;
+    width: 100%;
 
-    & .MainTitle {
-      font-family: "Teko", sans-serif;
-      font-size: 80px;
-      font-weight: 600;
-    }
-    & > div {
-      font-size: 40px;
-      font-weight: 500;
-    }
-  }
+    & .AboutLeftContainer {
+      text-transform: uppercase;
+      width: 30%;
 
-  & .AboutRightContainer {
-    width: 50%;
-
-    & .Title {
-      font-size: 32px;
-    }
-    & .Description {
-      font-size: 18px;
-      font-weight: 400;
-      margin: 21px 0;
-    }
-    & .ButtonContainer {
-      margin-top: 50px;
-
-      & .WhitepaperLink {
-        background: var(--conun-btn-gradient);
-        border-radius: 30px;
-        box-shadow: var(--conun-blue-shadow);
-        padding: 13px 36px;
+      & .MainTitle {
+        font-family: "Teko", sans-serif;
+        font-size: 80px;
+        font-weight: 600;
+      }
+      & > div {
+        font-size: 40px;
+        font-weight: 500;
       }
     }
+
+    & .AboutRightContainer {
+      width: 50%;
+
+      & .Title {
+        font-size: 32px;
+      }
+      & .Description {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 21px 0;
+      }
+      & .ButtonContainer {
+        margin-top: 50px;
+
+        & .WhitepaperLink {
+          background: var(--conun-btn-gradient);
+          border-radius: 30px;
+          box-shadow: var(--conun-blue-shadow);
+          padding: 13px 36px;
+        }
+      }
+    }
+  }
+  & .AboutCardsSection {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 681px;
+    padding: 0 200px;
+    width: 100%;
   }
 }

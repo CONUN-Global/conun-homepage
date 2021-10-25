@@ -1,15 +1,21 @@
 .VerticalCard {
   align-items: center;
-  background-color: #fff;
+  background-color: var(--text-white);
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
-  height: 644px;
   justify-content: center;
-  padding: 50px;
   text-align: center;
-  width: 444px;
 
+  &.medium {
+    height: 644px;
+    width: 444px;
+  }
+
+  &.small {
+    height: 778px;
+    width: 400px;
+  }
   & .IconContainer {
     height: 266px;
     margin-bottom: 26px;
@@ -29,7 +35,7 @@
 }
 
 .HorizontalCard {
-  background-color: #fff;
+  background-color: var(--text-white);
   display: flex;
   flex-direction: row;
   height: 494px;

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import type { AppProps } from "next/app";
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
@@ -7,7 +8,6 @@ import useStore from "@/store/store";
 import Layout from "@/components/Layout";
 
 import "./styles/globals.scss";
-import { useEffect } from "react";
 
 export async function activate(locale: string) {
   const { messages } = await import(`../src/locales/${locale}/messages`);

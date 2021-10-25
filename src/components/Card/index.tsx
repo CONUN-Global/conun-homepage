@@ -14,6 +14,7 @@ export interface CardProps {
   className?: string;
   border?: boolean;
   round?: boolean;
+  size?: "large" | "medium" | "small";
 }
 function Card({
   title,
@@ -25,6 +26,7 @@ function Card({
   border,
   round,
   className,
+  size = "medium",
   ...props
 }: CardProps) {
   if (horizontal) {
@@ -58,7 +60,10 @@ function Card({
     );
   }
   return (
-    <div className={classNames(styles.VerticalCard, className)} {...props}>
+    <div
+      className={classNames(styles.VerticalCard, className, styles[size])}
+      {...props}
+    >
       <div className={styles.IconContainer}>{image}</div>
       <h3 className={styles.Title}>
         <Trans id={title} />

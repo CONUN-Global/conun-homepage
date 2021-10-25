@@ -1,7 +1,7 @@
 import Main from "./Main";
 import AboutIntro from "./About/AboutIntro";
-import AboutCardsSection from "./About/AboutCardsSection";
 import VideoSection from "./About/VideoSection";
+import UseCaseSection from "./About/UseCaseSection";
 import Product from "./About/Product";
 import styles from "./Home.module.scss";
 
@@ -10,9 +10,9 @@ function Home() {
     <div className={styles.Home}>
       <Main />
       <AboutIntro />
-      <AboutCardsSection />
       <VideoSection />
       <Product />
+      <UseCaseSection />
     </div>
   );
 }

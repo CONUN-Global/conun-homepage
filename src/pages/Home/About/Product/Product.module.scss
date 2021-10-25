@@ -5,14 +5,14 @@
   flex-direction: column;
   padding-top: 200px;
 
-  & .ProductButtonContainer {
+  & .ProductCardsNav {
     display: flex;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 25px;
     text-transform: uppercase;
     & .PageButtons {
-      & > button {
+      & > .PageButton {
         color: var(--conun-skyblue);
         font-size: 20px;
         padding: 5px 10px;
@@ -23,7 +23,7 @@
             #a0b6e4 12.18%,
             #83c8e3 106.22%
           );
-          color: #fff;
+          color: var(--text-white);
         }
       }
 

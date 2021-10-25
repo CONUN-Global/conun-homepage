@@ -58,11 +58,15 @@ function Product() {
   };
   return (
     <div className={styles.ProductSelector}>
-      <div className={styles.ProductButtonContainer}>
+      <div className={styles.ProductCardsNav}>
         {PRODUCT_CARD.map((product, i) => {
           return (
-            <div key={i} className={styles.Slide}>
-              <Button onClick={() => handleCardSelect(product.id)} noStyle>
+            <div key={i} className={styles.PageButtons}>
+              <Button
+                className={styles.PageButton}
+                onClick={() => handleCardSelect(product.id)}
+                noStyle
+              >
                 {product.header}
               </Button>
               <span className={styles.Partition}></span>
