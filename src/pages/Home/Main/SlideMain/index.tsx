@@ -1,18 +1,17 @@
 import { useEffect } from "react";
-import Link from "next/link";
 import { Slide } from "pure-react-carousel";
+import Link from "next/link";
 
 import useStore from "@/store/store";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
 
 import styles from "./SlideMain.module.scss";
+
+import FirstSlideIcon from "@/assets/icons/main_icon_1.svg";
+import { Pages } from "@/types/index";
 interface SlideMainProps {
-  page: {
-    title: string;
-    description: string;
-    btnMsg: string;
-  };
+  page: Pages;
   index: number;
 }
 function SlideMain({ page, index }: SlideMainProps) {
@@ -24,13 +23,18 @@ function SlideMain({ page, index }: SlideMainProps) {
   }, [currentSlide, setActiveSlide]);
 
   return (
-    <Slide innerClassName={styles.CardContainer} index={index}>
-      <div className={styles.Main}>
-        <h1 className={styles.Title}>{page.title}</h1>
-        <p className={styles.Description}>{page.description}</p>
-        <Link href="/#about">
-          <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
-        </Link>
+    <Slide innerClassName={styles.SlideContainer} index={index}>
+      <div className={styles.Slides}>
+        <div className={styles.Main}>
+          <h1 className={styles.Title}>{page.title}</h1>
+          <p className={styles.Description}>{page.description}</p>
+          <Link href="/#about">
+            <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
+          </Link>
+        </div>
+        <div className={styles.IconContainer}>
+          <FirstSlideIcon className={styles.FirstSlideIcon} />
+        </div>
       </div>
     </Slide>
   );

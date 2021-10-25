@@ -2,12 +2,6 @@
   color: var(--conun-blue);
   display: flex;
   flex-direction: row;
-  left: 0;
-  padding: 20px 170px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
 
   & .NavbarLeft {
     display: flex;

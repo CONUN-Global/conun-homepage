@@ -4,14 +4,14 @@
   color: var(--conun-blue);
   display: flex;
   flex-direction: row;
-  height: 100%;
-  justify-content: space-around;
-  padding: 280px 0;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 0 200px;
   width: 100%;
 
   & .AboutLeftContainer {
     text-transform: uppercase;
-    width: 20%;
+    width: 30%;
 
     & .MainTitle {
       font-family: "Teko", sans-serif;

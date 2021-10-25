@@ -1,20 +1,18 @@
 import create from "zustand";
-type Locale = "en" | "ko";
-type Network = {
-  value: "main" | "test";
-  label: "Main net is live" | "Test net is live";
-};
-type AppState = {
-  currentLocale: Locale;
-  setCurrentLocale: (locale: Locale) => void;
-  currentNetwork: Network;
-  setCurrentNetwork: (network: Network) => void;
-  activeSlide: number;
-  setActiveSlide: (num: number) => void;
-};
+import { AppState } from "@/types/index";
+
 const useStore = create<AppState>((set) => ({
-  currentLocale: "en",
-  setCurrentLocale: (locale) => set({ currentLocale: locale }),
+  currentLocale: {
+    value: "en",
+    label: "English",
+  },
+  setCurrentLocale: ({ value, label }) =>
+    set({
+      currentLocale: {
+        value,
+        label,
+      },
+    }),
   currentNetwork: {
     value: "main",
     label: "Main net is live",

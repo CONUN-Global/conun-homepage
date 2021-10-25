@@ -1,11 +1,12 @@
 .Main {
   height: 100vh;
-  position: relative;
   width: 100%;
+
   & .Dots {
-    bottom: 40px;
+    bottom: 100px;
     margin-left: 50%;
     position: absolute;
+    z-index: 1000;
 
     & .Dot {
       background-color: #fff;

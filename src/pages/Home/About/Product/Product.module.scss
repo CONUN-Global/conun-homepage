@@ -1,0 +1,40 @@
+.ProductSelector {
+  align-items: center;
+  background-color: var(--conun-bg-blue);
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+
+  & .ProductButtonContainer {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    & .PageButtons {
+      & > button {
+        color: var(--conun-skyblue);
+        font-size: 20px;
+        padding: 5px 10px;
+
+        &:hover {
+          background: linear-gradient(
+            99.17deg,
+            #a0b6e4 12.18%,
+            #83c8e3 106.22%
+          );
+          color: #fff;
+        }
+      }
+
+      & .Partition {
+        border-right: 1px solid var(--conun-skyblue);
+        margin: 0 10px;
+      }
+    }
+  }
+
+  & .ProductCardContainer {
+    color: #1d428a;
+  }
+}

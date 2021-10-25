@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import styles from "./About.module.scss";
 
-function About() {
+function AboutIntro() {
   return (
     <section id="about" className={styles.About}>
       <div className={styles.AboutLeftContainer}>
@@ -33,4 +33,4 @@ function About() {
     </section>
   );
 }
-export default About;
+export default AboutIntro;

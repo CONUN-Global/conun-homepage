@@ -4,8 +4,8 @@
   cursor: pointer;
 
   &.primary {
-    background-color: var(--primary);
-    color: var(--primary-font);
+    background-color: var(--conun-skyblue);
+    color: #fff;
   }
 
   &.secondary {
@@ -15,6 +15,15 @@
 
   &.round {
     border-radius: 20px;
+  }
+
+  &.small {
+    height: 51px;
+    width: 163px;
+  }
+
+  &.textSmall {
+    font-size: 16px;
   }
 }
 
