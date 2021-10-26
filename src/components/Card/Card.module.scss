@@ -1,6 +1,6 @@
 .VerticalCard {
   align-items: center;
-  background-color: var(--text-white);
+  background-color: var(--conun-white);
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
@@ -8,13 +8,13 @@
   text-align: center;
 
   &.medium {
-    height: 644px;
-    width: 444px;
+    height: 585px;
+    width: 400px;
   }
 
   &.small {
     height: 778px;
-    width: 400px;
+    width: 350px;
   }
   & .IconContainer {
     height: 266px;
@@ -35,13 +35,12 @@
 }
 
 .HorizontalCard {
-  background-color: var(--text-white);
+  align-items: center;
   display: flex;
   flex-direction: row;
-  height: 494px;
-  margin-bottom: 30px;
-  padding: 70px;
-  width: 1239px;
+  height: 643px;
+  justify-content: space-between;
+  width: 1396px;
 
   &.border {
     border: 1px solid #085ed5;
@@ -51,20 +50,25 @@
   }
 
   & .IconContainer {
-    height: 354px;
-    width: 374px;
+    height: 643px;
+    width: 679px;
   }
+
   & .TextContainer {
-    margin-left: 70px;
+    height: 317px;
+    width: 538px;
 
     & .Header {
       font-size: 16px;
+      font-weight: 600;
       margin-bottom: 10px;
+      text-decoration: uppercase;
     }
     & .Title {
       font-size: 30px;
       font-weight: 600;
       margin-bottom: 10px;
+      text-decoration: uppercase;
     }
 
     & .Description {

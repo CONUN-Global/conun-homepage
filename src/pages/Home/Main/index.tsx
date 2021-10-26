@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 import Link from "next/link";
 import { CarouselProvider, Slider, Dot } from "pure-react-carousel";
-import { Trans } from "@lingui/macro";
+import { Trans } from "@lingui/react";
 
 import useStore from "@/store/store";
 import { Pages } from "@/types/index";
@@ -13,7 +13,7 @@ import styles from "./Main.module.scss";
 
 import "pure-react-carousel/dist/react-carousel.es.css";
 
-const MAIN_PAGES: Pages[] = [
+const MAIN_PAGES = [
   {
     title: <Trans id="Explore, Share, and Earn with CONUN Drive" />,
     description: (

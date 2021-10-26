@@ -1,0 +1,35 @@
+.RoadMapSection {
+  align-items: center;
+  background-image: url("../../../../assets/background/roadmap_bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+  & .Title {
+    background-color: var(--conun-white);
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 600px;
+    padding: 20px;
+  }
+  & .YearsDisplay {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-around;
+    padding: 0 200px;
+    width: 100%;
+
+    & .Year {
+      align-items: center;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      height: 80px;
+      justify-content: center;
+      width: 80px;
+    }
+  }
+}

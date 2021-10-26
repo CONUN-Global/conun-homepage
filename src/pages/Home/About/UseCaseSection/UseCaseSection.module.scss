@@ -1,10 +1,27 @@
-.CardContainer {
+.UseCaseSection {
   align-items: center;
   background-color: var(--conun-bg-blue);
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 200px;
-  width: 100%;
+  flex-direction: column;
+
+  & .Title {
+    background-color: var(--conun-white);
+    color: var(--conun-blue);
+    font-weight: 600;
+    margin-bottom: 95px;
+    padding: 10px 0;
+    text-align: center;
+    width: 150px;
+  }
+  & .CardContainer {
+    align-items: center;
+    column-gap: 88px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 200px;
+    row-gap: 46px;
+    width: 100%;
+  }
 }

@@ -12,7 +12,7 @@ const PRODUCT_CARD = [
     id: "dirve",
     header: "Conun Drive",
     image: <DriveIcon />,
-    title: "DECENTRALIZED SUPERCOMPUTING POWER",
+    title: "EXPLORE AND SHARE",
     description:
       "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep.",
     btnMsg: "Learn more",
@@ -75,16 +75,13 @@ function Product() {
         })}
       </div>
 
-      <div>
+      <div className={styles.ProductCardContainer}>
         <Card
-          className={styles.ProductCardContainer}
           header={displayCard.header}
           image={displayCard.image}
           title={displayCard.title}
           description={displayCard.description}
           btnMsg={displayCard.btnMsg}
-          border
-          round
           horizontal
         />
       </div>
