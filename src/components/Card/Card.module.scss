@@ -41,7 +41,10 @@
   height: 643px;
   justify-content: space-between;
   width: 1396px;
-
+  &.small {
+    height: 257px;
+    width: 882px;
+  }
   &.border {
     border: 1px solid #085ed5;
   }

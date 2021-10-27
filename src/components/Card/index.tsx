@@ -30,7 +30,7 @@ function Card({
   if (horizontal) {
     return (
       <div
-        className={classNames(styles.HorizontalCard, className, {
+        className={classNames(styles.HorizontalCard, className, styles[size], {
           [styles.border]: border,
           [styles.round]: round,
         })}
@@ -38,17 +38,19 @@ function Card({
       >
         <div className={styles.IconContainer}>{image}</div>
         <div className={styles.TextContainer}>
-          {header && <p className={styles.Header}>{header}</p>}
+          {!!header && <p className={styles.Header}>{header}</p>}
           <h3 className={styles.Title}>{title}</h3>
           <p className={styles.Description}>{description}</p>
-          <Button
-            className={styles.Button}
-            variant="primary"
-            size="small"
-            round
-          >
-            {btnMsg}
-          </Button>
+          {!!btnMsg && (
+            <Button
+              className={styles.Button}
+              variant="primary"
+              size="small"
+              round
+            >
+              {btnMsg}
+            </Button>
+          )}
         </div>
       </div>
     );
