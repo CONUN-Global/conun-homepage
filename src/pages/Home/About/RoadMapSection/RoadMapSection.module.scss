@@ -15,50 +15,7 @@
     margin-bottom: 42px;
     margin-top: 600px;
   }
-  & .Cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
 
-    & .TitleContainer {
-      align-items: flex-end;
-      display: flex;
-      flex-direction: column;
-      padding: 30px 60px;
-      width: 50%;
-
-      & .TitleBox {
-        background: rgba(255, 255, 255, 0.3);
-        border: 3px solid var(--conun-white);
-        border-radius: 10px;
-        color: #77aceb;
-        display: flex;
-        flex-direction: column;
-        font-weight: bold;
-        height: 114px;
-        justify-content: center;
-        padding: 20px;
-        width: 214px;
-
-        & > div {
-          font-size: 30px;
-          font-weight: bold;
-          height: 72px;
-          text-align: end;
-          text-transform: uppercase;
-          width: 143px;
-        }
-      }
-    }
-    & .CardContainer {
-      display: flex;
-      flex-direction: column;
-      padding-left: 60px;
-      width: 50%;
-    }
-  }
   & .YearsDisplay {
     display: flex;
     flex-direction: row;

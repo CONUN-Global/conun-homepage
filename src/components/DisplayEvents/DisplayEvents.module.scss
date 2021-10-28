@@ -1,0 +1,64 @@
+.Cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+
+  & .TitleContainer {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 40%;
+  }
+  & .CardContainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
+
+.InversedCard {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  & .InversedTitle {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 40%;
+  }
+  & .InversedCard {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
+.TitleBox {
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid var(--conun-white);
+  border-radius: 10px;
+  color: #77aceb;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  height: 114px;
+  justify-content: center;
+  padding: 20px;
+  width: 214px;
+
+  & > div {
+    font-size: 30px;
+    font-weight: bold;
+    height: 72px;
+    text-align: end;
+    text-transform: uppercase;
+    width: 143px;
+  }
+}

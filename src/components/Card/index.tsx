@@ -30,32 +30,20 @@ function Card({
   ...props
 }: CardProps) {
   if (horizontal) {
-    if (roadMapCard) {
-      return (
-        <div
-          className={classNames(styles.RoadMapCard, className, {
-            [styles.border]: border,
-            [styles.round]: round,
-          })}
-          {...props}
-        >
-          <div className={styles.TextContainer}>
-            {!!header && <p className={styles.Header}>{header}</p>}
-            <h3 className={styles.Title}>{title}</h3>
-            <p className={styles.Description}>{description}</p>
-          </div>
-        </div>
-      );
-    }
     return (
       <div
-        className={classNames(styles.HorizontalCard, className, styles[size], {
-          [styles.border]: border,
-          [styles.round]: round,
-        })}
+        className={classNames(
+          roadMapCard ? styles.RoadMapCard : styles.HorizontalCard,
+          className,
+          styles[size],
+          {
+            [styles.border]: border,
+            [styles.round]: round,
+          }
+        )}
         {...props}
       >
-        <div className={styles.IconContainer}>{image}</div>
+        {!!image && <div className={styles.IconContainer}>{image}</div>}
         <div className={styles.TextContainer}>
           {!!header && <p className={styles.Header}>{header}</p>}
           <h3 className={styles.Title}>{title}</h3>
