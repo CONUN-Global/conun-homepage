@@ -41,10 +41,7 @@
   height: 643px;
   justify-content: space-between;
   width: 1396px;
-  &.small {
-    height: 257px;
-    width: 882px;
-  }
+
   &.border {
     border: 1px solid #085ed5;
   }
@@ -78,6 +75,37 @@
       font-size: 18px;
       line-height: 172%;
       margin-bottom: 70px;
+    }
+  }
+}
+
+.RoadMapCard {
+  background: rgba(255, 255, 255, 0.3);
+  border: 3px solid #fff;
+  display: flex;
+  flex-direction: column;
+  height: 257px;
+  margin-bottom: 53px;
+  padding: 20px;
+  width: 482px;
+
+  &.round {
+    border-radius: 10px;
+  }
+  & .TextContainer {
+    color: #77aceb;
+
+    & .Header {
+      font-size: 16px;
+    }
+    & .Title {
+      color: #0993b1;
+      font-size: 22px;
+      font-weight: 600;
+
+      & .Description {
+        font-size: 18px;
+      }
     }
   }
 }

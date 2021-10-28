@@ -12,6 +12,7 @@ export interface CardProps {
   className?: string;
   border?: boolean;
   round?: boolean;
+  roadMapCard?: boolean;
   size?: "large" | "medium" | "small";
 }
 function Card({
@@ -25,9 +26,27 @@ function Card({
   round,
   className,
   size = "medium",
+  roadMapCard,
   ...props
 }: CardProps) {
   if (horizontal) {
+    if (roadMapCard) {
+      return (
+        <div
+          className={classNames(styles.RoadMapCard, className, {
+            [styles.border]: border,
+            [styles.round]: round,
+          })}
+          {...props}
+        >
+          <div className={styles.TextContainer}>
+            {!!header && <p className={styles.Header}>{header}</p>}
+            <h3 className={styles.Title}>{title}</h3>
+            <p className={styles.Description}>{description}</p>
+          </div>
+        </div>
+      );
+    }
     return (
       <div
         className={classNames(styles.HorizontalCard, className, styles[size], {

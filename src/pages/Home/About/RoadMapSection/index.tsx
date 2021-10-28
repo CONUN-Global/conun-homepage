@@ -17,7 +17,6 @@ const YEARS_ARRAY = [2017, 2018, 2019, 2020, 2021, 2022, 2023];
 function RoadMap() {
   const current = new Date();
   const currentYear = current.getFullYear();
-
   const [yearSelected, setYearSelected] = useState(currentYear);
 
   const getQuarterFour = displayQuarterlyEvent(YEARS[yearSelected], FOURTH);
@@ -32,61 +31,108 @@ function RoadMap() {
   return (
     <div className={styles.RoadMapSection}>
       <div className={styles.Title}>ROADMAP</div>
-      <div>
-        <h2>Quarter Four</h2>
-        {getQuarterFour?.map((monthlyEvent: YearObj, i: number) => {
-          const { month, title, subtitle } = monthlyEvent;
-          return (
-            <Card
-              size="small"
-              key={i}
-              horizontal
-              header={month}
-              title={title}
-              description={subtitle}
-            />
-          );
-        })}
-        <h2>Quarter Three</h2>
-        {getQuarterThree?.map((monthlyEvent: YearObj, i: number) => {
-          const { month, title, subtitle } = monthlyEvent;
-          return (
-            <Card
-              key={i}
-              horizontal
-              header={month}
-              title={title}
-              description={subtitle}
-            />
-          );
-        })}
-        <h2>Quarter Two</h2>
-        {getQuarterTwo?.map((monthlyEvent: YearObj, i: number) => {
-          const { month, title, subtitle } = monthlyEvent;
-          return (
-            <Card
-              key={i}
-              horizontal
-              header={month}
-              title={title}
-              description={subtitle}
-            />
-          );
-        })}
-        <h2>Quarter One</h2>
-        {getQuarterOne?.map((monthlyEvent: YearObj, i: number) => {
-          const { month, title, subtitle } = monthlyEvent;
-          return (
-            <Card
-              key={i}
-              horizontal
-              header={month}
-              title={title}
-              description={subtitle}
-            />
-          );
-        })}
-      </div>
+      {getQuarterFour.length > 0 && (
+        <div className={styles.Cards}>
+          <div className={styles.TitleContainer}>
+            <div className={styles.TitleBox}>
+              <div>Quarter Four</div>
+            </div>
+          </div>
+          <div className={styles.CardContainer}>
+            {getQuarterFour?.map((monthlyEvent: YearObj, i: number) => {
+              const { month, title, subtitle } = monthlyEvent;
+              return (
+                <Card
+                  roadMapCard
+                  key={i}
+                  horizontal
+                  round
+                  header={month}
+                  title={title}
+                  description={subtitle}
+                />
+              );
+            })}
+          </div>
+        </div>
+      )}
+      {getQuarterThree.length > 0 && (
+        <div className={styles.Cards}>
+          <div className={styles.TitleContainer}>
+            <div className={styles.TitleBox}>
+              <div>Quarter Three</div>
+            </div>
+          </div>
+          <div className={styles.CardContainer}>
+            {getQuarterThree?.map((monthlyEvent: YearObj, i: number) => {
+              const { month, title, subtitle } = monthlyEvent;
+              return (
+                <Card
+                  roadMapCard
+                  key={i}
+                  round
+                  horizontal
+                  header={month}
+                  title={title}
+                  description={subtitle}
+                />
+              );
+            })}
+          </div>
+        </div>
+      )}
+      {getQuarterTwo.length > 0 && (
+        <div className={styles.Cards}>
+          <div className={styles.TitleContainer}>
+            <div className={styles.TitleBox}>
+              <div>Quarter Two</div>
+            </div>
+          </div>
+          <div className={styles.CardContainer}>
+            {getQuarterTwo?.map((monthlyEvent: YearObj, i: number) => {
+              const { month, title, subtitle } = monthlyEvent;
+              return (
+                <Card
+                  roadMapCard
+                  key={i}
+                  horizontal
+                  round
+                  header={month}
+                  title={title}
+                  description={subtitle}
+                />
+              );
+            })}
+          </div>
+        </div>
+      )}
+      {getQuarterOne.length > 0 && (
+        <div className={styles.Cards}>
+          <div className={styles.TitleContainer}>
+            <div className={styles.TitleBox}>
+              <div>Quarter One</div>
+            </div>
+          </div>
+          <div className={styles.CardContainer}>
+            {getQuarterOne?.map((monthlyEvent: YearObj, i: number) => {
+              const { month, title, subtitle } = monthlyEvent;
+              return (
+                <Card
+                  roadMapCard
+                  className={styles.MonthlyEvent}
+                  key={i}
+                  round
+                  horizontal
+                  header={month}
+                  title={title}
+                  description={subtitle}
+                />
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       <div className={styles.YearsDisplay}>
         {YEARS_ARRAY.map((year, i) => {
           return (
