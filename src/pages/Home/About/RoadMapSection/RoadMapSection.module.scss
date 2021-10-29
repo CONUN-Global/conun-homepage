@@ -16,22 +16,48 @@
     margin-top: 600px;
   }
 
-  & .YearsDisplay {
-    display: flex;
-    flex-direction: row;
-    height: 300px;
-    justify-content: space-around;
-    padding: 0 200px;
+  & .LineBox {
+    margin: 100px 0;
+    position: relative;
     width: 100%;
 
-    & .Year {
-      align-items: center;
-      background-color: white;
-      border-radius: 50%;
+    .VerticalLine {
+      border: 2px solid var(--conun-white);
+      height: 100%;
+      left: 45%;
+      position: absolute;
+      top: 0;
+      width: 2px;
+    }
+  }
+  & .YearSelector {
+    height: 500px;
+    padding: 0 200px;
+    position: relative;
+    width: 100%;
+
+    & .YearsDisplay {
       display: flex;
-      height: 80px;
-      justify-content: center;
-      width: 80px;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+
+      & .Year {
+        align-items: center;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        width: 80px;
+      }
+    }
+    & .ArchLine {
+      bottom: 50px;
+      bottom: 182px;
+      height: 200px;
+      position: absolute;
+      width: 80%;
     }
   }
 }

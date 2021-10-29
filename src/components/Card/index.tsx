@@ -1,6 +1,6 @@
+import classNames from "classnames";
 import Button from "@/components/Button";
 import styles from "./Card.module.scss";
-import classNames from "classnames";
 export interface CardProps {
   id?: string;
   title: JSX.Element;
