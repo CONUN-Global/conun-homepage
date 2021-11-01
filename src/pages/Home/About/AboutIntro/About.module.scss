@@ -69,3 +69,10 @@
     width: 70%;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .AboutPage {
+    padding: 0 100px;
+    width: 100%;
+  }
+}

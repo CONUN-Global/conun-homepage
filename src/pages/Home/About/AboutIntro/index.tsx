@@ -81,7 +81,7 @@ function AboutIntro() {
       <div className={styles.VideoContainer}>
         <video
           src={"https://youtu.be/pwkrE2mpIiA"}
-          width="880"
+          width="400"
           height="500"
           controls
         ></video>

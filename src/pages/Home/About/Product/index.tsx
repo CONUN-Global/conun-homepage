@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Trans } from "@lingui/react";
 import Card from "@/components/Card";
 import Button from "@/components/Button";
 
@@ -10,39 +10,44 @@ import styles from "./Product.module.scss";
 const PRODUCT_CARD = [
   {
     id: "dirve",
-    header: "Conun Drive",
+    header: <Trans id="Conun Drive" />,
     image: <DriveIcon />,
-    title: "EXPLORE AND SHARE",
-    description:
-      "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep.",
-    btnMsg: "Learn more",
+    title: <Trans id="EXPLORE AND SHARE" />,
+    description: (
+      <Trans id="Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep." />
+    ),
+    btnMsg: <Trans id="Learn more" />,
   },
 
   {
     id: "metacon-extension",
-    header: "Metacon Extension",
+    header: <Trans id="Metacon Extension" />,
     image: <MetaconWalletIcon />,
-    title: "Metacon Extension",
-    description: "Metacon has the same functionality as the CONUN Manager.",
-    btnMsg: "Learn more",
+    title: <Trans id="Metacon Extension" />,
+    description: (
+      <Trans id="Metacon has the same functionality as the CONUN Manager." />
+    ),
+    btnMsg: <Trans id="Learn more" />,
   },
   {
     id: "metacon-wallet",
-    header: "Metacon Wallet",
+    header: <Trans id="Metacon Wallet" />,
     image: <MetaconWalletIcon />,
-    title: "Metacon Wallet",
-    description:
-      "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet.",
-    btnMsg: "Learn more",
+    title: <Trans id="Metacon Wallet" />,
+    description: (
+      <Trans id="CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet." />
+    ),
+    btnMsg: <Trans id="Learn more" />,
   },
   {
     id: "dsc",
-    header: "DSC",
+    header: <Trans id="DSC" />,
     image: <MetaconWalletIcon />,
-    title: "DSC",
-    description:
-      "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet.",
-    btnMsg: "Learn more",
+    title: <Trans id="DSC" />,
+    description: (
+      <Trans id="CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet." />
+    ),
+    btnMsg: <Trans id="Learn more" />,
   },
 ];
 

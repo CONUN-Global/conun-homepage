@@ -3,7 +3,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  height: auto;
   width: 100%;
+  @media only screen and (max-width: 800px) {
+    background-position: top;
+    background-size: cover;
+    height: auto;
+  }
 
   & .Slides {
     align-items: center;
@@ -49,11 +55,43 @@
       align-items: flex-end;
       display: flex;
       flex-direction: column;
-      height: 470px;
+      justify-content: center;
+      max-height: 470px;
       width: 40%;
 
+      @media only screen and (max-width: 800px) {
+        width: 100%;
+      }
       & .FirstSlideIcon {
-        width: 600px;
+        max-width: 600px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .SlideContainer {
+    height: 100%;
+    width: 100%;
+    & .Slides {
+      display: flex;
+      flex-direction: column;
+      padding: 100px;
+
+      & .Main {
+        width: 100%;
+
+        & .Title {
+          font-size: 25px;
+        }
+      }
+
+      & .IconContainer {
+        width: 100%;
+
+        & .FirstSlideIcon {
+          max-width: 400px;
+        }
       }
     }
   }

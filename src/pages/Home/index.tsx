@@ -3,6 +3,7 @@ import AboutIntro from "./About/AboutIntro";
 import UseCaseSection from "./About/UseCaseSection";
 import Product from "./About/Product";
 import RoadMap from "./About/RoadMapSection";
+import ConunNews from "./About/ConunNews";
 import styles from "./Home.module.scss";
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <Product />
       <UseCaseSection />
       <RoadMap />
+      <ConunNews />
     </div>
   );
 }
