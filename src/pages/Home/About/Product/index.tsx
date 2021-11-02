@@ -85,6 +85,7 @@ function Product() {
           header={displayCard.header}
           image={displayCard.image}
           title={displayCard.title}
+          className={styles.Card}
           description={displayCard.description}
           btnMsg={displayCard.btnMsg}
           horizontal

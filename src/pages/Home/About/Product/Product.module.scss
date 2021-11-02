@@ -1,22 +1,29 @@
 .ProductSelector {
-  align-items: center;
   background-color: var(--conun-bg-blue);
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 398px;
+  padding: 0 200px;
+  width: 100%;
+
+  @media only screen and (max-width: 800px) {
+    padding: 0 100px;
+    width: 100%;
+  }
 
   & .ProductCardsNav {
     display: flex;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 25px;
+    justify-content: center;
     margin-bottom: 110px;
-    text-transform: uppercase;
+    width: 100%;
+
+    @media only screen and (max-width: 800px) {
+      margin-bottom: 400px;
+    }
 
     & .PageButtons {
+      text-transform: uppercase;
       & > .PageButton {
         color: var(--conun-skyblue);
         font-size: 20px;
+        font-weight: 500;
         padding: 5px 10px;
 
         &:hover {
@@ -37,6 +44,26 @@
   }
 
   & .ProductCardContainer {
+    align-items: center;
     color: #1d428a;
+    display: flex;
+    flex-direction: row;
+    height: 643px;
+    justify-content: space-between;
+    width: 100%;
+
+    & .Card {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 150px;
+      width: 100%;
+
+      @media only screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 }

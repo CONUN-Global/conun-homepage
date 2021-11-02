@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap");
+
 .AboutPage {
   align-items: center;
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 525px;
+  padding: 0 200px;
   width: 100%;
 
   & .AboutIntroSection {
@@ -14,11 +13,13 @@
     color: var(--conun-blue);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin: 481px 0;
 
     & .AboutLeftContainer {
+      flex: 30%;
       text-transform: uppercase;
-      width: 30%;
 
       & .MainTitle {
         font-family: "Teko", sans-serif;
@@ -32,7 +33,7 @@
     }
 
     & .AboutRightContainer {
-      width: 50%;
+      flex: 50%;
 
       & .Title {
         font-size: 32px;
@@ -58,15 +59,18 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 60px;
     justify-content: space-between;
-    margin-bottom: 322px;
-    margin-top: 681px;
+    width: 100%;
+
+    & .AboutCard {
+      padding: 45px;
+      width: 32%;
+    }
   }
 
   & .VideoContainer {
-    padding-bottom: 217px;
-    width: 70%;
+    padding: 217px;
+    width: 100%;
   }
 }
 
@@ -74,5 +78,26 @@
   .AboutPage {
     padding: 0 100px;
     width: 100%;
+
+    & .AboutIntroSection {
+      margin-bottom: 381px;
+      & .AboutLeftContainer,
+      & .AboutRightContainer {
+        flex: 100%;
+      }
+    }
+
+    & .AboutCardsSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+
+      & .AboutCard {
+        margin-bottom: 30px;
+        padding: 20px;
+        width: 100%;
+      }
+    }
   }
 }

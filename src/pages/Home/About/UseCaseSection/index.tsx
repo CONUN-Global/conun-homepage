@@ -66,8 +66,9 @@ function UseCaseSection() {
               key={i}
               title={card.title}
               description={card.description}
+              className={styles.UseCaseCard}
               image={card.image}
-              size="small"
+              round
             />
           );
         })}

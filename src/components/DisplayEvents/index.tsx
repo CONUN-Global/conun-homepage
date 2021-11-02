@@ -15,7 +15,7 @@ function DisplayEvents({
   isInversed,
 }: DisplayEventsProps) {
   return (
-    <div className={isInversed ? styles.InversedCard : styles.Cards}>
+    <div className={isInversed ? styles.InversedCardContainer : styles.Cards}>
       <div
         className={isInversed ? styles.InversedTitle : styles.TitleContainer}
       >
@@ -31,6 +31,7 @@ function DisplayEvents({
               roadMapCard
               key={i}
               horizontal
+              className={styles.RoadmapCard}
               round
               header={month}
               title={title}

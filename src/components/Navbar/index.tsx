@@ -45,11 +45,12 @@ function Navbar() {
           </a>
         </Link>
       </div>
+      <div className={styles.Spacer}></div>
       <div className={styles.NavbarRight}>
         {NAV_SECTIONS.map((section) => {
           return (
             <Link key={section.id} href={section.path}>
-              <a>{section.label}</a>
+              <a className={styles.Link}>{section.label}</a>
             </Link>
           );
         })}

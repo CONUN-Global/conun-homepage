@@ -3,9 +3,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 90%;
+  width: 100%;
 
   & .TitleContainer {
+    align-items: center;
     align-items: flex-end;
     display: flex;
     flex-direction: column;
@@ -21,12 +22,12 @@
   }
 }
 
-.InversedCard {
+.InversedCardContainer {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 90%;
+  width: 100%;
 
   & .InversedTitle {
     align-items: flex-start;
@@ -65,3 +66,49 @@
     width: 143px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .Cards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    width: 100%;
+
+    & .TitleContainer {
+      align-items: center;
+      width: 100%;
+    }
+    & .CardContainer {
+      align-items: center;
+      width: 100%;
+    }
+  }
+  .InversedCardContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    width: 100%;
+    & .InversedTitle {
+      align-items: center;
+      width: 100%;
+    }
+    & .InversedCard {
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  .TitleBox {
+    margin-bottom: 30px;
+    width: 80%;
+
+    & > div {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+} ;

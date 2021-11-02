@@ -36,7 +36,9 @@ function RoadMap() {
   let total = 160;
   return (
     <div className={styles.RoadMapSection}>
-      <div className={styles.Title}>ROADMAP</div>
+      <div className={styles.TitleBox}>
+        <p className={styles.Title}>ROADMAP</p>
+      </div>
       <div className={styles.LineBox}>
         <div className={styles.VerticalLine}>&nbsp;</div>
         {yearlyQuarters.map((quarter, i: number) => {

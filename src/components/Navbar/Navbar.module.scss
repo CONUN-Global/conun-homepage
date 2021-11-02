@@ -5,9 +5,6 @@
 
   & .NavbarLeft {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 50%;
 
     & > a {
       align-items: center;
@@ -31,11 +28,15 @@
       width: 70px;
     }
   }
+
+  & .Spacer {
+    flex: 1;
+  }
   & .NavbarRight {
     align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
+    & .Link {
+      margin-right: 20px;
+    }
   }
 }

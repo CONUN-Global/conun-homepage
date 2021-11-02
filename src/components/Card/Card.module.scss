@@ -2,9 +2,6 @@
   align-items: center;
   background-color: var(--conun-white);
   color: var(--conun-blue);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
 
   &.round {
@@ -20,63 +17,55 @@
     width: 400px;
   }
 
-  &.small {
-    height: 778px;
-    width: 350px;
-  }
   & .IconContainer {
-    height: 266px;
     margin-bottom: 26px;
-    width: 345px;
+    width: 100%;
   }
 
   & .Title {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 800px) {
+      font-size: 15px;
+      word-wrap: break-word;
+    }
   }
 
   & .Description {
-    font-size: 18px;
-    margin-bottom: 53px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 172%;
+    margin-bottom: 16px;
+    @media only screen and (max-width: 800px) {
+      word-wrap: break-word;
+    }
   }
 }
 
 .HorizontalCard {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 643px;
-  justify-content: space-between;
-  width: 1396px;
-
-  @media only screen and (max-width: 800px) {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    padding: 100px;
-  }
-
-  &.border {
-    border: 1px solid #085ed5;
-  }
   &.round {
     border-radius: 10px;
   }
 
   & .IconContainer {
-    max-height: 643px;
-    max-width: 679px;
+    width: 40%;
 
     @media only screen and (max-width: 800px) {
-      height: 443px;
-      width: 479px;
+      margin-bottom: 100px;
+      width: 100%;
     }
   }
 
   & .TextContainer {
-    height: 317px;
-    width: 538px;
+    width: 40%;
+
+    @media only screen and (max-width: 800px) {
+      margin-bottom: 100px;
+      width: 100%;
+    }
 
     & .Header {
       font-size: 16px;
@@ -106,7 +95,7 @@
   flex-direction: column;
   margin-bottom: 53px;
   padding: 20px;
-  width: 482px;
+  width: 80%;
 
   &.round {
     border-radius: 10px;

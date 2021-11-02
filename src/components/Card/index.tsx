@@ -12,7 +12,6 @@ export interface CardProps {
   horizontal?: boolean;
   header?: JSX.Element;
   className?: string;
-  border?: boolean;
   round?: boolean;
   roadMapCard?: boolean;
   size?: "large" | "medium" | "small";
@@ -24,11 +23,10 @@ function Card({
   btnMsg,
   horizontal,
   header,
-  border,
+  size,
   round,
   children,
   className,
-  size = "medium",
   roadMapCard,
   ...props
 }: CardProps) {
@@ -38,15 +36,16 @@ function Card({
         className={classNames(
           roadMapCard ? styles.RoadMapCard : styles.HorizontalCard,
           className,
-          styles[size],
-          {
-            [styles.border]: border,
-            [styles.round]: round,
-          }
+
+          { [styles.round]: round }
         )}
         {...props}
       >
-        <div className={styles.IconContainer}>{image}</div>
+        <div
+          className={classNames(styles.IconContainer, { [styles.size]: size })}
+        >
+          {image}
+        </div>
         <div className={styles.TextContainer}>
           {!!header && <p className={styles.Header}>{header}</p>}
           <h3 className={styles.Title}>{title}</h3>
@@ -67,7 +66,7 @@ function Card({
   }
   return (
     <div
-      className={classNames(styles.VerticalCard, className, styles[size], {
+      className={classNames(styles.VerticalCard, className, {
         [styles.round]: round,
       })}
       {...props}

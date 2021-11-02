@@ -40,7 +40,10 @@ function AboutIntro() {
       <div id="about" className={styles.AboutIntroSection}>
         <div className={styles.AboutLeftContainer}>
           <div>Creating</div>
-          <div className={styles.MainTitle}>Blockchain Based</div>
+          <div className={styles.MainTitle}>
+            <p>Blockchain </p>
+            <p>Based</p>
+          </div>
           <div>Solutions</div>
         </div>
         <div className={styles.AboutRightContainer}>
@@ -70,10 +73,10 @@ function AboutIntro() {
             <Card
               key={i}
               title={card.title}
+              className={styles.AboutCard}
               description={card.description}
               image={card.image}
               btnMsg={card.btnMsg}
-              size="medium"
             />
           );
         })}
@@ -81,7 +84,7 @@ function AboutIntro() {
       <div className={styles.VideoContainer}>
         <video
           src={"https://youtu.be/pwkrE2mpIiA"}
-          width="400"
+          width="450"
           height="500"
           controls
         ></video>
