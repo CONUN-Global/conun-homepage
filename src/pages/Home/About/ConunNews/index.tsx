@@ -39,7 +39,6 @@ function ConunNews() {
           return (
             <Card
               className={styles.Card}
-              size="large"
               round
               key={i}
               header={news.header}
@@ -47,10 +46,9 @@ function ConunNews() {
             >
               <Image
                 src={news.image}
-                width={443}
-                height={333}
-                alt=""
+                height={443}
                 className={styles.Image}
+                alt="conun news"
               />
             </Card>
           );

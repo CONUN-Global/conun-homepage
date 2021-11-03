@@ -63,7 +63,10 @@
     width: 100%;
 
     & .AboutCard {
-      padding: 45px;
+      display: flex;
+      flex-direction: column;
+      height: 685px;
+      justify-content: space-between;
       width: 32%;
     }
   }

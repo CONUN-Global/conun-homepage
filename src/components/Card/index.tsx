@@ -72,15 +72,23 @@ function Card({
       {...props}
     >
       {children}
-      {!!image && <div className={styles.IconContainer}>{image}</div>}
-      {!!header && <p className={styles.Header}>{header}</p>}
-      <h3 className={styles.Title}>{title}</h3>
-      <p className={styles.Description}>{description}</p>
-      {!!btnMsg && (
-        <Button variant="primary" size="small" round>
-          {btnMsg}
-        </Button>
+      {!!image && (
+        <div
+          className={classNames(styles.IconContainer, { [styles.size]: size })}
+        >
+          {image}
+        </div>
       )}
+      <div className={styles.TextContainer}>
+        {!!header && <p className={styles.Header}>{header}</p>}
+        <h3 className={styles.Title}>{title}</h3>
+        <p className={styles.Description}>{description}</p>
+        {!!btnMsg && (
+          <Button variant="primary" size="small" round>
+            {btnMsg}
+          </Button>
+        )}
+      </div>
     </div>
   );
 }

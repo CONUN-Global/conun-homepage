@@ -77,6 +77,7 @@ function AboutIntro() {
               description={card.description}
               image={card.image}
               btnMsg={card.btnMsg}
+              size="medium"
             />
           );
         })}
