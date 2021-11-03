@@ -1,8 +1,7 @@
 import { useState } from "react";
-// import classNames from "classnames";
-
 import { YEARS } from "./RoadMapContent";
 import DisplayEvents from "@/components/DisplayEvents";
+import makeArc from "@/helpers/makeArc";
 import displayQuarterlyEvent from "@/helpers/displayQuarterlyEvent";
 import ArchLine from "@/assets/icons/arch_line.svg";
 import styles from "./RoadMapSection.module.scss";
@@ -23,6 +22,7 @@ function RoadMap() {
   const getQuarterTwo = displayQuarterlyEvent(YEARS[yearSelected], SECOND);
   const getQuarterOne = displayQuarterlyEvent(YEARS[yearSelected], FIRST);
 
+  const getArch = makeArc(YEARS_ARRAY);
   const yearlyQuarters = [
     { name: "Quarter Four", content: getQuarterFour },
     { name: "Quarter Three", content: getQuarterThree },
@@ -33,7 +33,7 @@ function RoadMap() {
   const handleYearSelect = (year: number) => {
     setYearSelected(year);
   };
-  let total = 160;
+
   return (
     <div className={styles.RoadMapSection}>
       <div className={styles.TitleBox}>
@@ -49,41 +49,20 @@ function RoadMap() {
         })}
       </div>
       <div className={styles.YearSelector}>
-        <div className={styles.YearsDisplay}>
-          {YEARS_ARRAY.map((year, i) => {
-            const half = YEARS_ARRAY.length / 2;
-            let middle;
-            if (YEARS_ARRAY.length % 2 === 0) {
-              middle = half;
-              console.log("middle 1", middle);
-            } else {
-              middle = Math.ceil(half);
-            }
+        {getArch.map((a, i: number) => {
+          const { top, left, year } = a;
+          return (
+            <div
+              key={i}
+              onClick={() => handleYearSelect(year)}
+              className={styles.Year}
+              style={{ position: "absolute", top: top + "%", left: left + "%" }}
+            >
+              {year}
+            </div>
+          );
+        })}
 
-            const distance = 100 / (middle - 1);
-            if (i < middle) {
-              total -= distance;
-              console.log("distance", distance, "left:", i, total);
-            } else {
-              total += distance;
-              console.log("distance", distance, "rifht:", i, total);
-            }
-            return (
-              <div
-                style={{
-                  marginTop: `${
-                    i < middle ? (total -= distance) : (total += distance)
-                  }px`,
-                }}
-                onClick={() => handleYearSelect(year)}
-                className={styles.Year}
-                key={i}
-              >
-                <h3>{year}</h3>
-              </div>
-            );
-          })}
-        </div>
         <div className={styles.ArchLine}>
           <ArchLine style={{ width: "100%" }} />
         </div>

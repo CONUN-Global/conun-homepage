@@ -27,7 +27,10 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <Head>
           <title>Conun Home page </title>
-          <meta name="description" content="Conun Foundation" />
+          <meta
+            name="viewport"
+            content="width=device-width; initial-scale = 1; maximum-scale=1; user-scalable = no;"
+          />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Component {...pageProps} />

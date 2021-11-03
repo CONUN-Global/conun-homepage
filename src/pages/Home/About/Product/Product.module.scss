@@ -3,20 +3,11 @@
   padding: 0 200px;
   width: 100%;
 
-  @media only screen and (max-width: 800px) {
-    padding: 0 100px;
-    width: 100%;
-  }
-
   & .ProductCardsNav {
     display: flex;
     justify-content: center;
     margin-bottom: 110px;
     width: 100%;
-
-    @media only screen and (max-width: 800px) {
-      margin-bottom: 400px;
-    }
 
     & .PageButtons {
       text-transform: uppercase;
@@ -59,8 +50,28 @@
       justify-content: space-between;
       padding-bottom: 150px;
       width: 100%;
+    }
+  }
+}
 
-      @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
+  .ProductSelector {
+    padding: 0 50px;
+    width: 100%;
+
+    & .ProductCardsNav {
+      margin-bottom: 320px;
+
+      & .PageButtons {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+
+    & .ProductCardContainer {
+      & .Card {
         display: flex;
         flex-direction: column;
       }

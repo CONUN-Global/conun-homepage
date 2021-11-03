@@ -26,6 +26,7 @@ function DisplayEvents({
       <div className={isInversed ? styles.InversedCard : styles.CardContainer}>
         {content?.map((monthlyEvent: YearObj, i: number) => {
           const { month, title, subtitle } = monthlyEvent;
+
           return (
             <Card
               roadMapCard
@@ -33,9 +34,9 @@ function DisplayEvents({
               horizontal
               className={styles.RoadmapCard}
               round
-              header={month}
-              title={title}
-              description={subtitle}
+              header={month.props.id}
+              title={title.props.id}
+              description={subtitle?.props.id}
             />
           );
         })}
