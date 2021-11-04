@@ -17,42 +17,42 @@ const USE_CASE_CONTENT = [
     description: (
       <Trans id="Biological research to improve existing treatments and develop new treatments for disease treatment is one of the areas using distributed computing, and distributed computing environments can be used for research in university research institutes and bio-industries." />
     ),
-    image: <ScienceIcon className={styles.UseCaseIcons} />,
+    image: <ScienceIcon />,
   },
   {
     title: <Trans id="Big Data and Analysis Projects" />,
     description: (
       <Trans id="It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology." />
     ),
-    image: <GraphIcon className={styles.UseCaseIcons} />,
+    image: <GraphIcon />,
   },
   {
     title: <Trans id="Deep Learning and Models Projects" />,
     description: (
       <Trans id="In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms." />
     ),
-    image: <AI className={styles.UseCaseIcons} />,
+    image: <AI />,
   },
   {
     title: <Trans id="Academic/sociocultural ISSUES" />,
     description: (
       <Trans id="Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion." />
     ),
-    image: <SurveyIcon className={styles.UseCaseIcons} />,
+    image: <SurveyIcon />,
   },
   {
     title: <Trans id="Computer Graphic and Processing Projects" />,
     description: (
       <Trans id="Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply." />
     ),
-    image: <DrawingIcon className={styles.UseCaseIcons} />,
+    image: <DrawingIcon />,
   },
   {
     title: <Trans id="Scientific Calculations" />,
     description: (
       <Trans id="Scientific calculations that require complex and fast computing power." />
     ),
-    image: <CalculatorIcon className={styles.UseCaseIcons} />,
+    image: <CalculatorIcon />,
   },
 ];
 function UseCaseSection() {

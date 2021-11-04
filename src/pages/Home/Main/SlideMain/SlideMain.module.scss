@@ -9,16 +9,17 @@
   & .Slides {
     align-items: center;
     display: flex;
-    flex: 100%;
+    flex-flow: row wrap;
     padding: 0 200px;
+    width: 100%;
 
     & .Main {
       color: var(--conun-blue);
       display: flex;
-      flex: 20%;
       flex-direction: column;
-      height: 40%;
+      height: 50%;
       justify-content: space-around;
+      width: 40%;
 
       & .Title {
         font-size: 35px;
@@ -44,47 +45,50 @@
       }
     }
     & .Spacers {
-      flex: 1;
+      flex-grow: 1;
     }
     & .IconContainer {
       align-items: flex-end;
       display: flex;
-      flex: 40% 0 1;
       flex-direction: column;
+      height: 50%;
       justify-content: center;
-
+      width: 50%;
       & .FirstSlideIcon {
-        max-height: 400px;
+        width: 100%;
       }
     }
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
   .SlideContainer {
     height: 100%;
     width: 100%;
+
     & .Slides {
       align-items: center;
       display: flex;
-      flex: 100%;
-      flex-direction: column;
+      flex-flow: column wrap;
+      height: 100%;
       padding: 100px 20px;
-      width: 100%;
 
       & .Main {
         color: var(--conun-blue);
-        display: flex;
-        flex: 80%;
+        height: 60%;
+        width: 100%;
 
         & .Title {
-          font-size: 17px;
+          font-size: 16px;
+          @media screen and (max-width: 960px) {
+            font-size: 35px;
+          }
         }
         & .Description {
           font-size: 14px;
         }
         & .LearnMoreButton {
-          font-size: 14px;
+          font-size: 12px;
           height: 28px;
           width: 100px;
         }
@@ -93,10 +97,11 @@
         flex: 1;
       }
       & .IconContainer {
-        flex: 20%;
+        height: 35%;
+        width: 100%;
 
         & .FirstSlideIcon {
-          height: 100%;
+          width: 100%;
         }
       }
     }

@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import Image from "next/image";
 import Button from "@/components/Button";
 import styles from "./Card.module.scss";
 
@@ -14,6 +15,7 @@ export interface CardProps {
   className?: string;
   round?: boolean;
   roadMapCard?: boolean;
+  srcImg?: string;
 }
 function Card({
   title,
@@ -22,9 +24,8 @@ function Card({
   btnMsg,
   horizontal,
   header,
-
+  srcImg,
   round,
-  children,
   className,
   roadMapCard,
   ...props
@@ -66,9 +67,20 @@ function Card({
       })}
       {...props}
     >
-      {children}
+      {!!srcImg && (
+        <Image
+          src={srcImg}
+          height={443}
+          className={styles.SrcImage}
+          alt="conun news"
+        />
+      )}
       {!!image && <div className={styles.IconContainer}>{image}</div>}
-      <div className={styles.TextContainer}>
+      <div
+        className={classNames(styles.TextContainer, {
+          [styles.srcImg]: !!srcImg,
+        })}
+      >
         {!!header && <p className={styles.Header}>{header}</p>}
         <h3 className={styles.Title}>{title}</h3>
         <p className={styles.Description}>{description}</p>

@@ -57,15 +57,14 @@
   }
   & .AboutCardsSection {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
 
     & .AboutCard {
       display: flex;
       flex-direction: column;
-      height: 685px;
+      height: 600px;
       justify-content: space-between;
       width: 32%;
     }
@@ -91,19 +90,17 @@
     }
 
     & .AboutCardsSection {
+      display: flex;
+      flex-direction: column;
       gap: 20px;
+      justify-content: space-between;
       width: 100%;
 
       & .AboutCard {
         display: flex;
         flex-direction: column;
-        height: 485px;
-        justify-content: flex-start;
         width: 100%;
       }
     }
   }
-}
-.AboutIntroIcons {
-  max-height: 300px;
 }

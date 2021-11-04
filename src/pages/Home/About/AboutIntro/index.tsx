@@ -14,7 +14,7 @@ const CARD_CONTENT: any = [
     description: (
       <Trans id="Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably." />
     ),
-    image: <GetMicrochip className={styles.AboutIntroIcons} />,
+    image: <GetMicrochip />,
     btnMsg: <Trans id="Learn More" />,
   },
   {
@@ -22,7 +22,7 @@ const CARD_CONTENT: any = [
     description: (
       <Trans id="Become part of the CONUN network and you can benefit from our current and future blockchain-based projects." />
     ),
-    image: <EcosystemIcon className={styles.AboutIntroIcons} />,
+    image: <EcosystemIcon />,
     btnMsg: <Trans id="Learn More" />,
   },
   {
@@ -30,7 +30,7 @@ const CARD_CONTENT: any = [
     description: (
       <Trans id="By sharing your personal computing resources you become part of a P2P network where earning is easy." />
     ),
-    image: <GiveMicrochip className={styles.AboutIntroIcons} />,
+    image: <GiveMicrochip />,
     btnMsg: <Trans id="Learn More" />,
   },
 ];
@@ -77,7 +77,6 @@ function AboutIntro() {
               description={card.description}
               image={card.image}
               btnMsg={card.btnMsg}
-              size="medium"
             />
           );
         })}

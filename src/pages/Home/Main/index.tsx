@@ -22,11 +22,11 @@ const MAIN_PAGES = [
     btnMsg: <Trans id="Learn More" />,
   },
   {
-    title: <Trans id="Explore, Share, and Earn with CONUN Drive" />,
+    title: <Trans id="Fast and secure cryptocurrency wallet" />,
     description: (
-      <Trans id="Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants." />
+      <Trans id="CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download." />
     ),
-    btnMsg: <Trans id="Find out More" />,
+    btnMsg: <Trans id="Learn More" />,
   },
   {
     title: <Trans id="Your Resource for high power computing" />,

@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { Trans } from "@lingui/react";
 import Card from "@/components/Card";
 
@@ -43,15 +43,8 @@ function ConunNews() {
               key={i}
               header={news.header}
               title={news.title}
-              size="small"
-            >
-              <Image
-                src={news.image}
-                height={443}
-                className={styles.Image}
-                alt="conun news"
-              />
-            </Card>
+              srcImg={news.image}
+            ></Card>
           );
         })}
       </div>
