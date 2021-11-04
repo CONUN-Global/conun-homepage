@@ -48,23 +48,36 @@ function RoadMap() {
           );
         })}
       </div>
-      <div className={styles.YearSelector}>
-        {getArch.map((a, i: number) => {
-          const { top, left, year } = a;
-          return (
-            <div
-              key={i}
-              onClick={() => handleYearSelect(year)}
-              className={styles.Year}
-              style={{ position: "absolute", top: top + "%", left: left + "%" }}
-            >
-              {year}
-            </div>
-          );
-        })}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          width: "100%",
+          justifyContent: "center",
+        }}
+      >
+        <div className={styles.YearSelector}>
+          {getArch.map((a, i: number) => {
+            const { top, left, year } = a;
+            return (
+              <div
+                key={i}
+                onClick={() => handleYearSelect(year)}
+                className={styles.Year}
+                style={{
+                  position: "absolute",
+                  top: top + "%",
+                  left: left + "%",
+                }}
+              >
+                {year}
+              </div>
+            );
+          })}
 
-        <div className={styles.ArchLine}>
-          <ArchLine style={{ width: "100%" }} />
+          <div className={styles.ArchLine}>
+            <ArchLine style={{ width: "100%" }} />
+          </div>
         </div>
       </div>
     </div>

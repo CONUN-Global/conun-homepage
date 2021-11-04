@@ -79,7 +79,7 @@
 
 @media only screen and (max-width: 800px) {
   .AboutPage {
-    padding: 0 50px;
+    padding: 0 20px;
     width: 100%;
 
     & .AboutIntroSection {
@@ -91,16 +91,19 @@
     }
 
     & .AboutCardsSection {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      gap: 20px;
       width: 100%;
 
       & .AboutCard {
-        margin-bottom: 30px;
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 485px;
+        justify-content: flex-start;
         width: 100%;
       }
     }
   }
+}
+.AboutIntroIcons {
+  max-height: 300px;
 }

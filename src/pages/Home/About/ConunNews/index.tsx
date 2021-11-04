@@ -25,7 +25,7 @@ const CONUN_NEWS = [
 function ConunNews() {
   return (
     <div className={styles.ConunNews}>
-      <p>Join Conun&aposs open source community</p>
+      <p>Join Conun&apos;s open source community</p>
       <div className={styles.Community}>
         <div>icons</div>
         <div>icons</div>
@@ -43,6 +43,7 @@ function ConunNews() {
               key={i}
               header={news.header}
               title={news.title}
+              size="small"
             >
               <Image
                 src={news.image}

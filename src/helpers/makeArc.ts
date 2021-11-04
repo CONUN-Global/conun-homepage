@@ -34,11 +34,11 @@ function getTrigoXY(deg: number, height: number, width: number) {
 function makeArc(
   imgSrc: number[],
   howMany: number = 7,
-  boxHeight: number = 70,
+  boxHeight: number = 60,
   boxWidth: number = 50,
   angleCorrection: number = 3,
   heightCorrection: number = 0,
-  widthCorrection: number = 0
+  widthCorrection: number = -2
 ) {
   const circles = [];
   for (let i = 0; i <= howMany - 1; i++) {

@@ -14,7 +14,6 @@ export interface CardProps {
   className?: string;
   round?: boolean;
   roadMapCard?: boolean;
-  size?: "large" | "medium" | "small";
 }
 function Card({
   title,
@@ -23,7 +22,7 @@ function Card({
   btnMsg,
   horizontal,
   header,
-  size,
+
   round,
   children,
   className,
@@ -41,11 +40,7 @@ function Card({
         )}
         {...props}
       >
-        <div
-          className={classNames(styles.IconContainer, { [styles.size]: size })}
-        >
-          {image}
-        </div>
+        <div className={styles.IconContainer}>{image}</div>
         <div className={styles.TextContainer}>
           {!!header && <p className={styles.Header}>{header}</p>}
           <h3 className={styles.Title}>{title}</h3>
@@ -72,13 +67,7 @@ function Card({
       {...props}
     >
       {children}
-      {!!image && (
-        <div
-          className={classNames(styles.IconContainer, { [styles.size]: size })}
-        >
-          {image}
-        </div>
-      )}
+      {!!image && <div className={styles.IconContainer}>{image}</div>}
       <div className={styles.TextContainer}>
         {!!header && <p className={styles.Header}>{header}</p>}
         <h3 className={styles.Title}>{title}</h3>

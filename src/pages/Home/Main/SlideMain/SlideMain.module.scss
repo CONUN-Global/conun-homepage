@@ -3,29 +3,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: auto;
+  height: 100%;
   width: 100%;
 
   & .Slides {
     align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex: 100%;
     padding: 0 200px;
-    width: 100%;
 
     & .Main {
       color: var(--conun-blue);
       display: flex;
+      flex: 20%;
       flex-direction: column;
-      gap: 33px;
-      width: 40%;
+      height: 40%;
+      justify-content: space-around;
 
       & .Title {
         font-size: 35px;
         letter-spacing: 0.045em;
         text-transform: uppercase;
-        width: 439px;
       }
       & .Description {
         font-size: 18px;
@@ -45,17 +43,18 @@
         width: 155px;
       }
     }
-
+    & .Spacers {
+      flex: 1;
+    }
     & .IconContainer {
       align-items: flex-end;
       display: flex;
+      flex: 40% 0 1;
       flex-direction: column;
       justify-content: center;
-      // height: 470px;
-      width: 40%;
 
       & .FirstSlideIcon {
-        width: 600px;
+        max-height: 400px;
       }
     }
   }
@@ -63,26 +62,41 @@
 
 @media only screen and (max-width: 800px) {
   .SlideContainer {
-    flex: 100%;
     height: 100%;
+    width: 100%;
     & .Slides {
+      align-items: center;
       display: flex;
+      flex: 100%;
       flex-direction: column;
-      padding: 100px 50px;
+      padding: 100px 20px;
+      width: 100%;
 
       & .Main {
-        flex: 100%;
+        color: var(--conun-blue);
+        display: flex;
+        flex: 80%;
 
         & .Title {
-          font-size: 25px;
+          font-size: 17px;
+        }
+        & .Description {
+          font-size: 14px;
+        }
+        & .LearnMoreButton {
+          font-size: 14px;
+          height: 28px;
+          width: 100px;
         }
       }
-
+      & .Spacers {
+        flex: 1;
+      }
       & .IconContainer {
-        flex: 100%;
+        flex: 20%;
 
         & .FirstSlideIcon {
-          // width: 400px;
+          height: 100%;
         }
       }
     }

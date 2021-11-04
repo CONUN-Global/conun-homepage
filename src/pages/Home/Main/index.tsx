@@ -38,8 +38,8 @@ const MAIN_PAGES = [
 ];
 function Main() {
   const [size, setSize] = useState({
-    height: 9,
-    width: 18,
+    height: window.innerHeight,
+    width: window.innerWidth,
   });
 
   const activeSlide = useStore((state) => state.activeSlide);
