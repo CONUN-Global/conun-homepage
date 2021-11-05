@@ -1,14 +1,3 @@
-export interface ArcProps {
-  imgSrc?: number[];
-  className?: string;
-  howMany?: number;
-  boxHeight?: number;
-  boxWidth?: number;
-  angleCorrection?: number;
-  heightCorrection?: number;
-  widthCorrection?: number;
-}
-
 function degToRadian(deg: number) {
   return deg * (Math.PI / 180);
 }
