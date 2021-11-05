@@ -1,3 +1,5 @@
+import React from "react";
+
 export type Locales = {
   value: "en" | "ko";
   label: "English" | "한국어";
@@ -20,6 +22,7 @@ export type Pages = {
   title: React.ReactNode;
   description: React.ReactNode;
   btnMsg: React.ReactNode;
+  bgIcon: React.ReactNode;
 };
 
 export type YearObj = {

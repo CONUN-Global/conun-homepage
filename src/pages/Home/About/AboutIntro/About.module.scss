@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   padding: 0 200px;
-  width: 100%;
 
   & .AboutIntroSection {
     align-items: center;
@@ -19,14 +18,23 @@
       flex: 30%;
       text-transform: uppercase;
 
-      & .MainTitle {
-        font-family: "Teko", sans-serif;
-        font-size: 80px;
-        font-weight: 600;
-      }
-      & > div {
-        font-size: 40px;
+      & > .SubTitle {
+        font-size: 50px;
         font-weight: 500;
+        line-height: 60px;
+      }
+
+      & > .MainTitle {
+        background: #a7cfdf;
+        background: -webkit-linear-gradient(#a7cfdf 5%, #23538a 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: "Teko", sans-serif;
+        font-size: 70px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        line-height: 92.5%;
+        -webkit-text-fill-color: transparent;
       }
     }
 
@@ -48,7 +56,10 @@
           background: var(--conun-btn-gradient);
           border-radius: 30px;
           box-shadow: var(--conun-blue-shadow);
-          padding: 13px 36px;
+          color: var(--conun-white);
+          font-size: 18px;
+          font-weight: 500;
+          padding: 10px 25px;
         }
       }
     }
