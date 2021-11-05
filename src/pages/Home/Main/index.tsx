@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 import Link from "next/link";
 import { CarouselProvider, Slider, Dot } from "pure-react-carousel";
-import { Trans } from "@lingui/macro";
+import { Trans } from "@lingui/react";
 
 import useStore from "@/store/store";
 import { Pages } from "@/types/index";
@@ -13,7 +13,7 @@ import styles from "./Main.module.scss";
 
 import "pure-react-carousel/dist/react-carousel.es.css";
 
-const MAIN_PAGES: Pages[] = [
+const MAIN_PAGES = [
   {
     title: <Trans id="Explore, Share, and Earn with CONUN Drive" />,
     description: (
@@ -22,11 +22,11 @@ const MAIN_PAGES: Pages[] = [
     btnMsg: <Trans id="Learn More" />,
   },
   {
-    title: <Trans id="Explore, Share, and Earn with CONUN Drive" />,
+    title: <Trans id="Fast and secure cryptocurrency wallet" />,
     description: (
-      <Trans id="Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants." />
+      <Trans id="CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download." />
     ),
-    btnMsg: <Trans id="Find out More" />,
+    btnMsg: <Trans id="Learn More" />,
   },
   {
     title: <Trans id="Your Resource for high power computing" />,
@@ -38,8 +38,8 @@ const MAIN_PAGES: Pages[] = [
 ];
 function Main() {
   const [size, setSize] = useState({
-    height: 9,
-    width: 18,
+    height: window.innerHeight,
+    width: window.innerWidth,
   });
 
   const activeSlide = useStore((state) => state.activeSlide);

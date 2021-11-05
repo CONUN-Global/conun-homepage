@@ -32,6 +32,7 @@ function SlideMain({ page, index }: SlideMainProps) {
             <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
           </Link>
         </div>
+        <div className={styles.Spacers}></div>
         <div className={styles.IconContainer}>
           <FirstSlideIcon className={styles.FirstSlideIcon} />
         </div>

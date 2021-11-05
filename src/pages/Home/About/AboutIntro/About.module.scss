@@ -1,48 +1,103 @@
-@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap");
-.About {
+.AboutPage {
   align-items: center;
-  color: var(--conun-blue);
+  background-color: var(--conun-bg-blue);
   display: flex;
-  flex-direction: row;
-  height: 100vh;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 0 200px;
   width: 100%;
 
-  & .AboutLeftContainer {
-    text-transform: uppercase;
-    width: 30%;
+  & .AboutIntroSection {
+    align-items: center;
+    color: var(--conun-blue);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 481px 0;
 
-    & .MainTitle {
-      font-family: "Teko", sans-serif;
-      font-size: 80px;
-      font-weight: 600;
+    & .AboutLeftContainer {
+      flex: 30%;
+      text-transform: uppercase;
+
+      & .MainTitle {
+        font-family: "Teko", sans-serif;
+        font-size: 80px;
+        font-weight: 600;
+      }
+      & > div {
+        font-size: 40px;
+        font-weight: 500;
+      }
     }
-    & > div {
-      font-size: 40px;
-      font-weight: 500;
+
+    & .AboutRightContainer {
+      flex: 50%;
+
+      & .Title {
+        font-size: 32px;
+      }
+      & .Description {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 21px 0;
+      }
+      & .ButtonContainer {
+        margin-top: 50px;
+
+        & .WhitepaperLink {
+          background: var(--conun-btn-gradient);
+          border-radius: 30px;
+          box-shadow: var(--conun-blue-shadow);
+          padding: 13px 36px;
+        }
+      }
+    }
+  }
+  & .AboutCardsSection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    & .AboutCard {
+      display: flex;
+      flex-direction: column;
+      height: 600px;
+      justify-content: space-between;
+      width: 32%;
     }
   }
 
-  & .AboutRightContainer {
-    width: 50%;
+  & .VideoContainer {
+    padding: 217px;
+    width: 100%;
+  }
+}
 
-    & .Title {
-      font-size: 32px;
-    }
-    & .Description {
-      font-size: 18px;
-      font-weight: 400;
-      margin: 21px 0;
-    }
-    & .ButtonContainer {
-      margin-top: 50px;
+@media only screen and (max-width: 800px) {
+  .AboutPage {
+    padding: 0 20px;
+    width: 100%;
 
-      & .WhitepaperLink {
-        background: var(--conun-btn-gradient);
-        border-radius: 30px;
-        box-shadow: var(--conun-blue-shadow);
-        padding: 13px 36px;
+    & .AboutIntroSection {
+      margin-bottom: 381px;
+      & .AboutLeftContainer,
+      & .AboutRightContainer {
+        flex: 100%;
+      }
+    }
+
+    & .AboutCardsSection {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: space-between;
+      width: 100%;
+
+      & .AboutCard {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
       }
     }
   }

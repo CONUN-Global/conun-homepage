@@ -1,5 +1,5 @@
 .Main {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   & .Dots {
@@ -9,7 +9,7 @@
     z-index: 1000;
 
     & .Dot {
-      background-color: #fff;
+      background-color: var(--conun-white);
       border: none;
       border-radius: 50%;
       height: 9px;
@@ -23,7 +23,7 @@
     align-items: center;
     background-color: #77aceb;
     bottom: 0;
-    color: #fff;
+    color: var(--conun-white);
     display: flex;
     font-size: 16px;
     font-weight: normal;

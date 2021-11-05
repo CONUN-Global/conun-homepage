@@ -1,16 +1,55 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2021-10-19 17:22+0900\n"
+"POT-Creation-Date: 2021-10-26 15:18+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:37
+msgid "Academic/sociocultural ISSUES"
+msgstr "Academic/sociocultural ISSUES"
 
 #: src/pages/Home/Main/index.tsx:20
 #: src/pages/Home/Main/index.tsx:27
+#: src/pages/Home/Main/index.tsx:34
 msgid "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants."
 msgstr "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants."
+
+#: src/pages/Home/About/AboutIntro/index.tsx:23
+msgid "Become part of the CONUN network and you can benefit from our current and future blockchain-based projects."
+msgstr "Become part of the CONUN network and you can benefit from our current and future blockchain-based projects."
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:23
+msgid "Big Data and Analysis Projects"
+msgstr "Big Data and Analysis Projects"
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:18
+msgid "Biological research to improve existing treatments and develop new treatments for disease treatment is one of the areas using distributed computing, and distributed computing environments can be used for research in university research institutes and bio-industries."
+msgstr "Biological research to improve existing treatments and develop new treatments for disease treatment is one of the areas using distributed computing, and distributed computing environments can be used for research in university research institutes and bio-industries."
+
+#: src/pages/Home/About/AboutIntro/index.tsx:31
+msgid "By sharing your personal computing resources you become part of a P2P network where earning is easy."
+msgstr "By sharing your personal computing resources you become part of a P2P network where earning is easy."
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:44
+msgid "Computer Graphic and Processing Projects"
+msgstr "Computer Graphic and Processing Projects"
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:46
+msgid "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply."
+msgstr "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply."
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:30
+msgid "Deep Learning and Models Projects"
+msgstr "Deep Learning and Models Projects"
 
 #: src/pages/Home/Main/index.tsx:18
 #: src/pages/Home/Main/index.tsx:25
@@ -21,17 +60,56 @@ msgstr "Explore, Share, and Earn with CONUN Drive"
 msgid "Find out More"
 msgstr "Find out More"
 
+#: src/pages/Home/About/AboutIntro/index.tsx:13
+msgid "Get Power By Conun"
+msgstr "Get Power By Conun"
+
+#: src/pages/Home/About/AboutIntro/index.tsx:29
+msgid "Give power to earn"
+msgstr "Give power to earn"
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:32
+msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
+msgstr "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:25
+msgid "It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology."
+msgstr "It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology."
+
+#: src/pages/Home/About/AboutIntro/index.tsx:21
+msgid "Join our ecosystem"
+msgstr "Join our ecosystem"
+
+#: src/pages/Home/About/AboutIntro/index.tsx:18
+#: src/pages/Home/About/AboutIntro/index.tsx:26
+#: src/pages/Home/About/AboutIntro/index.tsx:34
 #: src/pages/Home/Main/index.tsx:22
 msgid "Learn More"
 msgstr "Learn More"
 
-#: src/pages/Home/Main/index.tsx:34
-msgid "On our distributed supercomputing platform high power computing is accessible through our P2P ecosystem."
-msgstr "On our distributed supercomputing platform high power computing is accessible through our P2P ecosystem."
+#: src/pages/Home/About/UseCaseSection/index.tsx:16
+msgid "Life Science and Research Projects"
+msgstr "Life Science and Research Projects"
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:39
+msgid "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion."
+msgstr "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion."
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:51
+msgid "Scientific Calculations"
+msgstr "Scientific Calculations"
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:53
+msgid "Scientific calculations that require complex and fast computing power."
+msgstr "Scientific calculations that require complex and fast computing power."
 
 #: src/pages/Home/Main/index.tsx:36
 msgid "Start Now"
 msgstr "Start Now"
+
+#: src/pages/Home/About/AboutIntro/index.tsx:15
+msgid "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
+msgstr "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
 
 #: src/pages/Home/Main/index.tsx:32
 msgid "Your Resource for high power computing"

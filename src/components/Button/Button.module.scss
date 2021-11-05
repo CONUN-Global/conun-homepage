@@ -5,7 +5,7 @@
 
   &.primary {
     background-color: var(--conun-skyblue);
-    color: #fff;
+    color: var(--conun-white);
   }
 
   &.secondary {
@@ -20,10 +20,17 @@
   &.small {
     height: 51px;
     width: 163px;
+    @media only screen and (max-width: 800px) {
+      height: 31px;
+      width: 103px;
+    }
   }
 
   &.textSmall {
     font-size: 16px;
+    @media only screen and (max-width: 800px) {
+      font-size: 10px;
+    }
   }
 }
 

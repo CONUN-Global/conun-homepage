@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import type { AppProps } from "next/app";
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
@@ -7,7 +8,6 @@ import useStore from "@/store/store";
 import Layout from "@/components/Layout";
 
 import "./styles/globals.scss";
-import { useEffect } from "react";
 
 export async function activate(locale: string) {
   const { messages } = await import(`../src/locales/${locale}/messages`);
@@ -27,7 +27,10 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Layout>
         <Head>
           <title>Conun Home page </title>
-          <meta name="description" content="Conun Foundation" />
+          <meta
+            name="viewport"
+            content="width=device-width; initial-scale = 1; maximum-scale=1; user-scalable = no;"
+          />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Component {...pageProps} />
