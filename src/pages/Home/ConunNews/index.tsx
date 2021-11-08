@@ -1,7 +1,7 @@
 import { Trans } from "@lingui/react";
 import Card from "@/components/Card";
 
-import youtubeThumbnail from "../../../../assets/pics/youtube-thumbnail.jpg";
+import youtubeThumbnail from "../../../assets/pics/youtube-thumbnail.jpg";
 import Github from "@/assets/icons/github.svg";
 
 import styles from "./ConunNews.module.scss";
