@@ -3,6 +3,8 @@ import { Trans } from "@lingui/react";
 
 import Card from "@/components/Card";
 import { CardProps } from "@/components/Card";
+import VideoPlayer from "@/components/VideoPlayer";
+
 import EcosystemIcon from "@/assets/icons/ecosystem_icon.svg";
 import GiveMicrochip from "@/assets/icons/give_microchip.svg";
 import GetMicrochip from "@/assets/icons/earn_microchip.svg";
@@ -82,12 +84,7 @@ function AboutIntro() {
         })}
       </div>
       <div className={styles.VideoContainer}>
-        <video
-          src={"https://youtu.be/pwkrE2mpIiA"}
-          width="450"
-          height="500"
-          controls
-        ></video>
+        <VideoPlayer url={"https://youtu.be/pwkrE2mpIiA"} />
       </div>
     </div>
   );
