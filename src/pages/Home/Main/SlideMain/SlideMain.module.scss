@@ -10,24 +10,41 @@
     align-items: center;
     display: flex;
     flex-flow: row wrap;
-    padding: 0 200px;
+    padding-left: 150px;
+    padding-right: 200px;
     width: 100%;
 
+    & .SocialIconContainer {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      height: 40%;
+      margin-right: 30px;
+      margin-top: 80px;
+
+      & > .SocialIcon {
+        margin-top: 7px;
+        width: 30px;
+      }
+    }
     & .Main {
       color: var(--conun-blue);
       display: flex;
       flex-direction: column;
       height: 50%;
-      justify-content: space-around;
+      justify-content: center;
+      row-gap: 25px;
       width: 40%;
 
       & .Title {
-        font-size: 35px;
-        letter-spacing: 0.045em;
+        font-size: 30px;
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 36px;
         text-transform: uppercase;
       }
       & .Description {
-        font-size: 18px;
+        font-size: 1.5rem;
         font-weight: normal;
       }
       & .LearnMoreButton {
@@ -37,6 +54,8 @@
         box-shadow: 20px 20px 30px rgba(51, 88, 159, 0.4);
         color: white;
         display: flex;
+        font-size: 1.2rem;
+        font-weight: 500;
         height: 34px;
         justify-content: center;
         letter-spacing: 0.035em;
@@ -75,20 +94,16 @@
 
       & .Main {
         color: var(--conun-blue);
-        height: 60%;
+        // height: 60%;
         width: 100%;
 
         & .Title {
-          font-size: 16px;
           @media screen and (max-width: 960px) {
             font-size: 35px;
           }
         }
-        & .Description {
-          font-size: 14px;
-        }
+
         & .LearnMoreButton {
-          font-size: 12px;
           height: 28px;
           width: 100px;
         }
@@ -97,7 +112,7 @@
         flex: 1;
       }
       & .IconContainer {
-        height: 35%;
+        // height: 35%;
         width: 100%;
 
         & .FirstSlideIcon {

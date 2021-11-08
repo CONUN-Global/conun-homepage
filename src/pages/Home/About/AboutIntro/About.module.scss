@@ -1,32 +1,41 @@
 .AboutPage {
-  align-items: center;
-  background-color: var(--conun-bg-blue);
-  display: flex;
-  flex-direction: column;
+  background-image: url("../../../../assets/background/blocks_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--conun-blue);
+  height: 100%;
   padding: 0 200px;
-  width: 100%;
 
   & .AboutIntroSection {
     align-items: center;
-    color: var(--conun-blue);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 100%;
     justify-content: space-between;
-    margin: 481px 0;
+    padding: 350px 0;
 
     & .AboutLeftContainer {
       flex: 30%;
       text-transform: uppercase;
 
-      & .MainTitle {
-        font-family: "Teko", sans-serif;
-        font-size: 80px;
-        font-weight: 600;
-      }
-      & > div {
-        font-size: 40px;
+      & > .SubTitle {
+        font-size: 50px;
         font-weight: 500;
+        line-height: 60px;
+      }
+
+      & > .MainTitle {
+        background: #a7cfdf;
+        background: -webkit-linear-gradient(#a7cfdf 5%, #23538a 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: "Teko", sans-serif;
+        font-size: 70px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        line-height: 92.5%;
+        -webkit-text-fill-color: transparent;
       }
     }
 
@@ -48,67 +57,26 @@
           background: var(--conun-btn-gradient);
           border-radius: 30px;
           box-shadow: var(--conun-blue-shadow);
-          padding: 13px 36px;
+          color: var(--conun-white);
+          font-size: 18px;
+          font-weight: 500;
+          padding: 10px 25px;
         }
       }
     }
-  }
-  & .AboutCardsSection {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100%;
-
-    & .AboutCard {
-      display: flex;
-      flex-direction: column;
-      height: 600px;
-      justify-content: space-between;
-      width: 32%;
-    }
-  }
-
-  & .VideoContainer {
-    height: 720px;
-    margin: 200px 0;
-    padding: 100px;
-    width: 100%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .AboutPage {
-    padding: 0 20px;
-    width: 100%;
-
+    padding: 100px 20px;
     & .AboutIntroSection {
       margin-bottom: 381px;
+      padding: 0 20px;
+      width: 100%;
       & .AboutLeftContainer,
       & .AboutRightContainer {
         flex: 100%;
-      }
-    }
-
-    & .AboutCardsSection {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      justify-content: space-between;
-      width: 100%;
-
-      & .AboutCard {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-      }
-    }
-
-    & .VideoContainer {
-      height: 200px;
-      padding: 0 20px;
-
-      @media (min-width: 768px) and (max-width: 1024px) {
-        height: 500px;
       }
     }
   }

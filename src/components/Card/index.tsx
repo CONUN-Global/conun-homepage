@@ -68,17 +68,13 @@ function Card({
       {...props}
     >
       {!!srcImg && (
-        <Image
-          src={srcImg}
-          height={443}
-          className={styles.SrcImage}
-          alt="conun news"
-        />
+        <Image src={srcImg} className={styles.SrcImage} alt="conun news" />
       )}
       {!!image && <div className={styles.IconContainer}>{image}</div>}
+
       <div
         className={classNames(styles.TextContainer, {
-          [styles.srcImg]: !!srcImg,
+          [styles.srcImg]: srcImg,
         })}
       >
         {!!header && <p className={styles.Header}>{header}</p>}
