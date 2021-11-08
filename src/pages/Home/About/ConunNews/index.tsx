@@ -1,8 +1,9 @@
-// import Image from "next/image";
 import { Trans } from "@lingui/react";
 import Card from "@/components/Card";
 
 import youtubeThumbnail from "../../../../assets/pics/youtube-thumbnail.jpg";
+import Github from "@/assets/icons/github.svg";
+
 import styles from "./ConunNews.module.scss";
 
 const CONUN_NEWS = [
@@ -27,8 +28,8 @@ function ConunNews() {
     <div className={styles.ConunNews}>
       <p>Join Conun&apos;s open source community</p>
       <div className={styles.Community}>
-        <div>icons</div>
-        <div>icons</div>
+        <Github />
+
         <div>icons</div>
         <div>icons</div>
         <div>icons</div>

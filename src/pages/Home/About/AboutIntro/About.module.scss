@@ -1,18 +1,19 @@
 .AboutPage {
-  align-items: center;
-  background-color: var(--conun-bg-blue);
-  display: flex;
-  flex-direction: column;
+  background-image: url("../../../../assets/background/blocks_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--conun-blue);
+  height: 100%;
   padding: 0 200px;
 
   & .AboutIntroSection {
     align-items: center;
-    color: var(--conun-blue);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 100%;
     justify-content: space-between;
-    margin: 481px 0;
+    padding: 350px 0;
 
     & .AboutLeftContainer {
       flex: 30%;
@@ -64,62 +65,18 @@
       }
     }
   }
-  & .AboutCardsSection {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100%;
-
-    & .AboutCard {
-      display: flex;
-      flex-direction: column;
-      height: 600px;
-      justify-content: space-between;
-      width: 32%;
-    }
-  }
-
-  & .VideoContainer {
-    height: 720px;
-    margin: 200px 0;
-    padding: 100px;
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 800px) {
   .AboutPage {
-    padding: 0 20px;
-    width: 100%;
-
+    padding: 100px 20px;
     & .AboutIntroSection {
       margin-bottom: 381px;
+      padding: 0 20px;
+      width: 100%;
       & .AboutLeftContainer,
       & .AboutRightContainer {
         flex: 100%;
-      }
-    }
-
-    & .AboutCardsSection {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      justify-content: space-between;
-      width: 100%;
-
-      & .AboutCard {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-      }
-    }
-
-    & .VideoContainer {
-      height: 200px;
-      padding: 0 20px;
-
-      @media (min-width: 768px) and (max-width: 1024px) {
-        height: 500px;
       }
     }
   }
