@@ -1,5 +1,3 @@
-import React from "react";
-
 export type Locales = {
   value: "en" | "ko";
   label: "English" | "한국어";
@@ -16,13 +14,6 @@ export type AppState = {
   setCurrentNetwork: (network: Network) => void;
   activeSlide: number;
   setActiveSlide: (num: number) => void;
-};
-
-export type Pages = {
-  title: React.ReactNode;
-  description: React.ReactNode;
-  btnMsg: React.ReactNode;
-  bgIcon: React.ReactNode;
 };
 
 export type YearObj = {

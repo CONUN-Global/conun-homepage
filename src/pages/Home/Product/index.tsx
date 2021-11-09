@@ -44,7 +44,6 @@ function Product() {
           className={styles.Card}
           description={displayCard.description}
           btnMsg={displayCard.btnMsg}
-          horizontal
         />
       </div>
     </div>

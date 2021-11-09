@@ -1,0 +1,23 @@
+.DownloadBody {
+  align-items: center;
+  background-color: var(--conun-bg-blue);
+  color: var(--conun-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 150px 200px;
+
+  & .Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+
+  & .Reversed {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+}

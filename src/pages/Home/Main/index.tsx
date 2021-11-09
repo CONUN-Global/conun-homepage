@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
-import Link from "next/link";
-import { CarouselProvider, Slider, Dot } from "pure-react-carousel";
 
-import useStore from "@/store/store";
-import { Pages } from "@/types/index";
+import { CarouselProvider, Slider, Dot } from "pure-react-carousel";
 
 import SlideMain from "./SlideMain";
 import { MAIN_PAGES } from "./SlideMain/SlideContent";
+import DownloadBar from "@/components/DownloadBar";
+
+import useStore from "@/store/store";
 
 import styles from "./Main.module.scss";
 
@@ -20,6 +20,7 @@ function Main() {
   });
 
   const activeSlide = useStore((state) => state.activeSlide);
+  const slideMap = MAIN_PAGES.slice(0, 3);
 
   useEffect(() => {
     const handleResize = () => {
@@ -47,12 +48,12 @@ function Main() {
       infinite={false}
     >
       <Slider>
-        {MAIN_PAGES.map((page: Pages, i) => (
+        {slideMap.map((page, i) => (
           <SlideMain key={i} page={page} index={i} />
         ))}
       </Slider>
       <div className={styles.Dots}>
-        {MAIN_PAGES.map((page, i) => (
+        {slideMap.map((page, i) => (
           <Dot
             key={i}
             slide={i}
@@ -62,14 +63,7 @@ function Main() {
           ></Dot>
         ))}
       </div>
-      <div className={styles.DownloadBar}>
-        <p>Version 1.2.1 of CONUN Drive is now available.</p>
-        <Link href="https://dappstore.conun.io/">
-          <a target="_blank" className={styles.DownloadLink} rel="noreferrer">
-            Download Now
-          </a>
-        </Link>
-      </div>
+      <DownloadBar />
     </CarouselProvider>
   );
 }

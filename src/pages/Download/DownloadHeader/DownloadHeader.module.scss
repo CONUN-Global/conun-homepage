@@ -1,0 +1,54 @@
+.DownloadContainer {
+  align-items: center;
+  background-image: url("../../../assets/background/main_haader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  padding: 0 200px;
+  position: relative;
+  width: 100%;
+
+  & .BuildingIcon {
+    height: 100%;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    width: 300px;
+    width: 35%;
+  }
+
+  & .TextContainer {
+    display: flex;
+    flex-direction: row;
+
+    & .Text {
+      color: #1d428a;
+      width: 40%;
+
+      @media screen and (max-width: 800px) {
+        padding: 0 20px;
+      }
+
+      & .Title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 18px;
+        text-decoration: uppercase;
+      }
+
+      & .Description {
+        font-size: 18px;
+        line-height: 172%;
+        margin-bottom: 32px;
+      }
+      & .DownloadButtonContainer {
+        margin-bottom: 32px;
+
+        & .SubTitle {
+          margin-bottom: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,28 +1,11 @@
-import { Trans } from "@lingui/react";
+import { CONUN_NEWS } from "./ConunNewsContent";
+
 import Card from "@/components/Card";
 
-import youtubeThumbnail from "../../../assets/pics/youtube-thumbnail.jpg";
 import Github from "@/assets/icons/github.svg";
 
 import styles from "./ConunNews.module.scss";
 
-const CONUN_NEWS = [
-  {
-    header: <Trans id="August 14 2021" />,
-    title: <Trans id="Explore and Share Digital Assets with CONUN Drive" />,
-    image: youtubeThumbnail,
-  },
-  {
-    header: <Trans id="August 14 2021" />,
-    title: <Trans id="Explore and Share Digital Assets with CONUN Drive" />,
-    image: youtubeThumbnail,
-  },
-  {
-    header: <Trans id="August 14 2021" />,
-    title: <Trans id="Explore and Share Digital Assets with CONUN Drive" />,
-    image: youtubeThumbnail,
-  },
-];
 function ConunNews() {
   return (
     <div className={styles.ConunNews}>
@@ -39,9 +22,10 @@ function ConunNews() {
         {CONUN_NEWS.map((news: any, i: number) => {
           return (
             <Card
-              className={styles.Card}
-              round
               key={i}
+              vertical
+              round
+              className={styles.Card}
               header={news.header}
               title={news.title}
               srcImg={news.image}

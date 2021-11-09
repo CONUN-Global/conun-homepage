@@ -9,10 +9,15 @@
   // shadow
 
   --conun-blue-shadow: 10px 10px 30px rgba(51, 88, 159, 0.3);
-  --conun-btn-gradient: linear-gradient(
+  --conun-blue-gradient: linear-gradient(
     99.17deg,
     #77aceb 12.18%,
     #1d428a 106.22%
+  );
+  --conun-skyblue-gradient: linear-gradient(
+    99.17deg,
+    #a0b6e4 12.18%,
+    #83c8e3 106.22%
   );
 
   font-size: 18px;

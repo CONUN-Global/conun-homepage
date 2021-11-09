@@ -62,49 +62,6 @@
   }
 }
 
-.HorizontalCard {
-  &.round {
-    border-radius: 10px;
-  }
-
-  & .IconContainer {
-    width: 40%;
-
-    @media only screen and (max-width: 800px) {
-      margin-bottom: 100px;
-      width: 100%;
-    }
-  }
-
-  & .TextContainer {
-    width: 40%;
-
-    @media only screen and (max-width: 800px) {
-      margin-bottom: 100px;
-      width: 100%;
-    }
-
-    & .Header {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 10px;
-      text-decoration: uppercase;
-    }
-    & .Title {
-      font-size: 30px;
-      font-weight: 600;
-      margin-bottom: 10px;
-      text-decoration: uppercase;
-    }
-
-    & .Description {
-      font-size: 18px;
-      line-height: 172%;
-      margin-bottom: 70px;
-    }
-  }
-}
-
 .RoadMapCard {
   background: rgba(255, 255, 255, 0.3);
   border: 3px solid #fff;
@@ -134,6 +91,50 @@
       & .Description {
         font-size: 18px;
         line-height: 172%;
+      }
+    }
+  }
+}
+
+.HorizontalCard {
+  &.round {
+    border-radius: 10px;
+  }
+
+  & .IconContainer {
+    width: 40%;
+
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+
+  & .TextContainer {
+    display: flex;
+    width: 40%;
+
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+    & .Text {
+      & .Header {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-decoration: uppercase;
+      }
+
+      & .Title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 18px;
+        text-decoration: uppercase;
+      }
+
+      & .Description {
+        font-size: 18px;
+        line-height: 172%;
+        margin-bottom: 32px;
       }
     }
   }

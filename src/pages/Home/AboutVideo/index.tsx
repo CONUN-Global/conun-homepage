@@ -14,6 +14,7 @@ function AboutVideo() {
           return (
             <Card
               key={i}
+              vertical
               title={card.title}
               className={styles.AboutCard}
               description={card.description}

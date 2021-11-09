@@ -19,6 +19,7 @@ function UseCaseSection() {
               className={styles.UseCaseCard}
               image={card.image}
               round
+              vertical
             />
           );
         })}

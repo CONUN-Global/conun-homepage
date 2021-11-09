@@ -1,6 +1,9 @@
 import classNames from "classnames";
 import Image from "next/image";
+
+import Socials from "./Socials";
 import Button from "@/components/Button";
+
 import styles from "./Card.module.scss";
 
 export interface CardProps {
@@ -10,49 +13,51 @@ export interface CardProps {
   image?: React.ReactNode;
   children?: React.ReactNode;
   btnMsg?: JSX.Element;
-  horizontal?: boolean;
+  vertical?: boolean;
   header?: JSX.Element;
   className?: string;
   round?: boolean;
   roadMapCard?: boolean;
   srcImg?: string;
+  socialIcons?: boolean;
 }
 function Card({
   title,
   description,
   image,
   btnMsg,
-  horizontal,
+  vertical,
   header,
   srcImg,
   round,
   className,
   roadMapCard,
+  socialIcons,
   ...props
 }: CardProps) {
-  if (horizontal) {
+  if (vertical) {
     return (
       <div
-        className={classNames(
-          roadMapCard ? styles.RoadMapCard : styles.HorizontalCard,
-          className,
-
-          { [styles.round]: round }
-        )}
+        className={classNames(styles.VerticalCard, className, {
+          [styles.round]: round,
+        })}
         {...props}
       >
-        <div className={styles.IconContainer}>{image}</div>
-        <div className={styles.TextContainer}>
+        {!!srcImg && (
+          <Image src={srcImg} className={styles.SrcImage} alt="conun news" />
+        )}
+        {!!image && <div className={styles.IconContainer}>{image}</div>}
+
+        <div
+          className={classNames(styles.TextContainer, {
+            [styles.srcImg]: srcImg,
+          })}
+        >
           {!!header && <p className={styles.Header}>{header}</p>}
           <h3 className={styles.Title}>{title}</h3>
           <p className={styles.Description}>{description}</p>
           {!!btnMsg && (
-            <Button
-              className={styles.Button}
-              variant="primary"
-              size="small"
-              round
-            >
+            <Button variant="primary" size="small" round>
               {btnMsg}
             </Button>
           )}
@@ -62,29 +67,32 @@ function Card({
   }
   return (
     <div
-      className={classNames(styles.VerticalCard, className, {
-        [styles.round]: round,
-      })}
+      className={classNames(
+        roadMapCard ? styles.RoadMapCard : styles.HorizontalCard,
+        className,
+
+        { [styles.round]: round }
+      )}
       {...props}
     >
-      {!!srcImg && (
-        <Image src={srcImg} className={styles.SrcImage} alt="conun news" />
-      )}
-      {!!image && <div className={styles.IconContainer}>{image}</div>}
-
-      <div
-        className={classNames(styles.TextContainer, {
-          [styles.srcImg]: srcImg,
-        })}
-      >
-        {!!header && <p className={styles.Header}>{header}</p>}
-        <h3 className={styles.Title}>{title}</h3>
-        <p className={styles.Description}>{description}</p>
-        {!!btnMsg && (
-          <Button variant="primary" size="small" round>
-            {btnMsg}
-          </Button>
-        )}
+      <div className={styles.IconContainer}>{image}</div>
+      <div className={styles.TextContainer}>
+        {!!socialIcons && <Socials />}
+        <div className={styles.Text}>
+          {!!header && <p className={styles.Header}>{header}</p>}
+          <h3 className={styles.Title}>{title}</h3>
+          <p className={styles.Description}>{description}</p>
+          {!!btnMsg && (
+            <Button
+              className={styles.Button}
+              variant="secondary"
+              size="small"
+              round
+            >
+              {btnMsg}
+            </Button>
+          )}
+        </div>
       </div>
     </div>
   );
