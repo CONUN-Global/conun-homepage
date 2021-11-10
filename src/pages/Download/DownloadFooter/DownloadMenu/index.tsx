@@ -1,7 +1,7 @@
 import { DownloadMenu } from "@/types/index";
 export const DOWNLOADS_MENU: DownloadMenu[] = [
   {
-    osName: "windows",
+    osName: "Windows OS",
     links: [
       "metacon",
       "https://github.com/CONUN-Global/conun-drive/releases/download/v1.0.2-beta/Conun.Drive.Setup.1.0.2-beta.exe",
@@ -10,7 +10,7 @@ export const DOWNLOADS_MENU: DownloadMenu[] = [
     ],
   },
   {
-    osName: "linux",
+    osName: "Linux OS",
     links: [
       "metacon",
       "https://github.com/CONUN-Global/conun-drive/releases/download/v1.0.2-beta/Conun.Drive.Setup.1.0.2-beta.exe",
@@ -19,7 +19,7 @@ export const DOWNLOADS_MENU: DownloadMenu[] = [
     ],
   },
   {
-    osName: "mac",
+    osName: "Mac OS",
     links: [
       "metacon",
       "https://github.com/CONUN-Global/conun-drive/releases/download/v1.0.2-beta/Conun.Drive.Setup.1.0.2-beta.exe",

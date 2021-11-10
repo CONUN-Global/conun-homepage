@@ -1,0 +1,20 @@
+.DropdownContainer {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+
+  & .DropdownButton {
+    align-self: flex-start;
+    background: linear-gradient(99.17deg, #a0b6e4 12.18%, #83c8e3 106.22%);
+    border-radius: 30px;
+    color: var(--conun-white);
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  & .ButtonList {
+    background: linear-gradient(180deg, #d6e5f3 0%, #eff7fc 100%);
+    list-style: none;
+    width: 180px;
+  }
+}

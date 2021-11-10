@@ -1,5 +1,21 @@
 .Footer {
   background: linear-gradient(98.48deg, #d6e5f3 17.03%, #adcaee 87.57%);
+  color: var(--conun-blue);
+  font-size: 1.8rem;
   height: 100%;
+  padding: 200px 200px;
+  text-align: center;
   width: 100%;
+
+  & .Description {
+    font-size: 1rem;
+    margin-bottom: 130px;
+    margin-top: 15px;
+  }
+  & .DownloadMenuContainer {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1rem;
+    justify-content: space-around;
+  }
 }
