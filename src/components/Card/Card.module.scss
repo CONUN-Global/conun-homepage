@@ -121,20 +121,28 @@
         font-size: 16px;
         font-weight: 600;
         margin-bottom: 10px;
-        text-decoration: uppercase;
+        text-transform: uppercase;
+
+        &.light {
+          color: #0993b1;
+        }
       }
 
       & .Title {
         font-size: 30px;
         font-weight: 600;
-        margin-bottom: 18px;
-        text-decoration: uppercase;
+        margin-bottom: 14px;
+        text-transform: uppercase;
       }
 
       & .Description {
         font-size: 18px;
         line-height: 172%;
-        margin-bottom: 32px;
+        margin-bottom: 34px;
+
+        &.light {
+          color: #77aceb;
+        }
       }
     }
   }

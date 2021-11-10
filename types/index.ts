@@ -24,3 +24,8 @@ export type YearObj = {
 export type YearProps = {
   [key: string]: YearObj[];
 };
+
+export type DownloadMenu = {
+  osName: string;
+  links: string[];
+};

@@ -8,8 +8,10 @@ function AboutIntro() {
       <div id="about" className={styles.AboutIntroSection}>
         <div className={styles.AboutLeftContainer}>
           <p className={styles.SubTitle}>Creating</p>
-          <h1 className={styles.MainTitle}>Blockchain </h1>
-          <p className={styles.MainTitle}>Based</p>
+          <h1 className={styles.MainTitle}>
+            Blockchain <br />
+            Based
+          </h1>
           <p className={styles.SubTitle}>Solutions</p>
         </div>
         <div className={styles.AboutRightContainer}>
