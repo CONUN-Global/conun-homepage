@@ -27,5 +27,6 @@ export type YearProps = {
 
 export type DownloadMenu = {
   osName: string;
+  icon: React.ReactNode;
   links: string[];
 };
