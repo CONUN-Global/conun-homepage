@@ -21,11 +21,13 @@ export interface CardProps {
   srcImg?: string;
   socialIcons?: boolean;
   color?: "light" | "medium" | "dark";
+  textSize?: "small" | "medium" | "large";
 }
 function Card({
   title,
   description,
   image,
+  children,
   btnMsg,
   vertical,
   header,
@@ -35,6 +37,7 @@ function Card({
   roadMapCard,
   socialIcons,
   color = "light",
+  textSize = "small",
   ...props
 }: CardProps) {
   if (vertical) {
@@ -55,15 +58,22 @@ function Card({
             [styles.srcImg]: srcImg,
           })}
         >
-          {!!header && <p className={styles.Header}>{header}</p>}
-          <h3 className={styles.Title}>{title}</h3>
-          <p className={styles.Description}>{description}</p>
+          {!!header && (
+            <p className={classNames(styles.Header, styles[textSize])}>
+              {header}
+            </p>
+          )}
+          <p className={classNames(styles.Title, styles[textSize])}>{title}</p>
+          <p className={classNames(styles.Description, styles[textSize])}>
+            {description}
+          </p>
           {!!btnMsg && (
             <Button variant="primary" size="small" round>
               {btnMsg}
             </Button>
           )}
         </div>
+        {children}
       </div>
     );
   }

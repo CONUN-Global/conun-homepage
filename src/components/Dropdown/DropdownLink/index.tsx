@@ -2,7 +2,7 @@ import styles from "./DropdownLink.module.scss";
 
 interface DropdownLinkProps {
   name: string;
-  link: string;
+  link?: string;
 }
 
 function DropdownLink({ link, name }: DropdownLinkProps) {

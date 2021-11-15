@@ -23,12 +23,8 @@ function AboutIntro() {
             participants`&apos; personal computers and smartphones .
           </div>
           <div className={styles.ButtonContainer}>
-            <Link href={"./assets/whitepaper/en.pdf"}>
-              <a
-                target="_blank"
-                className={styles.WhitepaperLink}
-                rel="noreferrer"
-              >
+            <Link href="/whitepaper">
+              <a className={styles.WhitepaperLink} rel="noreferrer">
                 See Whitepaper
               </a>
             </Link>

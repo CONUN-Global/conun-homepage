@@ -52,7 +52,6 @@ function Team() {
               })
             : TEAM_LIST.filter((member) => member?.dept === selected).map(
                 (sortedMember, i: number) => {
-                  console.log("sortedMember", sortedMember);
                   return <ImageCard key={i} member={sortedMember} />;
                 }
               )}

@@ -42,22 +42,53 @@
       padding-bottom: 20px;
       text-align: left;
     }
+
     & .Header {
-      font-size: 20px;
       font-weight: 600;
-      text-decoration: uppercase;
+      text-transform: uppercase;
+
+      &.small {
+        font-size: 1.2rem;
+      }
+
+      &.medium {
+        font-size: 1.4rem;
+      }
+      &.large {
+        font-size: 2rem;
+      }
     }
 
     & .Title {
-      font-size: 20px;
       font-weight: 500;
       text-transform: uppercase;
+
+      &.small {
+        font-size: 1.2rem;
+      }
+
+      &.medium {
+        font-size: 1.4rem;
+      }
+      &.large {
+        font-size: 2rem;
+      }
     }
 
     & .Description {
-      font-size: 14px;
       font-weight: normal;
       line-height: 172%;
+
+      &.small {
+        font-size: 1rem;
+      }
+
+      &.medium {
+        font-size: 1rem;
+      }
+      &.large {
+        font-size: 1rem;
+      }
     }
   }
 }
