@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 import { TEAM_LIST } from "./TeamList";
 
 import ImageCard from "@/components/ImageCard";
@@ -6,6 +8,7 @@ import ConunLogoWhite from "@/assets/icons/conun_logo_white.svg";
 import styles from "./Team.module.scss";
 
 function Team() {
+  const [selected, setSelected] = useState("All");
   const teamTabs = [
     "All",
     "Lead",
@@ -36,14 +39,23 @@ function Team() {
         <div className={styles.TeamTabContainer}>
           {teamTabs.map((tab, i: number) => (
             <div key={i} className={styles.Tab}>
-              <p className={styles.TabItem}>{tab}</p>
+              <p onClick={() => setSelected(tab)} className={styles.TabItem}>
+                {tab}
+              </p>
             </div>
           ))}
         </div>
         <div className={styles.TeamImageContainer}>
-          {TEAM_LIST.map((member: any, i: number) => {
-            return <ImageCard key={i} member={member} />;
-          })}
+          {selected === "All"
+            ? TEAM_LIST.map((member: any, i: number) => {
+                return <ImageCard key={i} member={member} />;
+              })
+            : TEAM_LIST.filter((member) => member?.dept === selected).map(
+                (sortedMember, i: number) => {
+                  console.log("sortedMember", sortedMember);
+                  return <ImageCard key={i} member={sortedMember} />;
+                }
+              )}
         </div>
       </div>
     </div>

@@ -1,7 +1,32 @@
 .ImgCard {
+  position: relative;
   width: 32%;
-
   @media only screen and (max-width: 768px) {
     width: 100%;
+  }
+
+  & .TextContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    left: 0;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+
+    & .TextLayoutTop {
+      font-size: 1.2rem;
+      font-weight: 600;
+
+      & .JobTitle {
+        font-size: 0.8rem;
+        font-weight: normal;
+      }
+    }
+    & .TextLayoutBottom {
+      font-size: 0.8rem;
+      font-weight: normal;
+    }
   }
 }

@@ -23,7 +23,7 @@ export const TEAM_LIST = [
     nameEn: "PYO, SEJIN",
     dept: "Lead",
     title: "CEO, Business, Advisor, Partnership company, Marketing",
-    role: [
+    roles: [
       "Conan Group Chairman/Conan Foundation Chairman",
       "Conan Global Co., Ltd.",
       "Conan Foundation.",
@@ -42,7 +42,7 @@ export const TEAM_LIST = [
     nameEn: "PARK, MINHYEOK",
     dept: "Development",
     title: "Distributed Computing Platform Developer",
-    role: [
+    roles: [
       "Distributed Computing Core Resourcen",
       "Management System Distributed",
       "Network System",
@@ -56,7 +56,7 @@ export const TEAM_LIST = [
     nameEn: "JAMSHID",
     dept: "Management / Planning",
     title: "Distributed Computing Platform Developer",
-    role: ["Distributed Networking", "Blockchain Network"],
+    roles: ["Distributed Networking", "Blockchain Network"],
     front: jamshid,
     overlay: jamshidOverlay,
   },
@@ -66,7 +66,7 @@ export const TEAM_LIST = [
     dept: "Associate",
     title:
       "Global Marketing, Advisor Manager, Korea/China/Japan Marketing Global Marketing",
-    role: [
+    roles: [
       "CEO of Sharing Credit Co., Ltd.",
       "CEO of Global D&e Co., Ltd.",
       "Britannicker International Encyclopedia",
@@ -79,7 +79,7 @@ export const TEAM_LIST = [
     nameEn: "LEE, JUNGMIN",
     dept: "Development",
     title: "Application Developer",
-    role: ["Decentralized Application", "Front-End Development"],
+    roles: ["Decentralized Application", "Front-End Development"],
     front: jungmin,
     overlay: jungminOverlay,
   },
@@ -88,7 +88,7 @@ export const TEAM_LIST = [
     nameEn: "PARK, YOUNG JIN",
     dept: "Design",
     title: "Graphic UI/UX Designer",
-    role: ["Application Designer"],
+    roles: ["Application Designer"],
     front: youngjin,
     overlay: youngjinOverlay,
   },
@@ -97,7 +97,7 @@ export const TEAM_LIST = [
     nameEn: "AZIZ",
     dept: "Development",
     title: "Distributed Computing Platform Developer",
-    role: ["Distributed Networking", "Blockchain Smart Contract"],
+    roles: ["Distributed Networking", "Blockchain Smart Contract"],
     front: azizz,
     overlay: azizzOverlay,
   },
@@ -106,7 +106,7 @@ export const TEAM_LIST = [
     nameEn: "KIM, SEONG MI",
     dept: "Associate",
     title: "Secretary",
-    role: ["Executive & Administrative Support"],
+    roles: ["Executive & Administrative Support"],
     front: seongmi,
     overlay: seongmiOverlay,
   },
@@ -115,7 +115,7 @@ export const TEAM_LIST = [
     nameEn: "TOBIAS",
     dept: "Development",
     title: "Application Developer",
-    role: ["Decentralized Application", "Front-End Development"],
+    rolesd: ["Decentralized Application", "Front-End Development"],
     front: toby,
     overlay: tobyOverlay,
   },
