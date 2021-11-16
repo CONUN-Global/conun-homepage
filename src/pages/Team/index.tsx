@@ -32,9 +32,9 @@ function Team() {
         <h3>Meet the team</h3>
         <p>
           CONUN is based in Seoul, South Korea. Since 2017 CONUN has strived to
-          be innovative and unique working on projects that we hope with change
-          the future. Our team members are diverse coming from various locations
-          across the globe...
+          be innovative and unique working on projects that we hope will change
+          the future. Our team members are diverse, coming from various
+          locations across the globe...
         </p>
         <div className={styles.TeamTabContainer}>
           {teamTabs.map((tab, i: number) => (

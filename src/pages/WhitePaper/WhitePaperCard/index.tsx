@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Trans } from "@lingui/react";
 import classNames from "classnames";
 
 import DropdownLink from "@/components/Dropdown/DropdownLink";
+
 import WorldIcon from "@/assets/icons/world.svg";
 
 import styles from "./WhitePaperCard.module.scss";
@@ -32,9 +33,6 @@ function WhitePaperCard({ whitePaper }: WhitePaperCardProps) {
   const [isLangSelectorOpen, setLanguageSelector] = useState(true);
   const [language, setLanguage] = useState("English");
 
-  useEffect(() => {
-    console.log("isLangSelectorOpen", isLangSelectorOpen);
-  }, [isLangSelectorOpen]);
   return (
     <div
       className={classNames(styles.WhitePaperCard, {

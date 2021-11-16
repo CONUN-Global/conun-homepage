@@ -1,5 +1,7 @@
-import Card from "@/components/Card";
 import { YearObj } from "@/types/index";
+
+import Card from "@/components/Card";
+
 import styles from "./DisplayEvents.module.scss";
 
 export interface DisplayEventsProps {

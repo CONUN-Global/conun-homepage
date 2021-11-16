@@ -1,6 +1,7 @@
 import classNames from "classnames";
 
 import Socials from "./Socials";
+
 import Button from "@/components/Button";
 
 import styles from "./Card.module.scss";

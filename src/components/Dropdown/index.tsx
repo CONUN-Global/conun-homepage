@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import DropdownLink from "@/components/Dropdown/DropdownLink";
 
 import styles from "./Dropdown.module.scss";
@@ -13,7 +14,7 @@ interface DropdownProps {
 
 function Dropdown({ menu: { osName, links, icon } }: DropdownProps) {
   const [isOpen, setOpen] = useState(false);
-  const softwear = ["Metacon", "Conun Drive", "Conun Manager", "Download All"];
+  const software = ["Metacon", "Conun Drive", "Conun Manager", "Download All"];
   return (
     <div className={styles.DropdownContainer}>
       <div className={styles.Icon}>{icon}</div>
@@ -27,7 +28,7 @@ function Dropdown({ menu: { osName, links, icon } }: DropdownProps) {
         {isOpen && (
           <ul className={styles.ButtonList}>
             {links.map((link: string, i: number) => (
-              <DropdownLink key={i} name={softwear[i]} link={link} />
+              <DropdownLink key={i} name={software[i]} link={link} />
             ))}
           </ul>
         )}

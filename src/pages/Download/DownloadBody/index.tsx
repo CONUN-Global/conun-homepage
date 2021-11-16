@@ -1,5 +1,7 @@
 import { DOWNLOAD_CONTENT } from "./DownloadContent";
+
 import Card, { CardProps } from "@/components/Card";
+
 import styles from "./DownloadBody.module.scss";
 
 function DownloadBody() {

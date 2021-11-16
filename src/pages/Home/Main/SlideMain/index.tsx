@@ -32,7 +32,7 @@ function SlideMain({ page, index }: SlideMainProps) {
         title={page.title}
         description={page.description}
         btnMsg={page.btnMsg}
-      ></Card>
+      />
     </Slide>
   );
 }

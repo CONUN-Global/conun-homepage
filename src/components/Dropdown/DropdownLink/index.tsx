@@ -5,8 +5,8 @@ import styles from "./DropdownLink.module.scss";
 interface DropdownLinkProps {
   name: string;
   link?: string;
-  isWhitePaperGreen: boolean;
-  onclick: () => void;
+  isWhitePaperGreen?: boolean;
+  onclick?: () => void;
 }
 
 function DropdownLink({
