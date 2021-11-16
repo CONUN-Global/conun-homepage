@@ -17,10 +17,10 @@ function UseCaseSection() {
               title={card.title}
               description={card.description}
               className={styles.UseCaseCard}
-              image={card.image}
               round
-              vertical
-            />
+            >
+              <div className={styles.ImageContainer}>{card.image}</div>
+            </Card>
           );
         })}
       </div>

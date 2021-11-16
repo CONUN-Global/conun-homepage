@@ -1,7 +1,23 @@
-.Dropdown {
-  color: var(-conun-blue);
+.DropdownBlueHover {
+  color: var(--conun-blue);
   font-weight: normal;
   letter-spacing: -0.005em;
-  padding: 10px 0;
-  text-transform: uppercase;
+  padding: 5px;
+
+  &:hover {
+    background: #d6e5f3;
+    border-radius: 15px;
+  }
+}
+
+.DropdownGreenHover {
+  color: var(--conun-green);
+  font-weight: normal;
+  letter-spacing: -0.005em;
+  padding: 5px;
+
+  &:hover {
+    background: #c7e7e9;
+    border-radius: 15px;
+  }
 }

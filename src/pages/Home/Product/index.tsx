@@ -38,6 +38,9 @@ function Product() {
 
       <div className={styles.ProductCardContainer}>
         <Card
+          horizontal
+          textSize="medium"
+          color="sky"
           header={displayCard.header}
           image={displayCard.image}
           title={displayCard.title}

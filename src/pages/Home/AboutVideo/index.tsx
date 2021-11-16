@@ -14,13 +14,13 @@ function AboutVideo() {
           return (
             <Card
               key={i}
-              vertical
               title={card.title}
               className={styles.AboutCard}
               description={card.description}
-              image={card.image}
               btnMsg={card.btnMsg}
-            />
+            >
+              <div className={styles.ImageContainer}>{card.image}</div>
+            </Card>
           );
         })}
       </div>

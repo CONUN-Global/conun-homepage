@@ -29,9 +29,8 @@ function DisplayEvents({
 
           return (
             <Card
-              roadMapCard
               key={i}
-              horizontal
+              roadMapCard
               className={styles.RoadmapCard}
               round
               header={month.props.id}

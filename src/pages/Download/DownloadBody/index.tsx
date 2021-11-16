@@ -8,6 +8,9 @@ function DownloadBody() {
       {DOWNLOAD_CONTENT.map((download: CardProps, i: number) => (
         <Card
           key={i}
+          horizontal
+          color="green"
+          textSize="medium"
           className={i === 1 ? styles.Card : styles.Reversed}
           image={download.image}
           header={download.header}

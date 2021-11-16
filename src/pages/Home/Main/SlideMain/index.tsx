@@ -25,6 +25,8 @@ function SlideMain({ page, index }: SlideMainProps) {
     <Slide innerClassName={styles.SlideContainer} index={index}>
       <Card
         socialIcons
+        horizontal
+        textSize="large"
         className={styles.Card}
         image={page.image}
         title={page.title}

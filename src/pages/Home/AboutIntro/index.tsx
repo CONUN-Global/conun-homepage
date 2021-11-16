@@ -1,10 +1,14 @@
 import Link from "next/link";
 
+import BlocksLeft from "@/assets/icons/blocks_left.svg";
+import BlocksRight from "@/assets/icons/blocks_right.svg";
 import styles from "./About.module.scss";
 
 function AboutIntro() {
   return (
     <div className={styles.AboutPage}>
+      <BlocksLeft className={styles.LeftBlocks} />
+      <BlocksRight className={styles.RightBlocks} />
       <div id="about" className={styles.AboutIntroSection}>
         <div className={styles.AboutLeftContainer}>
           <p className={styles.SubTitle}>Creating</p>

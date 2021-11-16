@@ -9,6 +9,7 @@
   padding-top: 150px;
 
   & .Card {
+    color: var(--conun-skyblue);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,6 +17,7 @@
   }
 
   & .Reversed {
+    color: var(--conun-skyblue);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;

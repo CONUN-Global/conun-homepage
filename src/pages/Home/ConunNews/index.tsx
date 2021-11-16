@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CONUN_NEWS } from "./ConunNewsContent";
 
 import Card from "@/components/Card";
@@ -23,13 +24,19 @@ function ConunNews() {
           return (
             <Card
               key={i}
-              vertical
               round
               className={styles.Card}
               header={news.header}
               title={news.title}
-              srcImg={news.image}
-            ></Card>
+            >
+              <Image
+                width={500}
+                height={350}
+                src={news.image}
+                className={styles.ImageContainer}
+                alt="conun news"
+              />
+            </Card>
           );
         })}
       </div>
