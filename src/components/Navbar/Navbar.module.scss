@@ -2,14 +2,20 @@
   color: var(--conun-blue);
   display: flex;
   flex-direction: row;
+  height: 100%;
+  width: 100%;
 
   & .NavbarLeft {
+    align-items: flex-start;
     display: flex;
+    flex-direction: row;
 
-    & > a {
-      align-items: center;
-      display: flex;
-      flex-direction: row;
+    & .NetworkStatus {
+      & > a {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+      }
 
       & .NetworkCircle {
         background-color: green;
@@ -33,10 +39,14 @@
     flex: 1;
   }
   & .NavbarRight {
-    align-items: center;
-    display: flex;
     & .Link {
       margin-right: 20px;
+    }
+
+    & .ToolbarHorizontal {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
     }
   }
 }

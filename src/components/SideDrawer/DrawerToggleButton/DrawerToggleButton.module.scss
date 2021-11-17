@@ -1,0 +1,17 @@
+.ToggleButtonContainer {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  justify-content: space-between;
+  padding: 0;
+  width: 30px;
+
+  & .ToggleButton {
+    background-color: var(--conun-blue);
+    height: 4px;
+    width: 100%;
+  }
+}
