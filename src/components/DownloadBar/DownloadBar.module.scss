@@ -1,0 +1,20 @@
+.DownloadBar {
+  align-items: center;
+  background: var(--conun-blue-gradient);
+  bottom: 0;
+  color: var(--conun-white);
+  display: flex;
+  font-size: 16px;
+  font-weight: normal;
+  height: 54px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  width: 100%;
+
+  & .DownloadLink {
+    font-weight: 600;
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+}

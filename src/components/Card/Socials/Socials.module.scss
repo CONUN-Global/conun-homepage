@@ -1,0 +1,10 @@
+.SocialIcons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+
+  & > .SocialIcon {
+    margin-top: 7px;
+    width: 30px;
+  }
+}

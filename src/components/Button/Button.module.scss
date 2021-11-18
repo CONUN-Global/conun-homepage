@@ -4,26 +4,24 @@
   cursor: pointer;
 
   &.primary {
-    background-color: var(--conun-skyblue);
+    background: var(--conun-skyblue-gradient);
     color: var(--conun-white);
   }
 
   &.secondary {
-    background-color: var(--secondary-color);
-    color: var(--secondary-color-font);
+    background: var(--conun-blue-gradient);
+    color: var(--conun-white);
   }
 
   &.round {
     border-radius: 20px;
   }
 
+  &.margin {
+    margin-right: 10px;
+  }
   &.small {
-    height: 51px;
-    width: 163px;
-    @media only screen and (max-width: 800px) {
-      height: 31px;
-      width: 103px;
-    }
+    padding: 10px 20px;
   }
 
   &.textSmall {

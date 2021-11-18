@@ -13,24 +13,34 @@ const NAV_SECTIONS = [
     path: "/",
   },
   {
-    id: "about",
-    label: "About",
-    path: "/#about",
-  },
-  {
     id: "products",
     label: "Products",
-    path: "/#products",
+    path: "/products",
   },
   {
-    id: "current",
-    label: "Current",
-    path: "/#current",
+    id: "team",
+    label: "Team",
+    path: "/team",
   },
   {
-    id: "get-started",
-    label: "Get Started",
-    path: "/#get-started",
+    id: "download",
+    label: "For Developers",
+    path: "/download",
+  },
+  {
+    id: "notices",
+    label: "Notices",
+    path: "/notices",
+  },
+  {
+    id: "faq",
+    label: "FAQs",
+    path: "/faq",
+  },
+  {
+    id: "learn-more",
+    label: "Learn More",
+    path: "/learn-more",
   },
 ];
 function Navbar() {
