@@ -27,7 +27,7 @@
     "zustand": "^3.6.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
+    "@babel/core": "^7.16.0",
     "@lingui/cli": "^3.12.1",
     "@lingui/macro": "^3.12.1",
     "@svgr/webpack": "^5.5.0",
