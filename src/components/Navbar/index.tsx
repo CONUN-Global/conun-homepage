@@ -33,9 +33,9 @@ const NAV_SECTIONS = [
     path: "/notices",
   },
   {
-    id: "faq",
+    id: "faqs",
     label: "FAQs",
-    path: "/faq",
+    path: "/faqs",
   },
   {
     id: "learn-more",
