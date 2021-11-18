@@ -1,10 +1,12 @@
 import classNames from "classnames";
-import Image from "next/image";
+
+import Socials from "./Socials";
+
 import Button from "@/components/Button";
+
 import styles from "./Card.module.scss";
 
 export interface CardProps {
-  id?: string;
   title: JSX.Element;
   description?: JSX.Element;
   image?: React.ReactNode;
@@ -15,26 +17,31 @@ export interface CardProps {
   className?: string;
   round?: boolean;
   roadMapCard?: boolean;
-  srcImg?: string;
+  socialIcons?: boolean;
+  color?: "green" | "sky" | "blue";
+  textSize?: "small" | "medium" | "large";
 }
 function Card({
   title,
   description,
   image,
+  children,
   btnMsg,
   horizontal,
   header,
-  srcImg,
   round,
   className,
   roadMapCard,
+  socialIcons,
+  color = "blue",
+  textSize = "small",
   ...props
 }: CardProps) {
   if (horizontal) {
     return (
       <div
         className={classNames(
-          roadMapCard ? styles.RoadMapCard : styles.HorizontalCard,
+          styles.HorizontalCard,
           className,
 
           { [styles.round]: round }
@@ -43,43 +50,78 @@ function Card({
       >
         <div className={styles.IconContainer}>{image}</div>
         <div className={styles.TextContainer}>
-          {!!header && <p className={styles.Header}>{header}</p>}
-          <h3 className={styles.Title}>{title}</h3>
-          <p className={styles.Description}>{description}</p>
-          {!!btnMsg && (
-            <Button
-              className={styles.Button}
-              variant="primary"
-              size="small"
-              round
-            >
-              {btnMsg}
-            </Button>
-          )}
+          {!!socialIcons && <Socials />}
+          <div className={styles.Text}>
+            {!!header && (
+              <p
+                className={classNames(
+                  styles.Header,
+                  styles[textSize],
+                  styles[color]
+                )}
+              >
+                {header}
+              </p>
+            )}
+            <p className={classNames(styles.Title, styles[textSize])}>
+              {title}
+            </p>
+            <p className={classNames(styles.Description, styles[textSize])}>
+              {description}
+            </p>
+            {!!btnMsg && (
+              <Button
+                className={styles.Button}
+                variant="secondary"
+                size="small"
+                round
+              >
+                {btnMsg}
+              </Button>
+            )}
+          </div>
         </div>
       </div>
     );
   }
   return (
     <div
-      className={classNames(styles.VerticalCard, className, {
-        [styles.round]: round,
-      })}
+      className={classNames(
+        roadMapCard ? styles.RoadMapCard : styles.VerticalCard,
+        className,
+        {
+          [styles.round]: round,
+        }
+      )}
       {...props}
     >
-      {!!srcImg && (
-        <Image src={srcImg} className={styles.SrcImage} alt="conun news" />
-      )}
-      {!!image && <div className={styles.IconContainer}>{image}</div>}
-
-      <div
-        className={classNames(styles.TextContainer, {
-          [styles.srcImg]: srcImg,
-        })}
-      >
-        {!!header && <p className={styles.Header}>{header}</p>}
-        <h3 className={styles.Title}>{title}</h3>
-        <p className={styles.Description}>{description}</p>
+      {children}
+      <div className={styles.TextContainer}>
+        {!!header && (
+          <p
+            className={classNames(
+              styles.Header,
+              styles[textSize],
+              styles[color]
+            )}
+          >
+            {header}
+          </p>
+        )}
+        <p
+          className={classNames(styles.Title, styles[textSize], styles[color])}
+        >
+          {title}
+        </p>
+        <p
+          className={classNames(
+            styles.Description,
+            styles[textSize],
+            styles[color]
+          )}
+        >
+          {description}
+        </p>
         {!!btnMsg && (
           <Button variant="primary" size="small" round>
             {btnMsg}

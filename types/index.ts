@@ -1,5 +1,3 @@
-import React from "react";
-
 export type Locales = {
   value: "en" | "ko";
   label: "English" | "한국어";
@@ -18,13 +16,6 @@ export type AppState = {
   setActiveSlide: (num: number) => void;
 };
 
-export type Pages = {
-  title: React.ReactNode;
-  description: React.ReactNode;
-  btnMsg: React.ReactNode;
-  bgIcon: React.ReactNode;
-};
-
 export type YearObj = {
   month: JSX.Element;
   title: JSX.Element;
@@ -32,4 +23,10 @@ export type YearObj = {
 };
 export type YearProps = {
   [key: string]: YearObj[];
+};
+
+export type DownloadMenu = {
+  osName: string;
+  icon: React.ReactNode;
+  links: string[];
 };

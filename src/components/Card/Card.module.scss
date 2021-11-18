@@ -1,106 +1,77 @@
 .VerticalCard {
-  align-items: center;
-  background-color: var(--conun-white);
-  color: var(--conun-blue);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-between;
-  padding: 45px;
-  text-align: center;
-  width: 100%;
-
   &.round {
     border-radius: 10px;
   }
 
-  &.SrcImg {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  & .IconContainer {
-    width: 100%;
-  }
-
   & .TextContainer {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    color: var(--conun-blue);
     height: 50%;
-    justify-content: space-around;
-    margin-top: 20px;
+    padding: 30px;
     width: 100%;
     word-wrap: break-word;
 
-    &.srcImg {
-      align-items: flex-start;
-      padding: 0 20px;
-      padding-bottom: 20px;
-      text-align: left;
-    }
     & .Header {
-      font-size: 20px;
-      font-weight: 600;
-      text-decoration: uppercase;
+      font-weight: normal;
+      margin-bottom: 10px;
+
+      &.small {
+        font-size: 1rem;
+      }
+
+      &.medium {
+        font-size: 1.2rem;
+      }
+      &.large {
+        font-size: 1.4rem;
+      }
+      &.green {
+        color: var(--conun-green);
+      }
+      &.sky {
+        color: var(--conun-skyblue);
+      }
     }
 
     & .Title {
-      font-size: 20px;
+      color: var(--conun-blue);
       font-weight: 500;
+      margin-bottom: 15px;
       text-transform: uppercase;
+
+      &.small {
+        font-size: 1.2rem;
+      }
+
+      &.medium {
+        font-size: 1.4rem;
+      }
+      &.large {
+        font-size: 2rem;
+      }
     }
 
     & .Description {
-      font-size: 14px;
+      color: var(--conun-blue);
       font-weight: normal;
       line-height: 172%;
-    }
-  }
-}
+      margin-bottom: 40px;
 
-.HorizontalCard {
-  &.round {
-    border-radius: 10px;
-  }
+      &.small {
+        font-size: 0.8rem;
+      }
 
-  & .IconContainer {
-    width: 40%;
-
-    @media only screen and (max-width: 800px) {
-      margin-bottom: 100px;
-      width: 100%;
-    }
-  }
-
-  & .TextContainer {
-    width: 40%;
-
-    @media only screen and (max-width: 800px) {
-      margin-bottom: 100px;
-      width: 100%;
-    }
-
-    & .Header {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 10px;
-      text-decoration: uppercase;
-    }
-    & .Title {
-      font-size: 30px;
-      font-weight: 600;
-      margin-bottom: 10px;
-      text-decoration: uppercase;
-    }
-
-    & .Description {
-      font-size: 18px;
-      line-height: 172%;
-      margin-bottom: 70px;
+      &.medium {
+        font-size: 1.2rem;
+      }
+      &.large {
+        font-size: 1rem;
+      }
+      &.green {
+        color: var(--conun-green);
+      }
+      &.sky {
+        color: var(--conun-skyblue);
+      }
     }
   }
 }
@@ -121,20 +92,110 @@
     color: #77aceb;
 
     & .Header {
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: 500;
     }
     & .Title {
       color: #0993b1;
-      font-size: 22px;
+      font-size: 1.2rem;
       font-weight: 600;
       line-height: 143%;
       margin: 10px 0;
 
       & .Description {
-        font-size: 18px;
+        font-size: 1.1rem;
         line-height: 172%;
       }
+    }
+  }
+}
+
+.HorizontalCard {
+  &.round {
+    border-radius: 10px;
+  }
+
+  & .IconContainer {
+    width: 40%;
+
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+
+  & .TextContainer {
+    display: flex;
+    width: 40%;
+
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+    & .Text {
+      & .Header {
+        color: var(--conun-blue);
+        font-weight: normal;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+
+        &.small {
+          font-size: 1rem;
+        }
+
+        &.medium {
+          font-size: 1rem;
+        }
+        &.large {
+          font-size: 1.4rem;
+        }
+        &.green {
+          color: var(--conun-green);
+        }
+        &.sky {
+          color: var(--conun-skyblue);
+        }
+      }
+
+      & .Title {
+        color: var(--conun-blue);
+        font-weight: bold;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+
+        &.small {
+          font-size: 1.2rem;
+        }
+
+        &.medium {
+          font-size: 1.4rem;
+        }
+        &.large {
+          font-size: 1.8rem;
+        }
+      }
+
+      & .Description {
+        font-weight: normal;
+        line-height: 150%;
+        margin-bottom: 34px;
+
+        &.small {
+          font-size: 0.8rem;
+        }
+
+        &.medium {
+          font-size: 1rem;
+        }
+        &.large {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .VerticalCard {
+    & .TextContainer {
+      padding: 30px;
     }
   }
 }

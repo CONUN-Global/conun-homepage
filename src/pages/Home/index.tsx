@@ -1,10 +1,10 @@
 import Main from "./Main";
-import AboutIntro from "./About/AboutIntro";
-import AboutVideo from "./About/AboutVideo";
-import UseCaseSection from "./About/UseCaseSection";
-import Product from "./About/Product";
-import RoadMap from "./About/RoadMapSection";
-import ConunNews from "./About/ConunNews";
+import AboutIntro from "./AboutIntro";
+import AboutVideo from "./AboutVideo";
+import UseCaseSection from "./UseCaseSection";
+import Product from "./Product";
+import RoadMap from "./RoadMapSection";
+import ConunNews from "./ConunNews";
 import styles from "./Home.module.scss";
 
 function Home() {
