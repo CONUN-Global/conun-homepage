@@ -3,7 +3,7 @@ import { Trans } from "@lingui/react";
 import FirstSlideIcon from "@/assets/icons/slide_first.svg";
 import SecondSlideIcon from "@/assets/icons/slide_second.svg";
 import ThirdSlideIcon from "@/assets/icons/slide_third.svg";
-import DownloadHeader from "@/assets/icons/download_header.svg";
+import DownloadHeaderIcon from "@/assets/icons/download_header.svg";
 
 export const MAIN_PAGES = [
   {
@@ -35,6 +35,6 @@ export const MAIN_PAGES = [
     description: (
       <Trans id="Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants." />
     ),
-    image: <DownloadHeader style={{ height: "100%" }} />,
+    image: <DownloadHeaderIcon style={{ height: "100%" }} />,
   },
 ];

@@ -5,7 +5,10 @@
 
   & .TextContainer {
     color: var(--conun-blue);
+    display: flex;
+    flex-direction: column;
     height: 50%;
+    justify-content: space-between;
     padding: 30px;
     width: 100%;
     word-wrap: break-word;
@@ -35,7 +38,7 @@
     & .Title {
       color: var(--conun-blue);
       font-weight: 500;
-      margin-bottom: 15px;
+      // margin-bottom: 15px;
       text-transform: uppercase;
 
       &.small {
@@ -72,6 +75,11 @@
       &.sky {
         color: var(--conun-skyblue);
       }
+    }
+
+    & .Button {
+      align-self: center;
+      width: 150px;
     }
   }
 }

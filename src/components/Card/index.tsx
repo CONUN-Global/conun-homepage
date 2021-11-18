@@ -123,7 +123,12 @@ function Card({
           {description}
         </p>
         {!!btnMsg && (
-          <Button variant="primary" size="small" round>
+          <Button
+            className={styles.Button}
+            variant="primary"
+            size="small"
+            round
+          >
             {btnMsg}
           </Button>
         )}

@@ -6,6 +6,16 @@
   text-align: center;
   width: 100%;
 
+  & .Title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  & .Description {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+
   & .FaqsContainer {
     align-items: center;
     display: flex;
@@ -14,36 +24,5 @@
     margin: 100px 0;
     text-align: left;
     width: 100%;
-
-    & .QnABox {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      margin: 10px 0;
-      max-width: 1200px;
-      width: 70%;
-
-      & .QuestionBox {
-        align-items: center;
-        background: var(--conun-bg-blue);
-        display: flex;
-        height: 94px;
-        margin: 10px 0;
-        padding: 0 20px;
-
-        &:hover {
-          background: var(--conun-blue);
-          color: var(--conun-white);
-        }
-      }
-
-      & .AnswerBox {
-        align-items: center;
-        background: rgba(255, 255, 255, 0.7);
-        display: flex;
-        height: 135px;
-        padding: 0 20px;
-      }
-    }
   }
 }
