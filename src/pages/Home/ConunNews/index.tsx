@@ -2,12 +2,9 @@ import Image from "next/image";
 import classNames from "classnames";
 import { CONUN_NEWS } from "./ConunNewsContent";
 
-import Card from "@/components/Card";
-
+import Vertical from "@/components/Card/Vertical";
+import Text from "@/components/Text";
 import Github from "@/assets/icons/github.svg";
-import Xangle from "@/assets/icons/xangle.svg";
-import Medium from "@/assets/icons/medium.svg";
-
 import styles from "./ConunNews.module.scss";
 
 function ConunNews() {
@@ -18,24 +15,12 @@ function ConunNews() {
         <div className={classNames(styles.IconBox, styles.Github)}>
           <Github className={styles.Icon} />
         </div>
-        <div className={classNames(styles.IconBox, styles.Xangle)}>
-          <Xangle className={styles.Icon} />
-        </div>
-        <div className={classNames(styles.IconBox, styles.Medium)}>
-          <Medium className={styles.Icon} />
-        </div>
       </div>
       <p className={styles.Title}>CONUN NEWS</p>
       <div className={styles.CardContainer}>
-        {CONUN_NEWS.map((news: any, i: number) => {
+        {CONUN_NEWS.map((news, i: number) => {
           return (
-            <Card
-              key={i}
-              round
-              className={styles.Card}
-              header={news.header}
-              title={news.title}
-            >
+            <Vertical key={i} round className={styles.Card}>
               <Image
                 width={500}
                 height={350}
@@ -43,7 +28,12 @@ function ConunNews() {
                 className={styles.ImageContainer}
                 alt="conun news"
               />
-            </Card>
+              <Text
+                className={styles.TextBox}
+                caption={news.caption}
+                title={news.title}
+              />
+            </Vertical>
           );
         })}
       </div>

@@ -25,11 +25,17 @@
       background: rgba(255, 255, 255, 0.5);
       border: 1px solid #085ed5;
       height: 550px;
+      padding: 40px;
       width: 32%;
 
       & .ImageContainer {
-        height: 50%;
+        height: 30%;
         width: 80%;
+      }
+
+      & .TextContainer {
+        height: 70%;
+        margin-top: 30px;
       }
     }
   }

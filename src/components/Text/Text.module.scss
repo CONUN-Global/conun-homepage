@@ -8,16 +8,16 @@
   & .Header {
     text-transform: uppercase;
 
-    &.small {
-      font-size: 0.8rem;
-    }
-
-    &.medium {
-      font-size: 1rem;
-    }
-
     & .Caption {
       margin-bottom: 10px;
+
+      &.small {
+        font-size: 0.8rem;
+      }
+
+      &.medium {
+        font-size: 1rem;
+      }
     }
     & .Title {
       font-weight: 500;
