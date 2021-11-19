@@ -3,8 +3,7 @@
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
-  padding-bottom: 200px;
-  padding-top: 100px;
+  padding: 200px 350px;
 
   & .Title {
     background-color: var(--conun-white);
@@ -13,34 +12,24 @@
     font-weight: 600;
     margin-bottom: 95px;
     padding: 10px 30px;
-    text-align: center;
   }
   & .CardContainer {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0 200px;
     row-gap: 46px;
     width: 100%;
 
     & .UseCaseCard {
-      align-items: center;
       background: rgba(255, 255, 255, 0.5);
       border: 1px solid #085ed5;
-      color: var(--conun-blue);
-      display: flex;
-      flex-direction: column;
-      height: 600px;
-      justify-content: space-between;
-      text-align: center;
+      height: 550px;
       width: 32%;
 
       & .ImageContainer {
-        height: 40%;
-        margin-bottom: 30px;
-        padding: 30px;
-        width: 90%;
+        height: 50%;
+        width: 80%;
       }
     }
   }

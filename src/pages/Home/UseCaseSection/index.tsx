@@ -1,7 +1,7 @@
-import Card from "@/components/Card";
-
 import { USE_CASE_CONTENT } from "./UseCaseCardContent";
-import { CardProps } from "@/components/Card";
+
+import Vertical from "@/components/Card/Vertical";
+import Text from "@/components/Text";
 
 import styles from "./UseCaseSection.module.scss";
 
@@ -10,17 +10,12 @@ function UseCaseSection() {
     <div className={styles.UseCaseSection}>
       <div className={styles.Title}>DSC USE CASES</div>
       <div className={styles.CardContainer}>
-        {USE_CASE_CONTENT.map((card: CardProps, i: number) => {
+        {USE_CASE_CONTENT.map((card, i: number) => {
           return (
-            <Card
-              key={i}
-              title={card.title}
-              description={card.description}
-              className={styles.UseCaseCard}
-              round
-            >
+            <Vertical key={i} className={styles.UseCaseCard} round>
               <div className={styles.ImageContainer}>{card.image}</div>
-            </Card>
+              <Text title={card.title} description={card.description} />
+            </Vertical>
           );
         })}
       </div>

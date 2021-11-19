@@ -1,5 +1,5 @@
 import { MAIN_PAGES } from "../../Home/Main/SlideMain/SlideContent";
-import Socials from "@/components/Card/Socials";
+import Socials from "@/components/Card/Horizontal/Socials";
 import Button from "@/components/Button";
 import DownloadBar from "@/components/DownloadBar";
 

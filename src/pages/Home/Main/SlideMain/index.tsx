@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Slide } from "pure-react-carousel";
 
-import Card, { CardProps } from "@/components/Card";
+import Horizontal, { HorizontalProps } from "@/components/Card/Horizontal";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
 
@@ -10,7 +10,7 @@ import useStore from "@/store/store";
 import styles from "./SlideMain.module.scss";
 
 interface SlideMainProps {
-  page: CardProps;
+  page: HorizontalProps;
   index: number;
 }
 function SlideMain({ page, index }: SlideMainProps) {
@@ -23,9 +23,8 @@ function SlideMain({ page, index }: SlideMainProps) {
 
   return (
     <Slide innerClassName={styles.SlideContainer} index={index}>
-      <Card
+      <Horizontal
         socialIcons
-        horizontal
         textSize="large"
         className={styles.Card}
         image={page.image}

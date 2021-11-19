@@ -10,11 +10,38 @@
   width: 100%;
 
   & .Community {
+    align-items: center;
+    column-gap: 20px;
     display: flex;
     flex-direction: row;
     font-size: 40px;
-    margin-bottom: 486px;
-    margin-top: 286px;
+    justify-content: space-around;
+    margin-bottom: 400px;
+    margin-top: 100px;
+
+    & .IconBox {
+      align-items: center;
+      background-color: var(--conun-white);
+      display: flex;
+      height: 105px;
+      justify-content: center;
+      padding: 5px;
+      width: 105px;
+
+      &.Xangle {
+        width: 150px;
+      }
+
+      &.Github {
+        & .Icon {
+          height: 80px;
+        }
+      }
+
+      &.Medium {
+        width: 130px;
+      }
+    }
   }
 
   & .Title {

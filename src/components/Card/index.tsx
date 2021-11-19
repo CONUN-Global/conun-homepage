@@ -1,6 +1,6 @@
 import classNames from "classnames";
 
-import Socials from "./Socials";
+import Socials from "./Horizontal/Socials";
 
 import Button from "@/components/Button";
 
@@ -50,7 +50,7 @@ function Card({
       >
         <div className={styles.IconContainer}>{image}</div>
         <div className={styles.TextContainer}>
-          {!!socialIcons && <Socials />}
+          {socialIcons && <Socials />}
           <div className={styles.Text}>
             {!!header && (
               <p

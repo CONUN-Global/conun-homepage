@@ -1,0 +1,52 @@
+.TextContainer {
+  color: var(--conun-blue);
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+
+  & .Header {
+    text-transform: uppercase;
+
+    &.small {
+      font-size: 0.8rem;
+    }
+
+    &.medium {
+      font-size: 1rem;
+    }
+
+    & .Caption {
+      margin-bottom: 10px;
+    }
+    & .Title {
+      font-weight: 500;
+
+      &.small {
+        font-size: 1.2rem;
+      }
+
+      &.medium {
+        font-size: 1.4rem;
+      }
+      &.large {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  & .Description {
+    font-weight: normal;
+
+    &.small {
+      font-size: 0.8rem;
+    }
+
+    &.medium {
+      font-size: 1rem;
+    }
+    &.large {
+      font-size: 1.2rem;
+    }
+  }
+}

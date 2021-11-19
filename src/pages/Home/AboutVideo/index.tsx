@@ -1,5 +1,7 @@
-import Card from "@/components/Card";
-import { CardProps } from "@/components/Card";
+// import classNames from "classnames";
+import Vertical from "@/components/Card/Vertical";
+import Text from "@/components/Text";
+import Button from "@/components/Button";
 import VideoPlayer from "@/components/VideoPlayer";
 
 import { CARD_CONTENT } from "./CardContent";
@@ -10,17 +12,25 @@ function AboutVideo() {
   return (
     <div className={styles.About}>
       <div className={styles.AboutCardsSection}>
-        {CARD_CONTENT.map((card: CardProps, i: number) => {
+        {CARD_CONTENT.map((card, i: number) => {
           return (
-            <Card
-              key={i}
-              title={card.title}
-              className={styles.AboutCard}
-              description={card.description}
-              btnMsg={card.btnMsg}
-            >
+            <Vertical key={i} className={styles.AboutCard} round>
               <div className={styles.ImageContainer}>{card.image}</div>
-            </Card>
+              <Text
+                textSize="small"
+                className={styles.Caption}
+                title={card.title}
+                description={card.description}
+              />
+              <Button
+                className={styles.Button}
+                variant="primary"
+                size="small"
+                round
+              >
+                {card.btnMsg}
+              </Button>
+            </Vertical>
           );
         })}
       </div>

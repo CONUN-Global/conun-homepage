@@ -1,0 +1,14 @@
+.VerticalCard {
+  align-items: center;
+  color: var(--conun-blue);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: center;
+
+  &.round {
+    border-radius: 10px;
+  }
+}
