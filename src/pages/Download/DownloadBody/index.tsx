@@ -1,13 +1,13 @@
-import { DOWNLOAD_CONTENT } from "./DownloadContent";
+// import { DOWNLOAD_CONTENT } from "./DownloadContent";
 
-import Card, { CardProps } from "@/components/Card";
+// import Card, { CardProps } from "@/components/Card";
 
 import styles from "./DownloadBody.module.scss";
 
 function DownloadBody() {
   return (
     <div className={styles.DownloadBody}>
-      {DOWNLOAD_CONTENT.map((download: CardProps, i: number) => (
+      {/* {DOWNLOAD_CONTENT.map((download: CardProps, i: number) => (
         <Card
           key={i}
           horizontal
@@ -20,7 +20,7 @@ function DownloadBody() {
           description={download.description}
           btnMsg={download.btnMsg}
         />
-      ))}
+      ))} */}
     </div>
   );
 }

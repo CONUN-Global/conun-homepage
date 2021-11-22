@@ -1,6 +1,7 @@
 import { YearObj } from "@/types/index";
 
-import Card from "@/components/Card";
+import Vertical from "@/components/Card/Vertical";
+import Caption from "@/components/Caption";
 
 import styles from "./DisplayEvents.module.scss";
 
@@ -30,15 +31,10 @@ function DisplayEvents({
           const { month, title, subtitle } = monthlyEvent;
 
           return (
-            <Card
-              key={i}
-              roadMapCard
-              className={styles.RoadmapCard}
-              round
-              header={month.props.id}
-              title={title.props.id}
-              description={subtitle?.props.id}
-            />
+            <Vertical key={i} className={styles.RoadmapCard} round>
+              <Caption color="green" header={month} title={title} />
+              <div className={styles.Description}>{subtitle}</div>
+            </Vertical>
           );
         })}
       </div>

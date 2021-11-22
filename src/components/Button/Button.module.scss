@@ -2,6 +2,8 @@
   border: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  height: 35px;
+  min-width: 100px;
 
   &.primary {
     background: var(--conun-skyblue-gradient);

@@ -1,6 +1,5 @@
-// import classNames from "classnames";
 import Vertical from "@/components/Card/Vertical";
-import Text from "@/components/Text";
+import Caption from "@/components/Caption";
 import Button from "@/components/Button";
 import VideoPlayer from "@/components/VideoPlayer";
 
@@ -16,20 +15,15 @@ function AboutVideo() {
           return (
             <Vertical key={i} className={styles.AboutCard} round>
               <div className={styles.ImageContainer}>{card.image}</div>
-              <Text
-                textSize="small"
-                className={styles.Caption}
-                title={card.title}
-                description={card.description}
-              />
-              <Button
-                className={styles.Button}
-                variant="primary"
-                size="small"
-                round
-              >
-                {card.btnMsg}
-              </Button>
+              <div className={styles.TextContainer}>
+                <Caption textSize="small" title={card.title} />
+                <div className={styles.Description}>
+                  <p>{card.description}</p>
+                  <Button className={styles.Button} variant="primary" round>
+                    {card.btnMsg}
+                  </Button>
+                </div>
+              </div>
             </Vertical>
           );
         })}

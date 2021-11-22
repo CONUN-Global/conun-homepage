@@ -1,0 +1,87 @@
+.TextContainer {
+  color: var(--conun-blue);
+
+  & .Header {
+    color: #77aceb;
+    text-transform: uppercase;
+
+    & .Caption {
+      margin-bottom: 10px;
+
+      &.small {
+        font-size: 0.8rem;
+      }
+
+      &.medium {
+        font-size: 1rem;
+      }
+
+      &.costume {
+        color: var(--conun-blue);
+        font-size: 1.6rem;
+        font-weight: 600;
+      }
+    }
+    & .Title {
+      font-weight: 600;
+
+      &.green {
+        color: #0993b1;
+      }
+      &.blue {
+        color: var(--conun-blue);
+      }
+
+      &.small {
+        font-size: 1.2rem;
+      }
+
+      &.medium {
+        font-size: 1.4rem;
+      }
+      &.costume {
+        font-size: 0.8rem;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .TextContainer {
+    & .Title {
+      font-weight: 500;
+      margin-bottom: 18px;
+
+      &.small {
+        font-size: 1rem;
+      }
+
+      &.medium {
+        font-size: 1.2rem;
+      }
+      &.large {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+// @media only screen and (max-width: 768px) {
+//   .TextContainer {
+//     & .Description {
+//       font-weight: normal;
+
+//       &.small {
+//         font-size: 0.6rem;
+//       }
+
+//       &.medium {
+//         font-size: 0.8rem;
+//       }
+//       &.large {
+//         font-size: 1rem;
+//       }
+//     }
+//   }
+// }

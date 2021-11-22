@@ -23,9 +23,7 @@ function DownloadHeader() {
           <div className={styles.DownloadButtonContainer}>
             <h3 className={styles.SubTitle}>Desktop Products</h3>
             <div>
-              <Button margin round>
-                CONUN Metacon
-              </Button>
+              <Button round>CONUN Metacon</Button>
               <Button round>CONUN Metacon</Button>
             </div>
           </div>

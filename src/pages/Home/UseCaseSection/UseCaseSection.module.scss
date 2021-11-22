@@ -3,66 +3,66 @@
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
-  padding: 200px 350px;
+  width: 100%;
 
-  & .Title {
-    background-color: var(--conun-white);
-    color: var(--conun-blue);
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 95px;
-    padding: 10px 30px;
-  }
-  & .CardContainer {
+  & .UseCaseContainer {
     align-items: center;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    row-gap: 46px;
-    width: 100%;
+    flex-direction: column;
+    width: 70%;
 
-    & .UseCaseCard {
-      background: rgba(255, 255, 255, 0.5);
-      border: 1px solid #085ed5;
-      height: 550px;
-      padding: 40px;
-      width: 32%;
-
-      & .ImageContainer {
-        height: 30%;
-        width: 80%;
-      }
-
-      & .TextContainer {
-        height: 70%;
-        margin-top: 30px;
-      }
+    & .Title {
+      background-color: var(--conun-white);
+      color: var(--conun-blue);
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 95px;
+      padding: 0 auto;
+      padding: 10px 20px;
+      text-align: center;
+      width: 300px;
     }
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .UseCaseSection {
-    padding-top: 100px;
-    width: 100%;
 
     & .CardContainer {
       align-items: center;
       display: flex;
-      flex-direction: column;
+      flex-flow: row wrap;
       justify-content: space-between;
-      padding: 0 20px;
+      row-gap: 46px;
       width: 100%;
 
       & .UseCaseCard {
-        height: auto;
-        width: 80%;
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid #085ed5;
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        justify-content: space-between;
+        max-height: 700px;
+        padding: 40px;
+        width: 32%;
 
         & .ImageContainer {
-          height: 30%;
-          margin-bottom: 0;
+          width: 100%;
+        }
+
+        & .TextContainer {
+          display: flex;
+          flex-direction: column;
+          font-size: 0.8rem;
+          font-weight: normal;
+          height: 80%;
+          justify-content: space-around;
+          line-height: 172%;
         }
       }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .UseCaseSection {
+    & .UseCaseContainer {
+      width: 90%;
     }
   }
 }

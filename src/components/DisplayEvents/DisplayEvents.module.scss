@@ -18,7 +18,25 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
+
+    & .RoadmapCard {
+      background: rgba(255, 255, 255, 0.3);
+      border: 3px solid #fff;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-between;
+      margin-bottom: 53px;
+      padding: 20px;
+      text-align: start;
+      width: 50%;
+
+      & .Description {
+        color: #77aceb;
+        margin-top: 20px;
+      }
+    }
   }
 }
 
@@ -34,7 +52,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    width: 40%;
+    width: 45%;
   }
 
   & .InversedCard {
@@ -42,6 +60,23 @@
     display: flex;
     flex-direction: column;
     width: 40%;
+
+    & .RoadmapCard {
+      background: rgba(255, 255, 255, 0.3);
+      border: 3px solid #fff;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin-bottom: 53px;
+      padding: 20px;
+      text-align: end;
+      width: 50%;
+
+      & .Description {
+        color: #77aceb;
+        margin-top: 20px;
+      }
+    }
   }
 }
 .TitleBox {
@@ -66,47 +101,3 @@
     width: 143px;
   }
 }
-
-@media only screen and (max-width: 800px) {
-  .Cards {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-    & .TitleContainer {
-      align-items: center;
-      width: 100%;
-    }
-    & .CardContainer {
-      align-items: center;
-      width: 100%;
-    }
-  }
-  .InversedCardContainer {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    & .InversedTitle {
-      align-items: center;
-      width: 100%;
-    }
-    & .InversedCard {
-      align-items: center;
-      width: 100%;
-    }
-  }
-
-  .TitleBox {
-    margin-bottom: 30px;
-    width: 80%;
-
-    & > div {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
-  }
-} ;
