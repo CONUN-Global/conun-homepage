@@ -1,8 +1,12 @@
 .ImgCard {
   position: relative;
-  width: 32%;
+  width: 33%;
   @media only screen and (max-width: 768px) {
     width: 100%;
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    width: 50%;
   }
 
   & .TextContainer {
@@ -28,9 +32,11 @@
       }
     }
     & .TextLayoutBottom {
-      font-size: 0.8rem;
-      font-weight: normal;
       width: 100%;
+      & > p {
+        font-size: 0.7rem;
+        font-weight: normal;
+      }
     }
   }
 }

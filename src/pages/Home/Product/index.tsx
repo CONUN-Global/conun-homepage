@@ -37,8 +37,6 @@ function Product() {
             );
           })}
         </div>
-
-        {/* <div className={styles.ProductCardContainer}> */}
         <Horizontal className={styles.ProductCardContainer}>
           <div className={styles.ImageContainer}>{displayCard.image}</div>
           <div className={styles.TextCard}>
@@ -52,7 +50,6 @@ function Product() {
           </div>
         </Horizontal>
       </div>
-      {/* </div> */}
     </div>
   );
 }

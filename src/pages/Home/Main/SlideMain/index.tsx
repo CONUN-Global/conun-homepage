@@ -42,7 +42,6 @@ function SlideMain({
             <Caption
               title={title}
               textSize="medium"
-              color="blue"
               className={styles.Caption}
             />
             <p className={styles.Description}>{description}</p>

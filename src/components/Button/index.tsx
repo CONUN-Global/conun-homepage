@@ -13,7 +13,7 @@ function Button({
   children,
   noStyle,
   className,
-  variant = "secondary",
+  variant = "primary",
   round,
   ...props
 }: ButtonProps) {

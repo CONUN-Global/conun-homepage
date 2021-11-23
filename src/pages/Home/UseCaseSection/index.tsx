@@ -17,7 +17,7 @@ function UseCaseSection() {
               <Vertical key={i} className={styles.UseCaseCard} round>
                 <div className={styles.ImageContainer}>{card.image}</div>
                 <div className={styles.TextContainer}>
-                  <Caption title={card.title} />
+                  <Caption color="blue" title={card.title} />
                   <p className={styles.Description}>{card.description}</p>
                 </div>
               </Vertical>

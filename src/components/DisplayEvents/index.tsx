@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { YearObj } from "@/types/index";
 
 import Vertical from "@/components/Card/Vertical";
@@ -18,20 +19,40 @@ function DisplayEvents({
   isInversed,
 }: DisplayEventsProps) {
   return (
-    <div className={isInversed ? styles.InversedCardContainer : styles.Cards}>
+    <div
+      className={classNames(styles.Cards, { [styles.inversed]: isInversed })}
+    >
       <div
-        className={isInversed ? styles.InversedTitle : styles.TitleContainer}
+        className={classNames(styles.TitleContainer, {
+          [styles.inversed]: isInversed,
+        })}
       >
         <div className={styles.TitleBox}>
-          <div>{name}</div>
+          <div
+            className={classNames(styles.Year, {
+              [styles.inversed]: isInversed,
+            })}
+          >
+            {name}
+          </div>
         </div>
       </div>
-      <div className={isInversed ? styles.InversedCard : styles.CardContainer}>
+      <div
+        className={classNames(styles.CardContainer, {
+          [styles.inversed]: isInversed,
+        })}
+      >
         {content?.map((monthlyEvent: YearObj, i: number) => {
           const { month, title, subtitle } = monthlyEvent;
 
           return (
-            <Vertical key={i} className={styles.RoadmapCard} round>
+            <Vertical
+              key={i}
+              className={classNames(styles.RoadmapCard, {
+                [styles.inversed]: isInversed,
+              })}
+              round
+            >
               <Caption color="green" header={month} title={title} />
               <div className={styles.Description}>{subtitle}</div>
             </Vertical>

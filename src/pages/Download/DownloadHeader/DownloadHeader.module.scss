@@ -5,49 +5,69 @@
   background-size: cover;
   display: flex;
   height: 100vh;
-  padding: 0 200px;
-  position: relative;
+  justify-content: center;
   width: 100%;
 
-  & .BuildingIcon {
-    height: 100%;
-    position: absolute;
-    right: 200px;
-    top: 0;
-    width: 300px;
-    width: 35%;
+  & .SocialIcons {
+    margin-top: 0;
   }
 
-  & .TextContainer {
-    display: flex;
-    flex-direction: row;
+  & .HorizontalCard {
+    color: var(--conun-blue);
+    height: 100%;
+    width: 70%;
 
-    & .Text {
-      color: #1d428a;
-      width: 40%;
-
-      @media screen and (max-width: 800px) {
-        padding: 0 20px;
-      }
-
-      & .Title {
-        font-size: 30px;
-        font-weight: 600;
-        margin-bottom: 18px;
-        text-decoration: uppercase;
-      }
+    & .TextContainer {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
 
       & .Description {
-        font-size: 18px;
-        line-height: 172%;
-        margin-bottom: 32px;
+        color: var(--conun-blue);
+        font-size: 1rem;
+        font-weight: normal;
+        margin-bottom: 28px;
+        margin-top: 18px;
       }
-      & .DownloadButtonContainer {
-        margin-bottom: 32px;
 
+      & .DownloadButtonContainer {
+        margin-top: 38px;
         & .SubTitle {
           margin-bottom: 14px;
         }
+        & .Button {
+          margin-right: 30px;
+        }
+
+        & .ButtonContainer {
+          display: flex;
+        }
+      }
+    }
+    & .ImageContainer {
+      height: 100%;
+      width: 40%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .DownloadContainer {
+    display: flex;
+    flex-direction: column;
+
+    & .SocialIcons {
+      display: none;
+    }
+
+    & .HorizontalCard {
+      width: 90%;
+
+      & .TextContainer {
+        width: 90%;
+      }
+      & .ImageContainer {
+        display: none;
+        position: absolute;
       }
     }
   }

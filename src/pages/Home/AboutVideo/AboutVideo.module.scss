@@ -56,7 +56,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .About {
     align-items: center;
     background-color: var(--conun-bg-blue);
@@ -67,7 +67,8 @@
     & .VideoContainer {
       height: 200px;
       padding: 0 20px;
-      @media (min-width: 768px) and (max-width: 1024px) {
+
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
         height: 500px;
       }
     }

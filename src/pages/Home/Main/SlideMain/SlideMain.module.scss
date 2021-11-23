@@ -10,10 +10,6 @@
   width: 100%;
 
   & .HorizontalCard {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 70%;
 
     & .LeftContainer {
@@ -46,7 +42,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .SlideContainer {
     padding-top: 100px;
 

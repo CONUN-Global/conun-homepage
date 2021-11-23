@@ -24,7 +24,7 @@ export const TEAM_LIST = [
     dept: "Lead",
     title: "CEO, Business, Advisor, Partnership company, Marketing",
     roles: [
-      "Conan Group Chairman/Conan Foundation Chairman",
+      "Conan Group Chairman /Conan Foundation Chairman",
       "Conan Global Co., Ltd.",
       "Conan Foundation.",
       "Conan Korea Co.,Ltd.",
@@ -115,7 +115,7 @@ export const TEAM_LIST = [
     nameEn: "TOBIAS",
     dept: "Development",
     title: "Application Developer",
-    rolesd: ["Decentralized Application", "Front-End Development"],
+    roles: ["Decentralized Application", "Front-End Development"],
     front: toby,
     overlay: tobyOverlay,
   },

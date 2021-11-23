@@ -7,7 +7,6 @@
   font-size: 40px;
   text-align: center;
   width: 100%;
-  // height: 100%;
 
   & .ConunNewsContainer {
     align-items: center;
@@ -48,7 +47,6 @@
     & .CardContainer {
       display: flex;
       flex-flow: row wrap;
-      height: 100%;
       justify-content: space-between;
       margin-bottom: 194px;
       margin-top: 112px;
@@ -58,8 +56,13 @@
       & .Card {
         background-color: var(--conun-white);
         box-shadow: 10px 10px 30px rgba(119, 172, 235, 0.25);
+        max-height: 592px;
         text-align: left;
         width: 48%;
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+        }
 
         & .TextTop {
           padding: 35px;
@@ -84,23 +87,3 @@
     }
   }
 }
-// @media only screen and (max-width: 800px) {
-//   .ConunNews {
-//     font-size: 30px;
-//     padding: 0 20px;
-//     width: 100%;
-
-//     & .CardContainer {
-//       align-items: center;
-//       display: flex;
-//       flex-direction: column;
-//       width: 100%;
-
-//       & .Card {
-//         height: auto;
-//         margin-bottom: 20px;
-//         width: 100%;
-//       }
-//     }
-//   }
-// }

@@ -2,7 +2,7 @@
   color: var(--conun-blue);
 
   & .Header {
-    color: #77aceb;
+    color: var(--conun-blue);
     text-transform: uppercase;
 
     & .Caption {
@@ -16,6 +16,13 @@
         font-size: 1rem;
       }
 
+      &.green {
+        color: #0993b1;
+      }
+
+      &.sky {
+        color: #77aceb;
+      }
       &.costume {
         color: var(--conun-blue);
         font-size: 1.6rem;
@@ -23,14 +30,8 @@
       }
     }
     & .Title {
+      color: var(--conun-blue);
       font-weight: 600;
-
-      &.green {
-        color: #0993b1;
-      }
-      &.blue {
-        color: var(--conun-blue);
-      }
 
       &.small {
         font-size: 1.2rem;
@@ -39,6 +40,7 @@
       &.medium {
         font-size: 1.4rem;
       }
+
       &.costume {
         font-size: 0.8rem;
         font-weight: normal;
@@ -47,7 +49,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .TextContainer {
     & .Title {
       font-weight: 500;
