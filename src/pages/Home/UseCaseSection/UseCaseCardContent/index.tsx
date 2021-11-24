@@ -30,7 +30,7 @@ export const USE_CASE_CONTENT = [
     image: <AI />,
   },
   {
-    title: <Trans id="Academic/sociocultural ISSUES" />,
+    title: <Trans id="Academic / sociocultural ISSUES" />,
     description: (
       <Trans id="Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion." />
     ),

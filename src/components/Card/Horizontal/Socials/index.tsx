@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import Youtube from "@/assets/socials/youtube.svg";
 import Facebook from "@/assets/socials/facebook.svg";
 import Linkedin from "@/assets/socials/linkedin.svg";
@@ -7,9 +8,13 @@ import Medium from "@/assets/socials/medium.svg";
 
 import styles from "./Socials.module.scss";
 
-function Socials() {
+type SocialsProps = {
+  className?: string;
+};
+
+function Socials({ className }: SocialsProps) {
   return (
-    <div className={styles.SocialIcons}>
+    <div className={classNames(styles.SocialIcons, className)}>
       <Youtube className={styles.SocialIcon} />
       <Facebook className={styles.SocialIcon} />
       <Linkedin className={styles.SocialIcon} />

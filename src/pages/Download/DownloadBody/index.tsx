@@ -1,26 +1,36 @@
+import classNames from "classnames";
+
 import { DOWNLOAD_CONTENT } from "./DownloadContent";
 
-import Card, { CardProps } from "@/components/Card";
+import Horizontal from "@/components/Card/Horizontal";
+import Caption from "@/components/Caption";
 
 import styles from "./DownloadBody.module.scss";
 
 function DownloadBody() {
   return (
     <div className={styles.DownloadBody}>
-      {DOWNLOAD_CONTENT.map((download: CardProps, i: number) => (
-        <Card
-          key={i}
-          horizontal
-          color="green"
-          textSize="medium"
-          className={i === 1 ? styles.Card : styles.Reversed}
-          image={download.image}
-          header={download.header}
-          title={download.title}
-          description={download.description}
-          btnMsg={download.btnMsg}
-        />
-      ))}
+      {DOWNLOAD_CONTENT.map((card, index: number) => {
+        return (
+          <Horizontal
+            key={index}
+            className={classNames(styles.HorizontalCard, {
+              [styles.reversed]: index === 1,
+            })}
+          >
+            <div className={styles.TextContainer}>
+              <Caption
+                className={styles.Caption}
+                color="green"
+                header={card.header}
+                title={card.title}
+              />
+              <p className={styles.Description}>{card.description}</p>
+            </div>
+            <div className={styles.ImageContainer}>{card.image}</div>
+          </Horizontal>
+        );
+      })}
     </div>
   );
 }

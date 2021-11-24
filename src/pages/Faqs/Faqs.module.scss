@@ -1,0 +1,29 @@
+.FaqsPage {
+  align-items: center;
+  background: linear-gradient(340.97deg, #77aceb -0.07%, #d6e5f3 99.93%);
+  color: var(--conun-blue);
+  display: flex;
+  flex-direction: column;
+  padding-top: 260px;
+  text-align: center;
+  width: 100%;
+
+  & .Title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  & .Description {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 100px;
+  }
+
+  & .FaqsContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+}

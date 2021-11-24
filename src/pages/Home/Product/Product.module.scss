@@ -1,80 +1,94 @@
-.ProductSelector {
+.ProductPage {
+  align-items: center;
   background-color: var(--conun-bg-blue);
-  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 400px;
   width: 100%;
 
-  & .ProductCardsNav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 110px;
-    width: 100%;
+  & .ProductPageContainer {
+    width: 70%;
 
-    & .PageButtons {
-      text-transform: uppercase;
-      & > .PageButton {
-        color: var(--conun-skyblue);
-        font-size: 20px;
-        font-weight: 500;
-        padding: 5px 10px;
+    & .ProductCardsNav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 110px;
+      width: 100%;
 
-        &:hover {
+      & .PageButtons {
+        text-transform: uppercase;
+        & > .PageButton {
+          color: var(--conun-skyblue);
+          font-size: 20px;
+          font-weight: 500;
+          padding: 5px 10px;
+
+          &:hover {
+            background: linear-gradient(
+              99.17deg,
+              #a0b6e4 12.18%,
+              #83c8e3 106.22%
+            );
+            color: var(--conun-white);
+          }
+        }
+
+        & .Partition {
+          border-right: 1px solid var(--conun-skyblue);
+          margin: 0 10px;
+        }
+      }
+    }
+
+    & .ProductCardContainer {
+      color: #1d428a;
+      height: 643px;
+      width: 100%;
+
+      & .ImageContainer {
+        width: 40%;
+      }
+
+      & .TextCard {
+        width: 40%;
+
+        & .Description {
+          font-size: 1rem;
+          font-weight: normal;
+          line-height: 149%;
+          margin-top: 10px;
+        }
+
+        & .Button {
           background: linear-gradient(
             99.17deg,
             #a0b6e4 12.18%,
             #83c8e3 106.22%
           );
-          color: var(--conun-white);
+          border-radius: 30px;
+          margin-top: 70px;
         }
       }
-
-      & .Partition {
-        border-right: 1px solid var(--conun-skyblue);
-        margin: 0 10px;
-      }
-    }
-  }
-
-  & .ProductCardContainer {
-    align-items: center;
-    color: #1d428a;
-    display: flex;
-    flex-direction: row;
-    height: 643px;
-    justify-content: space-between;
-    width: 100%;
-
-    & .Card {
-      align-items: center;
-      color: var(--conun-blue);
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding-bottom: 150px;
-      width: 100%;
     }
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .ProductSelector {
-    padding: 0 50px;
+  .ProductPage {
     width: 100%;
-
-    & .ProductCardsNav {
-      margin-bottom: 320px;
-
-      & .PageButtons {
-        align-items: center;
+    & .ProductPageContainer {
+      width: 90%;
+      & .ProductCardContainer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-      }
-    }
 
-    & .ProductCardContainer {
-      & .Card {
-        display: flex;
-        flex-direction: column;
+        & .ImageContainer {
+          width: 80%;
+        }
+
+        & .TextCard {
+          width: 100%;
+        }
       }
     }
   }

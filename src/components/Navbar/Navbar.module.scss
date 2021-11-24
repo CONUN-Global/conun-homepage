@@ -4,23 +4,23 @@
   flex-direction: row;
 
   & .NavbarLeft {
+    align-items: center;
     display: flex;
 
+    & .NetworkCircle {
+      background-color: green;
+      border-radius: 50%;
+      height: 10px;
+      margin-right: 10px;
+      width: 10px;
+    }
+    & > p {
+      margin: 0;
+    }
     & > a {
       align-items: center;
       display: flex;
       flex-direction: row;
-
-      & .NetworkCircle {
-        background-color: green;
-        border-radius: 50%;
-        height: 10px;
-        margin-right: 10px;
-        width: 10px;
-      }
-      & > p {
-        margin: 0;
-      }
     }
 
     & .ConunLogo {

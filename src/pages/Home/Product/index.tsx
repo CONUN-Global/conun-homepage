@@ -2,8 +2,9 @@ import { useState } from "react";
 
 import { PRODUCT_CARD } from "./ProductCardContent";
 
-import Card from "@/components/Card";
+import Horizontal from "@/components/Card/Horizontal";
 import Button from "@/components/Button";
+import Caption from "@/components/Caption";
 
 import styles from "./Product.module.scss";
 
@@ -18,36 +19,36 @@ function Product() {
     return setDisplayCard(selectedCard[0]);
   };
   return (
-    <div className={styles.ProductSelector}>
-      <div className={styles.ProductCardsNav}>
-        {PRODUCT_CARD.map((product, i) => {
-          return (
-            <div key={i} className={styles.PageButtons}>
-              <Button
-                className={styles.PageButton}
-                onClick={() => handleCardSelect(product.id)}
-                noStyle
-              >
-                {product.header}
-              </Button>
-              <span className={styles.Partition}></span>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className={styles.ProductCardContainer}>
-        <Card
-          horizontal
-          textSize="medium"
-          color="sky"
-          header={displayCard.header}
-          image={displayCard.image}
-          title={displayCard.title}
-          className={styles.Card}
-          description={displayCard.description}
-          btnMsg={displayCard.btnMsg}
-        />
+    <div className={styles.ProductPage}>
+      <div className={styles.ProductPageContainer}>
+        <div className={styles.ProductCardsNav}>
+          {PRODUCT_CARD.map((product, i) => {
+            return (
+              <div key={i} className={styles.PageButtons}>
+                <Button
+                  className={styles.PageButton}
+                  onClick={() => handleCardSelect(product.id)}
+                  noStyle
+                >
+                  {product.header}
+                </Button>
+                <span className={styles.Partition}></span>
+              </div>
+            );
+          })}
+        </div>
+        <Horizontal className={styles.ProductCardContainer}>
+          <div className={styles.ImageContainer}>{displayCard.image}</div>
+          <div className={styles.TextCard}>
+            <Caption
+              textSize="medium"
+              header={displayCard.header}
+              title={displayCard.title}
+            />
+            <p className={styles.Description}>{displayCard.description}</p>
+            <Button className={styles.Button}>{displayCard.btnMsg}</Button>
+          </div>
+        </Horizontal>
       </div>
     </div>
   );

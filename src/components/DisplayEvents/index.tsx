@@ -1,6 +1,8 @@
+import classNames from "classnames";
 import { YearObj } from "@/types/index";
 
-import Card from "@/components/Card";
+import Vertical from "@/components/Card/Vertical";
+import Caption from "@/components/Caption";
 
 import styles from "./DisplayEvents.module.scss";
 
@@ -17,28 +19,43 @@ function DisplayEvents({
   isInversed,
 }: DisplayEventsProps) {
   return (
-    <div className={isInversed ? styles.InversedCardContainer : styles.Cards}>
+    <div
+      className={classNames(styles.Cards, { [styles.inversed]: isInversed })}
+    >
       <div
-        className={isInversed ? styles.InversedTitle : styles.TitleContainer}
+        className={classNames(styles.TitleContainer, {
+          [styles.inversed]: isInversed,
+        })}
       >
         <div className={styles.TitleBox}>
-          <div>{name}</div>
+          <div
+            className={classNames(styles.Year, {
+              [styles.inversed]: isInversed,
+            })}
+          >
+            {name}
+          </div>
         </div>
       </div>
-      <div className={isInversed ? styles.InversedCard : styles.CardContainer}>
+      <div
+        className={classNames(styles.CardContainer, {
+          [styles.inversed]: isInversed,
+        })}
+      >
         {content?.map((monthlyEvent: YearObj, i: number) => {
           const { month, title, subtitle } = monthlyEvent;
 
           return (
-            <Card
+            <Vertical
               key={i}
-              roadMapCard
-              className={styles.RoadmapCard}
+              className={classNames(styles.RoadmapCard, {
+                [styles.inversed]: isInversed,
+              })}
               round
-              header={month.props.id}
-              title={title.props.id}
-              description={subtitle?.props.id}
-            />
+            >
+              <Caption color="green" header={month} title={title} />
+              <div className={styles.Description}>{subtitle}</div>
+            </Vertical>
           );
         })}
       </div>

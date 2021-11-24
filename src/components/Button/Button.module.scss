@@ -2,33 +2,22 @@
   border: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  height: 35px;
+  min-width: 100px;
+  padding: 10px 20px;
 
   &.primary {
-    background: var(--conun-skyblue-gradient);
+    background: var(--conun-blue-gradient);
     color: var(--conun-white);
   }
 
   &.secondary {
-    background: var(--conun-blue-gradient);
+    background: var(--conun-skyblue-gradient);
     color: var(--conun-white);
   }
 
   &.round {
     border-radius: 20px;
-  }
-
-  &.margin {
-    margin-right: 10px;
-  }
-  &.small {
-    padding: 10px 20px;
-  }
-
-  &.textSmall {
-    font-size: 16px;
-    @media only screen and (max-width: 800px) {
-      font-size: 10px;
-    }
   }
 }
 
