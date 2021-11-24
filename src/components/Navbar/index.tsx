@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import LanguageSelector from "./LanguageSelector";
+
 import { NAV_ITEMS } from "@/components/Navbar/NavbarItems";
 import SideDrawer from "@/components/SideDrawer";
 import Backdrop from "@/components/Backdrop";
@@ -21,40 +22,44 @@ function Navbar() {
     setSideDrawer((prev) => !prev);
   };
 
-  const handleDropdown = () => {
+  const handleBackdrop = () => {
     setSideDrawer(false);
   };
   return (
     <div className={styles.NavbarLayout}>
-      <div className={styles.NavbarLeft}>
-        <Link href="/">
-          <a>
-            <ConunLogo className={styles.ConunLogo} />
-          </a>
-        </Link>
-        <div className={styles.NetworkCircle}></div>
-        <div>Mainnet is live</div>
-      </div>
-      <div className={styles.Spacer}></div>
-      <div className={styles.NavbarRight}>
-        {isMobile ? (
-          <div className={styles.ToolbarVertical}>
-            <div className={styles.Toolbar}>
-              <SideDrawer open={SideDrawerOpen} />
-              <DrawerToggleButton onclick={handleSideDrawer} />
+      <div className={styles.NavbarContainer}>
+        <div className={styles.NavbarLeft}>
+          <Link href="/">
+            <a>
+              <ConunLogo className={styles.ConunLogo} />
+            </a>
+          </Link>
+          <div className={styles.NetworkStatus}>
+            <span className={styles.NetworkCircle}></span>
+            <p>Mainnet is live</p>
+          </div>
+        </div>
+        <div className={styles.Spacer}></div>
+        <div className={styles.NavbarRight}>
+          {isMobile ? (
+            <div className={styles.ToolbarVertical}>
+              <div className={styles.Toolbar}>
+                <SideDrawer open={SideDrawerOpen} />
+                <DrawerToggleButton onclick={handleSideDrawer} />
+              </div>
+              {SideDrawerOpen && <Backdrop onclick={handleBackdrop} />}
             </div>
-            {SideDrawerOpen && <Backdrop onclick={handleDropdown} />}
-          </div>
-        ) : (
-          <div className={styles.ToolbarHorizontal}>
-            {NAV_ITEMS.map((item) => (
-              <Link key={item.id} href={item.path}>
-                <a className={styles.Link}>{item.label}</a>
-              </Link>
-            ))}
-            <LanguageSelector />
-          </div>
-        )}
+          ) : (
+            <div className={styles.ToolbarHorizontal}>
+              {NAV_ITEMS.map((item) => (
+                <Link key={item.id} href={item.path}>
+                  <a className={styles.NavItem}>{item.label}</a>
+                </Link>
+              ))}
+              <LanguageSelector />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
