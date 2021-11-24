@@ -6,14 +6,14 @@
   & .LayoutHeader {
     height: 100%;
     left: 0;
-    padding: 20px 200px;
+    padding: 40px 0;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 99;
 
     @media only screen and (max-width: 800px) {
-      padding: 20px 100px;
+      padding: 20px 0;
     }
   }
 }
