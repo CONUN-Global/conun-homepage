@@ -6,8 +6,6 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
   noStyle?: boolean;
   variant?: "primary" | "secondary";
-  size?: "large" | "medium" | "small";
-  textSize?: "textLarge" | "textMedium" | "textSmall";
   round?: boolean;
 }
 
@@ -16,8 +14,6 @@ function Button({
   noStyle,
   className,
   variant = "primary",
-  size = "small",
-  textSize = "textSmall",
   round,
   ...props
 }: ButtonProps) {
@@ -37,8 +33,7 @@ function Button({
         styles.Button,
         className,
         styles[variant],
-        styles[size],
-        styles[textSize],
+
         { [styles.round]: round },
         className
       )}

@@ -27,15 +27,13 @@ function Navbar() {
   return (
     <div className={styles.NavbarLayout}>
       <div className={styles.NavbarLeft}>
-        <ConunLogo className={styles.ConunLogo} />
-        <div className={styles.NetworkStatus}>
-          <Link href="/">
-            <a>
-              <div className={styles.NetworkCircle}></div>
-              <div>Main net is live</div>
-            </a>
-          </Link>
-        </div>
+        <Link href="/">
+          <a>
+            <ConunLogo className={styles.ConunLogo} />
+          </a>
+        </Link>
+        <div className={styles.NetworkCircle}></div>
+        <div>Mainnet is live</div>
       </div>
       <div className={styles.Spacer}></div>
       <div className={styles.NavbarRight}>

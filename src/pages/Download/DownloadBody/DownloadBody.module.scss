@@ -1,0 +1,35 @@
+.DownloadBody {
+  align-items: center;
+  background-color: var(--conun-bg-blue);
+  color: var(--conun-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 150px;
+  width: 100%;
+
+  & .HorizontalCard {
+    margin-bottom: 100px;
+    width: 70%;
+
+    & .TextContainer {
+      width: 40%;
+
+      & .Description {
+        color: var(--conun-skyblue);
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 149%;
+        margin-top: 14px;
+      }
+    }
+
+    & .ImageContainer {
+      width: 40%;
+    }
+
+    &.reversed {
+      flex-direction: row-reverse;
+    }
+  }
+}

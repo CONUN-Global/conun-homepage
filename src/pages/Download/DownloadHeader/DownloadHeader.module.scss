@@ -1,0 +1,74 @@
+.DownloadContainer {
+  align-items: center;
+  background-image: url("../../../assets/background/main_haader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+
+  & .SocialIcons {
+    margin-top: 0;
+  }
+
+  & .HorizontalCard {
+    color: var(--conun-blue);
+    height: 100%;
+    width: 70%;
+
+    & .TextContainer {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      & .Description {
+        color: var(--conun-blue);
+        font-size: 1rem;
+        font-weight: normal;
+        margin-bottom: 28px;
+        margin-top: 18px;
+      }
+
+      & .DownloadButtonContainer {
+        margin-top: 38px;
+        & .SubTitle {
+          margin-bottom: 14px;
+        }
+        & .Button {
+          margin-right: 30px;
+        }
+
+        & .ButtonContainer {
+          display: flex;
+        }
+      }
+    }
+    & .ImageContainer {
+      height: 100%;
+      width: 40%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .DownloadContainer {
+    display: flex;
+    flex-direction: column;
+
+    & .SocialIcons {
+      display: none;
+    }
+
+    & .HorizontalCard {
+      width: 90%;
+
+      & .TextContainer {
+        width: 90%;
+      }
+      & .ImageContainer {
+        display: none;
+        position: absolute;
+      }
+    }
+  }
+}

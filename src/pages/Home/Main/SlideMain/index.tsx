@@ -1,25 +1,31 @@
 import { useEffect } from "react";
 import { Slide } from "pure-react-carousel";
-import Link from "next/link";
 
-import useStore from "@/store/store";
-import { Pages } from "@/types/index";
+import Horizontal from "@/components/Card/Horizontal";
+import Socials from "@/components/Card/Horizontal/Socials";
+import Caption from "@/components/Caption";
+import Button from "@/components/Button";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
 
-import Youtube from "@/assets/socials/youtube.svg";
-import Facebook from "@/assets/socials/facebook.svg";
-import Linkedin from "@/assets/socials/linkedin.svg";
-import Github from "@/assets/socials/github.svg";
-import Discord from "@/assets/socials/discord.svg";
-import Medium from "@/assets/socials/medium.svg";
+import useStore from "@/store/store";
+
 import styles from "./SlideMain.module.scss";
 
 interface SlideMainProps {
-  page: Pages;
+  page: {
+    caption?: JSX.Element;
+    title: JSX.Element;
+    description?: JSX.Element;
+    image?: JSX.Element;
+    btnMsg?: JSX.Element;
+  };
   index: number;
 }
-function SlideMain({ page, index }: SlideMainProps) {
+function SlideMain({
+  page: { title, description, image, btnMsg },
+  index,
+}: SlideMainProps) {
   const currentSlide = useCarouselContext();
   const setActiveSlide = useStore((state) => state.setActiveSlide);
 
@@ -29,25 +35,24 @@ function SlideMain({ page, index }: SlideMainProps) {
 
   return (
     <Slide innerClassName={styles.SlideContainer} index={index}>
-      <div className={styles.Slides}>
-        <div className={styles.SocialIconContainer}>
-          <Youtube className={styles.SocialIcon} />
-          <Facebook className={styles.SocialIcon} />
-          <Linkedin className={styles.SocialIcon} />
-          <Github className={styles.SocialIcon} />
-          <Discord className={styles.SocialIcon} />
-          <Medium className={styles.SocialIcon} />
+      <Horizontal className={styles.HorizontalCard}>
+        <div className={styles.LeftContainer}>
+          <Socials />
+          <div className={styles.TextContainer}>
+            <Caption
+              title={title}
+              textSize="medium"
+              className={styles.Caption}
+            />
+            <p className={styles.Description}>{description}</p>
+            <Button className={styles.Button} round>
+              {btnMsg}
+            </Button>
+          </div>
         </div>
-        <div className={styles.Main}>
-          <h1 className={styles.Title}>{page.title}</h1>
-          <p className={styles.Description}>{page.description}</p>
-          <Link href="/#about">
-            <a className={styles.LearnMoreButton}>{page.btnMsg}</a>
-          </Link>
-        </div>
-        <div className={styles.Spacers}></div>
-        <div className={styles.IconContainer}>{page.bgIcon}</div>
-      </div>
+
+        <div className={styles.RightContainer}>{image}</div>
+      </Horizontal>
     </Slide>
   );
 }
