@@ -9,8 +9,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: auto;
-    padding: 20%;
 
     & .Title {
       background-color: var(--conun-white);
@@ -28,23 +26,19 @@
       align-items: center;
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-between;
-      row-gap: 46px;
-      width: 100%;
+      gap: 20px 30px;
+      justify-content: center;
+      width: 65%;
 
       & .UseCaseCard {
         background: rgb(255 255 255 / 50%);
         border: 1px solid #085ed5;
         display: flex;
-        flex: 400px 0.5 1;
+        flex: 350px 0.5 0;
         flex-direction: column;
-        gap: 20 46;
-        height: 650px;
-        justify-content: space-between;
-        max-height: 700px;
-        max-width: 500px;
+        max-width: 300px;
+        min-height: 600px;
         padding: 40px;
-        width: 32%;
 
         & .ImageContainer {
           width: 100%;
@@ -58,6 +52,11 @@
           height: 80%;
           justify-content: space-around;
           line-height: 172%;
+          margin-top: 30px;
+
+          & .Description {
+            margin-top: 20px;
+          }
         }
       }
     }
@@ -66,20 +65,14 @@
 @media only screen and (max-width: 800px) {
   .UseCaseSection {
     & .UseCaseContainer {
-      width: 90%;
+      width: 100%;
 
       & .CardContainer {
+        width: 80%;
+
         & .UseCaseCard {
-          height: 500px;
+          min-height: 250px;
           width: 100%;
-
-          & .ImageContainer {
-            width: 70%;
-          }
-
-          & .TextContainer {
-            margin-top: 30px;
-          }
         }
       }
     }
