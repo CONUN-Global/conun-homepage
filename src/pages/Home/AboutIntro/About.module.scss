@@ -4,7 +4,7 @@
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 90vh;
   position: relative;
   width: 100%;
 
@@ -18,7 +18,7 @@
   }
 
   & .RightBlocks {
-    bottom: -90px;
+    bottom: 0;
     opacity: 0.5;
     position: absolute;
     right: 0;
@@ -28,8 +28,7 @@
   & .AboutIntroSection {
     align-items: center;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     padding: 350px 0;
     width: 70%;
@@ -47,10 +46,9 @@
 
       & > .MainTitle {
         background: #a7cfdf;
-        background: -webkit-linear-gradient(#a7cfdf 5%, #23538a 100%);
-        -webkit-background-clip: text;
+        background: linear-gradient(#a7cfdf 5%, #23538a 100%);
         background-clip: text;
-        font-family: "Teko", sans-serif;
+        background-clip: text;
         font-size: 70px;
         font-weight: 600;
         letter-spacing: 0.04em;
@@ -67,11 +65,13 @@
         font-size: 1.8rem;
         text-transform: uppercase;
       }
+
       & .Description {
         font-size: 1.2rem;
         font-weight: 400;
         margin: 21px 0;
       }
+
       & .ButtonContainer {
         margin-top: 50px;
 
@@ -92,10 +92,12 @@
 @media only screen and (max-width: 800px) {
   .AboutPage {
     padding: 100px 20px;
+
     & .AboutIntroSection {
       margin-bottom: 381px;
       padding: 0 20px;
       width: 100%;
+
       & .AboutLeftContainer,
       & .AboutRightContainer {
         flex: 100%;

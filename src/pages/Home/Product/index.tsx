@@ -24,15 +24,12 @@ function Product() {
         <div className={styles.ProductCardsNav}>
           {PRODUCT_CARD.map((product, i) => {
             return (
-              <div key={i} className={styles.PageButtons}>
-                <Button
-                  className={styles.PageButton}
-                  onClick={() => handleCardSelect(product.id)}
-                  noStyle
-                >
-                  {product.header}
-                </Button>
-                <span className={styles.Partition}></span>
+              <div
+                key={i}
+                className={styles.Tab}
+                onClick={() => handleCardSelect(product.id)}
+              >
+                <p className={styles.TabItem}>{product.header}</p>
               </div>
             );
           })}

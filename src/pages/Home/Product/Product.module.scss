@@ -15,13 +15,20 @@
       margin-bottom: 110px;
       width: 100%;
 
-      & .PageButtons {
-        text-transform: uppercase;
-        & > .PageButton {
+      & .Tab {
+        border-right: 1px solid var(--conun-skyblue);
+
+        &:last-child {
+          border: none;
+        }
+
+        & .TabItem {
           color: var(--conun-skyblue);
-          font-size: 20px;
+          font-size: 1rem;
           font-weight: 500;
+          line-height: 30px;
           padding: 5px 10px;
+          text-transform: uppercase;
 
           &:hover {
             background: linear-gradient(
@@ -31,11 +38,6 @@
             );
             color: var(--conun-white);
           }
-        }
-
-        & .Partition {
-          border-right: 1px solid var(--conun-skyblue);
-          margin: 0 10px;
         }
       }
     }
@@ -76,14 +78,28 @@
 @media only screen and (max-width: 800px) {
   .ProductPage {
     width: 100%;
+
     & .ProductPageContainer {
       width: 90%;
-      & .ProductCardContainer {
+
+      & .ProductCardsNav {
         display: flex;
         flex-direction: column;
 
+        & .Tab {
+          border: none;
+          text-align: center;
+          width: 100%;
+        }
+      }
+
+      & .ProductCardContainer {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
         & .ImageContainer {
-          width: 80%;
+          width: 50%;
         }
 
         & .TextCard {

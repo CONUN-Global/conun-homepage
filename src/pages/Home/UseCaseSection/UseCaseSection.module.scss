@@ -9,7 +9,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    height: auto;
+    padding: 20%;
 
     & .Title {
       background-color: var(--conun-white);
@@ -32,13 +33,16 @@
       width: 100%;
 
       & .UseCaseCard {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgb(255 255 255 / 50%);
         border: 1px solid #085ed5;
         display: flex;
+        flex: 400px 0.5 1;
         flex-direction: column;
+        gap: 20 46;
         height: 650px;
         justify-content: space-between;
         max-height: 700px;
+        max-width: 500px;
         padding: 40px;
         width: 32%;
 
@@ -59,10 +63,25 @@
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
   .UseCaseSection {
     & .UseCaseContainer {
       width: 90%;
+
+      & .CardContainer {
+        & .UseCaseCard {
+          height: 500px;
+          width: 100%;
+
+          & .ImageContainer {
+            width: 70%;
+          }
+
+          & .TextContainer {
+            margin-top: 30px;
+          }
+        }
+      }
     }
   }
 }

@@ -2,7 +2,6 @@
   color: var(--conun-blue);
   display: flex;
   flex-direction: row;
-  height: 100%;
   width: 100%;
 
   & .NavbarLeft {
@@ -24,6 +23,7 @@
         margin-right: 10px;
         width: 10px;
       }
+
       & > p {
         margin: 0;
       }
@@ -38,6 +38,7 @@
   & .Spacer {
     flex: 1;
   }
+
   & .NavbarRight {
     & .Link {
       margin-right: 20px;

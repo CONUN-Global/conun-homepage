@@ -10,6 +10,7 @@
   width: 100%;
 
   & .HorizontalCard {
+    position: relative;
     width: 70%;
 
     & .TextContainer {
@@ -25,12 +26,13 @@
           color: var(--conun-blue);
           font-size: 1rem;
           font-weight: normal;
+          margin-bottom: 60px;
           margin-top: 18px;
         }
+
         & .Button {
           font-size: 0.8rem;
           font-weight: 500;
-          margin-top: 60px;
           width: 135px;
         }
       }
@@ -40,67 +42,40 @@
       width: 40%;
     }
   }
+}
+@media only screen and (max-width: 800px) {
+  .SlideContainer {
+    & .HorizontalCard {
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+      height: 70%;
+      width: 90%;
 
-  & .VerticalCard {
-    margin-top: 200px;
-    width: 90%;
+      & .TextContainer {
+        padding: 20px;
+        width: 100%;
 
-    & .ImageContainer {
-      height: 50%;
-      width: 80%;
+        & .TextBox {
+          & .Description {
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+            margin-top: 25px;
+          }
 
-      & .Caption {
-        height: 50%;
-        width: 80%;
+          & .Button {
+            margin-bottom: 50px;
+            margin-top: 25px;
+          }
+        }
       }
-      & .Image {
-        height: 50%;
-        width: 50%;
+
+      & .ImageContainer {
+        bottom: 0;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        position: absolute;
+        right: 0;
       }
-    }
-    & .TextContainer {
-      height: 50%;
-      width: 80%;
     }
   }
 }
-
-// @media only screen and (max-width: 800px) {
-//   .SlideContainer {
-//     // padding-top: 100px;
-
-//     & .HorizontalCard {
-//       display: flex;
-//       align-items: center;
-//       flex-direction: column;
-//       width: 80%;
-//       height: 60%;
-//       margin-top: 20px;
-
-//       & .LeftContainer {
-//         display: flex;
-//         width: 100%;
-//         height: 30%;
-//         order: 2;
-
-//         & .TextContainer {
-//           align-items: center;
-//           & .Description {
-//             margin-top: 10px;
-//           }
-//           & .Button {
-//             margin-top: 30px;
-
-//             width: 90%;
-//           }
-//         }
-//       }
-
-//       & .RightContainer {
-//         width: 60%;
-//         height: 30%;
-//         order: 1;
-//       }
-//     }
-//   }
-// }

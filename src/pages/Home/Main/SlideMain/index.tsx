@@ -2,13 +2,11 @@ import { useEffect } from "react";
 import { Slide } from "pure-react-carousel";
 
 import Horizontal from "@/components/Card/Horizontal";
-import Vertical from "@/components/Card/Vertical";
 import Socials from "@/components/Card/Horizontal/Socials";
 import Caption from "@/components/Caption";
 import Button from "@/components/Button";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
-import useDetactMobile from "@/hooks/useDetactMobile";
 
 import useStore from "@/store/store";
 
@@ -30,51 +28,29 @@ function SlideMain({
 }: SlideMainProps) {
   const currentSlide = useCarouselContext();
   const setActiveSlide = useStore((state) => state.setActiveSlide);
-  const isMobile = useDetactMobile();
   useEffect(() => {
     setActiveSlide(currentSlide);
   }, [currentSlide, setActiveSlide]);
 
   return (
     <Slide innerClassName={styles.SlideContainer} index={index}>
-      {isMobile ? (
-        <Vertical className={styles.VerticalCard}>
-          <div className={styles.ImageContainer}>
+      <Horizontal className={styles.HorizontalCard}>
+        <div className={styles.TextContainer}>
+          <Socials />
+          <div className={styles.TextBox}>
             <Caption
               title={title}
-              textSize="medium"
+              textSize="large"
               className={styles.Caption}
             />
-            <div className={styles.Image}>{image}</div>
-          </div>
-
-          <div className={styles.TextContainer}>
             <p className={styles.Description}>{description}</p>
             <Button className={styles.Button} round>
               {btnMsg}
             </Button>
           </div>
-        </Vertical>
-      ) : (
-        <Horizontal className={styles.HorizontalCard}>
-          <div className={styles.TextContainer}>
-            <Socials />
-            <div className={styles.TextBox}>
-              <Caption
-                title={title}
-                textSize="medium"
-                className={styles.Caption}
-              />
-              <p className={styles.Description}>{description}</p>
-              <Button className={styles.Button} round>
-                {btnMsg}
-              </Button>
-            </div>
-          </div>
-
-          <div className={styles.ImageContainer}>{image}</div>
-        </Horizontal>
-      )}
+        </div>
+        <div className={styles.ImageContainer}>{image}</div>
+      </Horizontal>
     </Slide>
   );
 }
