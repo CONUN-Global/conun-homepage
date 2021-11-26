@@ -32,7 +32,7 @@ function ConunNews() {
                   alt="conun news"
                 />
                 <Caption
-                  textSize="costume"
+                  textSize="custom"
                   className={styles.TextTop}
                   header={news.title}
                   title={news.description}
