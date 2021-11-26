@@ -1,9 +1,16 @@
 import { useState } from "react";
+
 import { YEARS } from "./RoadMapContent";
+
 import DisplayEvents from "@/components/DisplayEvents";
+
+import useDetactMobile from "@/hooks/useDetactMobile";
+
 import makeArc from "@/helpers/makeArc";
 import displayQuarterlyEvent from "@/helpers/displayQuarterlyEvent";
+
 import ArchLine from "@/assets/icons/arch_line.svg";
+
 import styles from "./RoadMapSection.module.scss";
 
 const FIRST = ["Jan", "Feb", "Mar"];
@@ -16,6 +23,7 @@ const YEARS_ARRAY = [2017, 2018, 2019, 2020, 2021, 2022, 2023];
 function RoadMap() {
   const current = new Date();
   const currentYear = current.getFullYear();
+  const isMobile = useDetactMobile();
   const [yearSelected, setYearSelected] = useState(currentYear);
   const getQuarterFour = displayQuarterlyEvent(YEARS[yearSelected], FOURTH);
   const getQuarterThree = displayQuarterlyEvent(YEARS[yearSelected], THIRD);
@@ -64,11 +72,15 @@ function RoadMap() {
                 key={i}
                 onClick={() => handleYearSelect(year)}
                 className={styles.Year}
-                style={{
-                  position: "absolute",
-                  top: top + "%",
-                  left: left + "%",
-                }}
+                style={
+                  isMobile
+                    ? { position: "relative", width: "100%" }
+                    : {
+                        position: "absolute",
+                        top: top + "%",
+                        left: left + "%",
+                      }
+                }
               >
                 {year}
               </div>

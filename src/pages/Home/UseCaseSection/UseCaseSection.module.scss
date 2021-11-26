@@ -3,13 +3,15 @@
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
+  height: 100%;
+  padding-top: 20%;
   width: 100%;
 
   & .UseCaseContainer {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 75%;
 
     & .Title {
       background-color: var(--conun-white);
@@ -27,20 +29,17 @@
       align-items: center;
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-between;
-      row-gap: 46px;
-      width: 100%;
+      gap: 20px 30px;
+      justify-content: center;
+      width: 90%;
 
       & .UseCaseCard {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgb(255 255 255 / 50%);
         border: 1px solid #085ed5;
-        display: flex;
-        flex-direction: column;
-        height: 650px;
-        justify-content: space-between;
-        max-height: 700px;
+        flex: 300px 0 0;
+        height: 500px;
+        min-height: 670px;
         padding: 40px;
-        width: 32%;
 
         & .ImageContainer {
           width: 100%;
@@ -54,15 +53,29 @@
           height: 80%;
           justify-content: space-around;
           line-height: 172%;
+          margin-top: 30px;
+
+          & .Description {
+            margin-top: 20px;
+          }
         }
       }
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
   .UseCaseSection {
     & .UseCaseContainer {
-      width: 90%;
+      width: 100%;
+
+      & .CardContainer {
+        width: 100%;
+
+        & .UseCaseCard {
+          min-height: 250px;
+          width: 100%;
+        }
+      }
     }
   }
 }

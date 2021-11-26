@@ -3,7 +3,6 @@
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
-  padding-bottom: 400px;
   width: 100%;
 
   & .ProductPageContainer {
@@ -12,16 +11,23 @@
     & .ProductCardsNav {
       display: flex;
       justify-content: center;
-      margin-bottom: 110px;
+      margin-bottom: 15%;
       width: 100%;
 
-      & .PageButtons {
-        text-transform: uppercase;
-        & > .PageButton {
+      & .Tab {
+        border-right: 1px solid var(--conun-skyblue);
+
+        &:last-child {
+          border: none;
+        }
+
+        & .TabItem {
           color: var(--conun-skyblue);
-          font-size: 20px;
+          font-size: 1rem;
           font-weight: 500;
+          line-height: 30px;
           padding: 5px 10px;
+          text-transform: uppercase;
 
           &:hover {
             background: linear-gradient(
@@ -32,17 +38,12 @@
             color: var(--conun-white);
           }
         }
-
-        & .Partition {
-          border-right: 1px solid var(--conun-skyblue);
-          margin: 0 10px;
-        }
       }
     }
 
     & .ProductCardContainer {
       color: #1d428a;
-      height: 643px;
+      max-height: 643px;
       width: 100%;
 
       & .ImageContainer {
@@ -65,28 +66,45 @@
             #a0b6e4 12.18%,
             #83c8e3 106.22%
           );
-          border-radius: 30px;
-          margin-top: 70px;
+          border-radius: 20px;
+          margin-top: 20%;
         }
       }
     }
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .ProductPage {
     width: 100%;
+
     & .ProductPageContainer {
       width: 90%;
-      & .ProductCardContainer {
+
+      & .ProductCardsNav {
         display: flex;
         flex-direction: column;
 
+        & .Tab {
+          border: none;
+          text-align: center;
+          width: 100%;
+        }
+      }
+
+      & .ProductCardContainer {
+        background-color: var(--conun-white);
+        flex-direction: column;
+        padding: 10%;
+        text-align: center;
+        width: 100%;
+
         & .ImageContainer {
-          width: 80%;
+          width: 70%;
         }
 
         & .TextCard {
+          margin-top: 10%;
           width: 100%;
         }
       }

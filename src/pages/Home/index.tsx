@@ -1,6 +1,7 @@
 import Main from "./Main";
-import AboutIntro from "./AboutIntro";
-import AboutVideo from "./AboutVideo";
+import Intro from "./Intro";
+import Business from "./Business";
+import Video from "./Video";
 import UseCaseSection from "./UseCaseSection";
 import Product from "./Product";
 import RoadMap from "./RoadMapSection";
@@ -11,8 +12,9 @@ function Home() {
   return (
     <div className={styles.Home}>
       <Main />
-      <AboutIntro />
-      <AboutVideo />
+      <Intro />
+      <Business />
+      <Video />
       <Product />
       <UseCaseSection />
       <RoadMap />

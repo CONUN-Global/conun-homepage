@@ -1,13 +1,12 @@
 import Vertical from "@/components/Card/Vertical";
 import Caption from "@/components/Caption";
 import Button from "@/components/Button";
-import VideoPlayer from "@/components/VideoPlayer";
 
 import { CARD_CONTENT } from "./CardContent";
 
-import styles from "./AboutVideo.module.scss";
+import styles from "./Business.module.scss";
 
-function AboutVideo() {
+function Business() {
   return (
     <div className={styles.About}>
       <div className={styles.AboutCardsSection}>
@@ -28,10 +27,7 @@ function AboutVideo() {
           );
         })}
       </div>
-      <div className={styles.VideoContainer}>
-        <VideoPlayer url={"https://youtu.be/pwkrE2mpIiA"} />
-      </div>
     </div>
   );
 }
-export default AboutVideo;
+export default Business;

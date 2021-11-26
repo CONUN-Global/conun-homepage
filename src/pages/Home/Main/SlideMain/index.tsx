@@ -7,6 +7,7 @@ import Caption from "@/components/Caption";
 import Button from "@/components/Button";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
+import useDetactMobile from "@/hooks/useDetactMobile";
 
 import useStore from "@/store/store";
 
@@ -27,8 +28,9 @@ function SlideMain({
   index,
 }: SlideMainProps) {
   const currentSlide = useCarouselContext();
-  const setActiveSlide = useStore((state) => state.setActiveSlide);
+  const isMobile = useDetactMobile();
 
+  const setActiveSlide = useStore((state) => state.setActiveSlide);
   useEffect(() => {
     setActiveSlide(currentSlide);
   }, [currentSlide, setActiveSlide]);
@@ -36,12 +38,12 @@ function SlideMain({
   return (
     <Slide innerClassName={styles.SlideContainer} index={index}>
       <Horizontal className={styles.HorizontalCard}>
-        <div className={styles.LeftContainer}>
-          <Socials />
-          <div className={styles.TextContainer}>
+        <div className={styles.TextContainer}>
+          {!isMobile && <Socials />}
+          <div className={styles.TextBox}>
             <Caption
               title={title}
-              textSize="medium"
+              textSize="large"
               className={styles.Caption}
             />
             <p className={styles.Description}>{description}</p>
@@ -50,8 +52,7 @@ function SlideMain({
             </Button>
           </div>
         </div>
-
-        <div className={styles.RightContainer}>{image}</div>
+        <div className={styles.ImageContainer}>{image}</div>
       </Horizontal>
     </Slide>
   );
