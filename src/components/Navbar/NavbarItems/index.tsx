@@ -25,9 +25,9 @@ export const NAV_ITEMS = [
     path: "/notices",
   },
   {
-    id: "faq",
+    id: "faqs",
     label: "FAQs",
-    path: "/faq",
+    path: "/faqs",
   },
   {
     id: "learn-more",

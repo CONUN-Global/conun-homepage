@@ -1,3 +1,3 @@
-import FaqsPage from "@/pages/Faqs";
+import Faqs from "@/pages/Faqs";
 
-export default FaqsPage;
+export default Faqs;
