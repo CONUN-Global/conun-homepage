@@ -1,53 +1,72 @@
 .NavbarLayout {
+  align-items: flex-start;
   color: var(--conun-blue);
   display: flex;
-  flex-direction: row;
+  height: 100%;
+  justify-content: center;
   width: 100%;
 
-  & .NavbarLeft {
-    align-items: flex-start;
+  & .NavbarContainer {
+    color: var(--conun-blue);
     display: flex;
-    flex-direction: row;
+    font-size: 0.8rem;
+    width: 70%;
 
-    & .NetworkStatus {
-      & > a {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-      }
-
-      & .NetworkCircle {
-        background-color: green;
-        border-radius: 50%;
-        height: 10px;
-        margin-right: 10px;
-        width: 10px;
-      }
-
-      & > p {
-        margin: 0;
-      }
+    @media only screen and (max-width: 1366px) {
+      width: 90%;
     }
 
-    & .ConunLogo {
-      margin-right: 30px;
-      width: 70px;
-    }
-  }
-
-  & .Spacer {
-    flex: 1;
-  }
-
-  & .NavbarRight {
-    & .Link {
-      margin-right: 20px;
-    }
-
-    & .ToolbarHorizontal {
+    & .NavbarLeft {
+      align-items: center;
       display: flex;
       flex-direction: row;
-      width: 100%;
+      padding: 10px 0;
+
+      & .NetworkStatus {
+        align-items: center;
+        display: flex;
+
+        & .NetworkCircle {
+          background-color: #00ffda;
+          border-radius: 50%;
+          height: 10px;
+          margin-right: 10px;
+          width: 10px;
+        }
+      }
+
+      & .ConunLogo {
+        margin-right: 30px;
+        width: 70px;
+      }
+    }
+
+    & .Spacer {
+      flex: 1;
+    }
+    & .NavbarRight {
+      align-items: center;
+      display: flex;
+
+      & .ToolbarHorizontal {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        & .NavItem {
+          padding: 10px 20px;
+
+          &:hover {
+            background: linear-gradient(
+              99.17deg,
+              #a0b6e4 12.18%,
+              #83c8e3 106.22%
+            );
+            border-radius: 30px;
+            color: var(--conun-white);
+          }
+        }
+      }
     }
   }
 }
