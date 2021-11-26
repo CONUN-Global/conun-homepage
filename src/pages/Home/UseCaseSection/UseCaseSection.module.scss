@@ -3,12 +3,15 @@
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
+  height: 100%;
+  padding-top: 20%;
   width: 100%;
 
   & .UseCaseContainer {
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 75%;
 
     & .Title {
       background-color: var(--conun-white);
@@ -28,16 +31,14 @@
       flex-flow: row wrap;
       gap: 20px 30px;
       justify-content: center;
-      width: 65%;
+      width: 90%;
 
       & .UseCaseCard {
         background: rgb(255 255 255 / 50%);
         border: 1px solid #085ed5;
-        display: flex;
-        flex: 350px 0.5 0;
-        flex-direction: column;
-        max-width: 300px;
-        min-height: 600px;
+        flex: 300px 0 0;
+        height: 500px;
+        min-height: 670px;
         padding: 40px;
 
         & .ImageContainer {
@@ -68,7 +69,7 @@
       width: 100%;
 
       & .CardContainer {
-        width: 80%;
+        width: 100%;
 
         & .UseCaseCard {
           min-height: 250px;

@@ -10,6 +10,7 @@
   width: 100%;
 
   & .HorizontalCard {
+    height: 65%;
     position: relative;
     width: 70%;
 
@@ -33,7 +34,7 @@
         & .Button {
           font-size: 0.8rem;
           font-weight: 500;
-          width: 135px;
+          width: 30%;
         }
       }
     }
@@ -46,25 +47,20 @@
 @media only screen and (max-width: 800px) {
   .SlideContainer {
     & .HorizontalCard {
-      background-color: white;
+      background-color: var(--conun-white);
       box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-      height: 70%;
+      margin-bottom: 30px;
       width: 90%;
 
       & .TextContainer {
-        padding: 20px;
+        padding: 10%;
         width: 100%;
 
         & .TextBox {
-          & .Description {
-            font-size: 1.2rem;
-            margin-bottom: 50px;
-            margin-top: 25px;
-          }
+          z-index: 1;
 
-          & .Button {
-            margin-bottom: 50px;
-            margin-top: 25px;
+          & .Description {
+            font-size: 1rem;
           }
         }
       }
@@ -73,8 +69,10 @@
         bottom: 0;
         margin-bottom: 20px;
         margin-right: 20px;
+        opacity: 0.7;
         position: absolute;
         right: 0;
+        z-index: 0;
       }
     }
   }

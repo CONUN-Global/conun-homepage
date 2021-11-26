@@ -4,9 +4,9 @@ import Button from "@/components/Button";
 
 import { CARD_CONTENT } from "./CardContent";
 
-import styles from "./AboutBusiness.module.scss";
+import styles from "./Business.module.scss";
 
-function AboutBusiness() {
+function Business() {
   return (
     <div className={styles.About}>
       <div className={styles.AboutCardsSection}>
@@ -30,4 +30,4 @@ function AboutBusiness() {
     </div>
   );
 }
-export default AboutBusiness;
+export default Business;

@@ -1,8 +1,8 @@
 import VideoPlayer from "@/components/VideoPlayer";
 
-import styles from "./AboutVideo.module.scss";
+import styles from "./Video.module.scss";
 
-function AboutVideo() {
+function Video() {
   return (
     <div className={styles.VideoPage}>
       <div className={styles.VideoContainer}>
@@ -11,4 +11,4 @@ function AboutVideo() {
     </div>
   );
 }
-export default AboutVideo;
+export default Video;

@@ -1,0 +1,14 @@
+.VideoPage {
+  // align-items: center;
+  background-color: var(--conun-bg-blue);
+  // display: flex;
+  // flex-direction: column;
+  // height: 100vh;
+  padding: 0 20%;
+  padding-bottom: 20%;
+
+  & .VideoContainer {
+    padding-top: 56.25%;
+    position: relative;
+  }
+}

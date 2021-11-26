@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import LanguageSelector from "./LanguageSelector";
+
 import { NAV_ITEMS } from "@/components/Navbar/NavbarItems";
 import SideDrawer from "@/components/SideDrawer";
 import Backdrop from "@/components/Backdrop";

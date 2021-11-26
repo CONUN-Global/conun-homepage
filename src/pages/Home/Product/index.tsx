@@ -34,7 +34,7 @@ function Product() {
             );
           })}
         </div>
-        <Horizontal className={styles.ProductCardContainer}>
+        <Horizontal round className={styles.ProductCardContainer}>
           <div className={styles.ImageContainer}>{displayCard.image}</div>
           <div className={styles.TextCard}>
             <Caption
