@@ -1,0 +1,36 @@
+.LogoBox {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .ConunLogo {
+    height: 100px;
+    width: 57px;
+  }
+}
+
+.Social {
+  align-items: center;
+  border-top: 1px solid var(--conun-blue);
+  border-bottom: 1px solid var(--conun-blue);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 6px 0;
+
+  & .SocialLinks {
+    flex-direction: row;
+  }
+}
+
+.Date {
+  height: 107px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: var(--conun-blue);
+  font-size: 20px;
+  line-height: 0px;
+  letter-spacing: 0.105em;
+}

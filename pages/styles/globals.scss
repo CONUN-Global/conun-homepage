@@ -8,10 +8,8 @@
   --conun-skyblue: #77aceb;
   --conun-white: #fff;
   --conun-green: #0993b1;
-
-  // shadow
-
-  --conun-blue-shadow: 10px 10px 30px rgba(51, 88, 159, 0.3);
+  --secondary-background-color: #d6e5f3;
+  --conun-blue-shadow: 10px 10px 30px rgb(51 88 159 / 30%);
   --conun-blue-gradient: linear-gradient(
     99.17deg,
     #77aceb 12.18%,
@@ -32,7 +30,7 @@
 
 html,
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: Barlow, sans-serif;
   font-weight: 500;
   height: 100%;
 }

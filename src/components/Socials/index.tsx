@@ -8,13 +8,18 @@ import Medium from "@/assets/socials/medium.svg";
 
 import styles from "./Socials.module.scss";
 
-type SocialsProps = {
-  className?: string;
-};
+type Align = "vertical" | "horizontal";
 
-function Socials({ className }: SocialsProps) {
+interface Props {
+  className?: string;
+  alignment?: Align;
+}
+
+function Socials({ className, alignment = "vertical" }: Props) {
   return (
-    <div className={classNames(styles.SocialIcons, className)}>
+    <div
+      className={classNames(styles.SocialIcons, styles[alignment], className)}
+    >
       <Youtube className={styles.SocialIcon} />
       <Facebook className={styles.SocialIcon} />
       <Linkedin className={styles.SocialIcon} />
