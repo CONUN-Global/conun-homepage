@@ -1,3 +1,8 @@
-.List {
-  height: 300px;
+.ListContainer {
+  font-weight: bold;
+
+  & .List {
+    display: flex;
+    flex-direction: column;
+  }
 }

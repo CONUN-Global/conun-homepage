@@ -24,9 +24,10 @@
         color: #77aceb;
       }
 
-      &.costume {
+      &.custom {
         color: var(--conun-blue);
-        font-size: 1.6rem;
+        color: #2b70cf;
+        font-size: 1.2rem;
         font-weight: 600;
       }
     }
@@ -48,6 +49,7 @@
       }
 
       &.custom {
+        color: #2b70cf;
         font-size: 0.8rem;
         font-weight: normal;
       }

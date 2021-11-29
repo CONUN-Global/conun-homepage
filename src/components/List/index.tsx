@@ -10,11 +10,13 @@ type ItemProps = {
 };
 function List({ section, items }: ListProps) {
   return (
-    <div className={style.List}>
+    <div className={style.ListContainer}>
       <p>{section}</p>
-      {items.map((item, i: number) => (
-        <Item key={i} name={item.name} path={item.path} />
-      ))}
+      <div className={style.List}>
+        {items.map((item, i: number) => (
+          <Item key={i} name={item.name} path={item.path} />
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,73 +1,73 @@
 export const CONTENT = [
   {
-    section: "company",
+    section: "COMPANY",
     items: [
       {
         name: "About Us",
-        path: "",
+        path: "/",
       },
       {
         name: "Contact Us",
-        path: "",
+        path: "/home",
       },
 
       {
         name: "Terms of Service",
-        path: "",
+        path: "/download",
       },
       {
         name: "Privacy Policy",
-        path: "",
+        path: "https://conun.io/policy/privacypolicy",
       },
       {
         name: "White Paper",
-        path: "",
+        path: "/whitepaper",
       },
     ],
   },
   {
-    section: "solution",
+    section: "SOLUTION",
     items: [
       {
         name: "Distributed Computing",
-        path: "",
+        path: "/donwload",
       },
       {
         name: "Private Blockchain",
-        path: "",
+        path: "/download",
       },
       {
         name: "Explore",
-        path: "",
+        path: "https://conscan.conun.io/",
       },
       {
         name: "Wallet",
-        path: "",
+        path: "/faqs",
       },
     ],
   },
   {
-    section: "social",
+    section: "SOCIAL",
     items: [
       {
         name: "Youtube",
-        path: "",
+        path: "https://www.youtube.com/channel/UCVbpETcXaPRZkL2HACUXOsA",
       },
       {
         name: "Medium",
-        path: "",
+        path: "https://medium.com/conun-korea",
       },
       {
         name: "Discord",
-        path: "",
+        path: "https://discord.com/invite/VvXvQfa3Za",
       },
       {
         name: "Telegram",
-        path: "",
+        path: "/faqs",
       },
       {
         name: "Github",
-        path: "",
+        path: "https://github.com/CONUN-Global",
       },
     ],
   },

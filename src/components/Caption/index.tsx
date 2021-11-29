@@ -7,7 +7,7 @@ export interface CaptionProps {
   title: JSX.Element;
   className?: string;
   color?: "green" | "sky" | "blue";
-  textSize?: "small" | "medium" | "large" | "costume";
+  textSize?: "small" | "medium" | "large" | "custom";
 }
 
 function Caption({
