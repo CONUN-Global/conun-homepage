@@ -1,10 +1,5 @@
 export const NAV_ITEMS = [
   {
-    id: "search",
-    label: "Search",
-    path: "/",
-  },
-  {
     id: "products",
     label: "Products",
     path: "/products",
@@ -16,22 +11,17 @@ export const NAV_ITEMS = [
   },
   {
     id: "download",
-    label: "For Developers",
+    label: "Download",
     path: "/download",
   },
   {
-    id: "notices",
-    label: "Notices",
-    path: "/notices",
+    id: "news",
+    label: "News",
+    path: "/news",
   },
   {
     id: "faqs",
     label: "FAQs",
     path: "/faqs",
-  },
-  {
-    id: "learn-more",
-    label: "Learn More",
-    path: "/learn-more",
   },
 ];
