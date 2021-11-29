@@ -6,6 +6,7 @@ import UseCaseSection from "./UseCaseSection";
 import Product from "./Product";
 import RoadMap from "./RoadMapSection";
 import ConunNews from "./ConunNews";
+import Footer from "./Footer";
 import styles from "./Home.module.scss";
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <UseCaseSection />
       <RoadMap />
       <ConunNews />
+      <Footer />
     </div>
   );
 }

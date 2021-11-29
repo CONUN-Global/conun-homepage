@@ -6,7 +6,7 @@
     bottom: 15%;
     margin-left: 50%;
     position: absolute;
-    z-index: 90;
+    z-index: 100;
 
     & .Dot {
       background-color: var(--conun-white);
@@ -15,6 +15,7 @@
       height: 9px;
       width: 9px;
     }
+
     & .active {
       background-color: var(--conun-blue);
     }

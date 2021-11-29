@@ -1,12 +1,13 @@
 import Image from "next/image";
-import classNames from "classnames";
-import { CONUN_NEWS } from "./ConunNewsContent";
+
+import { SOCIAL_LINKS } from "./SocialLinks";
+import { CONUN_NEWS } from "./Content";
 
 import Vertical from "@/components/Card/Vertical";
 import Caption from "@/components/Caption";
 import Button from "@/components/Button";
+import Item from "@/components/List/Item";
 
-import Github from "@/assets/icons/github.svg";
 import styles from "./ConunNews.module.scss";
 
 function ConunNews() {
@@ -15,9 +16,9 @@ function ConunNews() {
       <div className={styles.ConunNewsContainer}>
         <p>Join Conun&apos;s open source community</p>
         <div className={styles.Community}>
-          <div className={classNames(styles.IconBox, styles.Github)}>
-            <Github className={styles.Icon} />
-          </div>
+          {SOCIAL_LINKS.map((link, index: number) => {
+            return <Item key={index} icon={link.icon} path={link.path} />;
+          })}
         </div>
         <p className={styles.Title}>CONUN NEWS</p>
         <div className={styles.CardContainer}>
