@@ -1,7 +1,7 @@
 .LogoBox {
-  height: 140px;
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 140px;
   justify-content: center;
 
   & .ConunLogo {
@@ -12,12 +12,12 @@
 
 .Social {
   align-items: center;
-  border-top: 1px solid var(--conun-blue);
   border-bottom: 1px solid var(--conun-blue);
+  border-top: 1px solid var(--conun-blue);
   display: flex;
   justify-content: center;
-  width: 100%;
   padding: 6px 0;
+  width: 100%;
 
   & .SocialLinks {
     flex-direction: row;
@@ -25,12 +25,12 @@
 }
 
 .Date {
-  height: 107px;
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
   color: var(--conun-blue);
+  display: flex;
   font-size: 20px;
-  line-height: 0px;
+  height: 70px;
+  justify-content: center;
   letter-spacing: 0.105em;
+  line-height: 0px;
+  padding-top: 20px;
 }
