@@ -33,3 +33,24 @@
     }
   }
 }
+@media only screen and (max-width: 800px) {
+  .DownloadBody {
+    & .HorizontalCard {
+      flex-direction: column;
+      width: 90%;
+
+      & .TextContainer {
+        width: 90%;
+      }
+
+      & .ImageContainer {
+        padding: 20%;
+        width: 100%;
+      }
+
+      &.reversed {
+        flex-direction: column;
+      }
+    }
+  }
+}
