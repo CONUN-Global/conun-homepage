@@ -30,3 +30,11 @@ export type DownloadMenu = {
   icon: React.ReactNode;
   links: string[];
 };
+
+// NewsData type will change when API is connected
+export type NewsDataObj = {
+  id: number;
+  title: string;
+  date: string;
+  link: string;
+};

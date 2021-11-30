@@ -2,13 +2,13 @@
   "extends": ["stylelint-config-standard", "stylelint-prettier/recommended"],
   "plugins": ["stylelint-order", "stylelint-prettier"],
   "rules": {
+    "declaration-block-no-redundant-longhand-properties": null,
     "order/properties-alphabetical-order": true,
     "prettier/prettier": true,
     "selector-pseudo-class-no-unknown": [
       true,
       { "ignorePseudoClasses": ["global"] }
     ],
-     "selector-class-pattern": null
+    "selector-class-pattern": null
   }
- 
 }

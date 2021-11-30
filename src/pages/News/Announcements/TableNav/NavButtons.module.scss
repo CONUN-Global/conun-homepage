@@ -1,0 +1,19 @@
+.NavButtons {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 0 60px;
+  width: 100%;
+
+  & .Button {
+    color: var(--illustration-blue);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}
