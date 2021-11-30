@@ -2,8 +2,8 @@
   border-bottom: 1px solid var(--conun-blue);
   display: grid;
   grid-template-areas:
-    "title title" 1fr 1fr
-    "date link" 3fr 1fr;
+    "title title"
+    "date link";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 3fr 1fr;
   height: 116px;
