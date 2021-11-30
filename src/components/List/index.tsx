@@ -1,13 +1,12 @@
 import Item from "./Item";
+import { StringKeyObj } from "../../../types";
 import style from "./List.module.scss";
 
 interface ListProps {
   section: string;
-  items: ItemProps[];
+  items: StringKeyObj[];
 }
-type ItemProps = {
-  [key: string]: string;
-};
+
 function List({ section, items }: ListProps) {
   return (
     <div className={style.ListContainer}>
