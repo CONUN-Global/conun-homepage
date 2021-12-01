@@ -3,20 +3,20 @@ import { Slide } from "pure-react-carousel";
 
 import VideoCard from "@/components/VideoCard";
 
-import { VideoDataObj } from "@/types/index";
+import { NewsDataObj } from "@/types/index";
 
 import styles from "./VideoSlide.module.scss";
 
 interface Props {
-  videoData: VideoDataObj;
+  newsData: NewsDataObj;
   slideIndex: number;
 }
 
-function VideoSlide({ slideIndex, videoData }: Props) {
+function VideoSlide({ slideIndex, newsData }: Props) {
   return (
     <Slide index={slideIndex}>
       <div className={styles.VideoSlide}>
-        <VideoCard videoData={videoData} size={"small"} />
+        <VideoCard newsData={newsData} size={"small"} />
       </div>
     </Slide>
   );

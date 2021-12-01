@@ -36,14 +36,8 @@ export type NewsDataObj = {
   id: number;
   title: string;
   date: string;
-  link: string;
-};
-
-export type VideoDataObj = {
-  videoSrc: string;
-  title: string;
-  caption: string;
-  date: string;
+  url: string;
   source: string;
+  caption: string;
   author: string;
 };

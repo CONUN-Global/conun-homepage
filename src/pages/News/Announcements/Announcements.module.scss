@@ -1,6 +1,14 @@
 .Announcements {
-  height: 100%;
-  width: 470px;
   background-color: white;
   border-radius: 10px;
+  height: 100%;
+  width: 470px;
+
+  & .Cell {
+    border-bottom: 1px solid var(--conun-blue);
+    color: var(--conun-blue);
+    height: 115px;
+    padding: 20px 60px;
+    width: 100%;
+  }
 }

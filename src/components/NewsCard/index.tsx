@@ -1,14 +1,14 @@
 import React from "react";
 import classNames from "classnames";
 
-import { VideoDataObj } from "@/types/index";
+import { NewsDataObj } from "@/types/index";
 
 import styles from "./NewsCard.module.scss";
 
 type Size = "small" | "large";
 
 interface Props {
-  videoData: VideoDataObj;
+  newsData: NewsDataObj;
   size: Size;
 }
 
@@ -39,20 +39,20 @@ function DateAndLink({ source, date, size }: DateLinkProps) {
   );
 }
 
-function NewsCard({ videoData, size }: Props) {
+function NewsCard({ newsData, size }: Props) {
   return (
     <div className={classNames(styles.NewsCard, styles[size])}>
-      <div className={styles.Title}>{videoData.title}</div>
+      <div className={styles.Title}>{newsData.title}</div>
       {size == "large" && (
-        <div className={styles.Caption}>{videoData.caption}</div>
+        <div className={styles.Caption}>{newsData.caption}</div>
       )}
       <DateAndLink
-        link={videoData.videoSrc}
-        source={videoData.source}
+        link={newsData.url}
+        source={newsData.source}
         size={size}
-        date={videoData.date}
+        date={newsData.date}
       />
-      <Author picture="C" name={videoData.author} />
+      <Author picture="C" name={newsData.author} />
     </div>
   );
 }

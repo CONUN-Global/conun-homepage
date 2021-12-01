@@ -4,22 +4,22 @@ import classNames from "classnames";
 import NewsCard from "@/components/NewsCard";
 import VideoPlayer from "@/components/VideoPlayer";
 
-import { VideoDataObj } from "@/types/index";
+import { NewsDataObj } from "@/types/index";
 
 import styles from "./VideoCard.module.scss";
 
 interface Props {
-  videoData: VideoDataObj;
+  newsData: NewsDataObj;
   size: "small" | "large";
 }
 
-function VideoCard({ videoData, size }: Props) {
+function VideoCard({ newsData, size }: Props) {
   return (
     <div className={classNames(styles.VideoCard, styles[size])}>
       <div className={classNames(styles.Video, styles[size])}>
-        <VideoPlayer url={videoData.videoSrc} />
+        <VideoPlayer url={newsData.url} />
       </div>
-      <NewsCard videoData={videoData} size={size} />
+      <NewsCard newsData={newsData} size={size} />
     </div>
   );
 }

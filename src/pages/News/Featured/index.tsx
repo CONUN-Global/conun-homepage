@@ -1,11 +1,11 @@
 import React from "react";
 
+import CellHeader from "@/components/CellHeader";
 import VideoCard from "@/components/VideoCard";
 
 import styles from "./Featured.module.scss";
 
-import data from "./featuredData.json";
-import CellHeader from "@/components/CellHeader";
+import data from "../newsData.json";
 
 // This component will probably handle fetching the featured data
 
@@ -14,7 +14,7 @@ function Featured() {
     <div className={styles.Featured}>
       <CellHeader>Featured</CellHeader>
       <div className={styles.VideoCard}>
-        <VideoCard videoData={data} size={"large"} />
+        <VideoCard newsData={data[0]} size={"large"} />
       </div>
     </div>
   );
