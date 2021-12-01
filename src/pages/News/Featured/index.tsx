@@ -13,7 +13,9 @@ function Featured() {
   return (
     <div className={styles.Featured}>
       <CellHeader>Featured</CellHeader>
-      <VideoCard videoData={data} size={"large"} />
+      <div className={styles.VideoCard}>
+        <VideoCard videoData={data} size={"large"} />
+      </div>
     </div>
   );
 }
