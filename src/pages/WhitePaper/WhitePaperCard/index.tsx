@@ -30,56 +30,54 @@ interface WhitePaperCardProps {
 }
 function WhitePaperCard({ whitePaper }: WhitePaperCardProps) {
   const isWhitePaperGreen = whitePaper === "technology";
-  const [isLangSelectorOpen, setLanguageSelector] = useState(true);
+  const [isLanguageDropdownOpen, setLanguageDropdown] = useState(true);
   const [language, setLanguage] = useState("English");
 
   return (
     <div
+      onClick={() => setLanguageDropdown((prev) => !prev)}
       className={classNames(styles.WhitePaperCard, {
         [styles.whitepaperGreen]: isWhitePaperGreen,
       })}
     >
-      <h3 className={styles.Title}>
-        <Trans id="{type} whitepaper" values={{ type: whitePaper }} />
-      </h3>
-      <p className={styles.Description}>
-        <Trans
-          id="To know more about Conan's {type}, download Conan's white paper."
-          values={{ type: whitePaper }}
-        />
-      </p>
-
-      <p>PDF Download</p>
-      <div className={styles.LanguageSelector}>
-        <div
-          onClick={() => {
-            setLanguageSelector((prev) => !prev);
-          }}
-          className={classNames(
-            isWhitePaperGreen ? styles.SelectedGreen : styles.SelectedBlue
-          )}
-        >
-          <WorldIcon className={styles.WorldIcon} />
-          <p>{language}</p>
-        </div>
-        {isLangSelectorOpen && (
-          <ul className={styles.LanguageOptions}>
-            {LANGUAGE.filter((lang) => lang.name !== language).map(
-              (lang, i: number) => (
+      <div className={styles.TextContainer}>
+        <h3 className={styles.Title}>
+          <Trans id="{type} whitepaper" values={{ type: whitePaper }} />
+        </h3>
+        <p className={styles.Description}>
+          <Trans
+            id="To know more about Conan's {type}, download Conan's white paper."
+            values={{ type: whitePaper }}
+          />
+        </p>
+      </div>
+      <div className={styles.DropdownContainer}>
+        <p>PDF Download</p>
+        <div className={styles.LanguageSelector}>
+          <div
+            className={classNames(
+              isWhitePaperGreen ? styles.SelectedGreen : styles.SelectedBlue
+            )}
+          >
+            <WorldIcon className={styles.WorldIcon} />
+            <p>{language}</p>
+          </div>
+          {isLanguageDropdownOpen && (
+            <ul className={styles.LanguageOptions}>
+              {LANGUAGE.map((lang, i: number) => (
                 <DropdownLink
                   onclick={() => {
                     setLanguage(lang.name);
-                    setLanguageSelector((prev) => !prev);
                   }}
                   key={i}
                   name={lang.name}
                   link={lang.path}
                   isWhitePaperGreen={isWhitePaperGreen}
                 />
-              )
-            )}
-          </ul>
-        )}
+              ))}
+            </ul>
+          )}
+        </div>
       </div>
     </div>
   );
