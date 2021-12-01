@@ -1,0 +1,110 @@
+.Grid {
+  --large-height: 360px;
+  --small-height: 190px;
+
+  display: grid;
+  width: 100%;
+  color: var(--conun-blue);
+
+  &.large {
+    grid-template-areas:
+      "video video"
+      "title title"
+      "caption caption"
+      "date author";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: var(--large-height) 1fr 2fr 1fr;
+    padding: 5% 10%;
+  }
+
+  &.small {
+    grid-template-areas:
+      "video video"
+      "title title"
+      "date author";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: var(--small-height) 1fr 1fr;
+    gap: 5px;
+  }
+
+  & .Video {
+    grid-area: video;
+    position: relative;
+
+    &.small {
+      max-height: 190px;
+    }
+
+    &.large {
+      max-height: 360px;
+    }
+  }
+
+  & .Title {
+    font-size: 18px;
+    font-weight: 600;
+    grid-area: title;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+
+  & .Caption {
+    font-size: 14px;
+    font-weight: 400;
+    grid-area: caption;
+  }
+
+  & .DateLabel {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    gap: 6px;
+    grid-area: date;
+
+    &.large {
+      font-size: 14px;
+    }
+
+    &.small {
+      font-size: 11px;
+    }
+
+    & .Source {
+      text-transform: uppercase;
+    }
+  }
+
+  & .Author {
+    align-items: center;
+    color: var(--topic-text-blue);
+    display: flex;
+    font-size: 11px;
+    grid-area: author;
+    height: 28px;
+    justify-self: flex-end;
+
+    & .Picture {
+      align-items: center;
+      background-color: blueviolet;
+      border-radius: 50%;
+      color: lightgreen;
+      display: flex;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      height: 28px;
+      justify-content: center;
+      margin-right: 14px;
+      width: 28px;
+    }
+
+    & .By {
+      margin-right: 5px;
+    }
+
+    & .Name {
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+}
