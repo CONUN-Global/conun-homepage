@@ -30,3 +30,7 @@ export type DownloadMenu = {
   icon: React.ReactNode;
   links: string[];
 };
+
+export type StringKeyObj = {
+  [key: string]: string;
+};

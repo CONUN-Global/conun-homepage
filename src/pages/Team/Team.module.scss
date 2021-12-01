@@ -1,43 +1,104 @@
 .TeamPage {
   align-items: center;
   background-color: var(--conun-bg-blue);
+  color: var(--conun-blue);
   display: flex;
   flex-direction: column;
-  padding: 200px 0;
+  padding-top: 10%;
   width: 100%;
 
   & .TeamIntroContainer {
-    height: 40%;
-    margin-bottom: 250px;
-    position: relative;
-    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 60%;
 
-    & .ConunLogo {
-      height: 100%;
-      width: 100%;
+    @media only screen and (max-width: 800px) {
+      width: 90%;
     }
 
-    & .ConunTitleContainer {
+    & .LogoContainer {
       align-items: center;
       display: flex;
-      height: 100%;
+      flex-direction: column;
+      height: 40%;
       justify-content: center;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
+      position: relative;
+      width: 60%;
+
+      & .ConunLogo {
+        position: absolute;
+        width: 100%;
+      }
 
       & .ConunTitle {
-        color: var(--conun-blue);
-        font-size: 5rem;
+        font-size: 2rem;
         font-weight: 600;
+        z-index: 2;
 
-        @media only screen and (min-width: 769px) and (max-width: 1281px) {
-          font-size: 2rem;
+        @media only screen and (max-width: 800px) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    & .TextContainer {
+      font-size: 1rem;
+      font-weight: normal;
+      height: 60%;
+      line-height: 149%;
+      margin-top: 10%;
+      text-align: center;
+      width: 100%;
+
+      @media only screen and (max-width: 800px) {
+        margin-top: 0;
+        width: 90%;
+      }
+
+      & .Title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        margin-bottom: 5%;
+        text-transform: uppercase;
+      }
+
+      & .TeamTabContainer {
+        color: #0993b1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5%;
+        width: 100%;
+
+        @media only screen and (max-width: 800px) {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
         }
 
-        @media only screen and (max-width: 768px) {
-          font-size: 1rem;
+        & .Tab {
+          border-right: 1px solid #0993b1;
+          padding: 0 10px;
+
+          @media only screen and (max-width: 800px) {
+            border: none;
+          }
+
+          &:hover {
+            background-color: #dae5f0;
+            cursor: pointer;
+          }
+
+          & .TabItem {
+            font-size: 0.8rem;
+            font-weight: 500;
+            line-height: 149%;
+            padding: 10px;
+            width: 100%;
+          }
         }
       }
     }
@@ -50,49 +111,11 @@
     flex-direction: column;
     justify-content: space-around;
     row-gap: 30px;
-    width: 80%;
+    width: 70%;
 
-    & h3 {
-      font-size: 2.5rem;
-      text-transform: uppercase;
-    }
-
-    & p {
-      font-size: 1rem;
-      width: 60%;
-    }
-
-    & .TeamTabContainer {
-      color: #0993b1;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin-bottom: 120px;
-      width: 100%;
-
-      @media only screen and (max-width: 800px) {
-        display: flex;
-        flex-direction: column;
-        padding: 50px;
-      }
-
-      & .Tab {
-        border-right: 1px solid #0993b1;
-        padding: 0 10px;
-
-        & .TabItem {
-          font-size: 0.8px;
-          font-weight: 500;
-          line-height: 149%;
-          padding: 10px;
-          width: 100%;
-
-          &:hover {
-            background-color: #dae5f0;
-            cursor: pointer;
-          }
-        }
-      }
+    @media only screen and (max-width: 800px) {
+      border: none;
+      margin-top: 10%;
     }
 
     & .TeamImageContainer {
