@@ -4,7 +4,7 @@ import { YEARS } from "./RoadMapContent";
 
 import DisplayEvents from "@/components/DisplayEvents";
 
-import useDetectMbile from "@/hooks/useDetectMbile";
+import useDetectMobile from "@/hooks/useDetectMobile";
 
 import makeArc from "@/helpers/makeArc";
 import displayQuarterlyEvent from "@/helpers/displayQuarterlyEvent";
@@ -23,7 +23,7 @@ const YEARS_ARRAY = [2017, 2018, 2019, 2020, 2021, 2022, 2023];
 function RoadMap() {
   const current = new Date();
   const currentYear = current.getFullYear();
-  const isMobile = useDetectMbile();
+  const isMobile = useDetectMobile();
   const [yearSelected, setYearSelected] = useState(currentYear);
   const getQuarterFour = displayQuarterlyEvent(YEARS[yearSelected], FOURTH);
   const getQuarterThree = displayQuarterlyEvent(YEARS[yearSelected], THIRD);
