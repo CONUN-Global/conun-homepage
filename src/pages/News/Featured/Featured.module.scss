@@ -1,6 +1,84 @@
 .Featured {
-  height: 625px;
-  width: 715px;
   background-color: white;
   border-radius: 10px;
+  color: var(--conun-blue);
+  height: 625px;
+  width: 715px;
+
+  & .FeaturedGrid {
+    display: grid;
+    grid-template-areas:
+      "video video"
+      "title title"
+      "caption caption"
+      "date author";
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 360px 1fr 2fr 1fr;
+    padding: 24px 60px;
+  }
+
+  & .Video {
+    grid-area: video;
+  }
+
+  & .Title {
+    font-size: 20px;
+    font-weight: 600;
+    grid-area: title;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+
+  & .Caption {
+    font-size: 14px;
+    font-weight: 400;
+    grid-area: caption;
+  }
+
+  & .DateLabel {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 6px;
+    grid-area: date;
+
+    & .Source {
+      text-transform: uppercase;
+    }
+  }
+
+  & .Author {
+    align-items: center;
+    color: var(--topic-text-blue);
+    display: flex;
+    font-size: 11px;
+    grid-area: author;
+    height: 28px;
+    justify-self: flex-end;
+
+    & .Picture {
+      align-items: center;
+      background-color: blueviolet;
+      border-radius: 50%;
+      color: lightgreen;
+      display: flex;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      height: 28px;
+      justify-content: center;
+      margin-right: 14px;
+      width: 28px;
+    }
+
+    & .By {
+      margin-right: 5px;
+    }
+
+    & .Name {
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
 }
