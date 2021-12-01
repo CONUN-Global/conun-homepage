@@ -1,9 +1,16 @@
-export const NAV_ITEMS = [
+export const NAV_PRODUCTS = [
   {
-    id: "products",
-    label: "Products",
-    path: "/products",
+    id: "dsc",
+    label: "DSC",
+    path: "/products/dsc",
   },
+  {
+    id: "cpbn",
+    label: "CPBN",
+    path: "/products/cpbn",
+  },
+];
+export const NAV_ITEMS = [
   {
     id: "team",
     label: "Team",

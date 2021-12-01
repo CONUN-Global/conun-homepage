@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import classNames from "classnames";
 
-import LanguageSelector from "./LanguageSelector";
+import LanguageSelector from "../LanguageSelector";
 
-import { NAV_ITEMS } from "@/components/Navbar/NavbarItems";
+import { NAV_ITEMS, NAV_PRODUCTS } from "@/components/Navbar/NavbarItems";
 import SideDrawer from "@/components/SideDrawer";
 import Backdrop from "@/components/Backdrop";
 import DrawerToggleButton from "@/components/SideDrawer/DrawerToggleButton";
@@ -16,6 +17,7 @@ import styles from "./Navbar.module.scss";
 
 function Navbar() {
   const [SideDrawerOpen, setSideDrawer] = useState(false);
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
   const isMobile = useDetactMobile();
 
   const handleSideDrawer = () => {
@@ -25,6 +27,7 @@ function Navbar() {
   const handleBackdrop = () => {
     setSideDrawer(false);
   };
+
   return (
     <div className={styles.NavbarLayout}>
       <div className={styles.NavbarContainer}>
@@ -51,11 +54,36 @@ function Navbar() {
             </div>
           ) : (
             <div className={styles.ToolbarHorizontal}>
-              {NAV_ITEMS.map((item) => (
-                <Link key={item.id} href={item.path}>
-                  <a className={styles.NavItem}>{item.label}</a>
-                </Link>
-              ))}
+              <div className={styles.NavProducts}>
+                <div
+                  onMouseEnter={() => setDropdownOpen((prev) => !prev)}
+                  className={styles.ProductsTab}
+                >
+                  Products
+                </div>
+                <div
+                  className={classNames(styles.ProductsItems, {
+                    [styles.displayItems]: isDropdownOpen,
+                  })}
+                >
+                  {NAV_PRODUCTS.map((item) => {
+                    return (
+                      <Link key={item.id} href={item.path}>
+                        <a className={styles.Item}>{item.label}</a>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className={styles.NavItems}>
+                {NAV_ITEMS.map((item) => {
+                  return (
+                    <Link key={item.id} href={item.path}>
+                      <a className={styles.Item}>{item.label}</a>
+                    </Link>
+                  );
+                })}
+              </div>
               <LanguageSelector />
             </div>
           )}

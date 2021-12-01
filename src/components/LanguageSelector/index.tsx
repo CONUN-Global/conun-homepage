@@ -18,8 +18,10 @@ const LOCALES: Locales[] = [
     value: "ko",
   },
 ];
-
-function LanguageSelector() {
+interface Prop {
+  sideNav?: boolean;
+}
+function LanguageSelector({ sideNav }: Prop) {
   const currentLocale = useStore((store) => store.currentLocale);
   const [localeOpen, setLocaleOpen] = useState(false);
   const setCurrentLocale = useStore((store) => store.setCurrentLocale);
@@ -27,6 +29,22 @@ function LanguageSelector() {
   const handleLocaleToggle = () => {
     setLocaleOpen(!localeOpen);
   };
+
+  if (sideNav) {
+    return (
+      <div className={styles.SideNav}>
+        {LOCALES.map((locale, i: number) => (
+          <div
+            key={i}
+            className={styles.LangBox}
+            onClick={() => setCurrentLocale(locale)}
+          >
+            {locale.value}
+          </div>
+        ))}
+      </div>
+    );
+  }
   return (
     <div className={styles.LanguageSelector}>
       <WorldIcon className={styles.WorldIcon} />
