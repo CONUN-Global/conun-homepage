@@ -5,6 +5,7 @@ import CellHeader from "@/components/CellHeader";
 import styles from "./Featured.module.scss";
 
 import data from "./featuredData.json";
+import VideoPlayer from "@/components/VideoPlayer";
 
 function Author({ picture, name }: { picture: string; name: string }) {
   return (
@@ -21,7 +22,9 @@ function Featured() {
     <div className={styles.Featured}>
       <CellHeader>Featured</CellHeader>
       <div className={styles.FeaturedGrid}>
-        <div className={styles.Video}>{data.videoSrc}</div>
+        <div className={styles.Video}>
+          <VideoPlayer url={data.videoSrc} />
+        </div>
         <div className={styles.Title}>{data.title}</div>
         <div className={styles.Caption}>{data.caption}</div>
         <div className={styles.DateLabel}>
@@ -36,11 +39,3 @@ function Featured() {
 }
 
 export default Featured;
-
-/*<iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/_O0eprmOhwg" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; 
-      encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-  >
-  </iframe> */
