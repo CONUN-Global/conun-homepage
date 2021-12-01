@@ -24,6 +24,10 @@
         color: #77aceb;
       }
 
+      &.blue {
+        color: var(--conun-blue);
+      }
+
       &.custom {
         color: var(--conun-blue);
         color: #2b70cf;
@@ -33,7 +37,6 @@
     }
 
     & .Title {
-      color: var(--conun-blue);
       font-weight: 600;
 
       &.small {
@@ -46,6 +49,18 @@
 
       &.large {
         font-size: 1.6rem;
+      }
+
+      &.green {
+        color: #0993b1;
+      }
+
+      &.sky {
+        color: #77aceb;
+      }
+
+      &.blue {
+        color: var(--conun-blue);
       }
 
       &.custom {

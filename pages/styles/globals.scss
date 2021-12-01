@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
 
 :root {
   --conun-blue: #1e4489;
   --blue: #1d428a;
   --conun-bg-blue: #eff7fc;
   --conun-skyblue: #77aceb;
+  --conun-bg-blue-dark: #d6e5f3;
   --conun-white: #fff;
   --conun-green: #0993b1;
-
-  // shadow
-
-  --conun-blue-shadow: 10px 10px 30px rgba(51, 88, 159, 0.3);
+  --conun-blue-shadow: 10px 10px 30px rgb(51 88 159 / 30%);
   --conun-blue-gradient: linear-gradient(
     99.17deg,
     #77aceb 12.18%,
@@ -32,7 +31,6 @@
 
 html,
 body {
-  font-family: "Barlow", sans-serif;
   font-weight: 500;
   height: 100%;
 }

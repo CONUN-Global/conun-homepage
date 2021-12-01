@@ -3,6 +3,15 @@
   position: relative;
   width: 100%;
 
+  &.ko {
+    color: red;
+    font-family: "Nanum Gothic", sans-serif;
+  }
+
+  &.en {
+    font-family: Barlow, sans-serif;
+  }
+
   & .LayoutHeader {
     left: 0;
     position: absolute;

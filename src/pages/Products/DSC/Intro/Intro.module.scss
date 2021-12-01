@@ -1,11 +1,9 @@
-.DownloadBody {
+.IntroContainer {
   align-items: center;
   background-color: var(--conun-bg-blue);
-  color: var(--conun-blue);
   display: flex;
   flex-direction: column;
   padding: 150px 0;
-  row-gap: 100px;
   width: 100%;
 
   & .HorizontalCard {
@@ -14,8 +12,12 @@
     & .TextContainer {
       width: 40%;
 
+      & .Caption {
+        color: green;
+      }
+
       & .Description {
-        color: var(--conun-skyblue);
+        color: var(--conun-blue);
         font-size: 1rem;
         font-weight: normal;
         line-height: 149%;
@@ -26,14 +28,10 @@
     & .ImageContainer {
       width: 40%;
     }
-
-    &.reversed {
-      flex-direction: row-reverse;
-    }
   }
 }
 @media only screen and (max-width: 800px) {
-  .DownloadBody {
+  .IntroContainer {
     & .HorizontalCard {
       flex-direction: column;
       width: 90%;
