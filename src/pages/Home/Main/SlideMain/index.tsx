@@ -7,7 +7,7 @@ import Caption from "@/components/Caption";
 import Button from "@/components/Button";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
-import useDetectMbile from "@/hooks/useDetectMbile";
+import useDetectMobile from "@/hooks/useDetectMobile";
 
 import useStore from "@/store/store";
 
@@ -28,7 +28,7 @@ function SlideMain({
   index,
 }: SlideMainProps) {
   const currentSlide = useCarouselContext();
-  const isMobile = useDetectMbile();
+  const isMobile = useDetectMobile();
 
   const setActiveSlide = useStore((state) => state.setActiveSlide);
 
