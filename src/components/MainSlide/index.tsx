@@ -3,7 +3,7 @@ import Socials from "@/components/Card/Horizontal/Socials";
 import Caption from "@/components/Caption";
 import Button from "@/components/Button";
 
-import useDetactMobile from "@/hooks/useDetactMobile";
+import useDetectMbile from "@/hooks/useDetectMbile";
 
 import styles from "./MainSlide.module.scss";
 
@@ -15,7 +15,7 @@ interface Props {
   btnMsg?: JSX.Element;
 }
 function MainSlide({ title, description, image, btnMsg }: Props) {
-  const isMobile = useDetactMobile();
+  const isMobile = useDetectMbile();
   return (
     <Horizontal className={styles.HorizontalCard}>
       <div className={styles.TextContainer}>

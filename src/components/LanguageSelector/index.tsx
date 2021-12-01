@@ -18,10 +18,10 @@ const LOCALES: Locales[] = [
     value: "ko",
   },
 ];
-interface Prop {
+interface Props {
   sideNav?: boolean;
 }
-function LanguageSelector({ sideNav }: Prop) {
+function LanguageSelector({ sideNav }: Props) {
   const currentLocale = useStore((store) => store.currentLocale);
   const [localeOpen, setLocaleOpen] = useState(false);
   const setCurrentLocale = useStore((store) => store.setCurrentLocale);

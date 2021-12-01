@@ -9,7 +9,7 @@ import SideDrawer from "@/components/SideDrawer";
 import Backdrop from "@/components/Backdrop";
 import DrawerToggleButton from "@/components/SideDrawer/DrawerToggleButton";
 
-import useDetactMobile from "@/hooks/useDetactMobile";
+import useDetectMbile from "@/hooks/useDetectMbile";
 
 import ConunLogo from "@/assets/icons/conun-logo.svg";
 
@@ -18,7 +18,7 @@ import styles from "./Navbar.module.scss";
 function Navbar() {
   const [SideDrawerOpen, setSideDrawer] = useState(false);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const isMobile = useDetactMobile();
+  const isMobile = useDetectMbile();
 
   const handleSideDrawer = () => {
     setSideDrawer((prev) => !prev);
