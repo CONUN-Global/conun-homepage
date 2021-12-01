@@ -31,6 +31,7 @@ function SlideMain({
   const isMobile = useDetactMobile();
 
   const setActiveSlide = useStore((state) => state.setActiveSlide);
+
   useEffect(() => {
     setActiveSlide(currentSlide);
   }, [currentSlide, setActiveSlide]);
