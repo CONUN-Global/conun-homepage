@@ -69,7 +69,7 @@ function Navbar() {
                   {NAV_PRODUCTS.map((item) => {
                     return (
                       <Link key={item.id} href={item.path}>
-                        <a className={styles.Item}>{item.label}</a>
+                        <a className={styles.ProductsItem}>{item.label}</a>
                       </Link>
                     );
                   })}

@@ -91,31 +91,31 @@
               top: 30px;
             }
 
-            & .Item {
+            & .ProductsItem {
               padding: 10px;
 
               &:hover {
                 opacity: 0.6;
               }
             }
+          }
+        }
 
-            & .NavItems {
-              display: flex;
-              flex-direction: row;
+        & .NavItems {
+          display: flex;
+          flex-direction: row;
 
-              & .Item {
-                padding: 10px 20px;
+          & .Item {
+            padding: 10px 20px;
 
-                &:hover {
-                  background: linear-gradient(
-                    99.17deg,
-                    #a0b6e4 12.18%,
-                    #83c8e3 106.22%
-                  );
-                  border-radius: 30px;
-                  color: var(--conun-white);
-                }
-              }
+            &:hover {
+              background: linear-gradient(
+                99.17deg,
+                #a0b6e4 12.18%,
+                #83c8e3 106.22%
+              );
+              border-radius: 30px;
+              color: var(--conun-white);
             }
           }
         }
