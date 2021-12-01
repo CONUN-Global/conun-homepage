@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: row;
   height: 100vh;
   justify-content: center;
   width: 100%;
@@ -31,11 +32,14 @@
       }
 
       & .DownloadButtonContainer {
-        margin-top: 38px;
+        margin-top: 10%;
+
         & .SubTitle {
           margin-bottom: 14px;
         }
+
         & .Button {
+          font-size: 0.8rem;
           margin-right: 30px;
         }
 
@@ -44,30 +48,51 @@
         }
       }
     }
+
     & .ImageContainer {
       height: 100%;
       width: 40%;
     }
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
   .DownloadContainer {
-    display: flex;
-    flex-direction: column;
+    display: 100%;
 
     & .SocialIcons {
       display: none;
     }
 
     & .HorizontalCard {
+      height: 70%;
+      position: relative;
       width: 90%;
 
       & .TextContainer {
-        width: 90%;
+        padding: 10% 5%;
+        width: 100%;
+
+        & .DownloadButtonContainer {
+          display: column;
+
+          & .Button {
+            margin-top: 10px;
+            padding: 2.5%;
+          }
+
+          & .ButtonContainer {
+            display: flex;
+            flex-direction: row;
+
+            & .Button {
+              padding: 2.5% 3.5%;
+            }
+          }
+        }
       }
+
       & .ImageContainer {
         display: none;
-        position: absolute;
       }
     }
   }
