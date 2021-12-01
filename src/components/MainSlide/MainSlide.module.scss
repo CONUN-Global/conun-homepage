@@ -1,0 +1,66 @@
+.HorizontalCard {
+  height: 65%;
+  position: relative;
+  width: 70%;
+
+  & .TextContainer {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+
+    & .TextBox {
+      display: flex;
+      flex-direction: column;
+
+      & .Description {
+        color: var(--conun-blue);
+        font-size: 1rem;
+        font-weight: normal;
+        margin-bottom: 60px;
+        margin-top: 18px;
+      }
+
+      & .Button {
+        font-size: 0.8rem;
+        font-weight: 500;
+        width: 30%;
+      }
+    }
+  }
+
+  & .ImageContainer {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .HorizontalCard {
+    background-color: var(--conun-white);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    width: 90%;
+
+    & .TextContainer {
+      padding: 10%;
+      width: 100%;
+
+      & .TextBox {
+        z-index: 1;
+
+        & .Description {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    & .ImageContainer {
+      bottom: 0;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      opacity: 0.7;
+      position: absolute;
+      right: 0;
+      z-index: 0;
+    }
+  }
+}
