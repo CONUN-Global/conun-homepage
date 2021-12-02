@@ -1,6 +1,12 @@
 .AllUpdates {
-  width: 745px;
-  height: 675px;
   background-color: white;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 745px;
+
+  & .UpdateContainer {
+    flex: 1 1 590px;
+  }
 }

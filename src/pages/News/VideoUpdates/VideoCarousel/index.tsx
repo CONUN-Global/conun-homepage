@@ -19,7 +19,7 @@ import { NewsDataObj } from "@/types/index";
 // dummy data
 import data from "../../newsData.json";
 
-const placeholderIndex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const videoData = data.filter((news) => news.source === "youtube");
 
 function VideoCarousel() {
   return (
@@ -27,12 +27,12 @@ function VideoCarousel() {
       <CarouselProvider
         naturalSlideWidth={320}
         naturalSlideHeight={300}
-        totalSlides={placeholderIndex.length}
+        totalSlides={videoData.length}
         visibleSlides={3}
         className={styles.VideoCarousel}
       >
         <Slider className={styles.Slider}>
-          {data.map((news: NewsDataObj, i: number) => (
+          {videoData.map((news: NewsDataObj, i: number) => (
             <VideoSlide key={news.id} slideIndex={i} newsData={news} />
           ))}
         </Slider>

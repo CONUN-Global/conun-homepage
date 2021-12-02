@@ -31,6 +31,8 @@ export type DownloadMenu = {
   links: string[];
 };
 
+export type NewsSource = "youtube" | "xangle" | "discord" | "github" | "medium";
+
 // NewsData type will change when API is connected
 export type NewsDataObj = {
   id: number;
@@ -41,4 +43,6 @@ export type NewsDataObj = {
   caption: string;
   author: string;
   isAnnouncement: boolean;
+  isHowTo: boolean;
+  thumbnail?: string;
 };

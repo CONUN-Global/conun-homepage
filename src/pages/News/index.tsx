@@ -8,17 +8,18 @@ import AllUpdates from "./AllUpdates";
 import HowTo from "./HowTo";
 
 import styles from "./News.module.scss";
+import classNames from "classnames";
 
 function News() {
   return (
     <div className={styles.News}>
       <NewsHead />
-      <div className={styles.BoxRow}>
+      <div className={classNames(styles.BoxRow, styles.AnnounceFeatured)}>
         <Announcements />
         <Featured />
       </div>
       <VideoUpdates />
-      <div className={styles.BoxRow}>
+      <div className={classNames(styles.BoxRow, styles.AllHowTo)}>
         <AllUpdates />
         <HowTo />
       </div>
