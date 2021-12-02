@@ -17,6 +17,11 @@
     padding: 5px 20px;
     text-transform: uppercase;
 
+    &.filterIsActive {
+      background-color: var(--conun-blue);
+      color: var(--team-pale-blue);
+    }
+
     &:active {
       transform: translateY(1px);
     }
