@@ -54,9 +54,12 @@ function Navbar() {
             </div>
           ) : (
             <div className={styles.ToolbarHorizontal}>
-              <div className={styles.NavProducts}>
+              <div
+                className={styles.NavProducts}
+                onMouseLeave={() => setDropdownOpen(false)}
+              >
                 <div
-                  onMouseEnter={() => setDropdownOpen((prev) => !prev)}
+                  onMouseEnter={() => setDropdownOpen(true)}
                   className={styles.ProductsTab}
                 >
                   Products
@@ -68,9 +71,14 @@ function Navbar() {
                 >
                   {NAV_PRODUCTS.map((item) => {
                     return (
-                      <Link key={item.id} href={item.path}>
-                        <a className={styles.ProductsItem}>{item.label}</a>
-                      </Link>
+                      <div key={item.id} className={styles.ProductsItem}>
+                        <Link href={item.path}>
+                          <a className={styles.ItemTitle}>{item.label}</a>
+                        </Link>
+                        <p className={styles.ItemDescription}>
+                          {item.description}
+                        </p>
+                      </div>
                     );
                   })}
                 </div>

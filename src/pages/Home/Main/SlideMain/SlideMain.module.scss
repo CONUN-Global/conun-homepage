@@ -23,6 +23,10 @@
         display: flex;
         flex-direction: column;
 
+        & .Caption {
+          text-transform: uppercase;
+        }
+
         & .Description {
           color: var(--conun-blue);
           font-size: 1rem;

@@ -2,7 +2,6 @@ import Main from "./Main";
 import Intro from "./Intro";
 import Business from "./Business";
 import Video from "./Video";
-import UseCaseSection from "./UseCaseSection";
 import Product from "./Product";
 import RoadMap from "./RoadMapSection";
 import ConunNews from "./ConunNews";
@@ -17,7 +16,6 @@ function Home() {
       <Business />
       <Video />
       <Product />
-      <UseCaseSection />
       <RoadMap />
       <ConunNews />
       <Footer />

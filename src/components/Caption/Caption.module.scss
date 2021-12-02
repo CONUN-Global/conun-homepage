@@ -1,12 +1,13 @@
 .TextContainer {
   color: var(--conun-blue);
+  width: 100%;
 
   & .Header {
     color: var(--conun-blue);
-    text-transform: uppercase;
 
     & .Caption {
       margin-bottom: 10px;
+      text-transform: uppercase;
 
       &.small {
         font-size: 0.8rem;

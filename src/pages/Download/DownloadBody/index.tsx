@@ -21,7 +21,7 @@ function DownloadBody() {
             <div className={styles.TextContainer}>
               <Caption
                 className={styles.Caption}
-                color="green"
+                headColor="green"
                 header={card.header}
                 title={card.title}
               />

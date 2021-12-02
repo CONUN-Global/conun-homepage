@@ -1,0 +1,123 @@
+.UseCase {
+  align-items: center;
+  background: #d6e5f3;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10% 0;
+  width: 100%;
+
+  & .UseCaseContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+    & .TextBox {
+      align-items: center;
+      color: var(--conun-blue);
+      display: flex;
+      flex-direction: column;
+      font-weight: normal;
+      margin-bottom: 95px;
+      text-align: center;
+      width: 60%;
+
+      & .Title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding: 0 10%;
+      }
+    }
+
+    & .CardContainer {
+      align-items: center;
+      display: flex;
+      flex-flow: row wrap;
+      gap: 20px 30px;
+      justify-content: center;
+      width: 90%;
+
+      & .UseCaseCard {
+        background: rgb(255 255 255 / 50%);
+        border: 1px solid #085ed5;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 90%;
+        height: 530px;
+        max-height: 600px;
+        padding: 3%;
+        width: 27%;
+
+        & .ImageContainer {
+          display: flex;
+          flex: 1 1 330px;
+          flex-direction: column;
+          gap: 20px;
+
+          & .Image {
+            height: fit-content;
+          }
+
+          & .Text {
+            font-size: 1rem;
+            margin-bottom: 5%;
+            width: 100%;
+          }
+        }
+
+        & .Description {
+          flex: 2 1 50%;
+          font-size: 0.8rem;
+          font-weight: normal;
+          margin-bottom: 5%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .UseCase {
+    & .UseCaseContainer {
+      width: 80%;
+
+      & .CardContainer {
+        height: auto;
+        width: 100%;
+
+        & .UseCaseCard {
+          height: auto;
+          padding: 10%;
+          width: 100%;
+
+          & .ImageContainer {
+            display: flex;
+            flex: 1 1 200px;
+            flex-direction: column;
+
+            & .Image {
+              height: fit-content;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1210px) {
+  .UseCase {
+    & .UseCaseContainer {
+      width: 100%;
+
+      & .CardContainer {
+        width: 100%;
+
+        & .UseCaseCard {
+          max-height: 500px;
+        }
+      }
+    }
+  }
+}

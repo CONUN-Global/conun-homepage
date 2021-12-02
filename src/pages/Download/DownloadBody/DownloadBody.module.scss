@@ -14,6 +14,10 @@
     & .TextContainer {
       width: 40%;
 
+      & .Caption {
+        text-transform: uppercase;
+      }
+
       & .Description {
         color: var(--conun-skyblue);
         font-size: 1rem;
