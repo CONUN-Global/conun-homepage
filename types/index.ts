@@ -40,4 +40,5 @@ export type NewsDataObj = {
   source: string;
   caption: string;
   author: string;
+  isAnnouncement: boolean;
 };
