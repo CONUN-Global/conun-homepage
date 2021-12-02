@@ -4,6 +4,7 @@ import classNames from "classnames";
 import { NewsDataObj } from "@/types/index";
 
 import styles from "./NewsCard.module.scss";
+import ExternalLinkIcon from "./ExternalLinkIcon";
 
 type Size = "small" | "large";
 
@@ -13,7 +14,7 @@ interface Props {
 }
 
 interface DateLinkProps {
-  link: string;
+  url: string;
   source: string;
   date: string;
   size: Size;
@@ -29,12 +30,12 @@ function Author({ picture, name }: { picture: string; name: string }) {
   );
 }
 
-function DateAndLink({ source, date, size }: DateLinkProps) {
+function DateAndLink({ source, url, date, size }: DateLinkProps) {
   return (
     <div className={classNames(styles.DateLabel, styles[size])}>
-      <span className={classNames(styles.Source)}>{source}</span>
-      <span className={classNames(styles.Divider)}>|</span>
-      <span className={classNames(styles.Date)}>{date}</span>
+      <ExternalLinkIcon source={source} url={url} />
+      <div>|</div>
+      <div>{new Date(date).toDateString()}</div>
     </div>
   );
 }
@@ -47,7 +48,7 @@ function NewsCard({ newsData, size }: Props) {
         <div className={styles.Caption}>{newsData.caption}</div>
       )}
       <DateAndLink
-        link={newsData.url}
+        url={newsData.url}
         source={newsData.source}
         size={size}
         date={newsData.date}
