@@ -1,10 +1,8 @@
 import classNames from "classnames";
-import Youtube from "@/assets/socials/youtube.svg";
-import Facebook from "@/assets/socials/facebook.svg";
-import Linkedin from "@/assets/socials/linkedin.svg";
-import Github from "@/assets/socials/github.svg";
-import Discord from "@/assets/socials/discord.svg";
-import Medium from "@/assets/socials/medium.svg";
+
+import { LINKS_ITEMS } from "./LinkItems";
+
+import Item from "@/components/List/Item";
 
 import styles from "./Socials.module.scss";
 
@@ -20,12 +18,9 @@ function Socials({ className, alignment = "vertical" }: Props) {
     <div
       className={classNames(styles.SocialIcons, styles[alignment], className)}
     >
-      <Youtube className={styles.SocialIcon} />
-      <Facebook className={styles.SocialIcon} />
-      <Linkedin className={styles.SocialIcon} />
-      <Github className={styles.SocialIcon} />
-      <Discord className={styles.SocialIcon} />
-      <Medium className={styles.SocialIcon} />
+      {LINKS_ITEMS.map((link: any, i: number) => {
+        return <Item key={i} noStyle icon={link.icon} path={link.link} />;
+      })}
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import chairman from "../../../../src/assets/pics/team_front/chairman.jpg";
 import chiarmanOverlay from "../../../../src/assets/pics/team_overlay/chairman.jpg";
-import mrPark from "../../../../src/assets/pics/team_front/mr_park.jpg";
-import mrParkOverlay from "../../../../src/assets/pics/team_overlay/mr_park.jpg";
 import jamshid from "../../../../src/assets/pics/team_front/jamshid.jpg";
 import jamshidOverlay from "../../../../src/assets/pics/team_overlay/jamshid.jpg";
 import mrHan from "../../../../src/assets/pics/team_front/mr_han.jpg";
@@ -38,25 +36,15 @@ export const TEAM_LIST = [
     overlay: chiarmanOverlay,
   },
   {
-    nameKo: "박민혁",
-    nameEn: "PARK, MINHYEOK",
-    dept: "Development",
-    title: "Distributed Computing Platform Developer",
-    roles: [
-      "Distributed Computing Core Resourcen",
-      "Management System Distributed",
-      "Network System",
-    ],
-    front: mrPark,
-    overlay: mrParkOverlay,
-  },
-  ,
-  {
     nameKo: "잠시드",
     nameEn: "JAMSHID",
     dept: "Management / Planning",
-    title: "Distributed Computing Platform Developer",
-    roles: ["Distributed Networking", "Blockchain Network"],
+    title: "Team Leader",
+    roles: [
+      "Distributed Networking",
+      "Blockchain Network",
+      "Backend Development",
+    ],
     front: jamshid,
     overlay: jamshidOverlay,
   },
@@ -97,14 +85,18 @@ export const TEAM_LIST = [
     nameEn: "AZIZ",
     dept: "Development",
     title: "Distributed Computing Platform Developer",
-    roles: ["Distributed Networking", "Blockchain Smart Contract"],
+    roles: [
+      "Distributed Networking",
+      "Blockchain Smart Contract",
+      "Backend Development",
+    ],
     front: azizz,
     overlay: azizzOverlay,
   },
   {
     nameKo: "김성미",
     nameEn: "KIM, SEONG MI",
-    dept: "Associate",
+    dept: "",
     title: "Secretary",
     roles: ["Executive & Administrative Support"],
     front: seongmi,

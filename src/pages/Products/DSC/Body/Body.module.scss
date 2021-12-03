@@ -1,0 +1,40 @@
+.Body {
+  align-items: center;
+  background-color: var(--conun-bg-blue-dark);
+  display: flex;
+  flex-direction: column;
+  padding: 150px 0;
+  width: 100%;
+
+  & .BodyContainer {
+    font-weight: normal;
+    padding: 10% 0;
+    width: 70%;
+
+    & .TextTop {
+      font-size: 1rem;
+      line-height: 226.5%;
+      width: 70%;
+    }
+
+    & .Diagram {
+      padding: 10%;
+    }
+
+    & .TextBottom {
+      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      & > div {
+        align-self: right;
+        display: flex;
+        font-size: 1rem;
+        line-height: 226.5%;
+        text-align: right;
+        width: 70%;
+      }
+    }
+  }
+}

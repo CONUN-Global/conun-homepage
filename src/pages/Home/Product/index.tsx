@@ -1,9 +1,9 @@
 import { useState } from "react";
+import Link from "next/dist/client/link";
 
 import { PRODUCT_CARD } from "./ProductCardContent";
 
 import Horizontal from "@/components/Card/Horizontal";
-import Button from "@/components/Button";
 import Caption from "@/components/Caption";
 
 import styles from "./Product.module.scss";
@@ -39,11 +39,17 @@ function Product() {
           <div className={styles.TextCard}>
             <Caption
               textSize="medium"
+              headColor="sky"
+              className={styles.Caption}
               header={displayCard.header}
               title={displayCard.title}
             />
             <p className={styles.Description}>{displayCard.description}</p>
-            <Button className={styles.Button}>{displayCard.btnMsg}</Button>
+            <div className={styles.ButtonContainer}>
+              <Link href={displayCard.link}>
+                <a className={styles.Button}>{displayCard.btnMsg}</a>
+              </Link>
+            </div>
           </div>
         </Horizontal>
       </div>

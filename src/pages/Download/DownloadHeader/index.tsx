@@ -14,7 +14,12 @@ function DownloadHeader() {
       <Socials className={styles.SocialIcons} />
       <Horizontal className={styles.HorizontalCard}>
         <div className={styles.TextContainer}>
-          <Caption color="blue" textSize="medium" title={MAIN_PAGES[3].title} />
+          <Caption
+            className={styles.Caption}
+            titleColor="blue"
+            textSize="medium"
+            title={MAIN_PAGES[3].title}
+          />
           <p className={styles.Description}>{MAIN_PAGES[3].description}</p>
           <div className={styles.DownloadButtonContainer}>
             <h3 className={styles.SubTitle}>Web Products</h3>

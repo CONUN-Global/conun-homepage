@@ -20,7 +20,7 @@ function Main() {
   });
 
   const activeSlide = useStore((state) => state.activeSlide);
-  const slideMap = MAIN_PAGES.slice(0, 3);
+  const slideMap = MAIN_PAGES.slice(0, 4);
 
   useEffect(() => {
     const handleResize = () => {
@@ -42,9 +42,9 @@ function Main() {
       naturalSlideWidth={size.width}
       naturalSlideHeight={size.height}
       interval={2000}
-      totalSlides={3}
+      totalSlides={4}
       orientation={"horizontal"}
-      isPlaying={activeSlide === 2 ? false : true}
+      isPlaying={activeSlide === 3 ? false : true}
       infinite={false}
     >
       <Slider>

@@ -1,11 +1,12 @@
 import Image from "next/image";
 
+import Link from "next/dist/client/link";
+
 import { SOCIAL_LINKS } from "./SocialLinks";
 import { CONUN_NEWS } from "./Content";
 
 import Vertical from "@/components/Card/Vertical";
 import Caption from "@/components/Caption";
-import Button from "@/components/Button";
 import Item from "@/components/List/Item";
 
 import styles from "./ConunNews.module.scss";
@@ -20,7 +21,7 @@ function ConunNews() {
             return <Item key={index} icon={link.icon} path={link.path} />;
           })}
         </div>
-        <p className={styles.Title}>CONUN NEWS</p>
+        <p className={styles.Title}>LATEST NEWS</p>
         <div className={styles.CardContainer}>
           {CONUN_NEWS.map((news, i: number) => {
             return (
@@ -40,9 +41,11 @@ function ConunNews() {
                 />
                 <div className={styles.TextBottom}>
                   <div className={styles.Header}>{news.header}</div>
-                  <Button className={styles.Button} noStyle>
-                    {news.btnMsg}
-                  </Button>
+                  <div className={styles.ButtonContainer}>
+                    <Link href={news.link}>
+                      <a>{news.btnMsg}</a>
+                    </Link>
+                  </div>
                 </div>
               </Vertical>
             );

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 import { YEARS } from "./RoadMapContent";
 
@@ -21,6 +22,7 @@ const FOURTH = ["Oct", "Nov", "Dec"];
 const YEARS_ARRAY = [2017, 2018, 2019, 2020, 2021, 2022, 2023];
 
 function RoadMap() {
+  const router = useRouter();
   const current = new Date();
   const currentYear = current.getFullYear();
   const isMobile = useDetectMobile();
@@ -40,10 +42,11 @@ function RoadMap() {
 
   const handleYearSelect = (year: number) => {
     setYearSelected(year);
+    router.replace("/#roadmap");
   };
 
   return (
-    <div className={styles.RoadMapSection}>
+    <section id="roadmap" className={styles.RoadMapSection}>
       <div className={styles.TitleBox}>
         <p className={styles.Title}>ROADMAP</p>
       </div>
@@ -92,7 +95,7 @@ function RoadMap() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default RoadMap;

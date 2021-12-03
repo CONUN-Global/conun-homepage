@@ -1,0 +1,41 @@
+.Footer {
+  align-items: center;
+  background-color: var(--conun-bg-blue-dark);
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  width: 100%;
+
+  & .FooterContainer {
+    color: var(--conun-blue);
+    width: 60%;
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+    }
+
+    & .Title {
+      font-family: "Chakra Petch" Barlow, sans-serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      line-height: 52px;
+      margin-bottom: 37px;
+      text-align: center;
+    }
+
+    & .Description {
+      font-size: 1.2rem;
+      font-weight: normal;
+      line-height: 185%;
+    }
+
+    & .DiagramContainer {
+      padding: 10%;
+      width: 100%;
+
+      @media only screen and (max-width: 800px) {
+        padding: 10%;
+      }
+    }
+  }
+}

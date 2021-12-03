@@ -3,15 +3,6 @@ export const CONTENT = [
     section: "COMPANY",
     items: [
       {
-        name: "About Us",
-        path: "/",
-      },
-      {
-        name: "Contact Us",
-        path: "/home",
-      },
-
-      {
         name: "Terms of Service",
         path: "/download",
       },
@@ -30,11 +21,11 @@ export const CONTENT = [
     items: [
       {
         name: "Distributed Computing",
-        path: "/donwload",
+        path: "/products/sdc",
       },
       {
         name: "Private Blockchain",
-        path: "/download",
+        path: "/products/CPBN",
       },
       {
         name: "Explore",
@@ -42,7 +33,7 @@ export const CONTENT = [
       },
       {
         name: "Wallet",
-        path: "/faqs",
+        path: "/products/metacon",
       },
     ],
   },
@@ -61,10 +52,7 @@ export const CONTENT = [
         name: "Discord",
         path: "https://discord.com/invite/VvXvQfa3Za",
       },
-      {
-        name: "Telegram",
-        path: "/faqs",
-      },
+
       {
         name: "Github",
         path: "https://github.com/CONUN-Global",

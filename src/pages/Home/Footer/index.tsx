@@ -20,14 +20,11 @@ function Footer() {
         })}
       </div>
       <div className={styles.CopyRightLine}>
-        <div className={styles.Left}>
-          <span className={styles.CopyRight}>2021CONUN</span>
-          <span>Connecting on Universal Networks</span>
+        <div className={styles.LineTop}>
+          <p>conuncs@conun.co.kr /</p>
+          <p>1 Raffles Place #44-01A One Raffles Place Singapore</p>
         </div>
-        <div className={styles.Right}>
-          <span>Privacy Policy</span>
-          <span>Terms and Conditions</span>
-        </div>
+        <p>ⓒ 2018 CONUN, All Rights Reserved</p>
       </div>
     </div>
   );

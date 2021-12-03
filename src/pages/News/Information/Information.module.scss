@@ -7,8 +7,8 @@
   width: 430px;
 
   & .InfoContainer {
-    flex: 1 1 590px;
     display: flex;
+    flex: 1 1 590px;
     flex-direction: column;
   }
 }

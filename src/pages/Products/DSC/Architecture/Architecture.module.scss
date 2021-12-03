@@ -1,0 +1,55 @@
+.Architecture {
+  align-items: center;
+  background-color: var(--conun-bg-blue);
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  width: 100%;
+
+  & .Card {
+    width: 70%;
+
+    & .ImageContainer {
+      width: 40%;
+    }
+
+    & .TextContainer {
+      width: 50%;
+
+      & .Text {
+        font-family: "Chakra Petch" Barlow, sans-serif;
+        font-weight: normal;
+        line-height: 185%;
+        margin-bottom: 5%;
+
+        &:first-child {
+          margin-bottom: 20%;
+        }
+
+        & .Description {
+          font-family: Barlow, sans-serif;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Architecture {
+    & .Card {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+
+      & .ImageContainer {
+        padding: 10%;
+        width: 90%;
+      }
+
+      & .TextContainer {
+        margin-top: 10%;
+        width: 100%;
+      }
+    }
+  }
+}

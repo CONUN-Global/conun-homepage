@@ -7,12 +7,16 @@
   width: 100%;
 
   & .NavbarContainer {
+    align-items: flex-start;
     color: var(--conun-blue);
     display: flex;
     font-size: 0.8rem;
+    padding-top: 30px;
     width: 70%;
 
     @media only screen and (max-width: 1366px) {
+      align-items: center;
+      padding-top: 0;
       width: 90%;
     }
 
@@ -20,7 +24,6 @@
       align-items: center;
       display: flex;
       flex-direction: row;
-      padding: 10px 0;
 
       & .NetworkStatus {
         align-items: center;
@@ -48,34 +51,34 @@
     & .NavbarRight {
       align-items: center;
       display: flex;
+      text-transform: uppercase;
 
       & .ToolbarHorizontal {
         display: flex;
         flex-direction: row;
+        position: relative;
         width: 100%;
 
         & .NavProducts {
-          align-items: center;
+          align-items: flex-start;
           display: flex;
           flex-direction: column;
-          position: relative;
+          height: 300px;
+          position: absolute;
+          right: 362px;
 
           & .ProductsTab {
-            padding: 10px 20px;
+            padding: 0 20px;
 
             &:hover {
-              background: linear-gradient(
-                99.17deg,
-                #a0b6e4 12.18%,
-                #83c8e3 106.22%
-              );
               border-radius: 30px;
-              color: var(--conun-white);
+              color: #2b70cf;
               cursor: pointer;
             }
           }
 
           & .ProductsItems {
+            background: gray;
             display: none;
 
             &.displayItems {
@@ -83,12 +86,23 @@
               border-radius: 10px;
               display: flex;
               flex-direction: column;
-              font-weight: bold;
               margin-top: 10px;
               margin-top: 20px;
-              padding: 10px 30px;
+              padding: 10px;
               position: absolute;
               top: 30px;
+              width: 210px;
+
+              & .ItemTitle {
+                font-size: 0.8rem;
+                font-weight: 800;
+              }
+
+              & .ItemDescription {
+                color: silver;
+                font-size: 0.6rem;
+                font-weight: normal;
+              }
             }
 
             & .ProductsItem {
@@ -106,16 +120,12 @@
           flex-direction: row;
 
           & .Item {
-            padding: 10px 20px;
+            padding: 0 20px;
 
             &:hover {
-              background: linear-gradient(
-                99.17deg,
-                #a0b6e4 12.18%,
-                #83c8e3 106.22%
-              );
               border-radius: 30px;
-              color: var(--conun-white);
+              color: #2b70cf;
+              font-weight: 800;
             }
           }
         }

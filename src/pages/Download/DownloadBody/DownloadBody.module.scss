@@ -4,16 +4,19 @@
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-top: 150px;
+  padding: 150px 0;
+  row-gap: 100px;
   width: 100%;
 
   & .HorizontalCard {
-    margin-bottom: 100px;
     width: 70%;
 
     & .TextContainer {
       width: 40%;
+
+      & .Caption {
+        text-transform: uppercase;
+      }
 
       & .Description {
         color: var(--conun-skyblue);

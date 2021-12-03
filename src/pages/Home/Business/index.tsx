@@ -1,6 +1,5 @@
 import Vertical from "@/components/Card/Vertical";
 import Caption from "@/components/Caption";
-import Button from "@/components/Button";
 
 import { CARD_CONTENT } from "./CardContent";
 
@@ -18,9 +17,6 @@ function Business() {
                 <Caption textSize="small" title={card.title} />
                 <div className={styles.Description}>
                   <p>{card.description}</p>
-                  <Button className={styles.Button} variant="primary" round>
-                    {card.btnMsg}
-                  </Button>
                 </div>
               </div>
             </Vertical>
