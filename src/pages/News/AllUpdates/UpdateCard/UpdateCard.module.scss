@@ -3,8 +3,12 @@
   border-bottom: 1px solid #1e4489;
   color: var(--conun-blue);
   display: grid;
-  grid-template-columns: 160px 1fr;
   gap: 45px;
+  grid-template-columns: 160px 1fr;
   height: 25%;
   padding: 10px 60px;
+
+  &:last-child {
+    border-bottom: none;
+  }
 }

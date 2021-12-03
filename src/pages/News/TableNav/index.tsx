@@ -3,13 +3,18 @@ import React from "react";
 
 import styles from "./NavButtons.module.scss";
 
-function NavButtons() {
+interface Props {
+  handleNext: () => void;
+  handlePrev: () => void;
+}
+
+function NavButtons({ handleNext, handlePrev }: Props) {
   return (
     <div className={styles.NavButtons}>
-      <Button noStyle className={styles.Button}>
+      <Button noStyle className={styles.Button} onClick={handlePrev}>
         Prev
       </Button>
-      <Button noStyle className={styles.Button}>
+      <Button noStyle className={styles.Button} onClick={handleNext}>
         Next
       </Button>
     </div>

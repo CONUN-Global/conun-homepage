@@ -1,7 +1,10 @@
 import React from "react";
 
 import CellHeader from "@/components/CellHeader";
-import NavButtons from "./TableNav";
+import NavButtons from "../TableNav";
+import NewsCard from "@/components/NewsCard";
+
+import usePagination from "@/hooks/usePagination";
 
 import { NewsDataObj } from "@/types/index";
 
@@ -9,24 +12,27 @@ import styles from "./Announcements.module.scss";
 
 // placeholder data until the server for this is made
 import dummyData from "../newsData.json";
-import NewsCard from "@/components/NewsCard";
 
 const data = dummyData.filter((news) => news.isAnnouncement);
-
-const announcementData = data.slice(0, 4);
+const SLICE_SIZE = 4;
 
 function Announcements() {
+  const { currentData, handleNext, handlePrev } = usePagination(
+    SLICE_SIZE,
+    data
+  );
+
   return (
     <div className={styles.Announcements}>
       <CellHeader>Announcements</CellHeader>
       <div className={styles.CellContainer}>
-        {announcementData.map((news: NewsDataObj) => (
+        {currentData.map((news: NewsDataObj) => (
           <div className={styles.Cell} key={news.id}>
             <NewsCard newsData={news} size="small" />
           </div>
         ))}
       </div>
-      <NavButtons />
+      <NavButtons handlePrev={handlePrev} handleNext={handleNext} />
     </div>
   );
 }

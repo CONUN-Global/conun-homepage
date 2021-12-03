@@ -5,7 +5,7 @@ import Announcements from "./Announcements";
 import Featured from "./Featured";
 import VideoUpdates from "./VideoUpdates";
 import AllUpdates from "./AllUpdates";
-import HowTo from "./Information";
+import Information from "./Information";
 
 import styles from "./News.module.scss";
 import classNames from "classnames";
@@ -21,7 +21,7 @@ function News() {
       <VideoUpdates />
       <div className={classNames(styles.BoxRow, styles.AllHowTo)}>
         <AllUpdates />
-        <HowTo />
+        <Information />
       </div>
     </div>
   );
