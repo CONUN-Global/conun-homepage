@@ -21,6 +21,14 @@
     grid-area: title;
     line-height: 21px;
     text-transform: uppercase;
+
+    &:visited {
+      color: var(--conun-green);
+    }
+
+    &:hover {
+      color: var(--illustration-blue);
+    }
   }
 
   & .Caption {

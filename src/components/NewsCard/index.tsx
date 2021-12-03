@@ -43,7 +43,14 @@ function DateAndLink({ source, url, date, size }: DateLinkProps) {
 function NewsCard({ newsData, size }: Props) {
   return (
     <div className={classNames(styles.NewsCard, styles[size])}>
-      <div className={styles.Title}>{newsData.title}</div>
+      <a
+        href={newsData.url}
+        target="_blank"
+        rel="noreferrer"
+        className={styles.Title}
+      >
+        {newsData.title}
+      </a>
       {size == "large" && (
         <div className={styles.Caption}>{newsData.caption}</div>
       )}
@@ -53,7 +60,7 @@ function NewsCard({ newsData, size }: Props) {
         size={size}
         date={newsData.date}
       />
-      <Author picture="C" name={newsData.author} />
+      <Author picture={newsData.author.slice(0, 1)} name={newsData.author} />
     </div>
   );
 }
