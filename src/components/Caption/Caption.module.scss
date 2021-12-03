@@ -6,7 +6,7 @@
     color: var(--conun-blue);
 
     & .Caption {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       text-transform: uppercase;
 
       &.small {
@@ -14,7 +14,7 @@
       }
 
       &.medium {
-        font-size: 1rem;
+        font-size: 0.8rem;
       }
 
       &.green {
@@ -68,6 +68,7 @@
         color: #2b70cf;
         font-size: 0.8rem;
         font-weight: normal;
+        text-transform: lowercase;
       }
     }
   }

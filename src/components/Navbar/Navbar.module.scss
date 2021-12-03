@@ -15,6 +15,8 @@
     width: 70%;
 
     @media only screen and (max-width: 1366px) {
+      align-items: center;
+      padding-top: 0;
       width: 90%;
     }
 
@@ -54,6 +56,7 @@
       & .ToolbarHorizontal {
         display: flex;
         flex-direction: row;
+        position: relative;
         width: 100%;
 
         & .NavProducts {
@@ -61,7 +64,8 @@
           display: flex;
           flex-direction: column;
           height: 300px;
-          position: relative;
+          position: absolute;
+          right: 362px;
 
           & .ProductsTab {
             padding: 0 20px;

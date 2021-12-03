@@ -39,7 +39,11 @@ function Navbar() {
           </Link>
           <div className={styles.NetworkStatus}>
             <span className={styles.NetworkCircle}></span>
-            <p>Mainnet is live</p>
+            <Link href="https://conscan.conun.io/">
+              <a target="_blank" rel="noreferrer">
+                Mainnet is live
+              </a>
+            </Link>
           </div>
         </div>
         <div className={styles.Spacer}></div>

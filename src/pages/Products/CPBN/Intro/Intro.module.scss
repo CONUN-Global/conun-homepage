@@ -1,0 +1,47 @@
+.Intro {
+  align-items: center;
+  background-color: var(--conun-bg-blue-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 200px 0;
+
+  & .IntroContainer {
+    align-items: center;
+    color: var(--conun-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+    }
+
+    & .TextContainer {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+
+      & .Title {
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+
+      & .Description {
+        font-size: 1.2rem;
+        font-weight: normal;
+        line-height: 185%;
+        margin: 33px 0;
+      }
+    }
+
+    & .DiagramContainer {
+      padding: 10%;
+      width: 100%;
+    }
+  }
+}

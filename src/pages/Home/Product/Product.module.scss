@@ -3,6 +3,7 @@
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
+  padding-bottom: 20%;
   width: 100%;
 
   & .ProductPageContainer {
@@ -53,11 +54,22 @@
       & .TextCard {
         width: 40%;
 
+        & .Caption {
+          text-transform: uppercase;
+        }
+
         & .Description {
           font-size: 1rem;
           font-weight: normal;
           line-height: 149%;
           margin-top: 10px;
+        }
+
+        & .ButtonContainer {
+          align-items: flex-start;
+          display: flex;
+          flex-direction: column;
+          margin-top: 15%;
         }
 
         & .Button {
@@ -66,8 +78,10 @@
             #a0b6e4 12.18%,
             #83c8e3 106.22%
           );
-          border-radius: 20px;
-          margin-top: 20%;
+          border-radius: 30px;
+          color: var(--conun-white);
+          font-size: 0.8rem;
+          padding: 10px 20px;
         }
       }
     }

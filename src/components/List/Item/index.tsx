@@ -7,15 +7,25 @@ interface ItemProps {
   name?: string;
   path: string;
   icon?: React.ReactNode;
-  social?: "discord" | "medium" | "github" | "xangle";
+  noStyle?: boolean;
 }
-function Item({ name, path, icon }: ItemProps) {
+function Item({ name, path, icon, noStyle }: ItemProps) {
+  if (noStyle) {
+    return (
+      <div className={styles.ItemContainerWithNoStyle}>
+        <Link href={path}>{icon ? <a>{icon}</a> : <a>{name}</a>}</Link>
+      </div>
+    );
+  }
   return (
     <div className={styles.ItemContainer}>
       <Link href={path}>
-        <a>{name}</a>
+        {icon ? (
+          <a className={classNames(styles.SocialIcon)}>{icon}</a>
+        ) : (
+          <a>{name}</a>
+        )}
       </Link>
-      {icon && <div className={classNames(styles.SocialIcon)}>{icon}</div>}
     </div>
   );
 }
