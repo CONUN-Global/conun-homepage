@@ -14,7 +14,10 @@ import { NewsDataObj } from "@/types/index";
 
 function YTThumb({ YTUrl }: { YTUrl: string }) {
   return (
-    <img src={getYoutubeThumbUrl(YTUrl)} alt="" className={styles.YTThumb} /> //eslint-disable-line
+    <a href={YTUrl} target="_blank" rel="noreferrer">
+      {/* eslint-disable-next-line */}
+      <img src={getYoutubeThumbUrl(YTUrl)} alt="" className={styles.YTThumb} />
+    </a>
   );
 }
 
@@ -45,13 +48,18 @@ function NewsThumb({ newsData }: { newsData: NewsDataObj }) {
   }
 
   return (
-    <div className={styles.NewsThumb}>
+    <a
+      className={styles.NewsThumb}
+      href={newsData.url}
+      target="_blank"
+      rel="noreferrer"
+    >
       {newsData.thumbnail ? (
         <Image src={newsData.thumbnail} className={styles.ThumbImg} alt="" />
       ) : (
         <Placeholder source={newsData.source} />
       )}
-    </div>
+    </a>
   );
 }
 
