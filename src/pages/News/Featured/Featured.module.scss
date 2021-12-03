@@ -1,0 +1,14 @@
+.Featured {
+  background-color: white;
+  border-radius: 10px;
+  color: var(--conun-blue);
+  display: flex;
+  flex-direction: column;
+  height: 625px;
+  width: 715px;
+
+  & .VideoCard {
+    flex: 545px 0 0;
+    width: 100%;
+  }
+}

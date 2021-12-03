@@ -1,0 +1,34 @@
+.ExternalLinkIcon {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  height: 100%;
+
+  & .Icon {
+    &.github {
+      height: 20px;
+    }
+
+    &.medium {
+      height: 18px;
+    }
+
+    &.discord {
+      height: 18px;
+    }
+
+    &.youtube {
+      height: 13px;
+    }
+
+    &.xangle {
+      fill: #4e33c2;
+      height: 15px;
+    }
+  }
+
+  & .ExternalIcon {
+    fill: var(--conun-blue);
+    height: 15px;
+  }
+}

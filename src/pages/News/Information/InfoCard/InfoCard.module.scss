@@ -1,0 +1,30 @@
+.InfoCard {
+  padding: 20px 60px;
+  display: grid;
+  grid-template-rows: fit-content 50px;
+  grid-gap: 10px;
+  width: 100%;
+  border-bottom: 1px solid var(--illustration-blue);
+  text-transform: uppercase;
+  color: var(--conun-blue);
+
+  & .ThumbBox {
+    width: 100%;
+    height: fit-content;
+  }
+
+  & .Title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+
+  & .Read {
+    font-size: 12px;
+    color: var(--topic-text-blue);
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}

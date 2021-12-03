@@ -1,0 +1,22 @@
+.SocialIcons {
+  display: flex;
+
+  & > .SocialIcon {
+    width: 25px;
+  }
+
+  &.vertical {
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 30px;
+
+    & > .SocialIcon {
+      margin-top: 7px;
+    }
+  }
+
+  &.horizontal {
+    flex-direction: row;
+    gap: 9px;
+  }
+}

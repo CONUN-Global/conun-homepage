@@ -1,11 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-interface VideoPlayerProps {
-  url: string;
-}
-
-function VideoPlayer({ url }: VideoPlayerProps) {
+function VideoPlayer({ url }: { url: string }) {
   return (
     <ReactPlayer
       style={{ position: "absolute", top: 0, bottom: 0 }}

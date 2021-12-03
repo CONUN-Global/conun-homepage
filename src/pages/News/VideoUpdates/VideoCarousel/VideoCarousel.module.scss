@@ -1,0 +1,28 @@
+.VideoCarousel {
+  width: 100%;
+  position: relative;
+}
+
+.Slider {
+  height: 320px;
+}
+
+.Button {
+  position: absolute;
+  background: none;
+  border: none;
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.BackBtn {
+  top: 45%;
+  left: -35px;
+}
+
+.NextBtn {
+  top: 45%;
+  right: -35px;
+}

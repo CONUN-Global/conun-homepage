@@ -1,0 +1,22 @@
+.Announcements {
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 80px 1fr 80px;
+  height: 100%;
+  width: 470px;
+
+  & .CellContainer {
+    & .Cell {
+      border-bottom: 1px solid var(--conun-blue);
+      color: var(--conun-blue);
+      height: 115px;
+      padding: 20px 60px;
+      width: 100%;
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}

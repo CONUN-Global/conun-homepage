@@ -1,0 +1,25 @@
+.News {
+  align-items: center;
+  background-color: var(--secondary-background-color);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  & .BoxRow {
+    align-items: center;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+
+    &.AnnounceFeatured {
+      height: 625px;
+    }
+
+    &.AllHowTo {
+      height: 800px;
+    }
+  }
+}
