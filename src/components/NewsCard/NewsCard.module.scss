@@ -1,19 +1,17 @@
 .NewsCard {
   align-items: center;
   display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr auto;
   width: 100%;
 
   &.large {
-    gap: 5px;
     grid-template-areas: "title title" "caption caption" "date author";
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 40px 1fr;
   }
 
   &.small {
-    gap: 5px;
     grid-template-areas: "title title" "date author";
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 
@@ -56,8 +54,10 @@
     color: var(--topic-text-blue);
     display: flex;
     font-size: 11px;
+    gap: 5px;
     grid-area: author;
     height: 28px;
+    justify-content: flex-end;
     justify-self: flex-end;
 
     & .Picture {
@@ -71,12 +71,7 @@
       font-weight: 400;
       height: 28px;
       justify-content: center;
-      margin-right: 14px;
       width: 28px;
-    }
-
-    & .By {
-      margin-right: 5px;
     }
 
     & .Name {
