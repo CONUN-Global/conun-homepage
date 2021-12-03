@@ -7,8 +7,6 @@ import useCarouselContext from "@/hooks/useCarouselContext";
 
 import useStore from "@/store/store";
 
-import styles from "./SlideMain.module.scss";
-
 interface SlideMainProps {
   page: {
     caption?: JSX.Element;
@@ -33,7 +31,7 @@ function SlideMain({
   }, [currentSlide, setActiveSlide]);
 
   return (
-    <Slide innerClassName={styles.SlideContainer} index={index}>
+    <Slide index={index}>
       <MainSlide
         title={title}
         description={description}
