@@ -22,29 +22,32 @@ function Team() {
   return (
     <div className={styles.TeamPage}>
       <div className={styles.TeamIntroContainer}>
-        <ConunLogoWhite className={styles.ConunLogo} />
-
-        <div className={styles.ConunTitleContainer}>
-          <h1 className={styles.ConunTitle}>CONUN GROUP</h1>
+        <div className={styles.LogoContainer}>
+          <ConunLogoWhite className={styles.ConunLogo} />
+          <p className={styles.ConunTitle}>CONUN GROUP</p>
+        </div>
+        <div className={styles.TextContainer}>
+          <p className={styles.Title}>Meet the team</p>
+          <p>
+            CONUN is based in Seoul, South Korea. Since 2017 CONUN has strived
+            to be innovative and unique working on projects that we hope will
+            change the future. Our team members are diverse, coming from various
+            locations across the globe...
+          </p>
+          <div className={styles.TeamTabContainer}>
+            {teamTabs.map((tab, i: number) => (
+              <div
+                key={i}
+                onClick={() => setSelected(tab)}
+                className={styles.Tab}
+              >
+                <p className={styles.TabItem}>{tab}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <div className={styles.TeamContainer}>
-        <h3>Meet the team</h3>
-        <p>
-          CONUN is based in Seoul, South Korea. Since 2017 CONUN has strived to
-          be innovative and unique working on projects that we hope will change
-          the future. Our team members are diverse, coming from various
-          locations across the globe...
-        </p>
-        <div className={styles.TeamTabContainer}>
-          {teamTabs.map((tab, i: number) => (
-            <div key={i} className={styles.Tab}>
-              <p onClick={() => setSelected(tab)} className={styles.TabItem}>
-                {tab}
-              </p>
-            </div>
-          ))}
-        </div>
         <div className={styles.TeamImageContainer}>
           {selected === "All"
             ? TEAM_LIST.map((member: any, i: number) => {

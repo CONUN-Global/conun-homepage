@@ -46,3 +46,6 @@ export type NewsDataObj = {
   isHowTo: boolean;
   thumbnail?: string;
 };
+export type StringKeyObj = {
+  [key: string]: string;
+};

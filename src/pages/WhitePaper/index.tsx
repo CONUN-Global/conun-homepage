@@ -7,9 +7,11 @@ const WHITE_PAPER = ["technology", "business"];
 function WhitePaper() {
   return (
     <div className={styles.WhitePaperPage}>
-      {WHITE_PAPER.map((whitePaper: string, i: number) => {
-        return <WhitePaperCard key={i} whitePaper={whitePaper} />;
-      })}
+      <div className={styles.WhitePaperCardContainer}>
+        {WHITE_PAPER.map((whitePaper: string, i: number) => {
+          return <WhitePaperCard key={i} whitePaper={whitePaper} />;
+        })}
+      </div>
     </div>
   );
 }

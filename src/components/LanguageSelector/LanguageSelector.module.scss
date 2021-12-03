@@ -1,3 +1,25 @@
+.SideNav {
+  color: silver;
+  display: flex;
+  font-size: 1rem;
+  padding-top: 10%;
+  text-transform: uppercase;
+
+  & .LangBox {
+    margin-right: 20px;
+    width: 50px;
+
+    &:first-child {
+      border-right: 1px solid silver;
+    }
+
+    &:hover {
+      color: var(--conun-white);
+      cursor: pointer;
+    }
+  }
+}
+
 .LanguageSelector {
   display: flex;
   margin-left: 10px;
@@ -5,6 +27,7 @@
   & .WorldIcon {
     width: 20px;
   }
+
   & .LanguageDropdown {
     align-items: center;
     display: flex;
@@ -19,9 +42,10 @@
       font-weight: 600;
       position: relative;
     }
+
     & .LocaleSelect {
       align-items: center;
-      -webkit-appearance: none;
+      appearance: none;
       border: none;
       cursor: pointer;
       display: flex;
@@ -32,6 +56,10 @@
       padding-top: 15px;
       position: absolute;
       top: 50px;
+
+      &.sideNav {
+        display: flex;
+      }
 
       & .LocaleOption {
         color: var(--conun-blue);

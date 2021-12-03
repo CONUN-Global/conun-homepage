@@ -13,104 +13,684 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:37
-msgid "Academic/sociocultural ISSUES"
-msgstr "Academic/sociocultural ISSUES"
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:20
+msgid "A wallet for your crypto"
+msgstr "A wallet for your crypto"
 
-#: src/pages/Home/Main/index.tsx:20
-#: src/pages/Home/Main/index.tsx:27
-#: src/pages/Home/Main/index.tsx:34
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:33
+msgid "Academic / sociocultural ISSUES"
+msgstr "Academic / sociocultural ISSUES"
+
+#: src/pages/Home/About/UseCaseSection/index.tsx:37
+#~ msgid "Academic/sociocultural ISSUES"
+#~ msgstr "Academic/sociocultural ISSUES"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:182
+msgid "Analyze for CONUN P2P platform"
+msgstr "Analyze for CONUN P2P platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:164
+msgid "Apply for blockchain and task processing based on docker task"
+msgstr "Apply for blockchain and task processing based on docker task"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:161
+msgid "Apply for blockchain(Ethereum test-net: ropsten) and distributed processing platform based on docker task"
+msgstr "Apply for blockchain(Ethereum test-net: ropsten) and distributed processing platform based on docker task"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:41
+msgid "Apply for network core and trading system in BTC, ETH, XRP, QTUM etc"
+msgstr "Apply for network core and trading system in BTC, ETH, XRP, QTUM etc"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:62
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:190
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:261
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:346
+msgid "Apr"
+msgstr "Apr"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:101
+msgid "Architect for smartcontrat and mining algorithm for managing trading"
+msgstr "Architect for smartcontrat and mining algorithm for managing trading"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:279
+msgid "Aug"
+msgstr "Aug"
+
+#: src/pages/Home/ConunNews/Content/index.tsx:6
+#: src/pages/Home/ConunNews/Content/index.tsx:15
+#: src/pages/Home/ConunNews/Content/index.tsx:24
+#: src/pages/Home/ConunNews/Content/index.tsx:33
+msgid "August 14 2021"
+msgstr "August 14 2021"
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:12
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:36
 msgid "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants."
 msgstr "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants."
 
-#: src/pages/Home/About/AboutIntro/index.tsx:23
+#: src/pages/Home/Business/CardContent/index.tsx:19
 msgid "Become part of the CONUN network and you can benefit from our current and future blockchain-based projects."
 msgstr "Become part of the CONUN network and you can benefit from our current and future blockchain-based projects."
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:23
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:19
 msgid "Big Data and Analysis Projects"
 msgstr "Big Data and Analysis Projects"
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:18
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:14
 msgid "Biological research to improve existing treatments and develop new treatments for disease treatment is one of the areas using distributed computing, and distributed computing environments can be used for research in university research institutes and bio-industries."
 msgstr "Biological research to improve existing treatments and develop new treatments for disease treatment is one of the areas using distributed computing, and distributed computing environments can be used for research in university research institutes and bio-industries."
 
-#: src/pages/Home/About/AboutIntro/index.tsx:31
+#: src/pages/Home/Business/CardContent/index.tsx:27
 msgid "By sharing your personal computing resources you become part of a P2P network where earning is easy."
 msgstr "By sharing your personal computing resources you become part of a P2P network where earning is easy."
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:44
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:8
+msgid "CONUN DRIVE VERSION 1.1"
+msgstr "CONUN DRIVE VERSION 1.1"
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:20
+msgid "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share explore and any and all assets you quickly and conveniently."
+msgstr "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share explore and any and all assets you quickly and conveniently."
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:291
+msgid "CONUN Engine Smart Contract. Token Swap: Easily and securely swapping to CON ERC-20 Token"
+msgstr "CONUN Engine Smart Contract. Token Swap: Easily and securely swapping to CON ERC-20 Token"
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:18
+msgid "CONUN METACON VERSION 1.1"
+msgstr "CONUN METACON VERSION 1.1"
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:28
+msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
+msgstr "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:22
+msgid ""
+"CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n"
+""
+msgstr ""
+"CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n"
+""
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:383
+msgid "CONUN Orchestration(web base)"
+msgstr "CONUN Orchestration(web base)"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:266
+msgid "CONUN Services: CONUN Decentralized Data Storage Infrastructure SaaS. CONUN Drive Smart Contract"
+msgstr "CONUN Services: CONUN Decentralized Data Storage Infrastructure SaaS. CONUN Drive Smart Contract"
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:30
+msgid "CONUN WEB EXTENSION VERSION 1.1"
+msgstr "CONUN WEB EXTENSION VERSION 1.1"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:244
+msgid "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols"
+msgstr "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols"
+
+#: src/pages/Home/Product/ProductCardContent/index.tsx:34
+#: src/pages/Home/Product/ProductCardContent/index.tsx:44
+msgid "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet."
+msgstr "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet."
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:55
+msgid "CTM Front-End"
+msgstr "CTM Front-End"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:242
+msgid "Complete CONUN DECENTRALIZED NETWORK"
+msgstr "Complete CONUN DECENTRALIZED NETWORK"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:372
+msgid "Complete CONUN Network SDKs and APIs"
+msgstr "Complete CONUN Network SDKs and APIs"
+
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:40
 msgid "Computer Graphic and Processing Projects"
 msgstr "Computer Graphic and Processing Projects"
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:46
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:42
 msgid "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply."
 msgstr "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply."
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:30
+#: src/pages/Home/Product/ProductCardContent/index.tsx:9
+msgid "Conun Drive"
+msgstr "Conun Drive"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:63
+msgid "Crowdfunding for pre-sale"
+msgstr "Crowdfunding for pre-sale"
+
+#: src/pages/Home/Product/ProductCardContent/index.tsx:40
+#: src/pages/Home/Product/ProductCardContent/index.tsx:42
+msgid "DSC"
+msgstr "DSC"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:358
+msgid "DappStore is a platform, which lists all popular dApps. Discover the innovative world of blockchain, plus explore the many decentralized applications in our platform"
+msgstr "DappStore is a platform, which lists all popular dApps. Discover the innovative world of blockchain, plus explore the many decentralized applications in our platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:25
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:107
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:112
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:159
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:215
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:222
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:226
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:230
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:317
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:322
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:326
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:331
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:364
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:371
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:382
+msgid "Dec"
+msgstr "Dec"
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:10
+msgid "Decentralized File Sharing Network"
+msgstr "Decentralized File Sharing Network"
+
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:26
 msgid "Deep Learning and Models Projects"
 msgstr "Deep Learning and Models Projects"
 
-#: src/pages/Home/Main/index.tsx:18
-#: src/pages/Home/Main/index.tsx:25
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:30
+msgid "Develop CONUN's digital currency exchange platform 'Alpha version' for trading digital currency"
+msgstr "Develop CONUN's digital currency exchange platform 'Alpha version' for trading digital currency"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:19
+msgid "Develop CONUN's digital currency exchange platform for trading digital currency"
+msgstr "Develop CONUN's digital currency exchange platform for trading digital currency"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:56
+msgid "Develop client server for digital exchange"
+msgstr "Develop client server for digital exchange"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:356
+msgid "Development CONUN DappStore"
+msgstr "Development CONUN DappStore"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:209
+msgid "Development CONUN P2P core"
+msgstr "Development CONUN P2P core"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:200
+msgid "Development CONUN P2P network"
+msgstr "Development CONUN P2P network"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:27
+msgid "Development CONUN digital currency exchange alpha version platform"
+msgstr "Development CONUN digital currency exchange alpha version platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:365
+msgid "Development CONUN mobile application"
+msgstr "Development CONUN mobile application"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:81
+msgid "Development CONUN platform core & wallet"
+msgstr "Development CONUN platform core & wallet"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:289
+msgid "Development and launch CONUN CHAIN CODES"
+msgstr "Development and launch CONUN CHAIN CODES"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:125
+msgid "Development distributed network architecture (C/S platform)"
+msgstr "Development distributed network architecture (C/S platform)"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:145
+msgid "Development distributed network architecture (multi-node processing)"
+msgstr "Development distributed network architecture (multi-node processing)"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:135
+msgid "Development distributed storage(IPFS)"
+msgstr "Development distributed storage(IPFS)"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:367
+msgid "Development for CONUN mobile platform for android and iOS version"
+msgstr "Development for CONUN mobile platform for android and iOS version"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:153
+msgid "Development for client interface (manager)"
+msgstr "Development for client interface (manager)"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:385
+msgid "Development for total control web version management system in PC and mobile 'CONUN orchestration"
+msgstr "Development for total control web version management system in PC and mobile 'CONUN orchestration"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:252
+msgid "Development project utility and portal server for CONUN market"
+msgstr "Development project utility and portal server for CONUN market"
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:14
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:27
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:36
+msgid "Download"
+msgstr "Download"
+
+#: src/pages/Home/Product/ProductCardContent/index.tsx:11
+msgid "EXPLORE AND SHARE"
+msgstr "EXPLORE AND SHARE"
+
+#: src/pages/Home/ConunNews/Content/index.tsx:7
+#: src/pages/Home/ConunNews/Content/index.tsx:16
+#: src/pages/Home/ConunNews/Content/index.tsx:25
+#: src/pages/Home/ConunNews/Content/index.tsx:34
+msgid "Explore and Share Digital Assets with CONUN Drive"
+msgstr "Explore and Share Digital Assets with CONUN Drive"
+
+#: src/pages/Home/ConunNews/Content/index.tsx:9
+#: src/pages/Home/ConunNews/Content/index.tsx:18
+#: src/pages/Home/ConunNews/Content/index.tsx:27
+#: src/pages/Home/ConunNews/Content/index.tsx:36
+msgid "Explore and Share Digital Assets with CONUN Drive some other words I’m not going to write it."
+msgstr "Explore and Share Digital Assets with CONUN Drive some other words I’m not going to write it."
+
+#: src/pages/Home/Product/ProductCardContent/index.tsx:13
+msgid "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep."
+msgstr "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep."
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:18
 msgid "Explore, Share, and Earn with CONUN Drive"
 msgstr "Explore, Share, and Earn with CONUN Drive"
 
-#: src/pages/Home/Main/index.tsx:29
-msgid "Find out More"
-msgstr "Find out More"
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:26
+msgid "Fast and secure cryptocurrency wallet"
+msgstr "Fast and secure cryptocurrency wallet"
 
-#: src/pages/Home/About/AboutIntro/index.tsx:13
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:38
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:172
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:241
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:340
+msgid "Feb"
+msgstr "Feb"
+
+#: src/pages/Home/Main/index.tsx:29
+#~ msgid "Find out More"
+#~ msgstr "Find out More"
+
+#: src/pages/Home/Business/CardContent/index.tsx:9
 msgid "Get Power By Conun"
 msgstr "Get Power By Conun"
 
-#: src/pages/Home/About/AboutIntro/index.tsx:29
+#: src/pages/Home/Business/CardContent/index.tsx:25
 msgid "Give power to earn"
 msgstr "Give power to earn"
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:32
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:128
+msgid "Implement for Client / Server platform network architecture"
+msgstr "Implement for Client / Server platform network architecture"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:154
+msgid "Implement for client application program"
+msgstr "Implement for client application program"
+
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:28
 msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
 msgstr "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:25
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:21
 msgid "It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology."
 msgstr "It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology."
 
-#: src/pages/Home/About/AboutIntro/index.tsx:21
+#: src/pages/Faqs/QnAs/index.tsx:7
+#: src/pages/Faqs/QnAs/index.tsx:13
+#: src/pages/Faqs/QnAs/index.tsx:19
+#: src/pages/Faqs/QnAs/index.tsx:25
+#: src/pages/Faqs/QnAs/index.tsx:31
+#: src/pages/Faqs/QnAs/index.tsx:37
+msgid "It will be sent to the address you entered on the CONUN website. If you click MY INFO after logging in on the CONUN homepage, there is a place to enter your the wallet address."
+msgstr "It will be sent to the address you entered on the CONUN website. If you click MY INFO after logging in on the CONUN homepage, there is a place to enter your the wallet address."
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:7
+msgid "Jan"
+msgstr "Jan"
+
+#: src/pages/Home/Business/CardContent/index.tsx:17
 msgid "Join our ecosystem"
 msgstr "Join our ecosystem"
 
-#: src/pages/Home/About/AboutIntro/index.tsx:18
-#: src/pages/Home/About/AboutIntro/index.tsx:26
-#: src/pages/Home/About/AboutIntro/index.tsx:34
-#: src/pages/Home/Main/index.tsx:22
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:152
+msgid "Jul"
+msgstr "Jul"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:80
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:143
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:199
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:272
+msgid "Jun"
+msgstr "Jun"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:282
+msgid "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
+msgstr "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:227
+msgid "Launch CONUN Blockchain Explorer Testnet"
+msgstr "Launch CONUN Blockchain Explorer Testnet"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:231
+msgid "Launch CONUN Blockchain Middleware Testnet"
+msgstr "Launch CONUN Blockchain Middleware Testnet"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:223
+msgid "Launch CONUN Blockchain Testnet"
+msgstr "Launch CONUN Blockchain Testnet"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:280
+msgid "Launch CONUN Token Swap"
+msgstr "Launch CONUN Token Swap"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:309
+msgid "Launch Conun Wallet Web Extension"
+msgstr "Launch Conun Wallet Web Extension"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:341
+msgid "Launch Cross-chain SWAP"
+msgstr "Launch Cross-chain SWAP"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:318
+msgid "Launch DSC beta version"
+msgstr "Launch DSC beta version"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:311
+msgid "Launch browser extension version of Conun wallet"
+msgstr "Launch browser extension version of Conun wallet"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:108
+msgid "Launch cryptocurrency exchange service"
+msgstr "Launch cryptocurrency exchange service"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:193
+msgid "Launch distributed network (client/server platform) Alpha version in GitHub and pre-trial"
+msgstr "Launch distributed network (client/server platform) Alpha version in GitHub and pre-trial"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:218
+msgid "Launch distributed network (peer to peer) Alpha version in Github and pre-trial"
+msgstr "Launch distributed network (peer to peer) Alpha version in Github and pre-trial"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:216
+msgid "Launch distributed network P2P platform"
+msgstr "Launch distributed network P2P platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:319
+msgid "Launch distributed project beta version test"
+msgstr "Launch distributed project beta version test"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:8
+msgid "Launching CONUN business"
+msgstr "Launching CONUN business"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:349
+msgid "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform"
+msgstr "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform"
+
+#: src/pages/Home/Business/CardContent/index.tsx:14
+#: src/pages/Home/Business/CardContent/index.tsx:22
+#: src/pages/Home/Business/CardContent/index.tsx:30
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:23
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:31
 msgid "Learn More"
 msgstr "Learn More"
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:16
+#: src/pages/Home/Product/ProductCardContent/index.tsx:15
+#: src/pages/Home/Product/ProductCardContent/index.tsx:26
+#: src/pages/Home/Product/ProductCardContent/index.tsx:36
+#: src/pages/Home/Product/ProductCardContent/index.tsx:46
+msgid "Learn more"
+msgstr "Learn more"
+
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:12
 msgid "Life Science and Research Projects"
 msgstr "Life Science and Research Projects"
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:39
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:302
+msgid "Make project for CONUN platform Test application in science circulation, deep learning, big data"
+msgstr "Make project for CONUN platform Test application in science circulation, deep learning, big data"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:299
+msgid "Make projects for CONUN platform Test : science circulation / deep learning / big data"
+msgstr "Make projects for CONUN platform Test : science circulation / deep learning / big data"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:191
+msgid "Make public Alpha version for c/s platform"
+msgstr "Make public Alpha version for c/s platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:83
+msgid "Make public CONUN's core service and client wallet in data network"
+msgstr "Make public CONUN's core service and client wallet in data network"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:184
+msgid "Make the architecture for Peer to Peer platform"
+msgstr "Make the architecture for Peer to Peer platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:137
+msgid "Make transportation & distributed data storage management in application"
+msgstr "Make transportation & distributed data storage management in application"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:115
+msgid "Make virtual machine system for personal PC app UI/UX"
+msgstr "Make virtual machine system for personal PC app UI/UX"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:47
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:54
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:123
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:181
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:250
+msgid "Mar"
+msgstr "Mar"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:71
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:134
+msgid "May"
+msgstr "May"
+
+#: src/pages/Home/Product/ProductCardContent/index.tsx:20
+#: src/pages/Home/Product/ProductCardContent/index.tsx:22
+msgid "Metacon Extension"
+msgstr "Metacon Extension"
+
+#: src/pages/Home/Product/ProductCardContent/index.tsx:30
+#: src/pages/Home/Product/ProductCardContent/index.tsx:32
+msgid "Metacon Wallet"
+msgstr "Metacon Wallet"
+
+#: src/pages/Home/Product/ProductCardContent/index.tsx:24
+msgid "Metacon has the same functionality as the CONUN Manager."
+msgstr "Metacon has the same functionality as the CONUN Manager."
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:32
+msgid "Metacon web extension"
+msgstr "Metacon web extension"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:39
+msgid "Network Core for exchange platform"
+msgstr "Network Core for exchange platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:16
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:98
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:308
+msgid "Nov"
+msgstr "Nov"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:89
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:297
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:355
+msgid "Oct"
+msgstr "Oct"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:50
+msgid "Open CONUN's whitepaper describing technical architecture and aim in details"
+msgstr "Open CONUN's whitepaper describing technical architecture and aim in details"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:255
+msgid "Organize distributed computing system for CONUN's client activities monitoring system"
+msgstr "Organize distributed computing system for CONUN's client activities monitoring system"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:113
+msgid "PC Application UI/UX/Virtual Machine"
+msgstr "PC Application UI/UX/Virtual Machine"
+
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:35
 msgid "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion."
 msgstr "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion."
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:51
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:17
+msgid "Planning CONUN digital currency exchange"
+msgstr "Planning CONUN digital currency exchange"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:10
+msgid "Planning business goal and technology strategy of CONUN"
+msgstr "Planning business goal and technology strategy of CONUN"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:72
+msgid "Platform development"
+msgstr "Platform development"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:210
+msgid "Proceed CONUN core(peer to peer platform)"
+msgstr "Proceed CONUN core(peer to peer platform)"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:99
+msgid "Proceed CONUN smart contract & mining algorithm"
+msgstr "Proceed CONUN smart contract & mining algorithm"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:65
+msgid "Proceed crowdfunding in pre-sale for launching the company foundation"
+msgstr "Proceed crowdfunding in pre-sale for launching the company foundation"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:90
+msgid "Proceed exchange beta version test"
+msgstr "Proceed exchange beta version test"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:147
+msgid "Proceed job scheduler, task allocation process"
+msgstr "Proceed job scheduler, task allocation process"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:202
+msgid "Proceed network consists of peer to peer platform"
+msgstr "Proceed network consists of peer to peer platform"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:74
+msgid "Proceed research and development for CONUN's platform CONUN"
+msgstr "Proceed research and development for CONUN's platform CONUN"
+
+#: src/pages/Home/ConunNews/Content/index.tsx:11
+#: src/pages/Home/ConunNews/Content/index.tsx:20
+#: src/pages/Home/ConunNews/Content/index.tsx:29
+#: src/pages/Home/ConunNews/Content/index.tsx:38
+msgid "Read More"
+msgstr "Read More"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:327
+msgid "Release CONUN Blockchain Explorer Mainnet"
+msgstr "Release CONUN Blockchain Explorer Mainnet"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:323
+msgid "Release CONUN Blockchain Mainnet "
+msgstr "Release CONUN Blockchain Mainnet "
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:347
+msgid "Release CONUN membership service"
+msgstr "Release CONUN membership service"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:48
+msgid "Release CONUN whitepaper"
+msgstr "Release CONUN whitepaper"
+
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:47
 msgid "Scientific Calculations"
 msgstr "Scientific Calculations"
 
-#: src/pages/Home/About/UseCaseSection/index.tsx:53
+#: src/pages/Home/UseCaseSection/UseCaseCardContent/index.tsx:49
 msgid "Scientific calculations that require complex and fast computing power."
 msgstr "Scientific calculations that require complex and fast computing power."
 
-#: src/pages/Home/Main/index.tsx:36
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:208
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:288
+msgid "Sep"
+msgstr "Sep"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:174
+msgid "Staring to manage CONUN algorithm finding key version"
+msgstr "Staring to manage CONUN algorithm finding key version"
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
 msgid "Start Now"
 msgstr "Start Now"
 
-#: src/pages/Home/About/AboutIntro/index.tsx:15
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:109
+msgid "Start digital exchange service"
+msgstr "Start digital exchange service"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:233
+msgid "Starting to test 'CONUN blockchain network service version 'Halla'. We pick the beautiful mountain name in Jeju island as a CONUN's first release service name"
+msgstr "Starting to test 'CONUN blockchain network service version 'Halla'. We pick the beautiful mountain name in Jeju island as a CONUN's first release service name"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:92
+msgid "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement"
+msgstr "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement"
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:34
+msgid "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
+msgstr "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:263
+msgid "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
+msgstr "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:374
+msgid "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications"
+msgstr "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications"
+
+#: src/pages/Home/Business/CardContent/index.tsx:11
 msgid "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
 msgstr "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
 
-#: src/pages/Home/Main/index.tsx:32
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:46
+msgid "To know more about Conan's {type}, download Conan's white paper."
+msgstr "To know more about Conan's {type}, download Conan's white paper."
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:273
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:274
+msgid "Update CONUN p2p network traffic"
+msgstr "Update CONUN p2p network traffic"
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:12
+msgid "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn."
+msgstr "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn."
+
+#: src/pages/Faqs/QnAs/index.tsx:5
+#: src/pages/Faqs/QnAs/index.tsx:11
+#: src/pages/Faqs/QnAs/index.tsx:17
+#: src/pages/Faqs/QnAs/index.tsx:23
+#: src/pages/Faqs/QnAs/index.tsx:29
+#: src/pages/Faqs/QnAs/index.tsx:35
+msgid "Where are the coins to be distributed sent to?"
+msgstr "Where are the coins to be distributed sent to?"
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:34
+msgid "YOUR RESOURCE FOR High power computing"
+msgstr "YOUR RESOURCE FOR High power computing"
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:10
 msgid "Your Resource for high power computing"
 msgstr "Your Resource for high power computing"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:333
+msgid "korean-only-sub"
+msgstr "korean-only-sub"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:332
+msgid "korean-only-title"
+msgstr "korean-only-title"
+
+#: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:176
+msgid "korean-sub-only algorithm key"
+msgstr "korean-sub-only algorithm key"
+
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:43
+msgid "{type} whitepaper"
+msgstr "{type} whitepaper"

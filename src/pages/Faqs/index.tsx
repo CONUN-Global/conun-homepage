@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/react";
 import { QNAS } from "./QnAs";
 import SimpleCard from "@/components/SimpleCard";
 import styles from "./Faqs.module.scss";
@@ -12,7 +13,7 @@ function Faqs() {
         <br /> questions
       </p>
       <p className={styles.Description}>
-        Answers to commonly asked questions regarding CONUN.
+        <Trans id="Answers to commonly asked questions regarding CONUN." />
       </p>
       <div className={styles.FaqsContainer}>
         {QNAS.map((qna, i: number) => {
