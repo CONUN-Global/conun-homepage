@@ -6,14 +6,19 @@ import Item from "@/components/List/Item";
 
 import styles from "./Socials.module.scss";
 
-type SocialsProps = {
-  className?: string;
-};
+type Align = "vertical" | "horizontal";
 
-function Socials({ className }: SocialsProps) {
+interface Props {
+  className?: string;
+  alignment?: Align;
+}
+
+function Socials({ className, alignment = "vertical" }: Props) {
   return (
-    <div className={classNames(styles.SocialIcons, className)}>
-      {LINKS_ITEMS.map((link, i: number) => {
+    <div
+      className={classNames(styles.SocialIcons, styles[alignment], className)}
+    >
+      {LINKS_ITEMS.map((link: any, i: number) => {
         return <Item key={i} noStyle icon={link.icon} path={link.link} />;
       })}
     </div>

@@ -2,7 +2,7 @@ import { MAIN_PAGES } from "../../Home/Main/SlideMain/SlideContent";
 
 import Horizontal from "@/components/Card/Horizontal";
 import Caption from "@/components/Caption";
-import Socials from "@/components/Card/Horizontal/Socials";
+import Socials from "@/components/Socials";
 import Button from "@/components/Button";
 import DownloadBar from "@/components/DownloadBar";
 

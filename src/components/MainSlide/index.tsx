@@ -1,5 +1,5 @@
 import Horizontal from "@/components/Card/Horizontal";
-import Socials from "@/components/Card/Horizontal/Socials";
+import Socials from "@/components/Socials";
 import Caption from "@/components/Caption";
 import Link from "next/dist/client/link";
 

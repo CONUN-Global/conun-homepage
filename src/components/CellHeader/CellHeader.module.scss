@@ -1,0 +1,16 @@
+.CellHeader {
+  align-items: flex-end;
+  border-bottom: 2px solid var(--conun-blue);
+  color: var(--conun-blue);
+  display: flex;
+  font-family: "Chakra Petch", Barlow, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  height: 80px;
+  letter-spacing: 0.025em;
+  line-height: 5px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  text-transform: uppercase;
+  width: 100%;
+}

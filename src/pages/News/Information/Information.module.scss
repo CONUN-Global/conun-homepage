@@ -1,0 +1,14 @@
+.Information {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 430px;
+
+  & .InfoContainer {
+    display: flex;
+    flex: 1 1 590px;
+    flex-direction: column;
+  }
+}
