@@ -14,14 +14,16 @@ function News() {
   return (
     <div className={styles.News}>
       <NewsHead />
-      <div className={classNames(styles.BoxRow, styles.AnnounceFeatured)}>
-        <Announcements />
-        <Featured />
-      </div>
-      <VideoUpdates />
-      <div className={classNames(styles.BoxRow, styles.AllHowTo)}>
-        <AllUpdates />
-        <Information />
+      <div className={styles.Container}>
+        <div className={classNames(styles.BoxRow, styles.AnnounceFeatured)}>
+          <Announcements />
+          <Featured />
+        </div>
+        <VideoUpdates />
+        <div className={classNames(styles.BoxRow, styles.AllHowTo)}>
+          <AllUpdates />
+          <Information />
+        </div>
       </div>
     </div>
   );

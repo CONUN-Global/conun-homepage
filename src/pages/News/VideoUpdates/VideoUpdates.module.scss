@@ -3,4 +3,8 @@
   height: 425px;
   background-color: white;
   border-radius: 10px;
+
+  @media only screen and (max-width: 1240px) {
+    display: none;
+  }
 }

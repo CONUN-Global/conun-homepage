@@ -7,6 +7,10 @@
   height: 625px;
   width: 715px;
 
+  @media only screen and (max-width: 1240px) {
+    width: 100%;
+  }
+
   & .VideoCard {
     flex: 545px 0 0;
     width: 100%;
