@@ -8,6 +8,10 @@
   text-transform: uppercase;
   color: var(--conun-blue);
 
+  @media only screen and (max-width: 745px) {
+    padding: 5%;
+  }
+
   & .ThumbBox {
     width: 100%;
     height: fit-content;
