@@ -64,18 +64,18 @@
       }
 
       & .AboutRightContainer {
-        flex: 50%;
+        flex: 40%;
         z-index: 9;
 
         & .Title {
-          font-size: 1.8rem;
+          font-size: 1.6rem;
           text-transform: uppercase;
         }
 
         & .Description {
-          font-size: 1.2rem;
+          font-size: 1rem;
           font-weight: 400;
-          margin-bottom: 20%;
+          margin-bottom: 10%;
           margin-top: 5%;
         }
 
@@ -93,10 +93,23 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .AboutPage {
     & .MainWrapper {
       width: 90%;
+
+      & .CardContainer {
+        margin-top: 20%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .AboutPage {
+    & .MainWrapper {
+      width: 90%;
+
       & .CardContainer {
         margin-top: 20%;
       }

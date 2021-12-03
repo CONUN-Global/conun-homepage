@@ -1,6 +1,6 @@
 .VideoCarousel {
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 
 .Slider {
@@ -8,9 +8,9 @@
 }
 
 .Button {
-  position: absolute;
   background: none;
   border: none;
+  position: absolute;
 
   &:active {
     transform: translateY(1px);
@@ -18,11 +18,11 @@
 }
 
 .BackBtn {
-  top: 45%;
   left: -35px;
+  top: 45%;
 }
 
 .NextBtn {
-  top: 45%;
   right: -35px;
+  top: 45%;
 }

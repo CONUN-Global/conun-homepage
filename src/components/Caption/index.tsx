@@ -6,15 +6,17 @@ export interface CaptionProps {
   header?: JSX.Element;
   title: JSX.Element;
   className?: string;
-  color?: "green" | "sky" | "blue";
+  headColor?: "green" | "sky" | "blue";
+  titleColor?: "green" | "sky" | "blue";
   textSize?: "small" | "medium" | "large" | "custom";
 }
 
 function Caption({
   header,
   title,
+  headColor = "green",
+  titleColor = "blue",
   className,
-  color = "sky",
   textSize = "small",
 }: CaptionProps) {
   return (
@@ -25,14 +27,19 @@ function Caption({
             className={classNames(
               styles.Caption,
               styles[textSize],
-              styles[color]
+              styles[headColor]
             )}
           >
             {header}
           </p>
         )}
         <p
-          className={classNames(styles.Title, styles[textSize], styles[color])}
+          className={classNames(
+            styles.Title,
+            styles[textSize],
+            styles[textSize],
+            styles[titleColor]
+          )}
         >
           {title}
         </p>

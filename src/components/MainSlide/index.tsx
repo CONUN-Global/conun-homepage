@@ -1,7 +1,7 @@
 import Horizontal from "@/components/Card/Horizontal";
-import Socials from "@/components/Card/Horizontal/Socials";
+import Socials from "@/components/Socials";
 import Caption from "@/components/Caption";
-import Button from "@/components/Button";
+import Link from "next/dist/client/link";
 
 import useDetectMobile from "@/hooks/useDetectMobile";
 
@@ -13,23 +13,34 @@ interface Props {
   description?: JSX.Element;
   image?: JSX.Element;
   btnMsg?: JSX.Element;
+  link?: string;
 }
-function MainSlide({ title, description, image, btnMsg }: Props) {
+function MainSlide({ title, description, image, btnMsg, link }: Props) {
   const isMobile = useDetectMobile();
   return (
-    <Horizontal className={styles.HorizontalCard}>
-      <div className={styles.TextContainer}>
-        {!isMobile && <Socials />}
-        <div className={styles.TextBox}>
-          <Caption title={title} textSize="large" className={styles.Caption} />
-          <p className={styles.Description}>{description}</p>
-          <Button className={styles.Button} round>
-            {btnMsg}
-          </Button>
+    <div className={styles.MainSlide}>
+      <Horizontal className={styles.HorizontalCard}>
+        <div className={styles.TextContainer}>
+          {!isMobile && <Socials className={link && styles.SocialButtons} />}
+          <div className={styles.TextBox}>
+            <Caption
+              title={title}
+              textSize="large"
+              className={styles.Caption}
+            />
+            <p className={styles.Description}>{description}</p>
+            {link && (
+              <div className={styles.ButtonContainer}>
+                <Link href={link}>
+                  <a className={styles.Button}>{btnMsg}</a>
+                </Link>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
-      <div className={styles.ImageContainer}>{image}</div>
-    </Horizontal>
+        <div className={styles.ImageContainer}>{image}</div>
+      </Horizontal>
+    </div>
   );
 }
 export default MainSlide;

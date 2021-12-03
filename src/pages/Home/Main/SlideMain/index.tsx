@@ -1,17 +1,11 @@
 import { useEffect } from "react";
 import { Slide } from "pure-react-carousel";
 
-import Horizontal from "@/components/Card/Horizontal";
-import Socials from "@/components/Socials";
-import Caption from "@/components/Caption";
-import Button from "@/components/Button";
+import MainSlide from "@/components/MainSlide";
 
 import useCarouselContext from "@/hooks/useCarouselContext";
-import useDetectMobile from "@/hooks/useDetectMobile";
 
 import useStore from "@/store/store";
-
-import styles from "./SlideMain.module.scss";
 
 interface SlideMainProps {
   page: {
@@ -20,15 +14,15 @@ interface SlideMainProps {
     description?: JSX.Element;
     image?: JSX.Element;
     btnMsg?: JSX.Element;
+    link: string;
   };
   index: number;
 }
 function SlideMain({
-  page: { title, description, image, btnMsg },
+  page: { title, description, image, btnMsg, link },
   index,
 }: SlideMainProps) {
   const currentSlide = useCarouselContext();
-  const isMobile = useDetectMobile();
 
   const setActiveSlide = useStore((state) => state.setActiveSlide);
 
@@ -37,24 +31,14 @@ function SlideMain({
   }, [currentSlide, setActiveSlide]);
 
   return (
-    <Slide innerClassName={styles.SlideContainer} index={index}>
-      <Horizontal className={styles.HorizontalCard}>
-        <div className={styles.TextContainer}>
-          {!isMobile && <Socials />}
-          <div className={styles.TextBox}>
-            <Caption
-              title={title}
-              textSize="large"
-              className={styles.Caption}
-            />
-            <p className={styles.Description}>{description}</p>
-            <Button className={styles.Button} round>
-              {btnMsg}
-            </Button>
-          </div>
-        </div>
-        <div className={styles.ImageContainer}>{image}</div>
-      </Horizontal>
+    <Slide index={index}>
+      <MainSlide
+        title={title}
+        description={description}
+        image={image}
+        link={link}
+        btnMsg={btnMsg}
+      />
     </Slide>
   );
 }

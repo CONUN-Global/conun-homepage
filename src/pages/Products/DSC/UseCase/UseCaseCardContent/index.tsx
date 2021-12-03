@@ -48,6 +48,6 @@ export const USE_CASE_CONTENT = [
     description: (
       <Trans id="Scientific calculations that require complex and fast computing power." />
     ),
-    image: <CalculatorIcon />,
+    image: <CalculatorIcon style={{ width: "100%" }} />,
   },
 ];

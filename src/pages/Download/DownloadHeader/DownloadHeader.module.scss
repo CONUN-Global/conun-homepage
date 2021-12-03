@@ -23,6 +23,10 @@
       flex-direction: column;
       width: 50%;
 
+      & .Caption {
+        text-transform: uppercase;
+      }
+
       & .Description {
         color: var(--conun-blue);
         font-size: 1rem;
@@ -50,6 +54,7 @@
     }
 
     & .ImageContainer {
+      display: flex;
       height: 100%;
       width: 40%;
     }

@@ -16,7 +16,6 @@ function Team() {
     "Development",
     "Design",
     "Marketing",
-    "Associate",
   ];
 
   return (

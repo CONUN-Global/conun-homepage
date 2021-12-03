@@ -11,7 +11,6 @@ export const CARD_CONTENT = [
       <Trans id="Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably." />
     ),
     image: <GetMicrochip />,
-    btnMsg: <Trans id="Learn More" />,
   },
   {
     title: <Trans id="Join our ecosystem" />,
@@ -19,7 +18,6 @@ export const CARD_CONTENT = [
       <Trans id="Become part of the CONUN network and you can benefit from our current and future blockchain-based projects." />
     ),
     image: <EcosystemIcon />,
-    btnMsg: <Trans id="Learn More" />,
   },
   {
     title: <Trans id="Give power to earn" />,
@@ -27,6 +25,5 @@ export const CARD_CONTENT = [
       <Trans id="By sharing your personal computing resources you become part of a P2P network where earning is easy." />
     ),
     image: <GiveMicrochip />,
-    btnMsg: <Trans id="Learn More" />,
   },
 ];
