@@ -3,8 +3,14 @@
   border-radius: 10px;
   display: grid;
   grid-template-rows: 80px 1fr 80px;
-  height: 100%;
-  width: 470px;
+  height: 625px;
+  flex: 0 1 470px;
+
+  @media only screen and (max-width: 1240px) {
+    flex: 1 1 470px;
+    height: fit-content;
+    width: 100%;
+  }
 
   & .CellContainer {
     & .Cell {
@@ -13,6 +19,11 @@
       height: 115px;
       padding: 20px 60px;
       width: 100%;
+
+      @media only screen and (max-width: 745px) {
+        padding: 5%;
+        height: fit-content;
+      }
 
       &:last-child {
         border: none;
