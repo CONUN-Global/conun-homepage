@@ -2,46 +2,9 @@
   align-items: center;
   border-bottom: 1px solid #1e4489;
   color: var(--conun-blue);
-  display: flex;
+  display: grid;
+  grid-template-columns: 160px 1fr;
   gap: 45px;
   height: 25%;
   padding: 10px 60px;
-
-  & .Thumb {
-    height: 90px;
-    width: 160px;
-  }
-
-  & .Placeholder {
-    align-items: center;
-    background-color: #eee;
-    border: 1px solid #ddd;
-    display: flex;
-    height: 90px;
-    justify-content: center;
-    width: 160px;
-
-    & .Icon {
-      &.github {
-        height: 20px;
-      }
-
-      &.medium {
-        height: 18px;
-      }
-
-      &.discord {
-        height: 18px;
-      }
-
-      &.youtube {
-        height: 13px;
-      }
-
-      &.xangle {
-        fill: #4e33c2;
-        height: 15px;
-      }
-    }
-  }
 }
