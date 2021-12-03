@@ -81,7 +81,7 @@
     "caption": "Find out how Bridge Swap and the Metacon Extension work!",
     "author": "Blockchain Team",
     "isAnnouncement": false,
-    "isHowTo": false,
+    "isHowTo": true,
     "thumbnail": ""
   },
   {

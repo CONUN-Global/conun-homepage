@@ -9,6 +9,14 @@ import MediumIcon from "@/assets/icons/medium.svg";
 
 import styles from "./NewsThumb.module.scss";
 import classNames from "classnames";
+import getYoutubeThumbUrl from "@/helpers/getYoutubeThumbUrl";
+import { NewsDataObj } from "@/types/index";
+
+function YTThumb({ YTUrl }: { YTUrl: string }) {
+  return (
+    <img src={getYoutubeThumbUrl(YTUrl)} alt="" className={styles.YTThumb} /> //eslint-disable-line
+  );
+}
 
 function Placeholder({ source }: { source: string }) {
   switch (source) {
@@ -31,19 +39,17 @@ function Placeholder({ source }: { source: string }) {
   }
 }
 
-function NewsThumb({
-  source,
-  thumbUrl,
-}: {
-  source: string;
-  thumbUrl: string | undefined;
-}) {
+function NewsThumb({ newsData }: { newsData: NewsDataObj }) {
+  if (newsData.source === "youtube" && newsData.url) {
+    return <YTThumb YTUrl={newsData.url} />;
+  }
+
   return (
     <div className={styles.NewsThumb}>
-      {thumbUrl ? (
-        <Image src={thumbUrl} className={styles.ThumbImg} alt="" />
+      {newsData.thumbnail ? (
+        <Image src={newsData.thumbnail} className={styles.ThumbImg} alt="" />
       ) : (
-        <Placeholder source={source} />
+        <Placeholder source={newsData.source} />
       )}
     </div>
   );

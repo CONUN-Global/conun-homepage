@@ -9,7 +9,7 @@ import styles from "./UpdateCard.module.scss";
 function UpdateCard({ newsData }: { newsData: NewsDataObj }) {
   return (
     <div className={styles.UpdateCard}>
-      <NewsThumb source={newsData.source} thumbUrl={newsData.thumbnail} />
+      <NewsThumb newsData={newsData} />
       <NewsCard newsData={newsData} size="large" />
     </div>
   );

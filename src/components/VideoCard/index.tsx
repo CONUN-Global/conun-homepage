@@ -21,7 +21,7 @@ function VideoCard({ newsData, size }: Props) {
         {size === "large" ? (
           <VideoPlayer url={newsData.url} />
         ) : (
-          <NewsThumb source={newsData.source} thumbUrl={newsData.thumbnail} />
+          <NewsThumb newsData={newsData} />
         )}
       </div>
       <NewsCard newsData={newsData} size={size} />

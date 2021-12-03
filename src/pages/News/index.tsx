@@ -5,7 +5,7 @@ import Announcements from "./Announcements";
 import Featured from "./Featured";
 import VideoUpdates from "./VideoUpdates";
 import AllUpdates from "./AllUpdates";
-import HowTo from "./HowTo";
+import HowTo from "./Information";
 
 import styles from "./News.module.scss";
 import classNames from "classnames";
