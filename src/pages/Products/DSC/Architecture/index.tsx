@@ -20,7 +20,7 @@ function Architecture() {
             return (
               <div key={i} className={styles.Text}>
                 <Caption titleColor="green" title={item.title} />
-                <p>{item.description}</p>
+                <p className={styles.Description}>{item.description}</p>
               </div>
             );
           })}

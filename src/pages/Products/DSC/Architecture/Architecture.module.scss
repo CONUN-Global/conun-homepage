@@ -17,12 +17,17 @@
       width: 50%;
 
       & .Text {
+        font-family: "Chakra Petch" Barlow, sans-serif;
         font-weight: normal;
         line-height: 185%;
         margin-bottom: 5%;
 
         &:first-child {
           margin-bottom: 20%;
+        }
+
+        & .Description {
+          font-family: Barlow, sans-serif;
         }
       }
     }

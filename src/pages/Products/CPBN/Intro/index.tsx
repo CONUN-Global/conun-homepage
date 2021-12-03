@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/react";
 import SideChain from "@/assets/icons/side_chain.svg";
 import styles from "./Intro.module.scss";
 
@@ -7,15 +8,17 @@ function Intro() {
       <div className={styles.IntroContainer}>
         <div className={styles.TextContainer}>
           <p className={styles.Title}>
-            CONUN PRIVATE
+            <Trans id="CONUN PRIVATE" />
             <br />
-            BLOCKCHAIN NETWORK
+            <Trans id="BLOCKCHAIN NETWORK" />
           </p>
           <p className={styles.Description}>
-            CONUN private blockchain network has the ability to give users a
+            <Trans
+              id="CONUN private blockchain network has the ability to give users a
             more affordable, secure and faster network, with the all same
             capabilities as the Ethereum Network. This is because our network
-            runs alongside the Ethereum main blockchain.
+            runs alongside the Ethereum main blockchain."
+            />
           </p>
         </div>
 
