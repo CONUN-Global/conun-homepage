@@ -1,0 +1,30 @@
+.Benefits {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  width: 100%;
+
+  & .BenefitsContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 70%;
+  }
+
+  & .TextBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 50%;
+
+    & .Title {
+      color: var(--conun-green);
+      font-family: "Chakra Petch", sans-serif;
+      font-weight: 600;
+      line-height: 120%;
+      margin-bottom: 20px;
+    }
+  }
+}

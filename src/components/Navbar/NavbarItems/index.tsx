@@ -11,12 +11,12 @@ export const NAV_PRODUCTS = [
     description: "Conun Private Blockchain Network",
     path: "/products/cpbn",
   },
-  // {
-  //   id: "drive",
-  //   label: "DRIVE",
-  //   description: "Distributed decentralized storage system",
-  //   path: "/products/drive",
-  // },
+  {
+    id: "drive",
+    label: "DRIVE",
+    description: "Distributed decentralized storage system",
+    path: "/products/drive",
+  },
   // {
   //   id: "metacon",
   //   label: "METACON",
