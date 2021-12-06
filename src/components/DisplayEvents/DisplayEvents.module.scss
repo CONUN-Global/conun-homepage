@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
+
   &.inversed {
     flex-direction: row-reverse;
   }
@@ -20,6 +21,7 @@
       margin-bottom: 30px;
       width: 100%;
     }
+
     &.inversed {
       align-items: flex-start;
 
@@ -27,8 +29,9 @@
         align-items: center;
       }
     }
+
     & .TitleBox {
-      background: rgba(255, 255, 255, 0.3);
+      background: rgb(255 255 255 / 30%);
       border: 3px solid var(--conun-white);
       border-radius: 10px;
       color: #77aceb;
@@ -70,6 +73,7 @@
       }
     }
   }
+
   & .CardContainer {
     align-items: flex-start;
     display: flex;
@@ -79,6 +83,7 @@
       align-items: center;
       width: 100%;
     }
+
     &.inversed {
       align-items: flex-end;
       @media only screen and (max-width: 768px) {
@@ -88,7 +93,7 @@
 
     & .RoadmapCard {
       align-items: flex-start;
-      background: rgba(255, 255, 255, 0.3);
+      background: rgb(255 255 255 / 30%);
       border: 3px solid #fff;
       height: 100%;
       margin-bottom: 53px;
@@ -97,16 +102,19 @@
       width: 60%;
 
       @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        margin-bottom: 20px;
         width: 80%;
-
-        @media only screen and (max-width: 768px) {
-          width: 90%;
-        }
       }
+      @media only screen and (max-width: 768px) {
+        margin-bottom: 20px;
+        width: 90%;
+      }
+
       &.inversed {
         align-items: flex-end;
         text-align: end;
       }
+
       & .Description {
         color: #77aceb;
         margin-top: 20px;

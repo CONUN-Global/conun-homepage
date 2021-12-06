@@ -28,13 +28,6 @@
       &.blue {
         color: var(--conun-blue);
       }
-
-      &.custom {
-        color: var(--conun-blue);
-        color: #2b70cf;
-        font-size: 1.2rem;
-        font-weight: 600;
-      }
     }
 
     & .Title {
@@ -62,13 +55,6 @@
 
       &.blue {
         color: var(--conun-blue);
-      }
-
-      &.custom {
-        color: #2b70cf;
-        font-size: 0.8rem;
-        font-weight: normal;
-        text-transform: lowercase;
       }
     }
   }
