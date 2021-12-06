@@ -8,7 +8,7 @@ export interface CaptionProps {
   className?: string;
   headColor?: "green" | "sky" | "blue";
   titleColor?: "green" | "sky" | "blue";
-  textSize?: "small" | "medium" | "large" | "custom";
+  textSize?: "small" | "medium" | "large";
 }
 
 function Caption({

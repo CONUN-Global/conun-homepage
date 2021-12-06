@@ -10,9 +10,28 @@ import MediumIcon from "@/assets/icons/medium.svg";
 import styles from "./NewsThumb.module.scss";
 import classNames from "classnames";
 import getYoutubeThumbUrl from "@/helpers/getYoutubeThumbUrl";
+import getYoutubeThumbUrlClean from "@/helpers/getYoutubeThumbUrlClean";
 import { NewsDataObj } from "@/types/index";
 
-function YTThumb({ YTUrl }: { YTUrl: string }) {
+function YTThumb({
+  YTUrl,
+  thumbnailClean,
+}: {
+  YTUrl: string;
+  thumbnailClean: boolean;
+}) {
+  if (thumbnailClean) {
+    return (
+      <a href={YTUrl} target="_blank" rel="noreferrer">
+        {/* eslint-disable-next-line */}
+        <img
+          src={getYoutubeThumbUrlClean(YTUrl)}
+          alt=""
+          className={styles.YTThumb}
+        />
+      </a>
+    );
+  }
   return (
     <a href={YTUrl} target="_blank" rel="noreferrer">
       {/* eslint-disable-next-line */}
@@ -42,9 +61,15 @@ function Placeholder({ source }: { source: string }) {
   }
 }
 
-function NewsThumb({ newsData }: { newsData: NewsDataObj }) {
+function NewsThumb({
+  newsData,
+  thumbnailClean = false,
+}: {
+  newsData: NewsDataObj;
+  thumbnailClean?: boolean;
+}) {
   if (newsData.source === "youtube" && newsData.url) {
-    return <YTThumb YTUrl={newsData.url} />;
+    return <YTThumb YTUrl={newsData.url} thumbnailClean={thumbnailClean} />;
   }
 
   return (

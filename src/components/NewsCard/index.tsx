@@ -11,6 +11,8 @@ type Size = "small" | "large";
 interface Props {
   newsData: NewsDataObj;
   size: Size;
+  className?: string;
+  gap?: boolean;
 }
 
 interface DateLinkProps {
@@ -40,9 +42,13 @@ function DateAndLink({ source, url, date, size }: DateLinkProps) {
   );
 }
 
-function NewsCard({ newsData, size }: Props) {
+function NewsCard({ newsData, size, gap }: Props) {
   return (
-    <div className={classNames(styles.NewsCard, styles[size])}>
+    <div
+      className={classNames(styles.NewsCard, styles[size], {
+        [styles.gap]: gap,
+      })}
+    >
       <a
         href={newsData.url}
         target="_blank"

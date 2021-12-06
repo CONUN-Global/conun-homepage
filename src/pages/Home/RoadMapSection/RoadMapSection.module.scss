@@ -45,6 +45,11 @@
     padding: 0 15%;
     position: relative;
     width: 100%;
+    @media only screen and (max-width: 1204px) {
+      display: flex;
+      min-height: 100px;
+      padding: 0 20px;
+    }
 
     & .Year {
       align-items: center;
@@ -57,10 +62,8 @@
       width: 80px;
 
       @media only screen and (max-width: 1204px) {
-        background: rgb(255 255 255 / 30%);
         border: none;
         border-radius: 0;
-        box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
       }
 
       &:hover {

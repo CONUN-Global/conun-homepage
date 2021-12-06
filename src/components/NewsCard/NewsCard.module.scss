@@ -5,6 +5,10 @@
   grid-template-columns: 1fr auto;
   width: 100%;
 
+  &.gap {
+    grid-gap: 20px;
+  }
+
   &.large {
     grid-template-areas: "title title" "caption caption" "date author";
     grid-template-rows: auto 40px 1fr;
