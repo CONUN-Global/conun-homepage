@@ -7,7 +7,7 @@ function Text({
   className,
 }: {
   description: JSX.Element;
-  className: string;
+  className?: string;
 }) {
   return (
     <div className={classNames(styles.Text, className)}>{description}</div>

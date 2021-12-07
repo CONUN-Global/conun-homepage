@@ -117,8 +117,8 @@ msgid "By having our own network, CONUNs unique chain code contract will reward 
 msgstr "By having our own network, CONUNs unique chain code contract will reward users  with a proven faster and more affordable network."
 
 #: src/pages/Products/DSC/Body/index.tsx:11
-msgid "By participating, your smart device is part of an ecosystem that has gathered many idle resources  to function as a high level computation mechanism that serves complex and vital projects around the world."
-msgstr "By participating, your smart device is part of an ecosystem that has gathered many idle resources  to function as a high level computation mechanism that serves complex and vital projects around the world."
+#~ msgid "By participating, your smart device is part of an ecosystem that has gathered many idle resources  to function as a high level computation mechanism that serves complex and vital projects around the world."
+#~ msgstr "By participating, your smart device is part of an ecosystem that has gathered many idle resources  to function as a high level computation mechanism that serves complex and vital projects around the world."
 
 #: src/pages/Home/Business/CardContent/index.tsx:25
 msgid "By sharing your personal computing resources you become part of a P2P network where earning is easy."
@@ -147,8 +147,12 @@ msgid "CONUN DSC PLATFORM REWARDING PROCESS"
 msgstr "CONUN DSC PLATFORM REWARDING PROCESS"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:32
-msgid "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share explore and any and all assets you quickly and conveniently."
-msgstr "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share explore and any and all assets you quickly and conveniently."
+msgid "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share and explore all your assets quickly and conveniently."
+msgstr "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share and explore all your assets quickly and conveniently."
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:32
+#~ msgid "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share explore and any and all assets you quickly and conveniently."
+#~ msgstr "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share explore and any and all assets you quickly and conveniently."
 
 #: src/pages/Products/CPBN/Footer/index.tsx:11
 msgid "CONUN EXPLORER"
@@ -163,8 +167,12 @@ msgid "CONUN METACON VERSION 1.1"
 msgstr "CONUN METACON VERSION 1.1"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:41
-msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
-msgstr "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
+msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
+msgstr "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:41
+#~ msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
+#~ msgstr "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:22
 msgid ""
@@ -211,16 +219,20 @@ msgid "CONUN p2p protocol is designed for delivering a secure network between tr
 msgstr "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols"
 
 #: src/pages/Products/CPBN/Intro/index.tsx:16
-msgid ""
-"CONUN private blockchain network has the ability to give users a\n"
-"            more affordable, secure and faster network, with the all same\n"
-"            capabilities as the Ethereum Network. This is because our network\n"
-"            runs alongside the Ethereum main blockchain."
-msgstr ""
-"CONUN private blockchain network has the ability to give users a\n"
-"            more affordable, secure and faster network, with the all same\n"
-"            capabilities as the Ethereum Network. This is because our network\n"
-"            runs alongside the Ethereum main blockchain."
+#~ msgid ""
+#~ "CONUN private blockchain network has the ability to give users a\n"
+#~ "            more affordable, secure and faster network, with the all same\n"
+#~ "            capabilities as the Ethereum Network. This is because our network\n"
+#~ "            runs alongside the Ethereum main blockchain."
+#~ msgstr ""
+#~ "CONUN private blockchain network has the ability to give users a\n"
+#~ "            more affordable, secure and faster network, with the all same\n"
+#~ "            capabilities as the Ethereum Network. This is because our network\n"
+#~ "            runs alongside the Ethereum main blockchain."
+
+#: src/pages/Products/CPBN/Intro/index.tsx:16
+msgid "CONUN private blockchain network has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain."
+msgstr "CONUN private blockchain network has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain."
 
 #: src/pages/Products/DSC/Intro/index.tsx:10
 msgid "CONUNS DSC EOSYSTEM"
@@ -298,6 +310,10 @@ msgstr "Crowdfunding for pre-sale"
 #: src/pages/Home/Product/ProductCardContent/index.tsx:45
 msgid "DSC"
 msgstr "DSC"
+
+#: src/pages/Products/DSC/UseCase/index.tsx:18
+msgid "DSC USE CASES"
+msgstr "DSC USE CASES"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:358
 msgid "DappStore is a platform, which lists all popular dApps. Discover the innovative world of blockchain, plus explore the many decentralized applications in our platform"
@@ -419,8 +435,8 @@ msgid "EXPLORE AND SHARE"
 msgstr "EXPLORE AND SHARE"
 
 #: src/pages/Products/DSC/Body/index.tsx:18
-msgid "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation."
-msgstr "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation."
+#~ msgid "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation."
+#~ msgstr "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation."
 
 #: src/pages/Home/ConunNews/Content/index.tsx:29
 msgid "Explore and Share Digital Assets with CONUN Drive"
@@ -677,16 +693,20 @@ msgid "Metacon web extension"
 msgstr "Metacon web extension"
 
 #: src/pages/Products/CPBN/Footer/index.tsx:14
-msgid ""
-"Monitor live transactions made on the CONUN Private Blockchain network\n"
-"          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n"
-"          monitoring and data service platform where you can view Blockchain\n"
-"          transactions, block data inquiries, and related charts simultaneously."
-msgstr ""
-"Monitor live transactions made on the CONUN Private Blockchain network\n"
-"          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n"
-"          monitoring and data service platform where you can view Blockchain\n"
-"          transactions, block data inquiries, and related charts simultaneously."
+#~ msgid ""
+#~ "Monitor live transactions made on the CONUN Private Blockchain network\n"
+#~ "          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n"
+#~ "          monitoring and data service platform where you can view Blockchain\n"
+#~ "          transactions, block data inquiries, and related charts simultaneously."
+#~ msgstr ""
+#~ "Monitor live transactions made on the CONUN Private Blockchain network\n"
+#~ "          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n"
+#~ "          monitoring and data service platform where you can view Blockchain\n"
+#~ "          transactions, block data inquiries, and related charts simultaneously."
+
+#: src/pages/Products/CPBN/Footer/index.tsx:14
+msgid "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously."
+msgstr "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:39
 msgid "Network Core for exchange platform"
@@ -747,6 +767,22 @@ msgstr "Planning business goal and technology strategy of CONUN"
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:72
 msgid "Platform development"
 msgstr "Platform development"
+
+#: src/pages/Products/DSC/UseCase/index.tsx:22
+#~ msgid ""
+#~ "Prediction, forecasting, simulation, and advanced calculation -\n"
+#~ "            these are all functions that need advanced computing. There are many\n"
+#~ "            societal demands that lack physical computing resources or financial\n"
+#~ "            means to actuate or process a project."
+#~ msgstr ""
+#~ "Prediction, forecasting, simulation, and advanced calculation -\n"
+#~ "            these are all functions that need advanced computing. There are many\n"
+#~ "            societal demands that lack physical computing resources or financial\n"
+#~ "            means to actuate or process a project."
+
+#: src/pages/Products/DSC/UseCase/index.tsx:22
+msgid "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project."
+msgstr "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:210
 msgid "Proceed CONUN core(peer to peer platform)"

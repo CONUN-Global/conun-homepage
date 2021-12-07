@@ -11,12 +11,7 @@ function Footer() {
           <Trans id="CONUN EXPLORER" />
         </p>
         <p className={styles.Description}>
-          <Trans
-            id="Monitor live transactions made on the CONUN Private Blockchain network
-          with CONUN Private Blockchain Explorer. CONUN Explorer is a block
-          monitoring and data service platform where you can view Blockchain
-          transactions, block data inquiries, and related charts simultaneously."
-          />
+          <Trans id="Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously." />
         </p>
         <div className={styles.DiagramContainer}>
           <ChartBCE />

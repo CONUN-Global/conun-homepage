@@ -8,21 +8,42 @@ import WorldIcon from "@/assets/icons/world.svg";
 
 import styles from "./WhitePaperCard.module.scss";
 
-const LANGUAGE = [
-  { name: "English", path: "./assets/whitepaper/en.pdf" },
-  {
-    name: "한국어",
-    path: "./assets/whitepaper/ko.pdf",
-  },
-  {
-    name: "中文",
-    path: "./assets/whitepaper/en.pdf",
-  },
-  {
-    name: "日本語",
-    path: "./assets/whitepaper/en.pdf",
-  },
-];
+interface Value {
+  name: string;
+  path: string;
+}
+const LANGUAGE: { [key: string]: Value[] } = {
+  technology: [
+    { name: "English", path: "./assets/technology_whitepaper/en.pdf" },
+    {
+      name: "한국어",
+      path: "./assets/technology_whitepaper/ko.pdf",
+    },
+    {
+      name: "中文",
+      path: "./assets/technology_whitepaper/cn.pdf",
+    },
+    {
+      name: "日本語",
+      path: "./assets/technology_whitepaper/jp.pdf",
+    },
+  ],
+  business: [
+    { name: "English", path: "./assets/business_whitepaper/en.pdf" },
+    {
+      name: "한국어",
+      path: "./assets/business_whitepaper/ko.pdf",
+    },
+    {
+      name: "中文",
+      path: "./assets/business_whitepaper/cn.pdf",
+    },
+    {
+      name: "日本語",
+      path: "./assets/business_whitepaper/jp.pdf",
+    },
+  ],
+};
 
 interface WhitePaperCardProps {
   key: number;
@@ -52,7 +73,9 @@ function WhitePaperCard({ whitePaper }: WhitePaperCardProps) {
         </p>
       </div>
       <div className={styles.DropdownContainer}>
-        <p>PDF Download</p>
+        <p>
+          <Trans id="PDF Download" />
+        </p>
         <div className={styles.LanguageSelector}>
           <div
             className={classNames(
@@ -64,7 +87,7 @@ function WhitePaperCard({ whitePaper }: WhitePaperCardProps) {
           </div>
           {isLanguageDropdownOpen && (
             <ul className={styles.LanguageOptions}>
-              {LANGUAGE.map((lang, i: number) => (
+              {LANGUAGE[whitePaper].map((lang, i: number) => (
                 <DropdownLink
                   onclick={() => {
                     setLanguage(lang.name);
