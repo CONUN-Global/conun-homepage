@@ -23,7 +23,8 @@ function Intro() {
           <Caption
             className={styles.Caption}
             headColor="sky"
-            titleColor="green"
+            titleColor="blue"
+            textSize="large"
             header={introduction.header}
             title={introduction.title}
           />

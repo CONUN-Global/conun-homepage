@@ -1,5 +1,7 @@
 import React from "react";
 
+import classNames from "classnames";
+
 import NewsHead from "./NewsHead";
 import Announcements from "./Announcements";
 import Featured from "./Featured";
@@ -8,7 +10,6 @@ import AllUpdates from "./AllUpdates";
 import Information from "./Information";
 
 import styles from "./News.module.scss";
-import classNames from "classnames";
 
 function News() {
   return (

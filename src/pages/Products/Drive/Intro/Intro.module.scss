@@ -1,0 +1,29 @@
+.Intro {
+  align-items: center;
+  background-color: var(--conun-bg-blue-dark);
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  width: 100%;
+
+  & .IntroContainer {
+    color: var(--conun-blue);
+    width: 70%;
+
+    & .Caption {
+      text-align: center;
+    }
+
+    & .Description {
+      font-family: Barlow, sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0.045em;
+      line-height: 180%;
+    }
+
+    & .ChartContainer {
+      padding-top: 10%;
+    }
+  }
+}
