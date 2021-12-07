@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import PcRoom from "@/assets/icons/pc_room.svg";
 import styles from "./Body.module.scss";

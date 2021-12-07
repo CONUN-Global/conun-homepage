@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import classNames from "classnames";
 
 import DropdownLink from "@/components/Dropdown/DropdownLink";

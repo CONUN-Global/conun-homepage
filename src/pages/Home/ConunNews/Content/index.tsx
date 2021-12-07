@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import youtubeThumbnail from "../../../../assets/pics/youtube-thumbnail.jpg";
 
 export const CONUN_NEWS = [

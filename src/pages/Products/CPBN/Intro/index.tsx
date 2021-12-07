@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import SideChain from "@/assets/icons/side_chain.svg";
 import styles from "./Intro.module.scss";
 

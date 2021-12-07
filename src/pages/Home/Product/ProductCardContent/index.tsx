@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import DriveIcon from "@/assets/icons/drive_icon.svg";
 import MetaconWalletIcon from "@/assets/icons/metacon_wallet.svg";

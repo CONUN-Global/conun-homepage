@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import DSCSlide from "@/assets/icons/dsc_slide.svg";
 import DriveSlide from "@/assets/icons/drive_slide.svg";

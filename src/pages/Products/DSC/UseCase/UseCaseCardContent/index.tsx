@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import DrawingIcon from "@/assets/icons/drawing_icon.svg";
 import CalculatorIcon from "@/assets/icons/calculator_icon.svg";

@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import Chart_PBCN from "@/assets/icons/chart_pbcn.svg";
 import styles from "./Body.module.scss";

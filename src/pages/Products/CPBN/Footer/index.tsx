@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import ChartBCE from "@/assets/icons/charts_BCE.svg";
 import styles from "./Footer.module.scss";

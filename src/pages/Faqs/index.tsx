@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import { QNAS } from "./QnAs";
 import SimpleCard from "@/components/SimpleCard";
 import styles from "./Faqs.module.scss";
