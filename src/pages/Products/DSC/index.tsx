@@ -1,6 +1,5 @@
 import Header from "./Header";
 import Intro from "./Intro";
-import Body from "./Body";
 import Architecture from "./Architecture";
 import UseCase from "./UseCase";
 
@@ -11,7 +10,6 @@ function DSC() {
     <div className={styles.MainContainer}>
       <Header />
       <Intro />
-      <Body />
       <Architecture />
       <UseCase />
     </div>
