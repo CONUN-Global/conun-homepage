@@ -4,7 +4,6 @@ import DSCSlide from "@/assets/icons/dsc_slide.svg";
 import DriveSlide from "@/assets/icons/drive_slide.svg";
 import WalletSlide from "@/assets/icons/wallet_slide.svg";
 import CPBNSlide from "@/assets/icons/cpbn_slide.svg";
-import DownloadHeaderIcon from "@/assets/icons/download_header.svg";
 
 export const MAIN_PAGES = [
   {
@@ -49,7 +48,7 @@ export const MAIN_PAGES = [
     description: (
       <Trans id="Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants." />
     ),
-    image: <DownloadHeaderIcon style={{ height: "100%" }} />,
+    image: <WalletSlide />,
     link: "",
   },
 ];
