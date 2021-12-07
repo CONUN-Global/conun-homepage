@@ -55,9 +55,9 @@
       "CONUN Engine Smart Contract. Token Swap: Easily and securely swapping to CON ERC-20 Token",
     "CONUN METACON VERSION 1.1": "CONUN METACON VERSION 1.1",
     "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download.":
-      "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download.",
+      "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!",
     "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download.":
-      "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수",
+      "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!",
     "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n":
       "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n",
     "CONUN Orchestration(web base)": "CONUN Orchestration(web base)",
@@ -167,7 +167,7 @@
       "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you",
     "How much are fees when using CON and CONX tokens? ":
       "How much are fees when using CON and CONX tokens? ",
-    INTRODUCTION: "INTRODUCTION",
+    INTRODUCTION: "소개",
     "Implement for Client / Server platform network architecture":
       "Implement for Client / Server platform network architecture",
     "Implement for client application program":
