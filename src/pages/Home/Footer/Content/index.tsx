@@ -17,7 +17,7 @@ export const CONTENT = [
     ],
   },
   {
-    section: "SOLUTION",
+    section: "SOLUTIONS",
     items: [
       {
         name: "Distributed Computing",
