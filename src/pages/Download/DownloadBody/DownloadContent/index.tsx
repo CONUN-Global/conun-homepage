@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import WebExt from "@/assets/icons/web_ext.svg";
 import Drive from "@/assets/icons/drive.svg";
 import Wallet from "@/assets/icons/wallet.svg";

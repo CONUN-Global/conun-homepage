@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import Horizontal from "@/components/Card/Horizontal";
 import Caption from "@/components/Caption";

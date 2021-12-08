@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import EcosystemIcon from "@/assets/icons/ecosystem_icon.svg";
 import GiveMicrochip from "@/assets/icons/give_microchip.svg";
