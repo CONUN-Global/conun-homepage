@@ -16,7 +16,11 @@
       width: 100%;
 
       & .Tab {
+        align-items: center;
         border-right: 1px solid var(--conun-skyblue);
+        display: flex;
+        justify-content: center;
+        width: 210px;
 
         &:last-child {
           border: none;
@@ -27,8 +31,9 @@
           font-size: 1rem;
           font-weight: 500;
           line-height: 30px;
-          padding: 5px 10px;
+          text-align: center;
           text-transform: uppercase;
+          width: 100%;
 
           &:hover {
             background: linear-gradient(
@@ -37,6 +42,7 @@
               #83c8e3 106.22%
             );
             color: var(--conun-white);
+            cursor: pointer;
           }
         }
       }

@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:21
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:20
 msgid "A FAST, SECURE, and AFFORDABLE BLOCKCHAIN"
 msgstr "빠르고 안전하며 보다 저렴한 블록체인"
 
@@ -27,7 +27,7 @@ msgstr "아키텍처"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:33
 msgid "Academic / sociocultural ISSUES"
-msgstr ""
+msgstr "학술/연구/사회문화적 이슈 등의 Survey"
 
 #: src/pages/Home/About/UseCaseSection/index.tsx:37
 #~ msgid "Academic/sociocultural ISSUES"
@@ -42,39 +42,39 @@ msgid "Analyze for CONUN P2P platform"
 msgstr "CONUN P2P 플랫폼 분석"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:18
-msgid "Announcing the CONUN Mainnet 1.0, BAEKDU, Launch — Excited to meet you all"
-msgstr ""
+#~ msgid "Announcing the CONUN Mainnet 1.0, BAEKDU, Launch — Excited to meet you all"
+#~ msgstr "코넌 메인넷 1.0, 백두 론칭 — 만나서 반가워요! "
 
 #: src/pages/Faqs/index.tsx:17
 msgid "Answers to commonly asked questions regarding CONUN."
-msgstr ""
+msgstr "CONUN에 자주 문의해 주시는 질문에 대한 답변입니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:164
 msgid "Apply for blockchain and task processing based on docker task"
-msgstr ""
+msgstr "Docker 기반의 task processing 및 블록체인 연동을 구현합니다"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:161
 msgid "Apply for blockchain(Ethereum test-net: ropsten) and distributed processing platform based on docker task"
-msgstr ""
+msgstr "분산 처리 플랫폼(docker 기반) 구축 및 블록체인(ethernum test-net:ropsten) 연동"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:41
 msgid "Apply for network core and trading system in BTC, ETH, XRP, QTUM etc"
-msgstr ""
+msgstr "비트코인/이더리움/리플/퀀텀 등 각종 네트워크 코어 및 거래시스템을 적용합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:62
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:190
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:261
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:346
 msgid "Apr"
-msgstr ""
+msgstr "4월"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:101
 msgid "Architect for smartcontrat and mining algorithm for managing trading"
-msgstr ""
+msgstr "거래 트랜잭션을 관리하는 스마트 컨트랙트와 마이닝 알고리즘을 구현합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:279
 msgid "Aug"
-msgstr ""
+msgstr "8월"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:6
 #: src/pages/Home/ConunNews/Content/index.tsx:15
@@ -87,22 +87,22 @@ msgstr ""
 msgid "BLOCKCHAIN NETWORK"
 msgstr "블록체인 네트워크"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:13
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:50
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:12
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:49
 msgid "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants."
-msgstr "데스크톱 그리드 컴퓨팅 기술을 기반으로 하는 코넌의 분산슈퍼컴퓨팅 플랫폼은 참여자와 사용자 간의 합의에 따라 운영되기 때문에 수평적 수익 생태계를 형성합니다. 코넌은 네트워크 참여자들을 통하여 CPU, GPU 및 스토"
+msgstr "데스크톱 그리드 컴퓨팅 기술을 기반으로 하는 코넌의 분산슈퍼컴퓨팅 플랫폼은 참여자와 사용자 간의 합의에 따라 운영되기 때문에 수평적 수익 생태계를 형성합니다. 코넌은 네트워크 참여자들을 통하여 CPU, GPU 및 스토리지와 같은 전 세계 PC 리소스를 수집합니다."
 
 #: src/pages/Home/Business/CardContent/index.tsx:18
 msgid "Become part of the CONUN network and you can benefit from our current and future blockchain-based projects."
-msgstr ""
+msgstr "사용의 용이성과 효율성에 중점을 둔 CONUN의 목표는 자사의 플랫폼을 온 / 오프라인 서비스와 연결하여 프로젝트에서 프로젝트로 이어지는 개발을 끊임없이 실현시키며 사용자에게 최대한의 이점을 제공하는 것입니다."
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:19
 msgid "Big Data and Analysis Projects"
-msgstr ""
+msgstr "빅데이터 분석 프로젝트"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:14
 msgid "Biological research to improve existing treatments and develop new treatments for disease treatment is one of the areas using distributed computing, and distributed computing environments can be used for research in university research institutes and bio-industries."
-msgstr ""
+msgstr "질병 치료를 위한 기존의 치료법 개선 및 신규 치료법 개발을 위한 생물학 연구는 분산 컴퓨팅을 활용한 분야 중 하나이며, 대학의 연구소 및 바이오 산업계 등에서 연구를 위하여 분산 컴퓨팅 환경을 사용할 수 있습니다."
 
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:16
 msgid "Business Opportunity"
@@ -113,8 +113,8 @@ msgid "Business opportunity for all users - rewards by sharing your personal idl
 msgstr "사용자들에게 비즈니스 기회를 제공합니다. 유휴 자원을 공유하고 빌려줌으로서 보상을 받거나 개인 콘텐츠를 판매하여 수익을 창출할 수 있습니다."
 
 #: src/pages/Products/CPBN/Body/index.tsx:31
-msgid "By having our own network, CONUNs unique chain code contract will reward users  with a proven faster and more affordable network."
-msgstr ""
+#~ msgid "By having our own network, CONUNs unique chain code contract will reward users  with a proven faster and more affordable network."
+#~ msgstr ""
 
 #: src/pages/Products/DSC/Body/index.tsx:11
 #~ msgid "By participating, your smart device is part of an ecosystem that has gathered many idle resources  to function as a high level computation mechanism that serves complex and vital projects around the world."
@@ -125,23 +125,35 @@ msgid "By sharing your personal computing resources you become part of a P2P net
 msgstr ""
 
 #: src/pages/Faqs/QnAs/index.tsx:19
-msgid ""
-"CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. \n"
-"\n"
-"CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. \n"
-"\n"
-"When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. "
+#~ msgid ""
+#~ "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. \n"
+#~ "\n"
+#~ "CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. \n"
+#~ "\n"
+#~ "When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. "
+#~ msgstr ""
+
+#: src/pages/Faqs/QnAs/index.tsx:15
+#~ msgid "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance."
+#~ msgstr "CON 토큰은 이더리움 네트워크에 있는 CONUN의 ERC20 토큰이므로 CON 전송에는 ERC20 토큰 전송에 대한 일반적인 거래 수수료가 발생합니다. 이 수수료는 지갑의 Eth 잔액에서 공제됩니다. CONX 토큰은 CONUN의 프라이빗 블록체인 네트워크에만 존재하며, CONX를 다른 사용자에게 양도하는 데에는 수수료가 전혀 발생하지 않습니다. CON을 CONX로 또는 CONX를 CON으로 스왑할 때 사용하는 브리지 스왑 프로세스에는 CONUN 자체의 네트워크와 이더리움 네트워크 모두에서 스마트 계약이 포함됩니다. Ethereum 네트워크에서 스마트 계약과 관련된 모든 작업에는 일반적인 거래 수수료가 발생하며 이 수수료는 지갑의 Eth 잔액에서 공제됩니다."
+
+#: src/pages/Faqs/QnAs/index.tsx:15
+msgid "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. "
 msgstr ""
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:8
 msgid "CONUN DRIVE VERSION 1.1"
-msgstr ""
+msgstr "코넌 드라이브 버전 1.1"
+
+#: src/pages/Products/DSC/Intro/index.tsx:10
+msgid "CONUN DSC ECOSYSTEM"
+msgstr "CONUN DSC 생태계"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:7
-msgid "CONUN DSC PLATFORM REWARDING PROCESS"
-msgstr ""
+#~ msgid "CONUN DSC PLATFORM REWARDING PROCESS"
+#~ msgstr ""
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:32
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:31
 msgid "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share and explore all your assets quickly and conveniently."
 msgstr "코넌 드라이브는 사용자들이 디지털 자산을 공유하고 판매 및 구매할 수 있는 특별한 데스크톱 플랫폼입니다. 전세계의 모든 디지털 자산을 빠르고 편리하게 둘러보고 공유할 수 있습니다."
 
@@ -155,13 +167,13 @@ msgstr "콘스캔 (코넌 블록체인 익스플로러)"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:291
 msgid "CONUN Engine Smart Contract. Token Swap: Easily and securely swapping to CON ERC-20 Token"
-msgstr ""
+msgstr "CONUN 엔진 스마트컨트랙트 개발과 토큰 스왑( ERC-20 )을 진행합니다."
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:18
 msgid "CONUN METACON VERSION 1.1"
-msgstr ""
+msgstr "코넌 METACON 페이지 1.1"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:41
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:40
 msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
 msgstr "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!"
 
@@ -170,44 +182,48 @@ msgstr "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 �
 #~ msgstr "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!"
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:22
-msgid ""
-"CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n"
-""
+#~ msgid ""
+#~ "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n"
+#~ ""
+#~ msgstr ""
+
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:22
+msgid "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions."
 msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:383
 msgid "CONUN Orchestration(web base)"
-msgstr ""
+msgstr "CONUN 오케스트레이션(웹 베이스)"
 
 #: src/pages/Products/CPBN/Intro/index.tsx:11
 msgid "CONUN PRIVATE"
-msgstr ""
+msgstr "CONUN 프라이빗"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:42
-msgid "CONUN Pre-Release announcement"
-msgstr ""
+#~ msgid "CONUN Pre-Release announcement"
+#~ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:266
 msgid "CONUN Services: CONUN Decentralized Data Storage Infrastructure SaaS. CONUN Drive Smart Contract"
-msgstr ""
+msgstr "CONUN 서비스: CONUN 분산 데이터 스토리지 인프라 SaaS. CONUN 드라이브 스마트 계약"
 
-#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:30
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:27
 msgid "CONUN WEB EXTENSION VERSION 1.1"
-msgstr ""
+msgstr "CONUN 웹 익스텐션 버전 1.1"
 
 #: src/pages/Products/CPBN/Body/index.tsx:23
-msgid "CONUN continuously strives to bring value to our private blockchain network by creating blockchain based products that benefit users."
-msgstr ""
+#~ msgid "CONUN continuously strives to bring value to our private blockchain network by creating blockchain based products that benefit users."
+#~ msgstr ""
 
 #: src/pages/Home/ConunNews/Content/index.tsx:31
-msgid ""
-"CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\n"
-"Over the last several months, CONUN’s blockchain team has expanded with new members from..."
-msgstr ""
+#~ msgid ""
+#~ "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\n"
+#~ "Over the last several months, CONUN’s blockchain team has expanded with new members from..."
+#~ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:244
 msgid "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols"
-msgstr ""
+msgstr "CONUN P2P 탈중앙 네트워크에서의 서로를 신뢰할 수 있는 강력한 보안을 제공하도록 설계합니다."
 
 #: src/pages/Products/CPBN/Intro/index.tsx:16
 #~ msgid ""
@@ -222,52 +238,68 @@ msgid "CONUN private blockchain network has the ability to give users a more aff
 msgstr "코넌 메인넷(CPBN)은 이더리움 네트워크와 동일한 기능을 하며 사용자에게 보다 저렴하고 안전하며 빠른 네트워크를 제공할 수 있습니다. 이는 코넌 메인넷이 이더리움 메인 블록체인과 함께 실행되고 있기 때문입니다."
 
 #: src/pages/Products/DSC/Intro/index.tsx:10
-msgid "CONUNS DSC EOSYSTEM"
-msgstr ""
+#~ msgid "CONUNS DSC ECOSYSTEM"
+#~ msgstr "CONUNS DSC 생태계"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:23
+#: src/pages/Products/DSC/Intro/index.tsx:10
+#~ msgid "CONUNS DSC EOSYSTEM"
+#~ msgstr ""
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:22
 msgid "CONUN’s Private Blockchain Network is an answer to the limitations that come with using a public blockchain. A private blockchain allows us to modify and set our own rules, all while providing users with a faster, secure and more affordable Blockchain."
-msgstr "CONUN의 프라이빗 블록체인 네트워크(코넌 메인넷)는 퍼블릭 블록체인 사용에 따른 한계에 대하여 저희 코넌이 제시하는 솔루션입니다. 프라이빗 블록체인을 사용함으로써, 저희는 자체 규칙을 정하고 수정하는 것이 가능하"
+msgstr "CONUN의 프라이빗 블록체인 네트워크(코넌 메인넷)는 퍼블릭 블록체인 사용에 따른 한계에 대하여 저희 코넌이 제시하는 솔루션입니다. 프라이빗 블록체인을 사용하면 사용자에게 더 빠르고 안전하며 저렴한 블록체인을 제공하면서 자체 규칙을 수정하고 설정할 수 있습니다."
 
-#: src/pages/Home/Product/ProductCardContent/index.tsx:36
-#: src/pages/Home/Product/ProductCardContent/index.tsx:47
+#: src/pages/Home/Product/ProductCardContent/index.tsx:24
+#: src/pages/Home/Product/ProductCardContent/index.tsx:35
 msgid "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet."
 msgstr ""
 
 #: src/pages/Faqs/QnAs/index.tsx:9
-msgid ""
-"CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. \n"
-"\n"
-"You can read more about this on the DSC and CPBN product description pages! "
-msgstr ""
+#~ msgid ""
+#~ "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. \n"
+#~ "\n"
+#~ "You can read more about this on the DSC and CPBN product description pages! "
+#~ msgstr ""
+
+#: src/pages/Faqs/QnAs/index.tsx:9
+msgid "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. You can read more about this on the DSC and CPBN product description pages!"
+msgstr "CONUN의 주요 프로젝트인 DSC를 통해 사용자는 슈퍼컴퓨팅 작업을 요청할 수 있으며, 이 작업은 연결된 노드, 즉 네트워크와 컴퓨터 리소스를 공유하는 사용자와 공유됩니다. 작업이 완료되면 사용자는 컴퓨터의 작업에 대해 토큰으로 보상을 받습니다. 이 보상 절차를 위해서는 토큰 전송이 무료일 뿐만 아니라 빨라야 합니다. CONUN은 프라이빗 블록체인 네트워크를 통해 이 두 가지 요구 사항을 모두 충족시킬 수 있습니다. 이에 대한 자세한 내용은 DSC 및 CPBN 제품 설명 페이지에서 확인할 수 있습니다!"
 
 #: src/pages/Products/DSC/Architecture/Content/index.tsx:7
 msgid "CONUN’s networktowrk consists of  computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications."
 msgstr "CONUN의 네트워크는 개인용 컴퓨터의 CPU, GPU, 메모리 및 스토리지를 제어하는 컴퓨팅 노드로 구성됩니다. 이러한 모듈화된 노드는 애플리케이션을 처리하게 됩니다."
 
+#: src/pages/Products/DSC/Architecture/Content/index.tsx:7
+#~ msgid "CONUN’s networktowrk consists of computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications."
+#~ msgstr "CONUN의 네트워크는 개인용 컴퓨터의 CPU, GPU, 메모리 및 스토리지를 제어하는 컴퓨팅 노드로 구성됩니다. 이러한 모듈화된 노드는 애플리케이션을 처리하게 됩니다."
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:55
 msgid "CTM Front-End"
-msgstr ""
+msgstr "CTM 프론트앤드"
+
+#: src/pages/Faqs/QnAs/index.tsx:20
+msgid "Can I add other token wallets into my Metacon wallet?"
+msgstr "메타콘 지갑에 다른 토큰 지갑을 추가할 수 있나요?"
 
 #: src/pages/Faqs/QnAs/index.tsx:30
-msgid "Can I add other token wallets into my Metacon wallet? "
-msgstr ""
+#~ msgid "Can I add other token wallets into my Metacon wallet? "
+#~ msgstr "메타콘 지갑에 다른 토큰 지갑을 추가할 수 있나요?"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:242
 msgid "Complete CONUN DECENTRALIZED NETWORK"
-msgstr ""
+msgstr "코넌 탈중앙 네트워크 CONUN 분산 네트워크 서비스 개발완료"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:372
 msgid "Complete CONUN Network SDKs and APIs"
-msgstr ""
+msgstr "CONUN 네트워크 SDK 및 API 완성"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:40
 msgid "Computer Graphic and Processing Projects"
-msgstr ""
+msgstr "컴퓨터 그래픽 처리 프로젝트"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:42
 msgid "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply."
-msgstr ""
+msgstr "컴퓨터 그래픽 분야의 컴퓨터 생성 이미지(CGI)는 영화, 텔레비전 프로그램, 광고, 시뮬레이터, 시뮬레이션, 3차원 컴퓨터 그래픽 등의 프로젝트를 빠르고 저렴하게 처리하는데 사용합니다."
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:9
 #: src/pages/Products/Drive/Intro/index.tsx:16
@@ -283,25 +315,25 @@ msgid "Conun Drive was built for developers. So, if you are building an applicat
 msgstr "코넌 드라이브는 개발자들을 위해 만들어졌습니다. 따라서 애플리케이션이나 NFT 마켓 플레이스와 같은 무언가를 개발하고자 한다면, 저희의 API와 SDK가 강력한 기능을 제공할 것입니다."
 
 #: src/pages/Home/ConunNews/Content/index.tsx:44
-msgid "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)"
-msgstr ""
+#~ msgid "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)"
+#~ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:63
 msgid "Crowdfunding for pre-sale"
-msgstr ""
+msgstr "크라우드펀딩 사전판매"
 
-#: src/pages/Home/Product/ProductCardContent/index.tsx:43
-#: src/pages/Home/Product/ProductCardContent/index.tsx:45
+#: src/pages/Home/Product/ProductCardContent/index.tsx:31
+#: src/pages/Home/Product/ProductCardContent/index.tsx:33
 msgid "DSC"
-msgstr ""
+msgstr "DSC"
 
 #: src/pages/Products/DSC/UseCase/index.tsx:18
 msgid "DSC USE CASES"
-msgstr ""
+msgstr "DSC 사용 사례"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:358
 msgid "DappStore is a platform, which lists all popular dApps. Discover the innovative world of blockchain, plus explore the many decentralized applications in our platform"
-msgstr ""
+msgstr "코넌의 디앱스토어에서는 모든 인기있는 dApp 을 나열하는 플랫폼입니다. 혁신적인 블록체인 세계를 발견하고 당사 플랫폼의 많은 분산 애플리케이션 경험을 제공할 것입니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:25
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:107
@@ -319,112 +351,129 @@ msgstr ""
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:371
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:382
 msgid "Dec"
-msgstr ""
+msgstr "12월"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:6
-msgid "Dec 2, 2021"
-msgstr ""
+#~ msgid "Dec 2, 2021"
+#~ msgstr ""
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:10
 msgid "Decentralized File Sharing Network"
 msgstr ""
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:26
-msgid "Deep Learning and Models Projects"
-msgstr ""
+msgid "Deep Learning Projects"
+msgstr "딥러닝 프로젝트"
+
+#: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:26
+#~ msgid "Deep Learning and Models Projects"
+#~ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:30
 msgid "Develop CONUN's digital currency exchange platform 'Alpha version' for trading digital currency"
-msgstr ""
+msgstr "암호화폐 거래플랫폼의 알파버전을 개발합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:19
 msgid "Develop CONUN's digital currency exchange platform for trading digital currency"
-msgstr ""
+msgstr "암호화폐 거래를 위한 거래소 플랫폼 개발을 시작합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:56
 msgid "Develop client server for digital exchange"
-msgstr ""
+msgstr "암호화폐 거래소의 클라이언트 서비스를 개발합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:356
 msgid "Development CONUN DappStore"
-msgstr ""
+msgstr "코넌 디앱 스토어(CONUN DappStore) 서비스 출시."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:209
 msgid "Development CONUN P2P core"
-msgstr ""
+msgstr "CONUN P2P core 개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:200
 msgid "Development CONUN P2P network"
-msgstr ""
+msgstr "CONUN P2P network 구축"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:27
 msgid "Development CONUN digital currency exchange alpha version platform"
-msgstr ""
+msgstr "CONUN 디지털 화폐 거래소 알파 버전 플랫폼 개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:365
 msgid "Development CONUN mobile application"
-msgstr ""
+msgstr "코넌 모바일 앱 개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:81
 msgid "Development CONUN platform core & wallet"
-msgstr ""
+msgstr "코넌 플랫폼 코어 및 지갑 개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:289
 msgid "Development and launch CONUN CHAIN CODES"
-msgstr ""
+msgstr "코넌 체인코드 개발 및 런칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:125
 msgid "Development distributed network architecture (C/S platform)"
-msgstr ""
+msgstr "분산네트워크 설계 및 개발 (C/S platform)"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:145
 msgid "Development distributed network architecture (multi-node processing)"
-msgstr ""
+msgstr "분산네트워크 설계 및 개발(multi-node processing)"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:135
 msgid "Development distributed storage(IPFS)"
-msgstr ""
+msgstr "분산 스토리지(IPFS) 연동개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:367
 msgid "Development for CONUN mobile platform for android and iOS version"
-msgstr ""
+msgstr "Android 와 IOS 버전을 위한 모바일 플랫폼 설계 및 개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:153
 msgid "Development for client interface (manager)"
-msgstr ""
+msgstr "사용자 인터페이스 개발(manager)"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:385
 msgid "Development for total control web version management system in PC and mobile 'CONUN orchestration"
-msgstr ""
+msgstr "데스크톱과 모바일을 통합해서 관리할 수 있는 CONUN Orchestration(web base)을 개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:252
 msgid "Development project utility and portal server for CONUN market"
-msgstr ""
+msgstr "CONUN market 을 위한 project utility 및 포털 서버 구축"
+
+#: src/pages/Home/Footer/Content/index.tsx:54
+msgid "Discord"
+msgstr "디스코드"
+
+#: src/pages/Home/Footer/Content/index.tsx:25
+msgid "Distributed Computing"
+msgstr "분산 컴퓨팅"
 
 #: src/pages/Products/DSC/Architecture/Content/index.tsx:19
 msgid "Distributed computing core functionality that processes computing tasks by using personal computer resources."
 msgstr "개인용 컴퓨터의 자원(리소스)을 사용하여 컴퓨팅 작업을 처리하는 분산컴퓨팅 핵심 기능입니다."
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:14
-#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:27
-#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:36
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:24
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:33
 #: src/pages/Products/CPBN/Header/index.tsx:12
 #: src/pages/Products/DSC/Header/index.tsx:12
 #: src/pages/Products/Drive/Header/index.tsx:12
+#: src/pages/Products/Metacon/Header/index.tsx:13
 msgid "Download"
-msgstr ""
+msgstr "다운로드"
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:11
 msgid "EXPLORE AND SHARE"
-msgstr ""
+msgstr "탐색 및 공유"
 
 #: src/pages/Products/DSC/Body/index.tsx:18
 #~ msgid "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation."
 #~ msgstr ""
 
+#: src/pages/Home/Footer/Content/index.tsx:33
+msgid "Explore"
+msgstr "익스플로러"
+
 #: src/pages/Home/ConunNews/Content/index.tsx:29
-msgid "Explore and Share Digital Assets with CONUN Drive"
-msgstr ""
+#~ msgid "Explore and Share Digital Assets with CONUN Drive"
+#~ msgstr ""
 
 #: src/pages/Home/ConunNews/Content/index.tsx:9
 #: src/pages/Home/ConunNews/Content/index.tsx:18
@@ -437,11 +486,11 @@ msgstr ""
 msgid "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep."
 msgstr ""
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:30
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:29
 msgid "Explore, Share, and Earn with CONUN Drive"
 msgstr "코넌 드라이브를 통한 디지털 자산 탐색, 공유 및 수익 창출"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:39
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:38
 msgid "Fast and secure cryptocurrency wallet"
 msgstr "빠르고 안전한 암호화폐 지갑"
 
@@ -450,7 +499,7 @@ msgstr "빠르고 안전한 암호화폐 지갑"
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:241
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:340
 msgid "Feb"
-msgstr ""
+msgstr "2월"
 
 #: src/pages/Home/Main/index.tsx:29
 #~ msgid "Find out More"
@@ -459,6 +508,10 @@ msgstr ""
 #: src/pages/Home/Business/CardContent/index.tsx:9
 msgid "Get Power By Conun"
 msgstr ""
+
+#: src/pages/Home/Footer/Content/index.tsx:59
+msgid "Github"
+msgstr "Github"
 
 #: src/pages/Home/Business/CardContent/index.tsx:23
 msgid "Give power to earn"
@@ -469,12 +522,16 @@ msgid "Grid Computing Core"
 msgstr "그리드 컴퓨팅 코어"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:9
-msgid "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you"
-msgstr ""
+#~ msgid "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you"
+#~ msgstr ""
+
+#: src/pages/Faqs/QnAs/index.tsx:13
+msgid "How much are fees when using CON and CONX tokens?"
+msgstr "CON 및 CONX 토큰 사용 시 수수료는 얼마인가요?"
 
 #: src/pages/Faqs/QnAs/index.tsx:17
-msgid "How much are fees when using CON and CONX tokens? "
-msgstr ""
+#~ msgid "How much are fees when using CON and CONX tokens? "
+#~ msgstr ""
 
 #: src/pages/Products/DSC/Intro/index.tsx:11
 msgid "INTRODUCTION"
@@ -482,19 +539,23 @@ msgstr "소개"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:128
 msgid "Implement for Client / Server platform network architecture"
-msgstr ""
+msgstr "Client / Server platform으로 구성된 네트워크 아키텍처를 구현합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:154
 msgid "Implement for client application program"
-msgstr ""
+msgstr "사용자 응용프로그램 인터페이스를 구현합니다."
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:28
-msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
-msgstr ""
+msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
+msgstr "인공지능분야에서 기계학습 기술인 컨볼루션신경망(CNN), 순환신경망(RNN), 강화학습(Reinforcement Learning) 등의 분야에서 사용자가 설계한 Deep Learning 모델을 빠르게 생성하여 Deep Learning 알고리즘을 학습할 수 있는 다중 프로세스 환경을 구현할 수 있습니다."
+
+#: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:28
+#~ msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
+#~ msgstr ""
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:21
 msgid "It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology."
-msgstr ""
+msgstr "빅데이터 분석기술을 응용한 데이터 마이닝, 자연언어 처리, 패턴인식처리와 같은 기존 방법과 소셜 미디어 등 비정형 데이터의 분석을 위한 텍스트 마이닝, 오피니언 마이닝, 소셜네트워크 분석, 군집분석 등을 처리하는 데 사용합니다."
 
 #: src/pages/Faqs/QnAs/index.tsx:7
 #: src/pages/Faqs/QnAs/index.tsx:13
@@ -507,7 +568,7 @@ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:7
 msgid "Jan"
-msgstr ""
+msgstr "1월"
 
 #: src/pages/Home/Business/CardContent/index.tsx:16
 msgid "Join our ecosystem"
@@ -515,99 +576,98 @@ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:152
 msgid "Jul"
-msgstr ""
+msgstr "7월"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:80
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:143
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:199
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:272
 msgid "Jun"
-msgstr ""
+msgstr "6월"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:282
 msgid "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
-msgstr ""
+msgstr "Ethereum Blockchain 과 Conun Private Blockchain 간의 자산 교환할 수 있는 서비스를 런칭합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:227
 msgid "Launch CONUN Blockchain Explorer Testnet"
-msgstr ""
+msgstr "코넌 블록체인 익스플로러 테스트넷 CONUN 론칭."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:231
 msgid "Launch CONUN Blockchain Middleware Testnet"
-msgstr ""
+msgstr "코넌 블록체인 미들웨어 테스트넷 론칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:223
 msgid "Launch CONUN Blockchain Testnet"
-msgstr ""
+msgstr "코넌 블록체인 테스트넷 론칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:280
 msgid "Launch CONUN Token Swap"
-msgstr ""
+msgstr "코넌 토큰 스왑(CONUN Token Swap) 론칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:309
 msgid "Launch Conun Wallet Web Extension"
-msgstr ""
+msgstr "CONUN 지갑 웹 익스텐션 (CONUN Wallet Web Extension) 론칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:341
 msgid "Launch Cross-chain SWAP"
-msgstr ""
+msgstr "크로스 체인 스왑(Cross-chain Swap) 론칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:318
 msgid "Launch DSC beta version"
-msgstr ""
+msgstr "DSC 배타버전 배포"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:311
 msgid "Launch browser extension version of Conun wallet"
-msgstr ""
+msgstr "CONUN 지갑 브라우저 확장 버전 출시"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:108
 msgid "Launch cryptocurrency exchange service"
-msgstr ""
+msgstr "암호 화폐거래소 서비스를 시작합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:193
 msgid "Launch distributed network (client/server platform) Alpha version in GitHub and pre-trial"
-msgstr ""
+msgstr "분산네트워크(client/server 플랫폼) 알파버전을 github에 공개 및 배포합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:218
 msgid "Launch distributed network (peer to peer) Alpha version in Github and pre-trial"
-msgstr ""
+msgstr "분산네트워크(peer to peer 플랫폼) 알파버전을 github 에 공개 및 배포합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:216
 msgid "Launch distributed network P2P platform"
-msgstr ""
+msgstr "알파버전 (P2P 플랫폼) 배포"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:319
 msgid "Launch distributed project beta version test"
-msgstr ""
+msgstr "DSC 배타버전 (분산 프로젝트를 적용)을 배포합니다"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:8
 msgid "Launching CONUN business"
-msgstr ""
+msgstr "CONUN 비지니스 론칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:349
 msgid "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform"
-msgstr ""
+msgstr "코넌 멤버십 출시와 함께 코넌 모니터링 서비스를 시작하여 CONUN 플랫폼에서 서비스사용자들이 각각의 고유한 비즈니스 또는 개인 요구 사항에 맞는 비용추정 및 유휴자원을 빌려주는 사용자들에게는 받을 보상금액을 알 수 있습니다."
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:16
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:26
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:25
 msgid "Lear More"
-msgstr ""
+msgstr "상세보기"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:35
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:44
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:34
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:43
 msgid "Learn More"
-msgstr ""
+msgstr "상세보기"
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:15
-#: src/pages/Home/Product/ProductCardContent/index.tsx:27
-#: src/pages/Home/Product/ProductCardContent/index.tsx:38
-#: src/pages/Home/Product/ProductCardContent/index.tsx:49
+#: src/pages/Home/Product/ProductCardContent/index.tsx:26
+#: src/pages/Home/Product/ProductCardContent/index.tsx:37
 msgid "Learn more"
-msgstr ""
+msgstr "상세보기"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:12
 msgid "Life Science and Research Projects"
-msgstr ""
+msgstr "생명과학 연구 프로젝트"
 
 #: src/pages/Products/Drive/Benefits/index.tsx:18
 msgid "Main Benefits"
@@ -615,31 +675,31 @@ msgstr "주요 장점들"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:302
 msgid "Make project for CONUN platform Test application in science circulation, deep learning, big data"
-msgstr ""
+msgstr "CONUN 플랫폼 개발을 위한 과학계산용, 딥러닝, 빅데이터 테스트 적용 프로젝트 제작 "
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:299
 msgid "Make projects for CONUN platform Test : science circulation / deep learning / big data"
-msgstr ""
+msgstr "CONUN 플랫폼 테스트 및 검증용 프로젝트 개발: 과학계산용 / 딥러닝 / 빅데이터 분석"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:191
 msgid "Make public Alpha version for c/s platform"
-msgstr ""
+msgstr "알파버전(c/s platform) 배포"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:83
 msgid "Make public CONUN's core service and client wallet in data network"
-msgstr ""
+msgstr "CONUN 데이터 네트워크에 해당하는 코어와 사용자 전자지갑을 공개합니다"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:184
 msgid "Make the architecture for Peer to Peer platform"
-msgstr ""
+msgstr "Peer to Peer 플랫폼의 아키텍처를 분석 및 설계합니다"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:137
 msgid "Make transportation & distributed data storage management in application"
-msgstr ""
+msgstr "응용 프로그램에서 운송 및 분산 데이터 저장 관리"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:115
 msgid "Make virtual machine system for personal PC app UI/UX"
-msgstr ""
+msgstr "개인용 PC 앱 UI/UX용 가상머신 시스템 구축"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:47
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:54
@@ -647,7 +707,7 @@ msgstr ""
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:181
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:250
 msgid "Mar"
-msgstr ""
+msgstr "3월"
 
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:10
 msgid "Marketplace"
@@ -656,25 +716,29 @@ msgstr "마켓 플레이스"
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:71
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:134
 msgid "May"
-msgstr ""
+msgstr "5월"
+
+#: src/pages/Home/Footer/Content/index.tsx:50
+msgid "Medium"
+msgstr "Medium"
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:21
 #: src/pages/Home/Product/ProductCardContent/index.tsx:23
-msgid "Metacon Extension"
-msgstr ""
+#~ msgid "Metacon Extension"
+#~ msgstr "Metacon 익스텐션"
 
-#: src/pages/Home/Product/ProductCardContent/index.tsx:32
-#: src/pages/Home/Product/ProductCardContent/index.tsx:34
+#: src/pages/Home/Product/ProductCardContent/index.tsx:20
+#: src/pages/Home/Product/ProductCardContent/index.tsx:22
 msgid "Metacon Wallet"
-msgstr ""
+msgstr "Metacon 지갑"
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:25
-msgid "Metacon has the same functionality as the CONUN Manager."
-msgstr ""
+#~ msgid "Metacon has the same functionality as the CONUN Manager."
+#~ msgstr ""
 
-#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:32
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:29
 msgid "Metacon web extension"
-msgstr ""
+msgstr "Metacon 웹 익스텐션"
 
 #: src/pages/Products/CPBN/Footer/index.tsx:14
 #~ msgid ""
@@ -690,47 +754,51 @@ msgstr "콘스캔(CONUN Blockchain Explorer)은 블록체인 거래, 블록 데�
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:39
 msgid "Network Core for exchange platform"
-msgstr ""
+msgstr "거래소 네트워크 코어"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:16
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:98
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:308
 msgid "Nov"
-msgstr ""
+msgstr "11월"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:28
-msgid "Nov 11 2021"
-msgstr ""
+#~ msgid "Nov 11 2021"
+#~ msgstr "11월 11일 2021"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:16
-msgid "Nov 24 2021"
-msgstr ""
+#~ msgid "Nov 24 2021"
+#~ msgstr "11월 24일 2021"
 
 #: src/pages/Home/ConunNews/Content/index.tsx:41
-msgid "Nov 5 2021"
-msgstr ""
+#~ msgid "Nov 5 2021"
+#~ msgstr "11월 5일 2021"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:89
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:297
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:355
 msgid "Oct"
-msgstr ""
+msgstr "10월"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:50
 msgid "Open CONUN's whitepaper describing technical architecture and aim in details"
-msgstr ""
+msgstr "CONUN의 기술적 목표와 방향성을 기술하며 아키텍쳐 및 플랫폼 등에 대해 자세히 기술되어있는 백서를 발표합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:255
 msgid "Organize distributed computing system for CONUN's client activities monitoring system"
-msgstr ""
+msgstr "CONUN 사용자의 활동 및 작업처리 상황을 모니터링 및 사용자의 분산 컴퓨팅 요청을 처리할 수 있는 할 수 있는 관리 체제를 구축합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:113
 msgid "PC Application UI/UX/Virtual Machine"
-msgstr ""
+msgstr "PC 어플리케이션 UI/UX/가상 머신"
+
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:77
+msgid "PDF Download"
+msgstr "PDF 다운로드"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:35
 msgid "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion."
-msgstr ""
+msgstr "다양한 학술적 연구, 사회적 문화적 이슈 등을 범용 네트워크의 참여자들이 직간접적으로 참여하여 추가적인 부가 수익을 얻을 수 있는 동시에 연구와 토론을 통해 삶의 질을 개선하고 문화를 발전시키는 공동체를 만들 수 있습니다."
 
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:12
 msgid "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product."
@@ -738,15 +806,15 @@ msgstr "개인과 개인이 직접 연결되어 파일공유가 가능한 P2P �
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:17
 msgid "Planning CONUN digital currency exchange"
-msgstr ""
+msgstr "암호화폐 거래소"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:10
 msgid "Planning business goal and technology strategy of CONUN"
-msgstr ""
+msgstr "CONUN의 기술 및 사업 목표와 방향성을 제시하고 개발을 기획합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:72
 msgid "Platform development"
-msgstr ""
+msgstr "플랫폼 개발"
 
 #: src/pages/Products/DSC/UseCase/index.tsx:22
 #~ msgid ""
@@ -760,69 +828,77 @@ msgstr ""
 msgid "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project."
 msgstr ""
 
+#: src/pages/Home/Footer/Content/index.tsx:12
+msgid "Privacy Policy"
+msgstr "개인정보 처리방침"
+
+#: src/pages/Home/Footer/Content/index.tsx:29
+msgid "Private Blockchain"
+msgstr "프라이빗 블록체인"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:210
 msgid "Proceed CONUN core(peer to peer platform)"
-msgstr ""
+msgstr "CONUN 코어(P2P 플랫폼) 진행"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:99
 msgid "Proceed CONUN smart contract & mining algorithm"
-msgstr ""
+msgstr "CONUN 스마트 계약 및 마이닝 알고리즘 진행"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:65
 msgid "Proceed crowdfunding in pre-sale for launching the company foundation"
-msgstr ""
+msgstr "개발을 위한 재단 기금모금을 위해 사전판매형식의 크라우드펀딩을 진행합니다"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:90
 msgid "Proceed exchange beta version test"
-msgstr ""
+msgstr "거래소 베타 버전 테스트 진행"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:147
 msgid "Proceed job scheduler, task allocation process"
-msgstr ""
+msgstr "작업 스케줄러, 작업 할당 프로세스 진행"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:202
 msgid "Proceed network consists of peer to peer platform"
-msgstr ""
+msgstr "P2P 플랫폼으로 구성된 네트워크를 구축합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:74
 msgid "Proceed research and development for CONUN's platform CONUN"
-msgstr ""
+msgstr "CONUN 플랫폼의 기반을 정의하는 기술에 대하여 연구개발을 진행합니다."
 
 #: src/pages/Home/ConunNews/Content/index.tsx:11
 #: src/pages/Home/ConunNews/Content/index.tsx:23
 #: src/pages/Home/ConunNews/Content/index.tsx:36
 #: src/pages/Home/ConunNews/Content/index.tsx:46
-msgid "Read More"
-msgstr ""
+#~ msgid "Read More"
+#~ msgstr "상세보기"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:327
 msgid "Release CONUN Blockchain Explorer Mainnet"
-msgstr ""
+msgstr "코넌 블록체인 익스플로러 메인넷 런칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:323
 msgid "Release CONUN Blockchain Mainnet "
-msgstr ""
+msgstr "코넌 블록체인 메인넷 런칭"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:347
 msgid "Release CONUN membership service"
-msgstr ""
+msgstr "코넌 멤버십 서비스 출시"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:48
 msgid "Release CONUN whitepaper"
-msgstr ""
+msgstr "코넌 백서 출시"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:47
 msgid "Scientific Calculations"
-msgstr ""
+msgstr "과학 계산용 프로젝트"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:49
 msgid "Scientific calculations that require complex and fast computing power."
-msgstr ""
+msgstr "복잡하고 빠른 컴퓨팅 성능이 요구되는 과학계산 작업을 실행하는데 사용 될 수 있습니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:208
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:288
 msgid "Sep"
-msgstr ""
+msgstr "9월"
 
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:22
 msgid "Software Development"
@@ -830,7 +906,7 @@ msgstr "소프트웨어 개발"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:174
 msgid "Staring to manage CONUN algorithm finding key version"
-msgstr ""
+msgstr "CONUN 플랫폼을 위한 분산 프로젝트"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
 #~ msgid "Start Now"
@@ -838,11 +914,11 @@ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:109
 msgid "Start digital exchange service"
-msgstr ""
+msgstr "암호 화폐거래소 서비스를 시작합니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:233
 msgid "Starting to test 'CONUN blockchain network service version 'Halla'. We pick the beautiful mountain name in Jeju island as a CONUN's first release service name"
-msgstr ""
+msgstr "코넌의 분산슈퍼컴퓨팅 DSC 를 지원하기 위한 블록체인 탈중앙네트워크 개발작업을 시작합니다."
 
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:4
 msgid "Storage"
@@ -852,20 +928,28 @@ msgstr "스토리지"
 msgid "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage."
 msgstr "하나의 서버에 모든 데이터를 저장하는 중앙 집중식이 아닌, 데이터를 각각 나눠서 저장하는 탈중앙화된 스토리지입니다. 클라우드 스토리지의 필요성이 사라지게 됩니다."
 
+#: src/pages/Home/Footer/Content/index.tsx:8
+msgid "Terms of Service"
+msgstr "서비스 약관"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:92
 msgid "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement"
-msgstr ""
+msgstr "실제 암호화폐 거래소를 운영하기 위한 플랫폼 베타버전을 테스트합니다. 거래시스템 및 코어를 점검하고, 보안성을 강화하는 작업을 진행합니다."
 
-#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:34
+#: src/pages/Download/DownloadBody/DownloadContent/index.tsx:31
 msgid "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
 msgstr ""
 
 #: src/pages/Faqs/QnAs/index.tsx:33
-msgid ""
-"The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n"
-"\n"
-"The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! "
-msgstr ""
+#~ msgid ""
+#~ "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n"
+#~ "\n"
+#~ "The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! "
+#~ msgstr ""
+
+#: src/pages/Faqs/QnAs/index.tsx:23
+msgid "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! "
+msgstr "Metacon 지갑을 사용하면 다른 토큰 지갑도 함께 보관할 수 있으며, JSON 인증서를 사용하여 액세스할 수 있습니다. 현재 메타콘 버전에서는 ETH, CON, CONX 지갑만 인증서 안에 보관할 수 있으며, 다음 버전에서는 지갑을 더 추가할 수 있습니다. 그럼 뉴스 페이지에서 메타콘의 새로운 소식을 만나보세요!"
 
 #: src/pages/Products/DSC/Intro/index.tsx:13
 msgid "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices."
@@ -873,51 +957,59 @@ msgstr "우리는 매일같이 컴퓨터와 스마트폰과 같은 고성능 전
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:263
 msgid "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
-msgstr ""
+msgstr "코넌 블록체인 메인 서비스 '한라-릴리스' 첫 출시. 코넌 드라이브 완료"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:374
 msgid "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications"
-msgstr ""
+msgstr "CONUN Network SDK 를 통해 CONUN 블록체인 네트워크를 통합합니다. CONUN 에서 제공하는 API를 통해 각 서비스 사용자들은 자체의 맞춤형 비즈니스 애플리케이션을 구현할 수 있습니다"
 
 #: src/pages/Home/Business/CardContent/index.tsx:11
 msgid "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
 msgstr ""
 
-#: src/pages/WhitePaper/WhitePaperCard/index.tsx:48
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
 msgid "To know more about Conan's {type}, download Conan's white paper."
-msgstr ""
+msgstr "Conan의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
 
 #: src/pages/Products/CPBN/Body/index.tsx:28
-msgid "UNIVERSAL ADVANTAGES"
-msgstr ""
+#~ msgid "UNIVERSAL ADVANTAGES"
+#~ msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:273
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:274
 msgid "Update CONUN p2p network traffic"
-msgstr ""
+msgstr "CONUN P2P 네트워크 트래픽 업데이트"
 
 #: src/pages/Products/CPBN/Body/index.tsx:13
-msgid "VISION"
-msgstr ""
+#~ msgid "VISION"
+#~ msgstr ""
+
+#: src/components/DownloadBar/index.tsx:10
+msgid "Version 1.2.1 of CONUN Drive is now available."
+msgstr "CONUN 드라이브 버전 1.2.1이 출시되었습니다."
 
 #: src/pages/Products/DSC/Architecture/Content/index.tsx:11
 msgid "Virtual Machine (Docker Container)"
 msgstr "가상 머신 (도커 컨테이너)"
 
+#: src/pages/Home/Footer/Content/index.tsx:37
+msgid "Wallet"
+msgstr "지갑"
+
 #: src/pages/Products/CPBN/Body/index.tsx:16
-msgid ""
-"We envision a global decentralized network of various blockchains\n"
-"            with thier own rules and functionalities operated in one seamless\n"
-"            ecosystem."
-msgstr ""
+#~ msgid ""
+#~ "We envision a global decentralized network of various blockchains\n"
+#~ "            with thier own rules and functionalities operated in one seamless\n"
+#~ "            ecosystem."
+#~ msgstr ""
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:12
 msgid "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn."
 msgstr ""
 
 #: src/pages/Home/ConunNews/Content/index.tsx:21
-msgid "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live..."
-msgstr ""
+#~ msgid "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live..."
+#~ msgstr ""
 
 #: src/pages/Faqs/QnAs/index.tsx:5
 #: src/pages/Faqs/QnAs/index.tsx:11
@@ -928,30 +1020,42 @@ msgstr ""
 #~ msgid "Where are the coins to be distributed sent to?"
 #~ msgstr ""
 
-#: src/pages/Faqs/QnAs/index.tsx:6
-msgid "Why has CONUN developed its own private blockchain network? "
-msgstr ""
+#: src/pages/Home/Footer/Content/index.tsx:16
+msgid "White Paper"
+msgstr "백서"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:48
+#: src/pages/Faqs/QnAs/index.tsx:6
+msgid "Why has CONUN developed its own private blockchain network?"
+msgstr "CONUN이 자체 프라이빗 블록체인 네트워크를 개발한 이유는 무엇입니까?"
+
+#: src/pages/Faqs/QnAs/index.tsx:6
+#~ msgid "Why has CONUN developed its own private blockchain network? "
+#~ msgstr ""
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:47
 msgid "YOUR RESOURCE FOR High power computing"
 msgstr "여러분들의 PC 자원으로 만들어지는 고성능 컴퓨팅"
 
-#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:11
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:10
 msgid "Your Resource for high power computing"
 msgstr "여러분들의 PC 자원으로 만들어지는 고성능 컴퓨팅"
 
+#: src/pages/Home/Footer/Content/index.tsx:46
+msgid "Youtube"
+msgstr "Youtube"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:333
 msgid "korean-only-sub"
-msgstr ""
+msgstr "한글 하위 전용"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:332
 msgid "korean-only-title"
-msgstr ""
+msgstr "한국어 전용 타이틀"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:176
 msgid "korean-sub-only algorithm key"
-msgstr ""
+msgstr "한글 하위 전용 알고리즘 키"
 
-#: src/pages/WhitePaper/WhitePaperCard/index.tsx:45
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"
-msgstr ""
+msgstr "{type} 백서"

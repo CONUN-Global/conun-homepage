@@ -15,18 +15,6 @@ export const PRODUCT_CARD = [
     btnMsg: <Trans id="Learn more" />,
     link: "/products/drive",
   },
-
-  {
-    id: "metacon-extension",
-    header: <Trans id="Metacon Extension" />,
-    image: <MetaconWalletIcon />,
-    title: <Trans id="Metacon Extension" />,
-    description: (
-      <Trans id="Metacon has the same functionality as the CONUN Manager." />
-    ),
-    btnMsg: <Trans id="Learn more" />,
-    link: "/products/metacon",
-  },
   {
     id: "metacon-wallet",
     header: <Trans id="Metacon Wallet" />,

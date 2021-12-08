@@ -43,7 +43,10 @@
       "By sharing your personal computing resources you become part of a P2P network where earning is easy.",
     "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. \n\nCONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. \n\nWhen swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ":
       "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. \n\nCONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. \n\nWhen swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ",
+    "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ":
+      "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ",
     "CONUN DRIVE VERSION 1.1": "CONUN DRIVE VERSION 1.1",
+    "CONUN DSC ECOSYSTEM": "CONUN DSC ECOSYSTEM",
     "CONUN DSC PLATFORM REWARDING PROCESS":
       "CONUN DSC PLATFORM REWARDING PROCESS",
     "CONUN Drive is a unique desktop platform that connects and allows users to share digital assets worldwide. It is a place to share and explore all your assets quickly and conveniently.":
@@ -60,6 +63,8 @@
       "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download.",
     "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n":
       "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n",
+    "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions.":
+      "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions.",
     "CONUN Orchestration(web base)": "CONUN Orchestration(web base)",
     "CONUN PRIVATE": "CONUN PRIVATE",
     "CONUN Pre-Release announcement": "CONUN Pre-Release announcement",
@@ -76,6 +81,7 @@
       "CONUN private blockchain network has the ability to give users a\n            more affordable, secure and faster network, with the all same\n            capabilities as the Ethereum Network. This is because our network\n            runs alongside the Ethereum main blockchain.",
     "CONUN private blockchain network has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.":
       "CONUN private blockchain network has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.",
+    "CONUNS DSC ECOSYSTEM": "CONUNS DSC ECOSYSTEM",
     "CONUNS DSC EOSYSTEM": "CONUNS DSC EOSYSTEM",
     "CONUN’s Private Blockchain Network is an answer to the limitations that come with using a public blockchain. A private blockchain allows us to modify and set our own rules, all while providing users with a faster, secure and more affordable Blockchain.":
       "CONUN’s Private Blockchain Network is an answer to the limitations that come with using a public blockchain. A private blockchain allows us to modify and set our own rules, all while providing users with a faster, secure and more affordable Blockchain.",
@@ -83,9 +89,13 @@
       "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet.",
     "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. \n\nYou can read more about this on the DSC and CPBN product description pages! ":
       "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. \n\nYou can read more about this on the DSC and CPBN product description pages! ",
+    "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. You can read more about this on the DSC and CPBN product description pages! ":
+      "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. You can read more about this on the DSC and CPBN product description pages! ",
     "CONUN’s networktowrk consists of  computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications.":
       "CONUN’s networktowrk consists of  computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications.",
     "CTM Front-End": "CTM Front-End",
+    "Can I add other token wallets into my Metacon wallet?":
+      "Can I add other token wallets into my Metacon wallet?",
     "Can I add other token wallets into my Metacon wallet? ":
       "Can I add other token wallets into my Metacon wallet? ",
     "Complete CONUN DECENTRALIZED NETWORK":
@@ -111,6 +121,7 @@
     Dec: "Dec",
     "Dec 2, 2021": "Dec 2, 2021",
     "Decentralized File Sharing Network": "Decentralized File Sharing Network",
+    "Deep Learning Projects": "Deep Learning Projects",
     "Deep Learning and Models Projects": "Deep Learning and Models Projects",
     "Develop CONUN's digital currency exchange platform 'Alpha version' for trading digital currency":
       "Develop CONUN's digital currency exchange platform 'Alpha version' for trading digital currency",
@@ -143,12 +154,15 @@
       "Development for total control web version management system in PC and mobile 'CONUN orchestration",
     "Development project utility and portal server for CONUN market":
       "Development project utility and portal server for CONUN market",
+    Discord: "Discord",
+    "Distributed Computing": "Distributed Computing",
     "Distributed computing core functionality that processes computing tasks by using personal computer resources.":
       "Distributed computing core functionality that processes computing tasks by using personal computer resources.",
     Download: "Download",
     "EXPLORE AND SHARE": "EXPLORE AND SHARE",
     "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation.":
       "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation.",
+    Explore: "Explore",
     "Explore and Share Digital Assets with CONUN Drive":
       "Explore and Share Digital Assets with CONUN Drive",
     "Explore and Share Digital Assets with CONUN Drive some other words I’m not going to write it.":
@@ -162,10 +176,13 @@
     Feb: "Feb",
     "Find out More": "Find out More",
     "Get Power By Conun": "Get Power By Conun",
+    Github: "Github",
     "Give power to earn": "Give power to earn",
     "Grid Computing Core": "Grid Computing Core",
     "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you":
       "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you",
+    "How much are fees when using CON and CONX tokens?":
+      "How much are fees when using CON and CONX tokens?",
     "How much are fees when using CON and CONX tokens? ":
       "How much are fees when using CON and CONX tokens? ",
     INTRODUCTION: "INTRODUCTION",
@@ -173,6 +190,8 @@
       "Implement for Client / Server platform network architecture",
     "Implement for client application program":
       "Implement for client application program",
+    "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.":
+      "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.",
     "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.":
       "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.",
     "It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology.":
@@ -231,6 +250,7 @@
     Mar: "Mar",
     Marketplace: "Marketplace",
     May: "May",
+    Medium: "Medium",
     "Metacon Extension": "Metacon Extension",
     "Metacon Wallet": "Metacon Wallet",
     "Metacon has the same functionality as the CONUN Manager.":
@@ -252,6 +272,7 @@
       "Organize distributed computing system for CONUN's client activities monitoring system",
     "PC Application UI/UX/Virtual Machine":
       "PC Application UI/UX/Virtual Machine",
+    "PDF Download": "PDF Download",
     "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion.":
       "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion.",
     "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product.":
@@ -265,6 +286,8 @@
       "Prediction, forecasting, simulation, and advanced calculation -\n            these are all functions that need advanced computing. There are many\n            societal demands that lack physical computing resources or financial\n            means to actuate or process a project.",
     "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project.":
       "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project.",
+    "Privacy Policy": "Privacy Policy",
+    "Private Blockchain": "Private Blockchain",
     "Proceed CONUN core(peer to peer platform)":
       "Proceed CONUN core(peer to peer platform)",
     "Proceed CONUN smart contract & mining algorithm":
@@ -298,12 +321,15 @@
     Storage: "Storage",
     "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.":
       "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.",
+    "Terms of Service": "Terms of Service",
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement",
     "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.":
       "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
+    "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
+      "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.":
       "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.",
     "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE":
@@ -320,7 +346,10 @@
     "UNIVERSAL ADVANTAGES": "UNIVERSAL ADVANTAGES",
     "Update CONUN p2p network traffic": "Update CONUN p2p network traffic",
     VISION: "VISION",
+    "Version 1.2.1 of CONUN Drive is now available.":
+      "Version 1.2.1 of CONUN Drive is now available.",
     "Virtual Machine (Docker Container)": "Virtual Machine (Docker Container)",
+    Wallet: "Wallet",
     "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.":
       "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.",
     "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn.":
@@ -329,12 +358,16 @@
       "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...",
     "Where are the coins to be distributed sent to?":
       "Where are the coins to be distributed sent to?",
+    "White Paper": "White Paper",
+    "Why has CONUN developed its own private blockchain network?":
+      "Why has CONUN developed its own private blockchain network?",
     "Why has CONUN developed its own private blockchain network? ":
       "Why has CONUN developed its own private blockchain network? ",
     "YOUR RESOURCE FOR High power computing":
       "YOUR RESOURCE FOR High power computing",
     "Your Resource for high power computing":
       "Your Resource for high power computing",
+    Youtube: "Youtube",
     "korean-only-sub": "korean-only-sub",
     "korean-only-title": "korean-only-title",
     "korean-sub-only algorithm key": "korean-sub-only algorithm key",

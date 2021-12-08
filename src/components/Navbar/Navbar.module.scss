@@ -68,12 +68,13 @@
           right: 362px;
 
           & .ProductsTab {
-            padding: 0 20px;
+            padding: 0 40px;
 
             &:hover {
               border-radius: 30px;
               color: #2b70cf;
               cursor: pointer;
+              font-weight: 800;
             }
           }
 

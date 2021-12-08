@@ -23,9 +23,9 @@ export const USE_CASE_CONTENT = [
     image: <GraphIcon />,
   },
   {
-    title: <Trans id="Deep Learning and Models Projects" />,
+    title: <Trans id="Deep Learning Projects" />,
     description: (
-      <Trans id="In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms." />
+      <Trans id="In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms." />
     ),
     image: <AI />,
   },

@@ -1,17 +1,19 @@
+import { Trans } from "@lingui/macro";
+
 export const CONTENT = [
   {
     section: "COMPANY",
     items: [
       {
-        name: "Terms of Service",
+        name: <Trans id="Terms of Service" />,
         path: "/download",
       },
       {
-        name: "Privacy Policy",
+        name: <Trans id="Privacy Policy" />,
         path: "https://conun.io/policy/privacypolicy",
       },
       {
-        name: "White Paper",
+        name: <Trans id="White Paper" />,
         path: "/whitepaper",
       },
     ],
@@ -20,19 +22,19 @@ export const CONTENT = [
     section: "SOLUTION",
     items: [
       {
-        name: "Distributed Computing",
+        name: <Trans id="Distributed Computing" />,
         path: "/products/sdc",
       },
       {
-        name: "Private Blockchain",
+        name: <Trans id="Private Blockchain" />,
         path: "/products/CPBN",
       },
       {
-        name: "Explore",
+        name: <Trans id="Explore" />,
         path: "https://conscan.conun.io/",
       },
       {
-        name: "Wallet",
+        name: <Trans id="Wallet" />,
         path: "/products/metacon",
       },
     ],
@@ -41,20 +43,20 @@ export const CONTENT = [
     section: "SOCIAL",
     items: [
       {
-        name: "Youtube",
+        name: <Trans id="Youtube" />,
         path: "https://www.youtube.com/channel/UCVbpETcXaPRZkL2HACUXOsA",
       },
       {
-        name: "Medium",
+        name: <Trans id="Medium" />,
         path: "https://medium.com/conun-korea",
       },
       {
-        name: "Discord",
+        name: <Trans id="Discord" />,
         path: "https://discord.com/invite/VvXvQfa3Za",
       },
 
       {
-        name: "Github",
+        name: <Trans id="Github" />,
         path: "https://github.com/CONUN-Global",
       },
     ],

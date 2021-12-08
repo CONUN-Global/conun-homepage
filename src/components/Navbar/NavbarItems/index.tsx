@@ -17,12 +17,12 @@ export const NAV_PRODUCTS = [
     description: "Distributed decentralized storage system",
     path: "/products/drive",
   },
-  // {
-  //   id: "metacon",
-  //   label: "METACON",
-  //   description: "CONUN's cryptocurrency wallet",
-  //   path: "/products/metacon",
-  // },
+  {
+    id: "metacon",
+    label: "METACON",
+    description: "CONUN's cryptocurrency wallet",
+    path: "/products/metacon",
+  },
 ];
 export const NAV_ITEMS = [
   // {
