@@ -22,7 +22,12 @@ function YTThumb({
 }) {
   if (thumbnailClean) {
     return (
-      <a href={YTUrl} target="_blank" rel="noreferrer">
+      <a
+        href={YTUrl}
+        target="_blank"
+        rel="noreferrer"
+        className={styles.YTTContainer}
+      >
         {/* eslint-disable-next-line */}
         <img
           src={getYoutubeThumbUrlClean(YTUrl)}
@@ -33,7 +38,12 @@ function YTThumb({
     );
   }
   return (
-    <a href={YTUrl} target="_blank" rel="noreferrer">
+    <a
+      href={YTUrl}
+      target="_blank"
+      rel="noreferrer"
+      className={styles.YTTContainer}
+    >
       {/* eslint-disable-next-line */}
       <img src={getYoutubeThumbUrl(YTUrl)} alt="" className={styles.YTThumb} />
     </a>
