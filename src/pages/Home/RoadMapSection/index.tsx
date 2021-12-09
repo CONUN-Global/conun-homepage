@@ -13,6 +13,7 @@ import displayQuarterlyEvent from "@/helpers/displayQuarterlyEvent";
 import ArchLine from "@/assets/icons/arch_line.svg";
 
 import styles from "./RoadMapSection.module.scss";
+import classNames from "classnames";
 
 const FIRST = ["Jan", "Feb", "Mar"];
 const SECOND = ["Apr", "May", "Jun"];
@@ -74,7 +75,9 @@ function RoadMap() {
               <div
                 key={i}
                 onClick={() => handleYearSelect(year)}
-                className={styles.Year}
+                className={classNames(styles.Year, {
+                  [styles.selected]: year === yearSelected,
+                })}
                 style={
                   isMobile
                     ? { position: "relative", width: "100%" }

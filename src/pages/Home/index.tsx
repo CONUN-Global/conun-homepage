@@ -5,7 +5,6 @@ import Video from "./Video";
 import Product from "./Product";
 import RoadMap from "./RoadMapSection";
 import ConunNews from "./ConunNews";
-import Footer from "./Footer";
 import styles from "./Home.module.scss";
 
 function Home() {
@@ -18,7 +17,6 @@ function Home() {
       <Product />
       <RoadMap />
       <ConunNews />
-      <Footer />
     </div>
   );
 }

@@ -3,7 +3,8 @@
   background-color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
-  padding-bottom: 20%;
+  min-height: 900px;
+  padding-bottom: 200px;
   width: 100%;
 
   & .ProductPageContainer {
