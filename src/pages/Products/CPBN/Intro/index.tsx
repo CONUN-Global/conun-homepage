@@ -37,27 +37,39 @@ function Intro() {
         </div>
 
         <div className={styles.IconContainer}>
-          Benefits
+          <Caption title={<Trans id="Benefits" />} className={styles.Title} />
+
           <div className={styles.Icons}>
             <div>
-              <Immutable />
-              immutable
+              <Immutable className={styles.Icon} />
+              <p>
+                <Trans id="immutable" />
+              </p>
+            </div>
+
+            <div>
+              <Security className={styles.Icon} />
+              <p>
+                <Trans id="secure" />
+              </p>
             </div>
             <div>
-              <Security />
-              secure
+              <Anonymous className={styles.Icon} />
+              <p>
+                <Trans id="anonymous" />
+              </p>
             </div>
             <div>
-              <Anonymous />
-              anonymous
+              <Fees className={styles.Icon} />
+              <p>
+                <Trans id="reduced fees" />
+              </p>
             </div>
             <div>
-              <Fees />
-              reduced fees
-            </div>
-            <div>
-              <RuleModification />
-              rule modification
+              <RuleModification className={styles.Icon} />
+              <p>
+                <Trans id="rule modification" />
+              </p>
             </div>
           </div>
         </div>
