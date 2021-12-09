@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import { SOCIAL_LINKS } from "./SocialLinks";
 import data from "../../News/newsData.json";
 import Vertical from "@/components/Card/Vertical";
@@ -15,7 +16,7 @@ function ConunNews() {
     <div className={styles.ConunNews}>
       <div className={styles.ConunNewsContainer}>
         <p className={styles.CommunityTitle}>
-          Join Conun&apos;s open source community
+          <Trans id="Join Conun's open source community" />
         </p>
         <div className={styles.Community}>
           {SOCIAL_LINKS.map((link, index: number) => {

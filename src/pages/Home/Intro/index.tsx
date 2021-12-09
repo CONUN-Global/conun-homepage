@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Trans } from "@lingui/macro";
 
 import BlocksLeft from "@/assets/icons/blocks_left.svg";
 import BlocksRight from "@/assets/icons/blocks_right.svg";
@@ -20,17 +21,16 @@ function Intro() {
             <p className={styles.SubTitle}>Solutions</p>
           </div>
           <div className={styles.AboutRightContainer}>
-            <h2 className={styles.Title}>About Conun</h2>
+            <h2 className={styles.Title}>
+              <Trans id="About Conun" />
+            </h2>
             <div className={styles.Description}>
-              CONUN is a blockchain-based distributed supercomputing platform.
-              It is a service platform that allows the processing of
-              high-performance computing resources by sharing the idle resources
-              of the participants`&apos; personal computers and smartphones .
+              <Trans id="CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants`' personal computers and smartphones." />
             </div>
 
             <Link href="/whitepaper">
               <a className={styles.WhitepaperLink} rel="noreferrer">
-                See Whitepaper
+                <Trans id="See Whitepaper" />
               </a>
             </Link>
           </div>

@@ -41,7 +41,7 @@ function Main() {
       className={styles.Main}
       naturalSlideWidth={size.width}
       naturalSlideHeight={size.height}
-      interval={2000}
+      interval={5000}
       totalSlides={4}
       orientation={"horizontal"}
       isPlaying={activeSlide === 3 ? false : true}

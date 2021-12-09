@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import { MAIN_PAGES } from "../../../Home/Main/SlideMain/SlideContent";
 import MainSlide from "@/components/MainSlide";
 
