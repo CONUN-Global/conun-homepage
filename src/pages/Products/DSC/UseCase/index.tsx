@@ -29,11 +29,13 @@ function UseCase() {
             return (
               <Vertical key={i} className={styles.UseCaseCard} round>
                 <div className={styles.ImageContainer}>
-                  <div className={styles.Image}>{card.image}</div>
-                  <div className={styles.Text}>{card.title}</div>
+                  {card.image}
+                  {/* <div className={styles.Text}>{card.title}</div> */}
                 </div>
-
-                <div className={styles.Description}>{card.description}</div>
+                <div className={styles.Text}>
+                  <div className={styles.Title}>{card.title}</div>
+                  <div className={styles.Description}>{card.description}</div>
+                </div>
               </Vertical>
             );
           })}

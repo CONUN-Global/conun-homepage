@@ -55,28 +55,20 @@
         padding: 3%;
         width: 27%;
 
-        & .ImageContainer {
+        & .Text {
           display: flex;
-          flex: 1 1 330px;
           flex-direction: column;
-          gap: 20px;
+          font-size: 1rem;
+          justify-content: center;
+          margin: 20px 0;
+          row-gap: 20px;
+          width: 100%;
 
-          & .Image {
-            height: fit-content;
-          }
-
-          & .Text {
-            font-size: 1rem;
+          & .Description {
+            font-size: 0.8rem;
+            font-weight: normal;
             margin-bottom: 5%;
-            width: 100%;
           }
-        }
-
-        & .Description {
-          flex: 2 1 50%;
-          font-size: 0.8rem;
-          font-weight: normal;
-          margin-bottom: 5%;
         }
       }
     }
@@ -98,7 +90,6 @@
 
           & .ImageContainer {
             display: flex;
-            flex: 1 1 200px;
             flex-direction: column;
 
             & .Image {
@@ -119,7 +110,7 @@
         width: 100%;
 
         & .UseCaseCard {
-          max-height: 500px;
+          max-height: 470px;
         }
       }
     }

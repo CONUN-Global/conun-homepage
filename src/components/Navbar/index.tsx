@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { Trans } from "@lingui/macro";
 import classNames from "classnames";
 
 import LanguageSelector from "../LanguageSelector";
@@ -41,7 +42,7 @@ function Navbar() {
             <span className={styles.NetworkCircle}></span>
             <Link href="https://conscan.conun.io/">
               <a target="_blank" rel="noreferrer">
-                Mainnet is live
+                <Trans id="Mainnet is online" />
               </a>
             </Link>
           </div>
@@ -66,7 +67,7 @@ function Navbar() {
                   onMouseEnter={() => setDropdownOpen(true)}
                   className={styles.ProductsTab}
                 >
-                  Products
+                  <Trans id="Products" />
                 </div>
                 <div
                   className={classNames(styles.ProductsItems, {

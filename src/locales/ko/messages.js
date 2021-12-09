@@ -4,6 +4,7 @@
       "빠르고 안전하며 보다 저렴한 블록체인",
     "A wallet for your crypto": "당신을 위한 지갑",
     ARCHITECTURE: "아키텍처",
+    "About Conun": "코넌은...",
     "Academic / sociocultural ISSUES": "학술/연구/사회문화적 이슈 등의 Survey",
     "Academic/sociocultural ISSUES": "Academic/sociocultural ISSUES",
     "An independent virtual processing system that deploys and automatically executes applications at each computing node without interference from individual operating systems.":
@@ -26,9 +27,9 @@
     "August 14 2021": "August 14 2021",
     "BLOCKCHAIN NETWORK": "블록체인 네트워크",
     "Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants.":
-      "데스크톱 그리드 컴퓨팅 기술을 기반으로 하는 코넌의 분산슈퍼컴퓨팅 플랫폼은 참여자와 사용자 간의 합의에 따라 운영되기 때문에 수평적 수익 생태계를 형성합니다. 코넌은 네트워크 참여자들을 통하여 CPU, GPU 및 스토리지와 같은 전 세계 PC 리소스를 수집합니다.",
+      "데스크톱 그리드 컴퓨팅 기술을 기반으로 하는 코넌의 분산슈퍼컴퓨팅 플랫폼은 참여자와 사용자 간의 합의에 따라 운영되기 때문에 수평적 수익 생태계를 형성합니다. 코넌은 네트워크 참여자들을 통하여 CPU, GPU 및 스토리지와 같은 전 세계 PC 자원을 수집하고 공유합니다.",
     "Become part of the CONUN network and you can benefit from our current and future blockchain-based projects.":
-      "사용의 용이성과 효율성에 중점을 둔 CONUN의 목표는 자사의 플랫폼을 온 / 오프라인 서비스와 연결하여 프로젝트에서 프로젝트로 이어지는 개발을 끊임없이 실현시키며 사용자에게 최대한의 이점을 제공하는 것입니다.",
+      "코넌 네트워크의 구성원이 되어 다양한 혜택을 누려보세요. 현재 진행중인 또 앞으로 실행 될 다양한 블록체인 기반의 프로젝트가 준비되어 있습니다.",
     "Big Data and Analysis Projects": "빅데이터 분석 프로젝트",
     "Biological research to improve existing treatments and develop new treatments for disease treatment is one of the areas using distributed computing, and distributed computing environments can be used for research in university research institutes and bio-industries.":
       "질병 치료를 위한 기존의 치료법 개선 및 신규 치료법 개발을 위한 생물학 연구는 분산 컴퓨팅을 활용한 분야 중 하나이며, 대학의 연구소 및 바이오 산업계 등에서 연구를 위하여 분산 컴퓨팅 환경을 사용할 수 있습니다.",
@@ -40,13 +41,13 @@
     "By participating, your smart device is part of an ecosystem that has gathered many idle resources  to function as a high level computation mechanism that serves complex and vital projects around the world.":
       "DSC 플랫폼에 참여함으로써, 여러분들의 스마트폰이나 컴퓨터는 저희 코넌 생태계의 일부가 되어 유휴 자원을 공유하게 됩니다. 다시 말해 여러분들의 스마트폰이나 컴퓨터에서 사용하고 있지 않은 자원을 저희 네트워크를 통해 공유하게 되고, 이렇게 수집된 유",
     "By sharing your personal computing resources you become part of a P2P network where earning is easy.":
-      "By sharing your personal computing resources you become part of a P2P network where earning is easy.",
+      "개인 PC 자원을 공유하고 코넌의 P2P 네트워크의 구성원이 되어서 부수적인 수익을 창출할 수 있는 기회를 얻으세요.",
     "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. \n\nCONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. \n\nWhen swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ":
       "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. \n\nCONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. \n\nWhen swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ",
     "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance.":
       "CON 토큰은 이더리움 네트워크에 있는 CONUN의 ERC20 토큰이므로 CON 전송에는 ERC20 토큰 전송에 대한 일반적인 거래 수수료가 발생합니다. 이 수수료는 지갑의 Eth 잔액에서 공제됩니다. CONX 토큰은 CONUN의 프라이빗 블록체인 네트워크에만 존재하며, CONX를 다른 사용자에게 양도하는 데에는 수수료가 전혀 발생하지 않습니다. CON을 CONX로 또는 CONX를 CON으로 스왑할 때 사용하는 브리지 스왑 프로세스에는 CONUN 자체의 네트워크와 이더리움 네트워크 모두에서 스마트 계약이 포함됩니다. Ethereum 네트워크에서 스마트 계약과 관련된 모든 작업에는 일반적인 거래 수수료가 발생하며 이 수수료는 지갑의 Eth 잔액에서 공제됩니다.",
     "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ":
-      "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ",
+      "CON 토큰은 이더리움 네트워크에 있는 CONUN의 ERC20 토큰이므로 CON 전송에는 ERC20 토큰을 보내기 위한 일반적인 거래 수수료가 발생하며 이 수수료는 지갑의 Eth 잔액에서 공제됩니다. CONX 토큰은 CONUN의 프라이빗 블록체인 네트워크에만 존재합니다. CON을 CONX로 또는 CONX를 CON으로 스왑할 때 브리지 스왑 프로세스에는 CONUN 네트워크 내부와 이더리움 네트워크 모두에서 스마트 계약이 포함되며, 하지만 CONX를 다른 사용자에게 양도하는 데에는 수수료가 전혀 발생하지 않습니다. ",
     "CONUN DRIVE VERSION 1.1": "코넌 드라이브 버전 1.1",
     "CONUN DSC ECOSYSTEM": "CONUN DSC 생태계",
     "CONUN DSC PLATFORM REWARDING PROCESS":
@@ -66,15 +67,21 @@
     "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n":
       "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.\n",
     "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions.":
-      "CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions.",
+      "코넌 메타콘은 기존 암호화폐 지갑을 안전하게 함께 보관합니다. 지갑 간에 쉽게 자금을 이체할 수 있을 뿐만 아니라 CONUN DRIVE와 같은 분산 애플리케이션을 활용할 수 있는 자체 블록체인 네트워크에 액세스할 수 있습니다. 코넌의 블록체인 네트워크는 무료 거래를 제공할 수 있는 POA(권한 증명) 방법론을 사용합니다.",
     "CONUN Orchestration(web base)": "CONUN 오케스트레이션(웹 베이스)",
     "CONUN PRIVATE": "CONUN 프라이빗",
     "CONUN Pre-Release announcement": "CONUN Pre-Release announcement",
+    "CONUN Private Blockchain Network (CPBN) has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.":
+      "코넌 메인넷(CPBN)은 이더리움 네트워크와 동일한 기능을 하며 사용자에게 보다 저렴하고 안전하며 빠른 네트워크를 제공할 수 있습니다. 이는 코넌 메인넷이 이더리움 메인 블록체인과 함께 실행되고 있기 때문입니다.",
     "CONUN Services: CONUN Decentralized Data Storage Infrastructure SaaS. CONUN Drive Smart Contract":
       "CONUN 서비스: CONUN 분산 데이터 스토리지 인프라 SaaS. CONUN 드라이브 스마트 계약",
     "CONUN WEB EXTENSION VERSION 1.1": "CONUN 웹 익스텐션 버전 1.1",
     "CONUN continuously strives to bring value to our private blockchain network by creating blockchain based products that benefit users.":
       "CONUN continuously strives to bring value to our private blockchain network by creating blockchain based products that benefit users.",
+    "CONUN is a blockchain-based distributed supercomputing platform.\n              It is a service platform that allows the processing of\n              high-performance computing resources by sharing the idle resources\n              of the participants`' personal computers and smartphones.":
+      "CONUN is a blockchain-based distributed supercomputing platform.\n              It is a service platform that allows the processing of\n              high-performance computing resources by sharing the idle resources\n              of the participants`' personal computers and smartphones.",
+    "CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants`' personal computers and smartphones.":
+      "블록체인 기반의 분산슈퍼컴퓨팅(DSC) 플랫폼을 연구하고 만듭니다. 분산슈퍼컴퓨팅이란 네트워크를 통해 연결된 사용자 개인의 컴퓨터와 스마트폰의 유휴 자원을 공유하여 슈퍼컴퓨터의 성능과 유사한 고성능 컴퓨팅을 실현하는 기술입니다. 코넌이 꿈꾸는 미래는 누구나 DSC 플랫폼을 통해 고성능 컴퓨팅을 보다 저렴한 가격에 이용하고 다양한 프로젝트에 사용되며 더 나은 내일을 향해 함께 나아가는 것입니다.",
     "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\nOver the last several months, CONUN’s blockchain team has expanded with new members from...":
       "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\nOver the last several months, CONUN’s blockchain team has expanded with new members from...",
     "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols":
@@ -83,20 +90,26 @@
       "코넌 메인넷(CPBN)은 이더리움 네트워크와 동일한 기능을 하며 사용자에게 보다 저렴하고 안전하며 빠른 네트워크를 제공할 수 있습니다. 이는 코넌 메인넷이 이더리움 메인 블록체인과 함께 실행되고 있기 때문입니다.",
     "CONUN private blockchain network has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.":
       "코넌 메인넷(CPBN)은 이더리움 네트워크와 동일한 기능을 하며 사용자에게 보다 저렴하고 안전하며 빠른 네트워크를 제공할 수 있습니다. 이는 코넌 메인넷이 이더리움 메인 블록체인과 함께 실행되고 있기 때문입니다.",
+    "CONUN's Distributed Computing provides a universal computing network architecture platform that enables distributed processing of personal computers and smartphones connected to the Internet based on desktop grid computing technology.":
+      "CONUN의 분산 컴퓨팅은 데스크탑 그리드 컴퓨팅 기술을 기반으로하여 인터넷에 연결된 개인용 컴퓨터와 스마트폰이용하여 분산 처리를 가능하게 하는 범용 컴퓨팅 네트워크 아키텍처 플랫폼을 제공합니다.",
+    "CONUN's cryptocurrency wallet": "CONUN의 암호화폐 지갑",
     "CONUNS DSC ECOSYSTEM": "CONUNS DSC 생태계",
     "CONUNS DSC EOSYSTEM": "CONUNS DSC EOSYSTEM",
     "CONUN’s Private Blockchain Network is an answer to the limitations that come with using a public blockchain. A private blockchain allows us to modify and set our own rules, all while providing users with a faster, secure and more affordable Blockchain.":
-      "CONUN의 프라이빗 블록체인 네트워크(코넌 메인넷)는 퍼블릭 블록체인 사용에 따른 한계에 대하여 저희 코넌이 제시하는 솔루션입니다. 프라이빗 블록체인을 사용하면 사용자에게 더 빠르고 안전하며 저렴한 블록체인을 제공하면서 자체 규칙을 수정하고 설정할 수 있습니다.",
+      "CONUN의 프라이빗 블록체인 네트워크(코넌 메인넷)는 퍼블릭 블록체인 사용에 따른 한계에 대하여 저희 코넌이 제시하는 솔루션입니다. 프라이빗 블록체인을 사용함으로써, 저희는 자체 규칙을 정하고 수정하는 것이 가능하며, 동시에 사용자들에게는 더 빠르고 안전하지만 비교적 저렴한 블록체인을 제공할 수 있습니다.",
     "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet.":
-      "CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet.",
+      "CONUN의 암호화폐 지갑은 CONUN의 자체 코인인 CONX에 대한 액세스를 제공합니다. 코인을 보내고 교환할 수 있으며 이더리움 지갑을 가져올 수 있습니다.",
     "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. \n\nYou can read more about this on the DSC and CPBN product description pages! ":
       "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. \n\nYou can read more about this on the DSC and CPBN product description pages! ",
     "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. You can read more about this on the DSC and CPBN product description pages!":
+      "CONUN의 주요 프로젝트인 DSC를 통해 사용자는 슈퍼컴퓨팅 작업을 요청할 수 있으며, 이 작업은 연결된 노드, 즉 네트워크와 컴퓨터 리소스를 공유하는 사용자와 공유됩니다. 작업이 완료되면 사용자는 컴퓨터의 작업에 대해 토큰으로 보상을 받습니다. 이 보상 절차를 위해서는 토큰 전송이 무료일 뿐만 아니라 빨라야 합니다. CONUN은 프라이빗 블록체인 네트워크를 통해 이 두 가지 요구 사항을 모두 충족시킬 수 있습니다. 이에 대한 자세한 내용은 DSC 및 CPBN 제품 설명 페이지에서 확인할 수 있습니다!",
+    "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. You can read more about this on the DSC and CPBN product description pages! ":
       "CONUN의 주요 프로젝트인 DSC를 통해 사용자는 슈퍼컴퓨팅 작업을 요청할 수 있으며, 이 작업은 연결된 노드, 즉 네트워크와 컴퓨터 리소스를 공유하는 사용자와 공유됩니다. 작업이 완료되면 사용자는 컴퓨터의 작업에 대해 토큰으로 보상을 받습니다. 이 보상 절차를 위해서는 토큰 전송이 무료일 뿐만 아니라 빨라야 합니다. CONUN은 프라이빗 블록체인 네트워크를 통해 이 두 가지 요구 사항을 모두 충족시킬 수 있습니다. 이에 대한 자세한 내용은 DSC 및 CPBN 제품 설명 페이지에서 확인할 수 있습니다!",
     "CONUN’s networktowrk consists of  computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications.":
       "CONUN의 네트워크는 개인용 컴퓨터의 CPU, GPU, 메모리 및 스토리지를 제어하는 컴퓨팅 노드로 구성됩니다. 이러한 모듈화된 노드는 애플리케이션을 처리하게 됩니다.",
     "CONUN’s networktowrk consists of computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications.":
       "CONUN의 네트워크는 개인용 컴퓨터의 CPU, GPU, 메모리 및 스토리지를 제어하는 컴퓨팅 노드로 구성됩니다. 이러한 모듈화된 노드는 애플리케이션을 처리하게 됩니다.",
+    CPBN: "CPBN",
     "CTM Front-End": "CTM 프론트앤드",
     "Can I add other token wallets into my Metacon wallet?":
       "메타콘 지갑에 다른 토큰 지갑을 추가할 수 있나요?",
@@ -108,21 +121,24 @@
     "Computer Graphic and Processing Projects": "컴퓨터 그래픽 처리 프로젝트",
     "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply.":
       "컴퓨터 그래픽 분야의 컴퓨터 생성 이미지(CGI)는 영화, 텔레비전 프로그램, 광고, 시뮬레이터, 시뮬레이션, 3차원 컴퓨터 그래픽 등의 프로젝트를 빠르고 저렴하게 처리하는데 사용합니다.",
+    "Conun DSC Ecosystem": "Conun DSC 생태계",
     "Conun Drive": "코넌 드라이브란?",
     "Conun Drive P2P File Share Powered by IPFS. Conun Drive is a decentralized content sharing system, this means there is no centralized server storing content. All content will be verified on Conun’s Private Blockchain. As soon as users connect to the Conun Drive network their computer becomes a Conun Drive network participant. Participants can choose which files to store or publish, if published, rewards can be gained by other participants. In addition, all actions that occur on the Conun Drive network will be stored on the Conun Private Blockchain, thus all actions are immutable and secure.":
       "코넌 드라이브는 IPFS를 기반으로 한 P2P 파일 공유 플랫폼(서비스)입니다. 코넌 드라이브는 탈중앙화된 콘텐츠 공유 시스템으로, 콘텐츠를 저장하는 중앙 집중식 서버가 없습니다. 모든 콘텐츠는 코넌 메인넷을 통해 검증됩니다. 사용자가 코넌 드라이브 네트워크에 연결하는 즉시 그들의 컴퓨터는 코넌 드라이브 네트워크에 참여하게 됩니다. 참여자는 파일을 선택하여 보관하거나 업로드할 수 있습니다. 파일을 업로드한 경우, 다른 참여자가 보상을 받을 수 있습니다. 또한 코넌 드라이브에서 일어나는 모든 작업은 코넌 메인넷에 기록(저장)되기때문에 임의로 작업을 변경할 수 없고 안전합니다.",
     "Conun Drive was built for developers. So, if you are building an application, an NFT marketplace, or anything in between, our APIs and SDKs will give you superpowers.":
       "코넌 드라이브는 개발자들을 위해 만들어졌습니다. 따라서 애플리케이션이나 NFT 마켓 플레이스와 같은 무언가를 개발하고자 한다면, 저희의 API와 SDK가 강력한 기능을 제공할 것입니다.",
+    "Conun Private Blockchain Network": "코넌 프라이빗 블록체인 네트워크",
     "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)":
       "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)",
     "Crowdfunding for pre-sale": "크라우드펀딩 사전판매",
+    DRIVE: "드라이브",
     DSC: "DSC",
     "DSC USE CASES": "DSC 사용 사례",
     "DappStore is a platform, which lists all popular dApps. Discover the innovative world of blockchain, plus explore the many decentralized applications in our platform":
       "코넌의 디앱스토어에서는 모든 인기있는 dApp 을 나열하는 플랫폼입니다. 혁신적인 블록체인 세계를 발견하고 당사 플랫폼의 많은 분산 애플리케이션 경험을 제공할 것입니다.",
     Dec: "12월",
     "Dec 2, 2021": "Dec 2, 2021",
-    "Decentralized File Sharing Network": "Decentralized File Sharing Network",
+    "Decentralized File Sharing Network": "분산 파일 공유 네트워크",
     "Deep Learning Projects": "딥러닝 프로젝트",
     "Deep Learning and Models Projects": "Deep Learning and Models Projects",
     "Develop CONUN's digital currency exchange platform 'Alpha version' for trading digital currency":
@@ -155,8 +171,10 @@
       "CONUN market 을 위한 project utility 및 포털 서버 구축",
     Discord: "디스코드",
     "Distributed Computing": "분산 컴퓨팅",
+    "Distributed Super Computing": "분산 슈퍼 컴퓨팅",
     "Distributed computing core functionality that processes computing tasks by using personal computer resources.":
       "개인용 컴퓨터의 자원(리소스)을 사용하여 컴퓨팅 작업을 처리하는 분산컴퓨팅 핵심 기능입니다.",
+    "Distributed decentralized storage system": "분산형 스토리지 시스템",
     Download: "다운로드",
     "EXPLORE AND SHARE": "탐색 및 공유",
     "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation.":
@@ -167,14 +185,16 @@
     "Explore and Share Digital Assets with CONUN Drive some other words I’m not going to write it.":
       "Explore and Share Digital Assets with CONUN Drive some other words I’m not going to write it.",
     "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep.":
-      "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep.",
+      "코넌 드라이브에서 전 세계 사용자의 무료 또는 개인 소유의 디지털 자산을 만나보세요. 사용방법은 간단합니다! 공개 또는 익명으로 프로필을 만들어 둘러보고 원하는 콘텐츠를 찾아 다운로드하시면 됩니다. 본인의 디지털 자산을 공유하여 수익을 창출하는 것도 가능합니다! 잠자는 동안에도 쉽게 수익을 올릴 수 있는 방법입니다.",
     "Explore, Share, and Earn with CONUN Drive":
       "코넌 드라이브를 통한 디지털 자산 탐색, 공유 및 수익 창출",
+    FAQs: "자주 묻는 질문들",
     "Fast and secure cryptocurrency wallet": "빠르고 안전한 암호화폐 지갑",
     Feb: "2월",
     "Find out More": "Find out More",
-    "Get Power By Conun": "Get Power By Conun",
+    "Get Power By Conun": "수익 창출의 기회를 얻으세요.",
     Github: "Github",
+    "Give Power to Earn": "수익 창출의 기회를 얻으세요.",
     "Give power to earn": "Give power to earn",
     "Grid Computing Core": "그리드 컴퓨팅 코어",
     "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you":
@@ -197,6 +217,9 @@
     "It will be sent to the address you entered on the CONUN website. If you click MY INFO after logging in on the CONUN homepage, there is a place to enter your the wallet address.":
       "It will be sent to the address you entered on the CONUN website. If you click MY INFO after logging in on the CONUN homepage, there is a place to enter your the wallet address.",
     Jan: "1월",
+    "Join Conun's open source community":
+      "Conun의 오픈 소스 커뮤니티에 참여하세요.",
+    "Join Our Ecosystem": "코넌 생태계의 구성원이 되어주세요.",
     "Join our ecosystem": "Join our ecosystem",
     Jul: "7월",
     Jun: "6월",
@@ -230,7 +253,9 @@
     "Learn More": "상세보기",
     "Learn more": "상세보기",
     "Life Science and Research Projects": "생명과학 연구 프로젝트",
+    METACON: "METACON",
     "Main Benefits": "주요 장점들",
+    "Mainnet is online": "메인넷은 온라인 상태입니다.",
     "Make project for CONUN platform Test application in science circulation, deep learning, big data":
       "CONUN 플랫폼 개발을 위한 과학계산용, 딥러닝, 빅데이터 테스트 적용 프로젝트 제작 ",
     "Make projects for CONUN platform Test : science circulation / deep learning / big data":
@@ -258,6 +283,7 @@
     "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously.":
       "콘스캔(CONUN Blockchain Explorer)은 블록체인 거래, 블록 데이터, 관련 그래프를 동시에 조회할 수 있는 블록 모니터링 및 데이터 서비스 플랫폼입니다. 콘스캔을 통하여 코넌 메인넷에서 이루어지는 거래들을 실시간으로 확인할 수 있습니다.",
     "Network Core for exchange platform": "거래소 네트워크 코어",
+    News: "뉴스",
     Nov: "11월",
     "Nov 11 2021": "11월 11일 2021",
     "Nov 24 2021": "11월 24일 2021",
@@ -280,7 +306,7 @@
     "Prediction, forecasting, simulation, and advanced calculation -\n            these are all functions that need advanced computing. There are many\n            societal demands that lack physical computing resources or financial\n            means to actuate or process a project.":
       "Prediction, forecasting, simulation, and advanced calculation -\n            these are all functions that need advanced computing. There are many\n            societal demands that lack physical computing resources or financial\n            means to actuate or process a project.",
     "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project.":
-      "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project.",
+      "슈퍼컴퓨터 수준의 기능으로 뭘 할 수 있을까요? 고성능 컴퓨팅이 필요한 복잡하고 중요한 프로젝트들을 처리할 수 있습니다. 예측, 시뮬레이션, 어렵고 복잡한 계산 등 - 모두 고성능 컴퓨팅이 필요한 일들입니다. 하지만 개인이나 작은 단체가 이런 프로젝트들을 수행하려 한다면 슈퍼컴퓨터의 부재나 재정적 문제로 인한 어려움이 따르게 됩니다.",
     "Privacy Policy": "개인정보 처리방침",
     "Private Blockchain": "프라이빗 블록체인",
     "Proceed CONUN core(peer to peer platform)": "CONUN 코어(P2P 플랫폼) 진행",
@@ -295,6 +321,7 @@
       "P2P 플랫폼으로 구성된 네트워크를 구축합니다.",
     "Proceed research and development for CONUN's platform CONUN":
       "CONUN 플랫폼의 기반을 정의하는 기술에 대하여 연구개발을 진행합니다.",
+    Products: "프로덕트",
     "Read More": "상세보기",
     "Release CONUN Blockchain Explorer Mainnet":
       "코넌 블록체인 익스플로러 메인넷 런칭",
@@ -304,6 +331,7 @@
     "Scientific Calculations": "과학 계산용 프로젝트",
     "Scientific calculations that require complex and fast computing power.":
       "복잡하고 빠른 컴퓨팅 성능이 요구되는 과학계산 작업을 실행하는데 사용 될 수 있습니다.",
+    "See Whitepaper": "백서보기",
     Sep: "9월",
     "Software Development": "소프트웨어 개발",
     "Staring to manage CONUN algorithm finding key version":
@@ -319,7 +347,7 @@
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "실제 암호화폐 거래소를 운영하기 위한 플랫폼 베타버전을 테스트합니다. 거래시스템 및 코어를 점검하고, 보안성을 강화하는 작업을 진행합니다.",
     "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.":
-      "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.",
+      "코넌 웹 익스텐션은 온라인 상태에서 언제든 암호화 지갑에 간단하게 액세스할 수 있는 쉬운 경로입니다.",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
@@ -331,7 +359,7 @@
     "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications":
       "CONUN Network SDK 를 통해 CONUN 블록체인 네트워크를 통합합니다. CONUN 에서 제공하는 API를 통해 각 서비스 사용자들은 자체의 맞춤형 비즈니스 애플리케이션을 구현할 수 있습니다",
     "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably.":
-      "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably.",
+      "DSC 플랫폼을 통해 대형 프로젝트, 파일 및 응용 프로그램 등 다양한 목적에 맞게 고성능 컴퓨팅을 이용하세요.",
     "To know more about Conan's {type}, download Conan's white paper.": [
       "Conan의 ",
       ["type"],
@@ -347,7 +375,7 @@
     "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.":
       "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.",
     "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn.":
-      "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn.",
+      "코넌 드라이브에 오신 것을 환영합니다. CONUN DRIVE는 블록체인 네트워크에 구축된 P2P 파일 공유 서비스입니다. 다른 P2P 서비스와 달리 CONUN DRIVE의 분산된 블록체인의 특성은 다운로드할 수 있는 파일을 아무도 제어할 수 없다는 것 입니다. 데스크탑 애플리케이션을 다운로드하여 공유하고 탐색하고 수익을 올리십시오.",
     "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...":
       "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...",
     "Where are the coins to be distributed sent to?":

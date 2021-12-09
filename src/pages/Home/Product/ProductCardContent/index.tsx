@@ -32,7 +32,7 @@ export const PRODUCT_CARD = [
     image: <MetaconWalletIcon />,
     title: <Trans id="DSC" />,
     description: (
-      <Trans id="CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet." />
+      <Trans id="CONUN's Distributed Computing provides a universal computing network architecture platform that enables distributed processing of personal computers and smartphones connected to the Internet based on desktop grid computing technology." />
     ),
     btnMsg: <Trans id="Learn more" />,
     link: "/products/dsc",

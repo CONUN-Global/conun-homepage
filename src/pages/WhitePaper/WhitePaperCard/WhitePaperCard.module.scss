@@ -32,8 +32,8 @@
     display: flex;
     flex-direction: column;
     font-family: Teko, sans-serif;
-    height: 150px;
-    justify-content: space-between;
+    height: 30%;
+    row-gap: 30px;
 
     & .Title {
       font-size: 1.8rem;
@@ -51,7 +51,7 @@
 
   & .DropdownContainer {
     font-size: 0.8rem;
-    padding-top: 20%;
+    padding-top: 20px;
     width: 150px;
 
     & .LanguageSelector {

@@ -13,14 +13,14 @@ export const CARD_CONTENT = [
     image: <GetMicrochip />,
   },
   {
-    title: <Trans id="Join our ecosystem" />,
+    title: <Trans id="Join Our Ecosystem" />,
     description: (
       <Trans id="Become part of the CONUN network and you can benefit from our current and future blockchain-based projects." />
     ),
     image: <EcosystemIcon />,
   },
   {
-    title: <Trans id="Give power to earn" />,
+    title: <Trans id="Give Power to Earn" />,
     description: (
       <Trans id="By sharing your personal computing resources you become part of a P2P network where earning is easy." />
     ),

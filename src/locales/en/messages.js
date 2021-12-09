@@ -4,6 +4,7 @@
       "A FAST, SECURE, and AFFORDABLE BLOCKCHAIN",
     "A wallet for your crypto": "A wallet for your crypto",
     ARCHITECTURE: "ARCHITECTURE",
+    "About Conun": "About Conun",
     "Academic / sociocultural ISSUES": "Academic / sociocultural ISSUES",
     "Academic/sociocultural ISSUES": "Academic/sociocultural ISSUES",
     "An independent virtual processing system that deploys and automatically executes applications at each computing node without interference from individual operating systems.":
@@ -68,11 +69,17 @@
     "CONUN Orchestration(web base)": "CONUN Orchestration(web base)",
     "CONUN PRIVATE": "CONUN PRIVATE",
     "CONUN Pre-Release announcement": "CONUN Pre-Release announcement",
+    "CONUN Private Blockchain Network (CPBN) has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.":
+      "CONUN Private Blockchain Network (CPBN) has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.",
     "CONUN Services: CONUN Decentralized Data Storage Infrastructure SaaS. CONUN Drive Smart Contract":
       "CONUN Services: CONUN Decentralized Data Storage Infrastructure SaaS. CONUN Drive Smart Contract",
     "CONUN WEB EXTENSION VERSION 1.1": "CONUN WEB EXTENSION VERSION 1.1",
     "CONUN continuously strives to bring value to our private blockchain network by creating blockchain based products that benefit users.":
       "CONUN continuously strives to bring value to our private blockchain network by creating blockchain based products that benefit users.",
+    "CONUN is a blockchain-based distributed supercomputing platform.\n              It is a service platform that allows the processing of\n              high-performance computing resources by sharing the idle resources\n              of the participants`' personal computers and smartphones.":
+      "CONUN is a blockchain-based distributed supercomputing platform.\n              It is a service platform that allows the processing of\n              high-performance computing resources by sharing the idle resources\n              of the participants`' personal computers and smartphones.",
+    "CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants`' personal computers and smartphones.":
+      "CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants`' personal computers and smartphones.",
     "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\nOver the last several months, CONUN’s blockchain team has expanded with new members from...":
       "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\nOver the last several months, CONUN’s blockchain team has expanded with new members from...",
     "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols":
@@ -81,6 +88,9 @@
       "CONUN private blockchain network has the ability to give users a\n            more affordable, secure and faster network, with the all same\n            capabilities as the Ethereum Network. This is because our network\n            runs alongside the Ethereum main blockchain.",
     "CONUN private blockchain network has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.":
       "CONUN private blockchain network has the ability to give users a more affordable, secure and faster network, with the all same capabilities as the Ethereum Network. This is because our network runs alongside the Ethereum main blockchain.",
+    "CONUN's Distributed Computing provides a universal computing network architecture platform that enables distributed processing of personal computers and smartphones connected to the Internet based on desktop grid computing technology.":
+      "CONUN's Distributed Computing provides a universal computing network architecture platform that enables distributed processing of personal computers and smartphones connected to the Internet based on desktop grid computing technology.",
+    "CONUN's cryptocurrency wallet": "CONUN's cryptocurrency wallet",
     "CONUNS DSC ECOSYSTEM": "CONUNS DSC ECOSYSTEM",
     "CONUNS DSC EOSYSTEM": "CONUNS DSC EOSYSTEM",
     "CONUN’s Private Blockchain Network is an answer to the limitations that come with using a public blockchain. A private blockchain allows us to modify and set our own rules, all while providing users with a faster, secure and more affordable Blockchain.":
@@ -93,6 +103,7 @@
       "CONUN’s main project, the DSC, allows users to submit supercomputing tasks, that will be shared with connected nodes, users who are sharing their computers’ resources with the network. When tasks are completed, users are rewarded for their computers’ work with tokens. For the rewarding process to work, transferring tokens must be both free, as well as fast. With a private blockchain network, CONUN is able to meet both of these requirements. You can read more about this on the DSC and CPBN product description pages! ",
     "CONUN’s networktowrk consists of  computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications.":
       "CONUN’s networktowrk consists of  computing nodes that control the CPU, GPU, memory and storage of personal computing devices. These modularized nodes process applications.",
+    CPBN: "CPBN",
     "CTM Front-End": "CTM Front-End",
     "Can I add other token wallets into my Metacon wallet?":
       "Can I add other token wallets into my Metacon wallet?",
@@ -106,14 +117,17 @@
       "Computer Graphic and Processing Projects",
     "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply.":
       "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply.",
+    "Conun DSC Ecosystem": "Conun DSC Ecosystem",
     "Conun Drive": "Conun Drive",
     "Conun Drive P2P File Share Powered by IPFS. Conun Drive is a decentralized content sharing system, this means there is no centralized server storing content. All content will be verified on Conun’s Private Blockchain. As soon as users connect to the Conun Drive network their computer becomes a Conun Drive network participant. Participants can choose which files to store or publish, if published, rewards can be gained by other participants. In addition, all actions that occur on the Conun Drive network will be stored on the Conun Private Blockchain, thus all actions are immutable and secure.":
       "Conun Drive P2P File Share Powered by IPFS. Conun Drive is a decentralized content sharing system, this means there is no centralized server storing content. All content will be verified on Conun’s Private Blockchain. As soon as users connect to the Conun Drive network their computer becomes a Conun Drive network participant. Participants can choose which files to store or publish, if published, rewards can be gained by other participants. In addition, all actions that occur on the Conun Drive network will be stored on the Conun Private Blockchain, thus all actions are immutable and secure.",
     "Conun Drive was built for developers. So, if you are building an application, an NFT marketplace, or anything in between, our APIs and SDKs will give you superpowers.":
       "Conun Drive was built for developers. So, if you are building an application, an NFT marketplace, or anything in between, our APIs and SDKs will give you superpowers.",
+    "Conun Private Blockchain Network": "Conun Private Blockchain Network",
     "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)":
       "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)",
     "Crowdfunding for pre-sale": "Crowdfunding for pre-sale",
+    DRIVE: "DRIVE",
     DSC: "DSC",
     "DSC USE CASES": "DSC USE CASES",
     "DappStore is a platform, which lists all popular dApps. Discover the innovative world of blockchain, plus explore the many decentralized applications in our platform":
@@ -156,8 +170,11 @@
       "Development project utility and portal server for CONUN market",
     Discord: "Discord",
     "Distributed Computing": "Distributed Computing",
+    "Distributed Super Computing": "Distributed Super Computing",
     "Distributed computing core functionality that processes computing tasks by using personal computer resources.":
       "Distributed computing core functionality that processes computing tasks by using personal computer resources.",
+    "Distributed decentralized storage system":
+      "Distributed decentralized storage system",
     Download: "Download",
     "EXPLORE AND SHARE": "EXPLORE AND SHARE",
     "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation.":
@@ -171,12 +188,14 @@
       "Explore free and private digital assets from users across the globe in The Drive desktop application. The platform is easy. Create a profile, public or anonymous, and explore and share content. Users can also monetize their assets - an easy way to earn while you sleep.",
     "Explore, Share, and Earn with CONUN Drive":
       "Explore, Share, and Earn with CONUN Drive",
+    FAQs: "FAQs",
     "Fast and secure cryptocurrency wallet":
       "Fast and secure cryptocurrency wallet",
     Feb: "Feb",
     "Find out More": "Find out More",
     "Get Power By Conun": "Get Power By Conun",
     Github: "Github",
+    "Give Power to Earn": "Give Power to Earn",
     "Give power to earn": "Give power to earn",
     "Grid Computing Core": "Grid Computing Core",
     "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you":
@@ -199,6 +218,8 @@
     "It will be sent to the address you entered on the CONUN website. If you click MY INFO after logging in on the CONUN homepage, there is a place to enter your the wallet address.":
       "It will be sent to the address you entered on the CONUN website. If you click MY INFO after logging in on the CONUN homepage, there is a place to enter your the wallet address.",
     Jan: "Jan",
+    "Join Conun's open source community": "Join Conun's open source community",
+    "Join Our Ecosystem": "Join Our Ecosystem",
     "Join our ecosystem": "Join our ecosystem",
     Jul: "Jul",
     Jun: "Jun",
@@ -232,7 +253,9 @@
     "Learn More": "Learn More",
     "Learn more": "Learn more",
     "Life Science and Research Projects": "Life Science and Research Projects",
+    METACON: "METACON",
     "Main Benefits": "Main Benefits",
+    "Mainnet is online": "Mainnet is online",
     "Make project for CONUN platform Test application in science circulation, deep learning, big data":
       "Make project for CONUN platform Test application in science circulation, deep learning, big data",
     "Make projects for CONUN platform Test : science circulation / deep learning / big data":
@@ -261,6 +284,7 @@
     "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously.":
       "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously.",
     "Network Core for exchange platform": "Network Core for exchange platform",
+    News: "News",
     Nov: "Nov",
     "Nov 11 2021": "Nov 11 2021",
     "Nov 24 2021": "Nov 24 2021",
@@ -301,6 +325,7 @@
       "Proceed network consists of peer to peer platform",
     "Proceed research and development for CONUN's platform CONUN":
       "Proceed research and development for CONUN's platform CONUN",
+    Products: "Products",
     "Read More": "Read More",
     "Release CONUN Blockchain Explorer Mainnet":
       "Release CONUN Blockchain Explorer Mainnet",
@@ -310,6 +335,7 @@
     "Scientific Calculations": "Scientific Calculations",
     "Scientific calculations that require complex and fast computing power.":
       "Scientific calculations that require complex and fast computing power.",
+    "See Whitepaper": "See Whitepaper",
     Sep: "Sep",
     "Software Development": "Software Development",
     "Staring to manage CONUN algorithm finding key version":
