@@ -25,6 +25,14 @@
       flex-direction: row;
       justify-content: space-between;
 
+      @media only screen and (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 50px;
+        width: 90%;
+      }
+
       & .TextContainer {
         display: flex;
         flex-direction: column;
@@ -33,13 +41,10 @@
         @media only screen and (max-width: 800px) {
           width: 90%;
         }
-        @media only screen and (min-width: 769px) and (max-width: 1024px) {
-          width: 40%;
-        }
       }
 
       & .DiagramContainer {
-        width: 40%;
+        width: 50%;
 
         @media only screen and (max-width: 800px) {
           width: 90%;
@@ -51,27 +56,51 @@
     }
 
     & .IconContainer {
+      align-items: center;
       color: var(--conun-blue);
       display: flex;
       flex-direction: column;
       font-weight: 800;
       text-transform: uppercase;
+      width: 100%;
+
+      @media only screen and (max-width: 800px) {
+        width: 90%;
+      }
+
+      & .Title {
+        margin-top: 100px;
+      }
 
       & .Icons {
+        align-items: center;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-top: 30px;
+        width: 100%;
 
         & > div {
           align-items: center;
           display: flex;
           flex-direction: column;
-          font-size: 0.8rem;
-          justify-content: center;
+          font-size: 0.75rem;
+          justify-content: flex-start;
           letter-spacing: -0.02em;
           text-align: center;
-          width: 10%;
+          width: 120px;
+
+          @media only screen and (max-width: 800px) {
+            width: 50%;
+          }
+          @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            width: 60%;
+          }
+
+          & .Icon {
+            margin-bottom: 20px;
+            width: 80%;
+          }
         }
       }
     }

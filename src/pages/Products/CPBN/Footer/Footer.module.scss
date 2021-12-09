@@ -1,41 +1,62 @@
 .Footer {
-  align-items: center;
   background-color: var(--conun-bg-blue);
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   padding: 200px 0;
   width: 100%;
 
   & .FooterContainer {
     color: var(--conun-blue);
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+
     @media only screen and (max-width: 800px) {
-      text-align: center;
+      flex-direction: column;
       width: 90%;
     }
 
-    & .Title {
-      font-family: "Chakra Petch", sans-serif;
-      font-size: 1.6rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      line-height: 52px;
-      margin-bottom: 37px;
-      text-align: center;
-    }
-
-    & .Description {
-      font-size: 1.2rem;
-      font-weight: normal;
-      line-height: 185%;
-    }
-
     & .DiagramContainer {
-      padding: 10%;
-      width: 100%;
+      align-self: flex-start;
+      width: 40%;
 
       @media only screen and (max-width: 800px) {
-        padding: 10%;
+        padding-bottom: 50px;
+        width: 100%;
+      }
+    }
+
+    & .Card {
+      align-self: flex-end;
+      text-align: left;
+      width: 45%;
+      word-break: break-word;
+
+      @media only screen and (max-width: 800px) {
+        width: 100%;
+      }
+
+      & .Description {
+        margin-bottom: 50px;
+      }
+
+      & .LinkContainer {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+
+        & .Link {
+          align-self: right;
+          background: linear-gradient(
+            99.17deg,
+            #77aceb 12.18%,
+            #1e4489 106.22%
+          );
+          border-radius: 30px;
+          color: var(--conun-white);
+          font-size: 0.8rem;
+          padding: 10px 20px;
+        }
       }
     }
   }
