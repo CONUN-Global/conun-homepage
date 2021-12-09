@@ -22,7 +22,9 @@ function DropdownLink({
         isWhitePaperGreen ? styles.DropdownGreenHover : styles.DropdownBlueHover
       )}
     >
-      <a href={link}>{name}</a>
+      <a href={link} target="_blank" rel="noreferrer">
+        {name}
+      </a>
     </li>
   );
 }

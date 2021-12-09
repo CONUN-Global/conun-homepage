@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import DiscordIcon from "@/assets/icons/discord.svg";
 import YoutubeIcon from "@/assets/icons/youtube.svg";
@@ -22,7 +22,12 @@ function YTThumb({
 }) {
   if (thumbnailClean) {
     return (
-      <a href={YTUrl} target="_blank" rel="noreferrer">
+      <a
+        href={YTUrl}
+        target="_blank"
+        rel="noreferrer"
+        className={styles.YTTContainer}
+      >
         {/* eslint-disable-next-line */}
         <img
           src={getYoutubeThumbUrlClean(YTUrl)}
@@ -33,7 +38,12 @@ function YTThumb({
     );
   }
   return (
-    <a href={YTUrl} target="_blank" rel="noreferrer">
+    <a
+      href={YTUrl}
+      target="_blank"
+      rel="noreferrer"
+      className={styles.YTTContainer}
+    >
       {/* eslint-disable-next-line */}
       <img src={getYoutubeThumbUrl(YTUrl)} alt="" className={styles.YTThumb} />
     </a>
@@ -80,7 +90,7 @@ function NewsThumb({
       rel="noreferrer"
     >
       {newsData.thumbnail ? (
-        <Image src={newsData.thumbnail} className={styles.ThumbImg} alt="" />
+        <img src={newsData.thumbnail} className={styles.ThumbImg} alt="" /> //eslint-disable-line
       ) : (
         <Placeholder source={newsData.source} />
       )}

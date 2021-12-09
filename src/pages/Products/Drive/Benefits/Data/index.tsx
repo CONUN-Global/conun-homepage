@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 export const Data = [
   {
     title: <Trans id="Storage" />,

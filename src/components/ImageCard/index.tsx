@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import styles from "./ImageCard.module.scss";
 import { useEffect } from "react";
@@ -28,12 +28,9 @@ function ImageCard({ member, i }: any) {
       onMouseLeave={handleMouseLeave}
       className={styles.ImgCard}
     >
-      <Image
-        layout="responsive"
-        src={img}
-        alt={member?.nameEn}
-        className={styles.ImageItem}
-      />
+      {/* eslint-disable-next-line */}
+      <img src={img} alt={member?.nameEn} className={styles.ImageItem} />
+
       {isHoverOvered && (
         <div className={styles.TextContainer}>
           <div className={styles.TextLayoutTop}>

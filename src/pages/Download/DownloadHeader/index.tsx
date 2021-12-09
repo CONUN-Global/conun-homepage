@@ -9,6 +9,8 @@ import DownloadBar from "@/components/DownloadBar";
 import styles from "./DownloadHeader.module.scss";
 
 function DownloadHeader() {
+  const downloadData = MAIN_PAGES[4];
+
   return (
     <div className={styles.DownloadContainer}>
       <Socials className={styles.SocialIcons} />
@@ -18,9 +20,9 @@ function DownloadHeader() {
             className={styles.Caption}
             titleColor="blue"
             textSize="medium"
-            title={MAIN_PAGES[3].title}
+            title={downloadData.title}
           />
-          <p className={styles.Description}>{MAIN_PAGES[3].description}</p>
+          <p className={styles.Description}>{downloadData.description}</p>
           <div className={styles.DownloadButtonContainer}>
             <h3 className={styles.SubTitle}>Web Products</h3>
             <Button className={styles.Button} variant="secondary" round>
@@ -39,7 +41,7 @@ function DownloadHeader() {
             </div>
           </div>
         </div>
-        <div className={styles.ImageContainer}>{MAIN_PAGES[3].image}</div>
+        <div className={styles.ImageContainer}>{downloadData.image}</div>
       </Horizontal>
       <DownloadBar />
     </div>

@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 
 import DriveIcon from "@/assets/icons/drive_icon.svg";
 import MetaconWalletIcon from "@/assets/icons/metacon_wallet.svg";
@@ -14,18 +14,6 @@ export const PRODUCT_CARD = [
     ),
     btnMsg: <Trans id="Learn more" />,
     link: "/products/drive",
-  },
-
-  {
-    id: "metacon-extension",
-    header: <Trans id="Metacon Extension" />,
-    image: <MetaconWalletIcon />,
-    title: <Trans id="Metacon Extension" />,
-    description: (
-      <Trans id="Metacon has the same functionality as the CONUN Manager." />
-    ),
-    btnMsg: <Trans id="Learn more" />,
-    link: "/products/metacon",
   },
   {
     id: "metacon-wallet",
@@ -44,7 +32,7 @@ export const PRODUCT_CARD = [
     image: <MetaconWalletIcon />,
     title: <Trans id="DSC" />,
     description: (
-      <Trans id="CONUN’s cryptocurrency wallet gives you access to our coin CONX. You can exchange and swap our coin as well as import your Ethereum wallet." />
+      <Trans id="CONUN's Distributed Computing provides a universal computing network architecture platform that enables distributed processing of personal computers and smartphones connected to the Internet based on desktop grid computing technology." />
     ),
     btnMsg: <Trans id="Learn more" />,
     link: "/products/dsc",

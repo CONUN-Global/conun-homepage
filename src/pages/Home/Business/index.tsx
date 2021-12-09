@@ -1,6 +1,6 @@
 import Vertical from "@/components/Card/Vertical";
 import Caption from "@/components/Caption";
-
+import Text from "@/components/Text";
 import { CARD_CONTENT } from "./CardContent";
 
 import styles from "./Business.module.scss";
@@ -15,9 +15,7 @@ function Business() {
               <div className={styles.ImageContainer}>{card.image}</div>
               <div className={styles.TextContainer}>
                 <Caption textSize="small" title={card.title} />
-                <div className={styles.Description}>
-                  <p>{card.description}</p>
-                </div>
+                <Text description={card.description} />
               </div>
             </Vertical>
           );

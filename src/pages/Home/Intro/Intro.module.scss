@@ -4,24 +4,23 @@
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 60vh;
   position: relative;
   width: 100%;
 
   & .LeftBlocks {
     left: 0;
-    margin-top: 40px;
     opacity: 0.5;
     position: absolute;
-    top: 0;
+    top: 60px;
     width: 40%;
   }
 
   & .RightBlocks {
-    bottom: 0;
     opacity: 0.5;
     position: absolute;
     right: 0;
+    top: 10px;
     width: 40%;
   }
 

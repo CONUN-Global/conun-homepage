@@ -1,17 +1,29 @@
 .Footer {
   align-items: center;
-  background-color: var(--conun-bg-blue);
-  color: var(--conun-blue);
+  background-color: var(--blue);
+  color: var(--conun-bg-blue);
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  justify-content: space-around;
+  gap: 40px;
+  height: 350px;
+  justify-content: flex-start;
+  padding: 50px 0;
+  position: relative;
 
   & .Arrow {
     align-self: flex-end;
-    fill: transparent;
-    margin-right: 20%;
+    fill: white;
+    position: absolute;
+    right: 10%;
     width: 3%;
+
+    &:hover {
+      fill: rgb(218 219 231);
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
   }
 
   & .LinkSection {

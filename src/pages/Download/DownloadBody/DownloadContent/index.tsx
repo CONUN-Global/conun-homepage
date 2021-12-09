@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import WebExt from "@/assets/icons/web_ext.svg";
 import Drive from "@/assets/icons/drive.svg";
 import Wallet from "@/assets/icons/wallet.svg";
@@ -19,10 +19,7 @@ export const DOWNLOAD_CONTENT = [
     image: <Wallet />,
     title: <Trans id="A wallet for your crypto" />,
     description: (
-      <Trans
-        id="CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions*.
-"
-      />
+      <Trans id="CONUN Metacon keeps your existing cryptocurrency wallets together securely. You can easily transfer funds between wallets, as well as get access our own blockchain network, where you can utilize our distributed applications such as CONUN DRIVE. Our blockchain network uses a POA (Proof of Authority) methodology that allows us to provide free transactions." />
     ),
     btnMsg: <Trans id="Download" />,
   },

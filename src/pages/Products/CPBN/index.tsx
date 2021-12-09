@@ -1,6 +1,5 @@
 import Header from "./Header";
 import Intro from "./Intro";
-import Body from "./Body";
 import Footer from "./Footer";
 
 function CPBN() {
@@ -8,7 +7,6 @@ function CPBN() {
     <div>
       <Header />
       <Intro />
-      <Body />
       <Footer />
     </div>
   );

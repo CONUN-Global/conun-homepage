@@ -8,6 +8,7 @@ import useStore from "@/store/store";
 import Layout from "@/components/Layout";
 
 import "./styles/globals.scss";
+import Footer from "@/pages/Home/Footer";
 
 export async function activate(locale: string) {
   const { messages } = await import(`../src/locales/${locale}/messages`);
@@ -34,6 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Component {...pageProps} />
+        <Footer />
       </Layout>
     </I18nProvider>
   );
