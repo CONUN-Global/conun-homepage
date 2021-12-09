@@ -329,8 +329,8 @@ export const YEARS: any = {
       ,
       {
         month: <Trans id="Dec" />,
-        title: <Trans id="korean-only-title" message="" />,
-        subtitle: <Trans id="korean-only-sub" message="" />,
+        title: <Trans id="korean-only-title" />,
+        subtitle: <Trans id="korean-only-sub" />,
       },
     ],
   },
