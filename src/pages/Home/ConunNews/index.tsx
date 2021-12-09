@@ -22,7 +22,9 @@ function ConunNews() {
             return <Item key={index} icon={link.icon} path={link.path} />;
           })}
         </div>
-        <p className={styles.Title}>LATEST NEWS</p>
+        <div className={styles.TitleBox}>
+          <p className={styles.Title}>ROADMAP</p>
+        </div>
         <div className={styles.CardContainer}>
           {DataStream.map((news, i: number) => {
             return (
