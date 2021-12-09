@@ -4,7 +4,7 @@ import classNames from "classnames";
 import styles from "./Item.module.scss";
 
 interface ItemProps {
-  name?: string;
+  name?: string | JSX.Element;
   path: string;
   icon?: React.ReactNode;
   noStyle?: boolean;
