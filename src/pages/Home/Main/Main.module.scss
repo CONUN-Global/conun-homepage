@@ -7,6 +7,9 @@
     margin-left: 50%;
     position: absolute;
     z-index: 98;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
     & .Dot {
       background-color: var(--conun-white);
