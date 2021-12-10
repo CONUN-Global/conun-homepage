@@ -6,7 +6,7 @@ export const CONTENT = [
     items: [
       {
         name: <Trans id="Terms of Service" />,
-        path: "/download",
+        path: "/https://conun.io/policy/termsandcondition",
       },
       {
         name: <Trans id="Privacy Policy" />,

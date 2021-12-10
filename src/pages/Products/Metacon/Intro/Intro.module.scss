@@ -1,0 +1,49 @@
+.Intro {
+  align-items: center;
+  background-color: var(--conun-bg-blue-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 200px 0;
+  width: 100%;
+
+  & .IntroContainer {
+    width: 65%;
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+    }
+
+    & .Card {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      @media only screen and (max-width: 800px) {
+        flex-direction: column;
+      }
+
+      & .TextContainer {
+        width: 50%;
+        @media only screen and (max-width: 800px) {
+          width: 100%;
+        }
+
+        & .Caption {
+          color: var(--conun-blue);
+          font-size: 1.2rem;
+          font-weight: 600;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+      }
+
+      & .ImageContainer {
+        width: 40%;
+        @media only screen and (max-width: 800px) {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
