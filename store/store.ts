@@ -3,8 +3,8 @@ import { AppState } from "@/types/index";
 
 const useStore = create<AppState>((set) => ({
   currentLocale: {
-    value: "en",
-    label: "English",
+    value: "ko",
+    label: "한국어",
   },
   setCurrentLocale: ({ value, label }) =>
     set({
