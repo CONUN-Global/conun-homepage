@@ -1132,7 +1132,7 @@ msgstr "CONUN Network SDK 를 통해 CONUN 블록체인 네트워크를 통합�
 
 #: src/pages/Home/Business/CardContent/index.tsx:11
 msgid "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
-msgstr "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로젝트 완료하거나 복잡한 작업을 처리할 수 있습니다."
+msgstr "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로젝트를 완료하거나 복잡한 작업을 처리할 수 있습니다."
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
 msgid "To know more about Conan's {type}, download Conan's white paper."

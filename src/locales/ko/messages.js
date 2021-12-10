@@ -383,7 +383,7 @@
     "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications":
       "CONUN Network SDK 를 통해 CONUN 블록체인 네트워크를 통합합니다. CONUN 에서 제공하는 API를 통해 각 서비스 사용자들은 자체의 맞춤형 비즈니스 애플리케이션을 구현할 수 있습니다",
     "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably.":
-      "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로젝트 완료하거나 복잡한 작업을 처리할 수 있습니다.",
+      "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로젝트를 완료하거나 복잡한 작업을 처리할 수 있습니다.",
     "To know more about Conan's {type}, download Conan's white paper.": [
       "Conan의 ",
       ["type"],
