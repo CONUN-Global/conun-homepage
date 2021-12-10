@@ -1,0 +1,55 @@
+.IntroBottom {
+  align-items: center;
+  background-color: var(--conun-bg-blue);
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  width: 100%;
+
+  & .MainContainer {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+    }
+
+    & .IconContainer {
+      width: 40%;
+      @media only screen and (max-width: 800px) {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        width: 100%;
+      }
+
+      & .WalletAndComputerIcon {
+        width: 80%;
+        @media only screen and (max-width: 800px) {
+          width: 70%;
+        }
+      }
+    }
+
+    & .TextContainer {
+      width: 50%;
+      @media only screen and (max-width: 800px) {
+        width: 100%;
+      }
+
+      & .Description {
+        margin-bottom: 60px;
+        margin-top: 30px;
+      }
+
+      & .LinkButtonContainer {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
