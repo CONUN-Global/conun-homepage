@@ -17,7 +17,7 @@ export const BenefitsIcons = [
   },
   {
     icon: <Management styles={{ width: "80%" }} />,
-    text: <Trans id="Easy Manaour of Your Crypto" />,
+    text: <Trans id="Easy Management of Your Crypto" />,
   },
   {
     icon: <Decentralization styles={{ width: "80%" }} />,

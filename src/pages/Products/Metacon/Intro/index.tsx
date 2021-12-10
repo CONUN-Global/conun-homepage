@@ -1,10 +1,10 @@
 import { Trans } from "@lingui/macro";
 
-import Benefits from "../../Benefits";
 import { BenefitsIcons } from "../Icons";
 
 import Caption from "@/components/Caption";
 import Text from "@/components/Text";
+import MetaconBenefits from "../MetaconBenefits";
 
 import Chart_Computer_Blocks from "@/assets/icons/chart_computer_blocks.svg";
 
@@ -34,7 +34,7 @@ function Intro() {
             <Chart_Computer_Blocks />
           </div>
         </div>
-        <Benefits iconList={BenefitsIcons} />
+        <MetaconBenefits iconList={BenefitsIcons} />
       </div>
     </div>
   );
