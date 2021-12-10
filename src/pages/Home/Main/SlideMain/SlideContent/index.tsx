@@ -12,7 +12,7 @@ export const MAIN_PAGES = [
       <Trans id="Based on desktop grid computing technology, CONUN's Distributed Super Computing Platform operates by agreement between participants and users creating a horizontal revenue ecosystem. CONUN collects world PC resources: CPU, GPU, and storage to share amongst network participants." />
     ),
     image: <DSCSlide />,
-    btnMsg: <Trans id="Lear More" />,
+    btnMsg: <Trans id="Learn More" />,
     link: "/products/dsc",
   },
 
@@ -22,7 +22,7 @@ export const MAIN_PAGES = [
       <Trans id="CONUN’s Private Blockchain Network is an answer to the limitations that come with using a public blockchain. A private blockchain allows us to modify and set our own rules, all while providing users with a faster, secure and more affordable Blockchain." />
     ),
     image: <CPBNSlide />,
-    btnMsg: <Trans id="Lear More" />,
+    btnMsg: <Trans id="Learn More" />,
     link: "/products/cpbn",
   },
   {

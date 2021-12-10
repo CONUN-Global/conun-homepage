@@ -266,7 +266,7 @@
     "Launching CONUN business": "Launching CONUN business",
     "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform":
       "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform",
-    "Lear More": "Lear More",
+    "Learn More": "Learn More",
     "Learn More": "Learn More",
     "Learn more": "Learn more",
     "Life Science and Research Projects": "Life Science and Research Projects",

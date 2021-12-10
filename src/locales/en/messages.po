@@ -786,8 +786,8 @@ msgstr "Launching the CONUN membership service and CONUN Resource Monitoring all
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:25
-msgid "Lear More"
-msgstr "Lear More"
+msgid "Learn More"
+msgstr "Learn More"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:34
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:43

@@ -778,7 +778,7 @@ msgstr "코넌 멤버십 출시와 함께 코넌 모니터링 서비스를 시�
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:25
-msgid "Lear More"
+msgid "Learn More"
 msgstr "상세보기"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:34
