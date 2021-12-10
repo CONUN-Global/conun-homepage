@@ -4,14 +4,14 @@ export const CONTENT = [
   {
     section: "COMPANY",
     items: [
-      {
-        name: <Trans id="Terms of Service" />,
-        path: "/https://conun.io/policy/termsandcondition",
-      },
-      {
-        name: <Trans id="Privacy Policy" />,
-        path: "https://conun.io/policy/privacypolicy",
-      },
+      // {
+      //   name: <Trans id="Terms of Service" />,
+      //   path: "/https://conun.io/policy/termsandcondition",
+      // },
+      // {
+      //   name: <Trans id="Privacy Policy" />,
+      //   path: "https://conun.io/policy/privacypolicy",
+      // },
       {
         name: <Trans id="White Paper" />,
         path: "/whitepaper",

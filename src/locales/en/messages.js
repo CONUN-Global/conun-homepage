@@ -290,6 +290,7 @@
       "Make transportation & distributed data storage management in application",
     "Make virtual machine system for personal PC app UI/UX":
       "Make virtual machine system for personal PC app UI/UX",
+    "Manager, and Manager Extension.": "Manager, and Manager Extension.",
     Mar: "Mar",
     Marketplace: "Marketplace",
     May: "May",
@@ -358,6 +359,8 @@
       "Scientific calculations that require complex and fast computing power.",
     "Secure Network": "Secure Network",
     "See Whitepaper": "See Whitepaper",
+    "Select your operating system to dowload CONUN Drive,":
+      "Select your operating system to dowload CONUN Drive,",
     Sep: "Sep",
     "Software Development": "Software Development",
     "Staring to manage CONUN algorithm finding key version":
@@ -399,7 +402,7 @@
     "Version 1.2.1 of CONUN Drive is now available.":
       "Version 1.2.1 of CONUN Drive is now available.",
     "Virtual Machine (Docker Container)": "Virtual Machine (Docker Container)",
-    "Visit the website ": "Visit the website ",
+    "Visit the website ": "웹사이트 방문하기",
     Wallet: "Wallet",
     "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.":
       "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.",

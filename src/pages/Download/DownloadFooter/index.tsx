@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import { DOWNLOADS_MENU } from "./DownloadMenu";
 import Dropdown from "@/components/Dropdown";
 
@@ -9,8 +10,9 @@ function DownloadFooter() {
       <div className={styles.FooterContainer}>
         <h1>Conun Product Downloads</h1>
         <p className={styles.Description}>
-          Select your operating system to dowload CONUN Drive, <br />
-          Manager, and Manager Extension.
+          <Trans id="Select your operating system to dowload CONUN Drive," />
+          <br />
+          <Trans id="Manager, and Manager Extension." />
         </p>
         <div className={styles.DownloadMenuContainer}>
           {DOWNLOADS_MENU.map((menu, i: number) => (

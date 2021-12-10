@@ -159,7 +159,7 @@ msgstr "CON 토큰은 이더리움 네트워크에 있는 CONUN의 ERC20 토큰�
 
 #: src/pages/Products/CPBN/Footer/index.tsx:21
 msgid "CONSCAN (CONUN EXPLORER)"
-msgstr ""
+msgstr "CONSCAN(코넌 익스플로러)"
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:8
 msgid "CONUN DRIVE VERSION 1.1"
@@ -844,6 +844,10 @@ msgstr "응용 프로그램에서 운송 및 분산 데이터 저장 관리"
 msgid "Make virtual machine system for personal PC app UI/UX"
 msgstr "개인용 PC 앱 UI/UX용 가상머신 시스템 구축"
 
+#: src/pages/Download/DownloadFooter/index.tsx:15
+msgid "Manager, and Manager Extension."
+msgstr "매니저, 매니저 익스텐션"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:47
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:54
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:123
@@ -867,7 +871,7 @@ msgstr "Medium"
 
 #: src/pages/Products/Metacon/MetaconBenefits/index.tsx:17
 msgid "Metacon Benefits"
-msgstr ""
+msgstr "메타콘 장점들"
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:21
 #: src/pages/Home/Product/ProductCardContent/index.tsx:23
@@ -1058,6 +1062,10 @@ msgstr ""
 msgid "See Whitepaper"
 msgstr "백서보기"
 
+#: src/pages/Download/DownloadFooter/index.tsx:13
+msgid "Select your operating system to dowload CONUN Drive,"
+msgstr "다운로드할 운영 체제를 선택하십시오. CONUN 드라이브"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:208
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:288
 msgid "Sep"
@@ -1073,7 +1081,7 @@ msgstr "CONUN 플랫폼을 위한 분산 프로젝트"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
 #~ msgid "Start Now"
-#~ msgstr ""
+#~ msgstr "시작하기"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:109
 msgid "Start digital exchange service"
@@ -1120,7 +1128,7 @@ msgstr "Metacon 지갑을 사용하면 다른 토큰 지갑도 함께 보관할 
 
 #: src/pages/Products/DSC/Intro/index.tsx:13
 msgid "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices."
-msgstr "우리는 매일같이 컴퓨터와 스마트폰과 같은 고성능 전자제품을 사용하며 인터넷 검색이나 복잡한 게임을 하기도 하고 다양한 사람들과 소통을 하기도 합니다. 하지만 일상적인 사용 이외에도, 이런 기기"
+msgstr "우리는 매일같이 컴퓨터와 스마트폰과 같은 고성능 전자제품을 사용하며 인터넷 검색이나 복잡한 게 임을 하기도 하고 다양한 사람들과 소통을 하기도 합니다. 하지만 일상적인 사용 이외에도, 이런 기기 들을 슈퍼컴퓨팅 플랫폼에 연결하면 자원으로 활용할 수 있습니다. DSC라 불리는 슈퍼컴퓨팅 플랫폼은 수많은 컴퓨터와 스마트폰의 CPU GPU와 RAM 자원을 수집 및 공유하는 세계적인 네트워크입니다."
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:263
 msgid "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
@@ -1161,7 +1169,7 @@ msgstr "가상 머신 (도커 컨테이너)"
 
 #: src/pages/Products/CPBN/Footer/index.tsx:33
 msgid "Visit the website "
-msgstr ""
+msgstr "웹사이트 방문하기"
 
 #: src/pages/Home/Footer/Content/index.tsx:37
 msgid "Wallet"
