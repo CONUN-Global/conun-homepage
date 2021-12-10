@@ -16,6 +16,7 @@
     "@lingui/detect-locale": "^3.12.1",
     "@lingui/react": "^3.12.1",
     "@react-hook/media-query": "^1.1.1",
+    "babel-preset-env": "^1.7.0",
     "classnames": "^2.3.1",
     "eslint": "^7.32.0",
     "framer-motion": "^5.3.0",
