@@ -266,7 +266,7 @@
     "Launching CONUN business": "CONUN 비지니스 론칭",
     "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform":
       "코넌 멤버십 출시와 함께 코넌 모니터링 서비스를 시작하여 CONUN 플랫폼에서 서비스사용자들이 각각의 고유한 비즈니스 또는 개인 요구 사항에 맞는 비용추정 및 유휴자원을 빌려주는 사용자들에게는 받을 보상금액을 알 수 있습니다.",
-    "Lear More": "상세보기",
+    "Learn More": "상세보기",
     "Learn More": "상세보기",
     "Learn more": "상세보기",
     "Life Science and Research Projects": "생명과학 연구 프로젝트",
