@@ -4,6 +4,7 @@ import Architecture from "./Architecture";
 import UseCase from "./UseCase";
 
 import styles from "./DSC.module.scss";
+import Chart from "./Chart";
 
 function DSC() {
   return (
@@ -12,6 +13,7 @@ function DSC() {
       <Intro />
       <Architecture />
       <UseCase />
+      <Chart />
     </div>
   );
 }
