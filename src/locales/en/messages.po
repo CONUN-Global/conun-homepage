@@ -852,6 +852,10 @@ msgstr "Make transportation & distributed data storage management in application
 msgid "Make virtual machine system for personal PC app UI/UX"
 msgstr "Make virtual machine system for personal PC app UI/UX"
 
+#: src/pages/Download/DownloadFooter/index.tsx:15
+msgid "Manager, and Manager Extension."
+msgstr "Manager, and Manager Extension."
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:47
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:54
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:123
@@ -1074,6 +1078,10 @@ msgstr "Secure Network"
 msgid "See Whitepaper"
 msgstr "See Whitepaper"
 
+#: src/pages/Download/DownloadFooter/index.tsx:13
+msgid "Select your operating system to dowload CONUN Drive,"
+msgstr "Select your operating system to dowload CONUN Drive,"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:208
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:288
 msgid "Sep"
@@ -1180,7 +1188,7 @@ msgstr "Virtual Machine (Docker Container)"
 
 #: src/pages/Products/CPBN/Footer/index.tsx:33
 msgid "Visit the website "
-msgstr "Visit the website "
+msgstr "웹사이트 방문하기"
 
 #: src/pages/Home/Footer/Content/index.tsx:37
 msgid "Wallet"

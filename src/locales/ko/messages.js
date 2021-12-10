@@ -52,7 +52,7 @@
       "CON 토큰은 이더리움 네트워크에 있는 CONUN의 ERC20 토큰이므로 CON 전송에는 ERC20 토큰 전송에 대한 일반적인 거래 수수료가 발생합니다. 이 수수료는 지갑의 Eth 잔액에서 공제됩니다. CONX 토큰은 CONUN의 프라이빗 블록체인 네트워크에만 존재하며, CONX를 다른 사용자에게 양도하는 데에는 수수료가 전혀 발생하지 않습니다. CON을 CONX로 또는 CONX를 CON으로 스왑할 때 사용하는 브리지 스왑 프로세스에는 CONUN 자체의 네트워크와 이더리움 네트워크 모두에서 스마트 계약이 포함됩니다. Ethereum 네트워크에서 스마트 계약과 관련된 모든 작업에는 일반적인 거래 수수료가 발생하며 이 수수료는 지갑의 Eth 잔액에서 공제됩니다.",
     "CON tokens are CONUN’s ERC20 tokens on the Ethereum network, and so CON transfers incur the usual transaction fees for sending ERC20 tokens. These fees are deducted from your wallet’s Eth balance. CONX tokens exist only on CONUN’s private blockchain network. Transfers of CONX to other users incur no fees at all. When swapping CON to CONX or CONX to CON, the bridge swap process involves smart contracts both inside the CONUN network, and on the Ethereum network. Any action involving a smart contract on the Ethereum network incurs the usual transaction fees. These fees are deducted from your wallet’s Eth balance. ":
       "CON 토큰은 이더리움 네트워크에 있는 CONUN의 ERC20 토큰이므로 CON 전송에는 ERC20 토큰을 보내기 위한 일반적인 거래 수수료가 발생하며 이 수수료는 지갑의 Eth 잔액에서 공제됩니다. CONX 토큰은 CONUN의 프라이빗 블록체인 네트워크에만 존재합니다. CON을 CONX로 또는 CONX를 CON으로 스왑할 때 브리지 스왑 프로세스에는 CONUN 네트워크 내부와 이더리움 네트워크 모두에서 스마트 계약이 포함되며, 하지만 CONX를 다른 사용자에게 양도하는 데에는 수수료가 전혀 발생하지 않습니다. ",
-    "CONSCAN (CONUN EXPLORER)": "CONSCAN (CONUN EXPLORER)",
+    "CONSCAN (CONUN EXPLORER)": "CONSCAN(코넌 익스플로러)",
     "CONUN DRIVE VERSION 1.1": "코넌 드라이브 버전 1.1",
     "CONUN DSC ECOSYSTEM": "CONUN DSC 생태계",
     "CONUN DSC PLATFORM REWARDING PROCESS":
@@ -290,11 +290,12 @@
       "응용 프로그램에서 운송 및 분산 데이터 저장 관리",
     "Make virtual machine system for personal PC app UI/UX":
       "개인용 PC 앱 UI/UX용 가상머신 시스템 구축",
+    "Manager, and Manager Extension.": "매니저, 매니저 익스텐션",
     Mar: "3월",
     Marketplace: "마켓 플레이스",
     May: "5월",
     Medium: "Medium",
-    "Metacon Benefits": "Metacon Benefits",
+    "Metacon Benefits": "메타콘 장점들",
     "Metacon Extension": "Metacon 익스텐션",
     "Metacon Wallet": "Metacon 지갑",
     "Metacon has the same functionality as the CONUN Manager.":
@@ -355,11 +356,13 @@
       "복잡하고 빠른 컴퓨팅 성능이 요구되는 과학계산 작업을 실행하는데 사용 될 수 있습니다.",
     "Secure Network": "Secure Network",
     "See Whitepaper": "백서보기",
+    "Select your operating system to dowload CONUN Drive,":
+      "다운로드할 운영 체제를 선택하십시오. CONUN 드라이브",
     Sep: "9월",
     "Software Development": "소프트웨어 개발",
     "Staring to manage CONUN algorithm finding key version":
       "CONUN 플랫폼을 위한 분산 프로젝트",
-    "Start Now": "Start Now",
+    "Start Now": "시작하기",
     "Start digital exchange service": "암호 화폐거래소 서비스를 시작합니다.",
     "Starting to test 'CONUN blockchain network service version 'Halla'. We pick the beautiful mountain name in Jeju island as a CONUN's first release service name":
       "코넌의 분산슈퍼컴퓨팅 DSC 를 지원하기 위한 블록체인 탈중앙네트워크 개발작업을 시작합니다.",
@@ -377,7 +380,7 @@
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "Metacon 지갑을 사용하면 다른 토큰 지갑도 함께 보관할 수 있으며, JSON 인증서를 사용하여 액세스할 수 있습니다. 현재 메타콘 버전에서는 ETH, CON, CONX 지갑만 인증서 안에 보관할 수 있으며, 다음 버전에서는 지갑을 더 추가할 수 있습니다. 그럼 뉴스 페이지에서 메타콘의 새로운 소식을 만나보세요!",
     "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.":
-      "우리는 매일같이 컴퓨터와 스마트폰과 같은 고성능 전자제품을 사용하며 인터넷 검색이나 복잡한 게임을 하기도 하고 다양한 사람들과 소통을 하기도 합니다. 하지만 일상적인 사용 이외에도, 이런 기기",
+      "우리는 매일같이 컴퓨터와 스마트폰과 같은 고성능 전자제품을 사용하며 인터넷 검색이나 복잡한 게 임을 하기도 하고 다양한 사람들과 소통을 하기도 합니다. 하지만 일상적인 사용 이외에도, 이런 기기 들을 슈퍼컴퓨팅 플랫폼에 연결하면 자원으로 활용할 수 있습니다. DSC라 불리는 슈퍼컴퓨팅 플랫폼은 수많은 컴퓨터와 스마트폰의 CPU GPU와 RAM 자원을 수집 및 공유하는 세계적인 네트워크입니다.",
     "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE":
       "코넌 블록체인 메인 서비스 '한라-릴리스' 첫 출시. 코넌 드라이브 완료",
     "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications":
@@ -395,7 +398,7 @@
     "Version 1.2.1 of CONUN Drive is now available.":
       "CONUN 드라이브 버전 1.2.1이 출시되었습니다.",
     "Virtual Machine (Docker Container)": "가상 머신 (도커 컨테이너)",
-    "Visit the website ": "Visit the website ",
+    "Visit the website ": "웹사이트 방문하기",
     Wallet: "지갑",
     "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.":
       "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.",
