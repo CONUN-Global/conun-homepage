@@ -86,7 +86,7 @@
     "CONUN is a blockchain-based distributed supercomputing platform.\n              It is a service platform that allows the processing of\n              high-performance computing resources by sharing the idle resources\n              of the participants`' personal computers and smartphones.":
       "CONUN is a blockchain-based distributed supercomputing platform.\n              It is a service platform that allows the processing of\n              high-performance computing resources by sharing the idle resources\n              of the participants`' personal computers and smartphones.",
     "CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants' personal computers and smartphones.":
-      "CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants' personal computers and smartphones.",
+      "블록체인 기반의 분산슈퍼컴퓨팅(DSC) 플랫폼을 연구하고 만듭니다. 분산슈퍼컴퓨팅이란 네트워크를 통해 연결된 사용자 개인의 컴퓨터와 스마트폰의 유휴 자원을 공유하여 슈퍼컴퓨터의 성능과 유사한 고성능 컴퓨팅을 실현하는 기술입니다. 코넌이 꿈꾸는 미래는 누구나 DSC 플랫폼을 통해 고성능 컴퓨팅을 보다 저렴한 가격에 이용하고 다양한 프로젝트에 사용되며 더 나은 내일을 향해 함께 나아가는 것입니다.",
     "CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants`' personal computers and smartphones.":
       "블록체인 기반의 분산슈퍼컴퓨팅(DSC) 플랫폼을 연구하고 만듭니다. 분산슈퍼컴퓨팅이란 네트워크를 통해 연결된 사용자 개인의 컴퓨터와 스마트폰의 유휴 자원을 공유하여 슈퍼컴퓨터의 성능과 유사한 고성능 컴퓨팅을 실현하는 기술입니다. 코넌이 꿈꾸는 미래는 누구나 DSC 플랫폼을 통해 고성능 컴퓨팅을 보다 저렴한 가격에 이용하고 다양한 프로젝트에 사용되며 더 나은 내일을 향해 함께 나아가는 것입니다.",
     "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\nOver the last several months, CONUN’s blockchain team has expanded with new members from...":
@@ -187,7 +187,7 @@
     "Distributed decentralized storage system": "분산형 스토리지 시스템",
     Download: "다운로드",
     "Download now and enjoy the various services of CONUN through METACON in a fast and secure environment.":
-      "Download now and enjoy the various services of CONUN through METACON in a fast and secure environment.",
+      "지금 메타콘을 다운로드하여 코넌의 다양한 서비스를 빠르고 안전한 환경속에서 즐겨보세요!",
     "EXPLORE AND SHARE": "탐색 및 공유",
     "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation.":
       "Earn money while you sleep is our motto.” In return for borrowing idle personal resources, a user is automatically compensated through our network. Their return gains are equivalent to the resources they provide. Whether it be one smartphone or several computer laboratories, they will benefit from their participation.",
@@ -226,9 +226,9 @@
       "인공지능분야에서 기계학습 기술인 컨볼루션신경망(CNN), 순환신경망(RNN), 강화학습(Reinforcement Learning) 등의 분야에서 사용자가 설계한 Deep Learning 모델을 빠르게 생성하여 Deep Learning 알고리즘을 학습할 수 있는 다중 프로세스 환경을 구현할 수 있습니다.",
     "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.":
       "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.",
-    Introduction: "Introduction",
+    Introduction: "소개",
     "It also provides a decentralized swapping service. Any transactions made on METACON will be peer-to-peer without an intermediator. All transaction information is transparent to the public, so anyone can see and check the transaction history updated live on CONSCAN. If you already have an Ethereum wallet, you can link it to METACON and use it. Of course, you can create a new wallet here.":
-      "It also provides a decentralized swapping service. Any transactions made on METACON will be peer-to-peer without an intermediator. All transaction information is transparent to the public, so anyone can see and check the transaction history updated live on CONSCAN. If you already have an Ethereum wallet, you can link it to METACON and use it. Of course, you can create a new wallet here.",
+      "메타콘은 탈중앙화 교환 서비스를 제공합니다. 때문에 모든 거래는 제3자의 개입 없이 P2P로 이루어집니다. 또한 모든 거래 정보는 대중에게 투명하게 공개되므로, 블록체인 익스플로러인 콘스캔을 통해서 실시간으로 업데이트되는 거래 내역을 확인할 수 있습니다. 메타콘을 통해 여러분의 암호화폐를 관리할 수 있다는 것도 잊지마세요! 이미 이더리움 지갑을 가지고 있는 사용자라면, 이더리움의 지갑을 연결하여 사용할 수 있습니다. 물론 새 지갑을 생성하는 것도 가능합니다.",
     "It is used to process text mining, opinion mining, social network analysis, and cluster analysis for analysis of unstructured data such as social media and existing methods such as data mining, natural language processing, and pattern recognition processing using big data analysis technology.":
       "빅데이터 분석기술을 응용한 데이터 마이닝, 자연언어 처리, 패턴인식처리와 같은 기존 방법과 소셜 미디어 등 비정형 데이터의 분석을 위한 텍스트 마이닝, 오피니언 마이닝, 소셜네트워크 분석, 군집분석 등을 처리하는 데 사용합니다.",
     "It will be sent to the address you entered on the CONUN website. If you click MY INFO after logging in on the CONUN homepage, there is a place to enter your the wallet address.":
@@ -272,8 +272,9 @@
     "Life Science and Research Projects": "생명과학 연구 프로젝트",
     METACON: "METACON",
     "METACON plays the role of a mediator that connects you to the applications that exist in the CONUN ecosystem. Since it's connected to the CONUN Mainnet, we guarantee fast and safe payment and rewards system for users in the CONUN's services like the DSC platform and the Drive.":
-      "METACON plays the role of a mediator that connects you to the applications that exist in the CONUN ecosystem. Since it's connected to the CONUN Mainnet, we guarantee fast and safe payment and rewards system for users in the CONUN's services like the DSC platform and the Drive.",
-    "METACON, Cryptocurrency Wallet": "METACON, Cryptocurrency Wallet",
+      "메타콘은 여러분들이 코넌 생태계에 존재하는 응용 프로그램들을 이용할 수 있도록 연결시켜주는 매개체 역할을 담당합니다. 동시에 구글 크롬에서 이용할 수 있는 암호화폐지갑이기도 합니다. 코넌 메인넷과 연결되어 있기때문에, DSC 플랫폼 및 코넌 드라이브와 같은 서비스를 이용 할 때 발생하는 결제 및 리워딩을 빠르고 안전하게 처리합니다.",
+    "METACON, Cryptocurrency Wallet":
+      "구글 크롬에서 사용 가능한 암호화폐 지갑!",
     "Main Benefits": "주요 장점들",
     "Mainnet is online": "메인넷은 온라인 상태입니다.",
     "Make project for CONUN platform Test application in science circulation, deep learning, big data":
@@ -370,8 +371,7 @@
       "실제 암호화폐 거래소를 운영하기 위한 플랫폼 베타버전을 테스트합니다. 거래시스템 및 코어를 점검하고, 보안성을 강화하는 작업을 진행합니다.",
     "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.":
       "코넌 웹 익스텐션은 온라인 상태에서 언제든 암호화 지갑에 간단하게 액세스할 수 있는 쉬운 경로입니다.",
-    "The Gateway to the CONUN Ecosystem!":
-      "The Gateway to the CONUN Ecosystem!",
+    "The Gateway to the CONUN Ecosystem!": "코넌 생태계로 통하는 문!",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
