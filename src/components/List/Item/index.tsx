@@ -13,7 +13,17 @@ function Item({ name, path, icon, noStyle }: ItemProps) {
   if (noStyle) {
     return (
       <div className={styles.ItemContainerWithNoStyle}>
-        <Link href={path}>{icon ? <a>{icon}</a> : <a>{name}</a>}</Link>
+        <Link href={path}>
+          {icon ? (
+            <a target="_blank" rel="noreferrer">
+              {icon}
+            </a>
+          ) : (
+            <a target="_blank" rel="noreferrer">
+              {name}
+            </a>
+          )}
+        </Link>
       </div>
     );
   }
@@ -21,9 +31,17 @@ function Item({ name, path, icon, noStyle }: ItemProps) {
     <div className={styles.ItemContainer}>
       <Link href={path}>
         {icon ? (
-          <a className={classNames(styles.SocialIcon)}>{icon}</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className={classNames(styles.SocialIcon)}
+          >
+            {icon}
+          </a>
         ) : (
-          <a>{name}</a>
+          <a target="_blank" rel="noreferrer">
+            {name}
+          </a>
         )}
       </Link>
     </div>

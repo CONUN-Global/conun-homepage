@@ -4,7 +4,7 @@ import styles from "./Caption.module.scss";
 
 export interface CaptionProps {
   header?: JSX.Element;
-  title: JSX.Element;
+  title?: JSX.Element;
   className?: string;
   headColor?: "green" | "sky" | "blue";
   titleColor?: "green" | "sky" | "blue";
