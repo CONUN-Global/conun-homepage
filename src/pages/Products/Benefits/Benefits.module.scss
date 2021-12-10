@@ -8,7 +8,7 @@
   width: 100%;
 
   @media only screen and (max-width: 800px) {
-    width: 90%;
+    width: 100%;
   }
 
   & .Title {
@@ -16,7 +16,6 @@
   }
 
   & .Icons {
-    align-items: center;
     align-items: flex-start;
     display: flex;
     flex-direction: row;
@@ -28,21 +27,22 @@
       align-items: center;
       display: flex;
       flex-direction: column;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
+      height: 120px;
       justify-content: flex-start;
       letter-spacing: -0.02em;
       text-align: center;
       width: 120px;
 
-      @media only screen and (max-width: 800px) {
-        width: 50%;
+      @media only screen and (max-width: 768px) {
+        width: 30%;
       }
       @media only screen and (min-width: 769px) and (max-width: 1024px) {
-        width: 60%;
+        width: 100%;
       }
 
       & .Icon {
-        width: 80%;
+        width: 100%;
       }
 
       & .Text {

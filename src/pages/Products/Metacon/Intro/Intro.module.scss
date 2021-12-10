@@ -9,6 +9,9 @@
 
   & .IntroContainer {
     width: 65%;
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+    }
 
     & .Card {
       align-items: center;
@@ -16,8 +19,15 @@
       flex-direction: row;
       justify-content: space-between;
 
+      @media only screen and (max-width: 800px) {
+        flex-direction: column;
+      }
+
       & .TextContainer {
         width: 50%;
+        @media only screen and (max-width: 800px) {
+          width: 100%;
+        }
 
         & .Caption {
           color: var(--conun-blue);
@@ -30,6 +40,9 @@
 
       & .ImageContainer {
         width: 40%;
+        @media only screen and (max-width: 800px) {
+          width: 80%;
+        }
       }
     }
   }

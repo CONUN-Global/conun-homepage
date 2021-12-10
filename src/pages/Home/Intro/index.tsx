@@ -25,7 +25,7 @@ function Intro() {
               <Trans id="About Conun" />
             </h2>
             <div className={styles.Description}>
-              <Trans id="CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants`' personal computers and smartphones." />
+              <Trans id="CONUN is a blockchain-based distributed supercomputing platform. It is a service platform that allows the processing of high-performance computing resources by sharing the idle resources of the participants' personal computers and smartphones." />
             </div>
 
             <Link href="/whitepaper">

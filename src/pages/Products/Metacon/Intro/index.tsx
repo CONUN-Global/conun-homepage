@@ -1,7 +1,7 @@
 import { Trans } from "@lingui/macro";
 
 import Benefits from "../../Benefits";
-import { BenefitsIcons } from "../../CPBN/Icons";
+import { BenefitsIcons } from "../Icons";
 
 import Caption from "@/components/Caption";
 import Text from "@/components/Text";

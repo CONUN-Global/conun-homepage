@@ -1,13 +1,13 @@
 import Header from "./Header";
 import Intro from "./Intro";
-import Body from "./Body";
+import IntroBottom from "./IntroBottom";
 
 function Metacon() {
   return (
     <div>
       <Header />
       <Intro />
-      <Body />
+      <IntroBottom />
     </div>
   );
 }
