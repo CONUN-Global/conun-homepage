@@ -12,9 +12,9 @@ interface Props {
 
 function MetaconBenefits({ iconList }: Props) {
   return (
-    <div className={styles.IconContainer}>
+    <div className={styles.BenefitsCell}>
       <Caption
-        title={<Trans id="MetaconBenefits" />}
+        title={<Trans id="Metacon Benefits" />}
         className={styles.Title}
       />
       <div className={styles.Icons}>
