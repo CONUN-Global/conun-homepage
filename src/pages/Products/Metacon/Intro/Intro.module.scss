@@ -1,0 +1,36 @@
+.Intro {
+  align-items: center;
+  background-color: var(--conun-bg-blue-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 200px 0;
+  width: 100%;
+
+  & .IntroContainer {
+    width: 65%;
+
+    & .Card {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      & .TextContainer {
+        width: 50%;
+
+        & .Caption {
+          color: var(--conun-blue);
+          font-size: 1.2rem;
+          font-weight: 600;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+      }
+
+      & .ImageContainer {
+        width: 40%;
+      }
+    }
+  }
+}
