@@ -1,9 +1,11 @@
-.IconContainer {
+.BenefitsCell {
   align-items: center;
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
   font-weight: 800;
+  gap: 30px;
+  padding-top: 100px;
   text-transform: uppercase;
   width: 100%;
 
@@ -11,30 +13,32 @@
     width: 100%;
   }
 
-  & .Title {
-    margin-top: 100px;
-  }
-
   & .Icons {
     align-items: flex-start;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
     justify-content: space-between;
-    padding-top: 30px;
     width: 100%;
+
+    @media only screen and (max-width: 1204px) {
+      justify-content: space-evenly;
+    }
 
     & .IconBox {
       align-items: center;
       display: flex;
+      flex: 150px 0 1;
       flex-direction: column;
       font-size: 0.8rem;
-      height: 120px;
       justify-content: flex-start;
       letter-spacing: -0.02em;
+      max-width: 120px;
       text-align: center;
-      width: 120px;
 
       @media only screen and (max-width: 768px) {
+        max-width: 100px;
         width: 30%;
       }
       @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -42,6 +46,7 @@
       }
 
       & .Icon {
+        height: 100%;
         width: 100%;
       }
 
