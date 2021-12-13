@@ -46,12 +46,6 @@
             color: var(--conun-white);
           }
         }
-
-        &:last-child {
-          border: none;
-          justify-content: start;
-          padding-left: 50px;
-        }
       }
     }
 
@@ -111,6 +105,7 @@
       & .ProductCardsNav {
         display: flex;
         flex-direction: column;
+        padding-top: 50px;
 
         & .Tab {
           border: none;
@@ -121,7 +116,6 @@
 
       & .ProductCardContainer {
         flex-direction: column;
-        padding: 10%;
         width: 100%;
 
         & .ImageContainer {

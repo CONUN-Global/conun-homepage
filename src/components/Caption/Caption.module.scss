@@ -6,6 +6,7 @@
     color: var(--conun-blue);
 
     & .Caption {
+      margin: 0;
       margin-bottom: 5px;
 
       &.small {
@@ -33,6 +34,7 @@
       font-family: "Chakra Petch", sans-serif;
       font-weight: 600;
       line-height: 120%;
+      margin: 0;
       margin-bottom: 30px;
 
       &.small {

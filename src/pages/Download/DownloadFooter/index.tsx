@@ -8,12 +8,17 @@ function DownloadFooter() {
   return (
     <div className={styles.Footer}>
       <div className={styles.FooterContainer}>
-        <h1>Conun Product Downloads</h1>
-        <p className={styles.Description}>
-          <Trans id="Select your operating system to dowload CONUN Drive," />
-          <br />
-          <Trans id="Manager, and Manager Extension." />
-        </p>
+        <h1>
+          <Trans id="Conun Product Downloads" />
+        </h1>
+        <div className={styles.Description}>
+          <p>
+            <Trans id="Select your operating system to dowload CONUN Drive," />
+          </p>
+          <p>
+            <Trans id="Manager, and Manager Extension." />
+          </p>
+        </div>
         <div className={styles.DownloadMenuContainer}>
           {DOWNLOADS_MENU.map((menu, i: number) => (
             <Dropdown key={i} menu={menu} />
