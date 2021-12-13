@@ -2,28 +2,28 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
+  padding: 200px 0;
   width: 100%;
+
+  @media only screen and (max-width: 767px) {
+    padding: 130px 0;
+  }
 
   & .WhitePaperCardContainer {
     align-items: flex-start;
-    column-gap: 20px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     justify-content: center;
-    margin-top: 12%;
     width: 70%;
 
-    @media only screen and (min-width: 768px) and (max-width: 1204px) {
-      margin-top: 20%;
-    }
     @media only screen and (max-width: 767px) {
       align-items: center;
       display: flex;
       flex-direction: column;
-      margin-top: 30%;
-      row-gap: 20px;
+      gap: 20px;
+      justify-content: center;
       width: 90%;
     }
   }

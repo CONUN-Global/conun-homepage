@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200;300;400;500&display=swap");
 
 :root {
   --conun-blue: #1e4489;
@@ -26,7 +27,9 @@
     #83c8e3 106.22%
   );
 
-  font-size: 18px;
+  font-family: "Chakra Petch" Barlow, "IBM Plex Sans KR", sans-serif;
+  font-size: 16px;
+  font-size: var(--font-size);
 
   @media only screen and (max-width: 800px) {
     font-size: 14px;
@@ -35,7 +38,6 @@
 
 html,
 body {
-  font-family: "Chakra Petch" Barlow, sans-serif;
   font-weight: 500;
   height: 100%;
 }

@@ -3,6 +3,10 @@
   padding: 0 20%;
   padding-bottom: 10%;
 
+  @media only screen and (max-width: 800px) {
+    padding: 0 10%;
+  }
+
   & .VideoContainer {
     padding-top: 56.25%;
     position: relative;

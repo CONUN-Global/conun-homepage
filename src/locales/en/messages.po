@@ -398,6 +398,10 @@ msgstr "Conun Private Blockchain Network"
 #~ msgid "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)"
 #~ msgstr "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)"
 
+#: src/pages/Download/DownloadFooter/index.tsx:12
+msgid "Conun Product Downloads"
+msgstr "Conun Product Downloads"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:63
 msgid "Crowdfunding for pre-sale"
 msgstr "Crowdfunding for pre-sale"
@@ -786,9 +790,6 @@ msgstr "Launching the CONUN membership service and CONUN Resource Monitoring all
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:25
-msgid "Learn More"
-msgstr "Learn More"
-
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:34
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:43
 msgid "Learn More"
@@ -852,7 +853,7 @@ msgstr "Make transportation & distributed data storage management in application
 msgid "Make virtual machine system for personal PC app UI/UX"
 msgstr "Make virtual machine system for personal PC app UI/UX"
 
-#: src/pages/Download/DownloadFooter/index.tsx:15
+#: src/pages/Download/DownloadFooter/index.tsx:19
 msgid "Manager, and Manager Extension."
 msgstr "Manager, and Manager Extension."
 
@@ -878,8 +879,8 @@ msgid "Medium"
 msgstr "Medium"
 
 #: src/pages/Products/Metacon/MetaconBenefits/index.tsx:17
-msgid "Metacon Benefits"
-msgstr "Metacon Benefits"
+#~ msgid "Metacon Benefits"
+#~ msgstr "Metacon Benefits"
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:21
 #: src/pages/Home/Product/ProductCardContent/index.tsx:23
@@ -1000,8 +1001,8 @@ msgid "Prediction, forecasting, simulation, and advanced calculation -these are 
 msgstr "Prediction, forecasting, simulation, and advanced calculation -these are all functions that need advanced computing. There are many societal demands that lack physical computing resources or financial means to actuate or process a project."
 
 #: src/pages/Home/Footer/Content/index.tsx:12
-msgid "Privacy Policy"
-msgstr "Privacy Policy"
+#~ msgid "Privacy Policy"
+#~ msgstr "Privacy Policy"
 
 #: src/pages/Home/Footer/Content/index.tsx:29
 msgid "Private Blockchain"
@@ -1078,7 +1079,7 @@ msgstr "Secure Network"
 msgid "See Whitepaper"
 msgstr "See Whitepaper"
 
-#: src/pages/Download/DownloadFooter/index.tsx:13
+#: src/pages/Download/DownloadFooter/index.tsx:16
 msgid "Select your operating system to dowload CONUN Drive,"
 msgstr "Select your operating system to dowload CONUN Drive,"
 
@@ -1116,8 +1117,8 @@ msgid "Stores data separately instead of storing all data on one centralized ser
 msgstr "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage."
 
 #: src/pages/Home/Footer/Content/index.tsx:8
-msgid "Terms of Service"
-msgstr "Terms of Service"
+#~ msgid "Terms of Service"
+#~ msgstr "Terms of Service"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:92
 msgid "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement"

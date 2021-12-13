@@ -12,9 +12,11 @@
     @media only screen and (max-width: 768px) {
       display: flex;
       flex-direction: column;
-      width: 90%;
+      width: 100%;
     }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
+      display: flex;
+      flex-direction: column;
       width: 70%;
     }
 
@@ -28,9 +30,9 @@
       @media only screen and (max-width: 800px) {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         row-gap: 50px;
-        width: 90%;
+        width: 100%;
       }
 
       & .TextContainer {

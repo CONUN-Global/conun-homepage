@@ -12,7 +12,7 @@ interface Props {
 
 function Benefits({ iconList }: Props) {
   return (
-    <div className={styles.IconContainer}>
+    <div className={styles.BenefitsCell}>
       <Caption title={<Trans id="Benefits" />} className={styles.Title} />
       <div className={styles.Icons}>
         {iconList.map((benefits, i: number) => {

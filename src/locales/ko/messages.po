@@ -390,6 +390,10 @@ msgstr "코넌 프라이빗 블록체인 네트워크"
 #~ msgid "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)"
 #~ msgstr ""
 
+#: src/pages/Download/DownloadFooter/index.tsx:12
+msgid "Conun Product Downloads"
+msgstr ""
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:63
 msgid "Crowdfunding for pre-sale"
 msgstr "크라우드펀딩 사전판매"
@@ -778,9 +782,6 @@ msgstr "코넌 멤버십 출시와 함께 코넌 모니터링 서비스를 시�
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:15
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:25
-msgid "Learn More"
-msgstr "상세보기"
-
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:34
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:43
 msgid "Learn More"
@@ -844,7 +845,7 @@ msgstr "응용 프로그램에서 운송 및 분산 데이터 저장 관리"
 msgid "Make virtual machine system for personal PC app UI/UX"
 msgstr "개인용 PC 앱 UI/UX용 가상머신 시스템 구축"
 
-#: src/pages/Download/DownloadFooter/index.tsx:15
+#: src/pages/Download/DownloadFooter/index.tsx:19
 msgid "Manager, and Manager Extension."
 msgstr "매니저, 매니저 익스텐션"
 
@@ -870,8 +871,8 @@ msgid "Medium"
 msgstr "Medium"
 
 #: src/pages/Products/Metacon/MetaconBenefits/index.tsx:17
-msgid "Metacon Benefits"
-msgstr "메타콘 장점들"
+#~ msgid "Metacon Benefits"
+#~ msgstr "메타콘 장점들"
 
 #: src/pages/Home/Product/ProductCardContent/index.tsx:21
 #: src/pages/Home/Product/ProductCardContent/index.tsx:23
@@ -984,8 +985,8 @@ msgid "Prediction, forecasting, simulation, and advanced calculation -these are 
 msgstr "슈퍼컴퓨터 수준의 기능으로 뭘 할 수 있을까요? 고성능 컴퓨팅이 필요한 복잡하고 중요한 프로젝트들을 처리할 수 있습니다. 예측, 시뮬레이션, 어렵고 복잡한 계산 등 - 모두 고성능 컴퓨팅이 필요한 일들입니다. 하지만 개인이나 작은 단체가 이런 프로젝트들을 수행하려 한다면 슈퍼컴퓨터의 부재나 재정적 문제로 인한 어려움이 따르게 됩니다."
 
 #: src/pages/Home/Footer/Content/index.tsx:12
-msgid "Privacy Policy"
-msgstr "개인정보 처리방침"
+#~ msgid "Privacy Policy"
+#~ msgstr "개인정보 처리방침"
 
 #: src/pages/Home/Footer/Content/index.tsx:29
 msgid "Private Blockchain"
@@ -1062,7 +1063,7 @@ msgstr ""
 msgid "See Whitepaper"
 msgstr "백서보기"
 
-#: src/pages/Download/DownloadFooter/index.tsx:13
+#: src/pages/Download/DownloadFooter/index.tsx:16
 msgid "Select your operating system to dowload CONUN Drive,"
 msgstr "다운로드할 운영 체제를 선택하십시오. CONUN 드라이브"
 
@@ -1100,8 +1101,8 @@ msgid "Stores data separately instead of storing all data on one centralized ser
 msgstr "하나의 서버에 모든 데이터를 저장하는 중앙 집중식이 아닌, 데이터를 각각 나눠서 저장하는 탈중앙화된 스토리지입니다. 클라우드 스토리지의 필요성이 사라지게 됩니다."
 
 #: src/pages/Home/Footer/Content/index.tsx:8
-msgid "Terms of Service"
-msgstr "서비스 약관"
+#~ msgid "Terms of Service"
+#~ msgstr "서비스 약관"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:92
 msgid "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement"
