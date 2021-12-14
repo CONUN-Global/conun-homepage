@@ -28,10 +28,7 @@ function UseCase() {
           {USE_CASE_CONTENT.map((card, i: number) => {
             return (
               <Vertical key={i} className={styles.UseCaseCard} round>
-                <div className={styles.ImageContainer}>
-                  {card.image}
-                  {/* <div className={styles.Text}>{card.title}</div> */}
-                </div>
+                <div className={styles.ImageContainer}>{card.image}</div>
                 <div className={styles.Text}>
                   <div className={styles.Title}>{card.title}</div>
                   <div className={styles.Description}>{card.description}</div>

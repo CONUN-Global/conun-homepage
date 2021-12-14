@@ -8,7 +8,7 @@ export const DOWNLOADS_MENU: DownloadMenu[] = [
     osName: "Windows OS",
     icon: <WindowsIcon style={{ height: "93px" }} />,
     links: [
-      "metacon",
+      "https://chrome.google.com/webstore/detail/metacon/fpklpminiiiopkibkfamkglecdgfoaia?authuser=1&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLg6EuaasCIcy616zWE-x8hv-3Vl8PEUo9v-7naXFON7CWTiimiMwRoCUUgQAvD_BwE",
       "https://github.com/CONUN-Global/conun-drive/releases/download/v1.0.2-beta/Conun.Drive.Setup.1.0.2-beta.exe",
       "https://github.com/CONUN-Global/conun-main-dapplication/releases/download/v1.0.1-beta/Conun.Manager.Setup.1.0.1-beta.exe",
       "https://github.com/CONUN-Global/conun-main-dapplication/releases/download/v1.0.1-beta/manager-drive-win.zip",
@@ -18,7 +18,7 @@ export const DOWNLOADS_MENU: DownloadMenu[] = [
     osName: "Linux OS",
     icon: <LinuxIcon />,
     links: [
-      "metacon",
+      "https://chrome.google.com/webstore/detail/metacon/fpklpminiiiopkibkfamkglecdgfoaia?authuser=1&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLg6EuaasCIcy616zWE-x8hv-3Vl8PEUo9v-7naXFON7CWTiimiMwRoCUUgQAvD_BwE",
       "https://github.com/CONUN-Global/conun-drive/releases/download/v1.0.2-beta/Conun.Drive.Setup.1.0.2-beta.exe",
       "https://github.com/CONUN-Global/conun-main-dapplication/releases/download/v1.0.1-beta/Conun.Manager.Setup.1.0.1-beta.exe",
       "https://github.com/CONUN-Global/conun-main-dapplication/releases/download/v1.0.1-beta/manager-drive-win.zip",
@@ -28,7 +28,7 @@ export const DOWNLOADS_MENU: DownloadMenu[] = [
     osName: "Mac OS",
     icon: <AppleIcon />,
     links: [
-      "metacon",
+      "https://chrome.google.com/webstore/detail/metacon/fpklpminiiiopkibkfamkglecdgfoaia?authuser=1&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLg6EuaasCIcy616zWE-x8hv-3Vl8PEUo9v-7naXFON7CWTiimiMwRoCUUgQAvD_BwE",
       "https://github.com/CONUN-Global/conun-drive/releases/download/v1.0.2-beta/Conun.Drive.Setup.1.0.2-beta.exe",
       "https://github.com/CONUN-Global/conun-main-dapplication/releases/download/v1.0.1-beta/Conun.Manager.Setup.1.0.1-beta.exe",
       "https://github.com/CONUN-Global/conun-main-dapplication/releases/download/v1.0.1-beta/manager-drive-win.zip",
