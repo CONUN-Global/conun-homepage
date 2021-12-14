@@ -91,9 +91,11 @@ function Navbar() {
               <div className={styles.NavItems}>
                 {NAV_ITEMS.map((item) => {
                   return (
-                    <Link key={item.id} href={item.path}>
-                      <a className={styles.Item}>{item.label}</a>
-                    </Link>
+                    <div key={item.id}>
+                      <Link href={item.path}>
+                        <a className={styles.Item}>{item.label}</a>
+                      </Link>
+                    </div>
                   );
                 })}
               </div>
