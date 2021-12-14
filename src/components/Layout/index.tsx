@@ -12,16 +12,15 @@ interface Layout {
 }
 function Layout({ children }: Layout) {
   const locale = useStore((state) => state.currentLocale);
-  if (locale) {
-    return (
-      <div className={classNames(styles.Appwrapper, styles[locale.value])}>
-        <div className={styles.LayoutHeader}>
-          <Navbar />
-        </div>
-        {children}
+
+  return (
+    <div className={classNames(styles.Appwrapper, styles[locale.value])}>
+      <div className={styles.LayoutHeader}>
+        <Navbar />
       </div>
-    );
-  }
+      {children}
+    </div>
+  );
 }
 
 export default Layout;
