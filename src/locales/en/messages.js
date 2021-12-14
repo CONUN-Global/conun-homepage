@@ -135,6 +135,7 @@
     "Conun Private Blockchain Network": "Conun Private Blockchain Network",
     "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)":
       "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)",
+    "Conun Product Downloads": "Conun Product Downloads",
     "Crowdfunding for pre-sale": "Crowdfunding for pre-sale",
     DRIVE: "DRIVE",
     DSC: "DSC",
@@ -266,7 +267,6 @@
     "Launching CONUN business": "Launching CONUN business",
     "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform":
       "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform",
-    "Learn More": "Learn More",
     "Learn More": "Learn More",
     "Learn more": "Learn more",
     "Life Science and Research Projects": "Life Science and Research Projects",
@@ -402,6 +402,7 @@
     "Version 1.2.1 of CONUN Drive is now available.":
       "Version 1.2.1 of CONUN Drive is now available.",
     "Virtual Machine (Docker Container)": "Virtual Machine (Docker Container)",
+    "Visit the website": "Visit the website",
     "Visit the website ": "웹사이트 방문하기",
     Wallet: "Wallet",
     "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.":
@@ -432,6 +433,8 @@
     "reduced fees": "reduced fees",
     "rule modification": "rule modification",
     secure: "secure",
+    "{type}": [["type"]],
     "{type} whitepaper": [["type"], " whitepaper"],
+    "{values}": [["values"]],
   },
 };

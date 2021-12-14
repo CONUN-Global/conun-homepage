@@ -4,14 +4,15 @@ import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
 
 import Head from "next/head";
-import useStore from "@/store/store";
-import Layout from "@/components/Layout";
 
-import "./styles/globals.scss";
 import Footer from "@/pages/Home/Footer";
 
+import useStore from "@/store/store";
+import Layout from "@/components/Layout";
+import "./styles/globals.scss";
+
 export async function activate(locale: string) {
-  const { messages } = await import(`../src/locales/${locale}/messages`);
+  const { messages } = await import(`../src/locales/${locale}/messages.js`);
   i18n.load(locale, messages);
   i18n.activate(locale);
 }
@@ -27,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <I18nProvider i18n={i18n}>
       <Layout>
         <Head>
-          <title>Conun Home page </title>
+          <title>Conun Homepage </title>
           <meta
             name="viewport"
             content="width=device-width; initial-scale = 1; maximum-scale=1; user-scalable = no;"

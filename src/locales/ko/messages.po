@@ -1168,6 +1168,10 @@ msgstr "CONUN 드라이브 버전 1.2.1이 출시되었습니다."
 msgid "Virtual Machine (Docker Container)"
 msgstr "가상 머신 (도커 컨테이너)"
 
+#: src/pages/Products/Metacon/IntroBottom/index.tsx:33
+msgid "Visit the website"
+msgstr "웹사이트 방문하기"
+
 #: src/pages/Products/CPBN/Footer/index.tsx:33
 msgid "Visit the website "
 msgstr "웹사이트 방문하기"
@@ -1260,6 +1264,14 @@ msgstr ""
 msgid "secure"
 msgstr ""
 
+#: src/components/LinkCustomButton/index.tsx:13
+#~ msgid "{type}"
+#~ msgstr ""
+
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"
 msgstr "{type} 백서"
+
+#: src/components/LinkCustomButton/index.tsx:13
+#~ msgid "{values}"
+#~ msgstr ""

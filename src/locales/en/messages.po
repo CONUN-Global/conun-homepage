@@ -1187,6 +1187,10 @@ msgstr "Version 1.2.1 of CONUN Drive is now available."
 msgid "Virtual Machine (Docker Container)"
 msgstr "Virtual Machine (Docker Container)"
 
+#: src/pages/Products/Metacon/IntroBottom/index.tsx:33
+msgid "Visit the website"
+msgstr "Visit the website"
+
 #: src/pages/Products/CPBN/Footer/index.tsx:33
 msgid "Visit the website "
 msgstr "웹사이트 방문하기"
@@ -1282,6 +1286,14 @@ msgstr "rule modification"
 msgid "secure"
 msgstr "secure"
 
+#: src/components/LinkCustomButton/index.tsx:13
+#~ msgid "{type}"
+#~ msgstr "{type}"
+
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"
 msgstr "{type} whitepaper"
+
+#: src/components/LinkCustomButton/index.tsx:13
+#~ msgid "{values}"
+#~ msgstr "{values}"
