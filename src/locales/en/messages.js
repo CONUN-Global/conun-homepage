@@ -241,6 +241,7 @@
     "Join our ecosystem": "Join our ecosystem",
     Jul: "Jul",
     Jun: "Jun",
+    "LATEST NEWS": "LATEST NEWS",
     "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain":
       "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain",
     "Launch CONUN Blockchain Explorer Testnet":
@@ -348,6 +349,7 @@
     "Proceed research and development for CONUN's platform CONUN":
       "Proceed research and development for CONUN's platform CONUN",
     Products: "Products",
+    ROADMAP: "ROADMAP",
     "Read More": "Read More",
     "Release CONUN Blockchain Explorer Mainnet":
       "Release CONUN Blockchain Explorer Mainnet",

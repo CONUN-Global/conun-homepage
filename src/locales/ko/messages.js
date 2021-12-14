@@ -241,6 +241,7 @@
     "Join our ecosystem": "Join our ecosystem",
     Jul: "7월",
     Jun: "6월",
+    "LATEST NEWS": "최근 소식",
     "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain":
       "Ethereum Blockchain 과 Conun Private Blockchain 간의 자산 교환할 수 있는 서비스를 런칭합니다.",
     "Launch CONUN Blockchain Explorer Testnet":
@@ -345,6 +346,7 @@
     "Proceed research and development for CONUN's platform CONUN":
       "CONUN 플랫폼의 기반을 정의하는 기술에 대하여 연구개발을 진행합니다.",
     Products: "프로덕트",
+    ROADMAP: "로드맵",
     "Read More": "상세보기",
     "Release CONUN Blockchain Explorer Mainnet":
       "코넌 블록체인 익스플로러 메인넷 런칭",

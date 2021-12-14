@@ -68,13 +68,16 @@
     }
 
     & .HorizontalCard {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
       height: 70%;
+      justify-content: center;
       position: relative;
-      width: 90%;
+      width: 100%;
 
       & .TextContainer {
-        padding: 10% 5%;
-        width: 100%;
+        width: 90%;
 
         & .DownloadButtonContainer {
           display: column;

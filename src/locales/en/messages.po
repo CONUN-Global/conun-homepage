@@ -724,6 +724,10 @@ msgstr "Jul"
 msgid "Jun"
 msgstr "Jun"
 
+#: src/pages/Home/ConunNews/index.tsx:28
+msgid "LATEST NEWS"
+msgstr "LATEST NEWS"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:282
 msgid "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
 msgstr "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
@@ -1040,6 +1044,10 @@ msgstr "Proceed research and development for CONUN's platform CONUN"
 msgid "Products"
 msgstr "Products"
 
+#: src/pages/Home/RoadMapSection/index.tsx:54
+msgid "ROADMAP"
+msgstr "ROADMAP"
+
 #: src/pages/Home/ConunNews/Content/index.tsx:11
 #: src/pages/Home/ConunNews/Content/index.tsx:23
 #: src/pages/Home/ConunNews/Content/index.tsx:36
@@ -1187,13 +1195,14 @@ msgstr "Version 1.2.1 of CONUN Drive is now available."
 msgid "Virtual Machine (Docker Container)"
 msgstr "Virtual Machine (Docker Container)"
 
-#: src/pages/Products/Metacon/IntroBottom/index.tsx:33
+#: src/pages/Products/CPBN/Footer/index.tsx:33
+#: src/pages/Products/Metacon/IntroBottom/index.tsx:35
 msgid "Visit the website"
 msgstr "Visit the website"
 
 #: src/pages/Products/CPBN/Footer/index.tsx:33
-msgid "Visit the website "
-msgstr "웹사이트 방문하기"
+#~ msgid "Visit the website "
+#~ msgstr "웹사이트 방문하기"
 
 #: src/pages/Home/Footer/Content/index.tsx:37
 msgid "Wallet"
