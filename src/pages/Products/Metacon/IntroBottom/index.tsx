@@ -30,7 +30,10 @@ function IntroBottom() {
             }
           />
           <div className={styles.LinkButtonContainer}>
-            <LinkCustomButton linkText="Visit the website" />
+            <LinkCustomButton
+              path="https://chrome.google.com/webstore/detail/metacon/fpklpminiiiopkibkfamkglecdgfoaia?authuser=1&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLg6EuaasCIcy616zWE-x8hv-3Vl8PEUo9v-7naXFON7CWTiimiMwRoCUUgQAvD_BwE"
+              linkText={<Trans id="Visit the website" />}
+            />
           </div>
         </div>
       </div>

@@ -62,14 +62,13 @@
         & .NavProducts {
           align-items: flex-start;
           display: flex;
-          flex-direction: column;
           height: 300px;
           position: absolute;
           right: 362px;
-          width: 140px;
+          width: 90px;
 
           & .ProductsTab {
-            padding: 0 40px;
+            padding: 0 20px;
 
             &:hover {
               border-radius: 30px;
