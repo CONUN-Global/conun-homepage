@@ -14,12 +14,6 @@
     padding-top: 30px;
     width: 70%;
 
-    @media only screen and (max-width: 1366px) {
-      align-items: center;
-      padding-top: 0;
-      width: 90%;
-    }
-
     & .NavbarLeft {
       align-items: center;
       display: flex;
@@ -28,6 +22,9 @@
       & .NetworkStatus {
         align-items: center;
         display: flex;
+        @media only screen and (max-width: 250px) {
+          display: none;
+        }
 
         & .NetworkCircle {
           background-color: #00ffda;
@@ -41,6 +38,10 @@
       & .ConunLogo {
         margin-right: 30px;
         width: 70px;
+
+        &:active {
+          transform: translateY(1px);
+        }
       }
     }
 
