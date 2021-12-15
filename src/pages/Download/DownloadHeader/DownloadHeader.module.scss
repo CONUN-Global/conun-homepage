@@ -1,105 +1,119 @@
-.DownloadContainer {
+.Download {
   align-items: center;
   background-image: url("../../../assets/background/main_header.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
   width: 100%;
 
-  & .SocialIcons {
-    margin-top: 0;
-  }
-
-  & .HorizontalCard {
-    color: var(--conun-blue);
-    height: 100%;
-    width: 70%;
-
-    & .TextContainer {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-
-      & .Caption {
-        text-transform: uppercase;
-      }
-
-      & .Description {
-        color: var(--conun-blue);
-        font-size: 1rem;
-        font-weight: normal;
-        margin: 18px 0;
-      }
-
-      & .DownloadButtonContainer {
-        margin-top: 30px;
-
-        & .SubTitle {
-          margin-bottom: 14px;
-        }
-
-        & .Button {
-          font-size: 0.8rem;
-          margin-right: 30px;
-        }
-
-        & .ButtonContainer {
-          display: flex;
-        }
-      }
-    }
-
-    & .ImageContainer {
-      display: flex;
-      height: 100%;
-      width: 40%;
-    }
-  }
-}
-@media only screen and (max-width: 800px) {
-  .DownloadContainer {
-    display: 100%;
-
-    & .SocialIcons {
-      display: none;
-    }
+  & .DownloadContainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
     & .HorizontalCard {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      height: 70%;
-      justify-content: center;
-      position: relative;
-      width: 100%;
+      color: var(--conun-blue);
+      height: 100%;
+      width: 70%;
 
       & .TextContainer {
-        width: 90%;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        & .Caption {
+          text-transform: uppercase;
+        }
+
+        & .Description {
+          color: var(--conun-blue);
+          font-size: 1rem;
+          font-weight: normal;
+          margin: 18px 0;
+        }
 
         & .DownloadButtonContainer {
-          display: column;
+          margin-top: 30px;
+
+          & .SubTitle {
+            margin-bottom: 14px;
+          }
 
           & .Button {
-            margin-top: 10px;
-            padding: 2.5%;
+            font-size: 0.8rem;
+            margin-right: 30px;
           }
 
           & .ButtonContainer {
             display: flex;
-            flex-direction: row;
-
-            & .Button {
-              padding: 2.5% 3.5%;
-            }
           }
         }
       }
 
       & .ImageContainer {
+        display: flex;
+        height: 100%;
+        width: 40%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Download {
+    padding-top: 50px;
+    width: 100%;
+
+    & .DownloadContainer {
+      width: 90%;
+
+      & .SocialIcons {
         display: none;
+      }
+
+      & .HorizontalCard {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+
+        & .TextContainer {
+          width: 90%;
+
+          & .Caption {
+            margin-bottom: 0;
+          }
+
+          & .Description {
+            margin-bottom: 0;
+          }
+
+          & .DownloadButtonContainer {
+            display: column;
+
+            & .Button {
+              padding: 2.5%;
+            }
+
+            & .ButtonContainer {
+              display: flex;
+              flex-direction: row;
+
+              & .Button {
+                padding: 2.5% 3.5%;
+              }
+            }
+          }
+        }
+
+        & .ImageContainer {
+          display: none;
+        }
       }
     }
   }

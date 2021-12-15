@@ -6,6 +6,10 @@
   justify-content: center;
   padding: 200px 0;
 
+  @media only screen and (max-width: 768px) {
+    padding: 100px 0;
+  }
+
   & .IntroContainer {
     width: 60%;
 
