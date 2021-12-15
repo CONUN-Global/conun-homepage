@@ -24,6 +24,7 @@
   align-items: center;
   display: flex;
   margin-left: 10px;
+  position: relative;
 
   & .WorldIcon {
     margin-right: 5px;
@@ -65,6 +66,7 @@
       & .LocaleOption {
         color: var(--conun-blue);
         padding: 5px;
+        border: 1px solid transparent;
 
         &:hover {
           border: 1px solid var(--conun-blue);
