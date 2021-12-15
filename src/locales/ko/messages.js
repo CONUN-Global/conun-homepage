@@ -131,7 +131,7 @@
     "Computer-generated images (CGI) in the field of computer graphics are used to process projects such as movies, television programs, advertisements, simulators, simulations, and three-dimensional computer graphics quickly and cheaply.":
       "컴퓨터 그래픽 분야의 컴퓨터 생성 이미지(CGI)는 영화, 텔레비전 프로그램, 광고, 시뮬레이터, 시뮬레이션, 3차원 컴퓨터 그래픽 등의 프로젝트를 빠르고 저렴하게 처리하는데 사용합니다.",
     "Conun DSC Ecosystem": "Conun DSC 생태계",
-    "Conun Drive": "코넌 드라이브란?",
+    "Conun Drive": "코넌 드라이브란",
     "Conun Drive P2P File Share Powered by IPFS. Conun Drive is a decentralized content sharing system, this means there is no centralized server storing content. All content will be verified on Conun’s Private Blockchain. As soon as users connect to the Conun Drive network their computer becomes a Conun Drive network participant. Participants can choose which files to store or publish, if published, rewards can be gained by other participants. In addition, all actions that occur on the Conun Drive network will be stored on the Conun Private Blockchain, thus all actions are immutable and secure.":
       "코넌 드라이브는 IPFS를 기반으로 한 P2P 파일 공유 플랫폼(서비스)입니다. 코넌 드라이브는 탈중앙화된 콘텐츠 공유 시스템으로, 콘텐츠를 저장하는 중앙 집중식 서버가 없습니다. 모든 콘텐츠는 코넌 메인넷을 통해 검증됩니다. 사용자가 코넌 드라이브 네트워크에 연결하는 즉시 그들의 컴퓨터는 코넌 드라이브 네트워크에 참여하게 됩니다. 참여자는 파일을 선택하여 보관하거나 업로드할 수 있습니다. 파일을 업로드한 경우, 다른 참여자가 보상을 받을 수 있습니다. 또한 코넌 드라이브에서 일어나는 모든 작업은 코넌 메인넷에 기록(저장)되기때문에 임의로 작업을 변경할 수 없고 안전합니다.",
     "Conun Drive was built for developers. So, if you are building an application, an NFT marketplace, or anything in between, our APIs and SDKs will give you superpowers.":
@@ -302,6 +302,8 @@
     "Metacon has the same functionality as the CONUN Manager.":
       "Metacon has the same functionality as the CONUN Manager.",
     "Metacon web extension": "Metacon 웹 익스텐션",
+    "Metacon, CONUN's new brower extension is now available.":
+      "코넌의 새로운 브라우저 익스텐션인 Metacon 지금 다운로드 가능합니다.",
     "Monitor live transactions made on the CONUN Private Blockchain network\n          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n          monitoring and data service platform where you can view Blockchain\n          transactions, block data inquiries, and related charts simultaneously.":
       "콘스캔(CONUN Blockchain Explorer)은 블록체인 거래, 블록 데이터, 관련 그래프를 동시에 조회할 수 있는 블록 모니터링 및 데이터 서비스 플랫폼입니다. 콘스캔을 통하여 코넌 메인넷에서 이루어지는 거래들을 실시간으로 확인할 수 있습니다.",
     "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously.":

@@ -19,6 +19,7 @@ function Intro() {
             <Caption
               headColor="sky"
               header={<Trans id="METACON, Cryptocurrency Wallet" />}
+              textSize="large"
               title={<Trans id="Introduction" />}
             />
             <p className={styles.Caption}>

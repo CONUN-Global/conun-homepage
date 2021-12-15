@@ -302,6 +302,8 @@
     "Metacon has the same functionality as the CONUN Manager.":
       "Metacon has the same functionality as the CONUN Manager.",
     "Metacon web extension": "Metacon web extension",
+    "Metacon, CONUN's new brower extension is now available.":
+      "Metacon, CONUN's new brower extension is now available.",
     "Monitor live transactions made on the CONUN Private Blockchain network\n          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n          monitoring and data service platform where you can view Blockchain\n          transactions, block data inquiries, and related charts simultaneously.":
       "Monitor live transactions made on the CONUN Private Blockchain network\n          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n          monitoring and data service platform where you can view Blockchain\n          transactions, block data inquiries, and related charts simultaneously.",
     "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously.":

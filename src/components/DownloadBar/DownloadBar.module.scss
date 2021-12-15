@@ -4,7 +4,7 @@
   bottom: 0;
   color: var(--conun-white);
   display: flex;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: normal;
   height: 54px;
   justify-content: center;
@@ -14,7 +14,7 @@
 
   & .DownloadLink {
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 10px;
     text-decoration: underline;
   }
 }

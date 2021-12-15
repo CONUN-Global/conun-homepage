@@ -371,7 +371,7 @@ msgstr "Conun DSC 생태계"
 #: src/pages/Home/Product/ProductCardContent/index.tsx:9
 #: src/pages/Products/Drive/Intro/index.tsx:16
 msgid "Conun Drive"
-msgstr "코넌 드라이브란?"
+msgstr "코넌 드라이브란"
 
 #: src/pages/Products/Drive/Intro/index.tsx:19
 msgid "Conun Drive P2P File Share Powered by IPFS. Conun Drive is a decentralized content sharing system, this means there is no centralized server storing content. All content will be verified on Conun’s Private Blockchain. As soon as users connect to the Conun Drive network their computer becomes a Conun Drive network participant. Participants can choose which files to store or publish, if published, rewards can be gained by other participants. In addition, all actions that occur on the Conun Drive network will be stored on the Conun Private Blockchain, thus all actions are immutable and secure."
@@ -546,10 +546,6 @@ msgstr "분산형 스토리지 시스템"
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:14
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:24
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:33
-#: src/pages/Products/CPBN/Header/index.tsx:12
-#: src/pages/Products/DSC/Header/index.tsx:12
-#: src/pages/Products/Drive/Header/index.tsx:12
-#: src/pages/Products/Metacon/Header/index.tsx:13
 msgid "Download"
 msgstr "다운로드"
 
@@ -896,6 +892,10 @@ msgstr "Metacon 지갑"
 msgid "Metacon web extension"
 msgstr "Metacon 웹 익스텐션"
 
+#: src/components/DownloadBar/index.tsx:10
+msgid "Metacon, CONUN's new brower extension is now available."
+msgstr "코넌의 새로운 브라우저 익스텐션인 Metacon 지금 다운로드 가능합니다."
+
 #: src/pages/Products/CPBN/Footer/index.tsx:14
 #~ msgid ""
 #~ "Monitor live transactions made on the CONUN Private Blockchain network\n"
@@ -1169,8 +1169,8 @@ msgstr "CONUN P2P 네트워크 트래픽 업데이트"
 #~ msgstr ""
 
 #: src/components/DownloadBar/index.tsx:10
-msgid "Version 1.2.1 of CONUN Drive is now available."
-msgstr "CONUN 드라이브 버전 1.2.1이 출시되었습니다."
+#~ msgid "Version 1.2.1 of CONUN Drive is now available."
+#~ msgstr "CONUN 드라이브 버전 1.2.1이 출시되었습니다."
 
 #: src/pages/Products/DSC/Architecture/Content/index.tsx:11
 msgid "Virtual Machine (Docker Container)"
