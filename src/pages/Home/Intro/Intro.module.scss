@@ -98,7 +98,7 @@
       left: 0;
       opacity: 0.5;
       position: absolute;
-      top: 114px;
+      top: 50px;
       width: 40%;
     }
 
@@ -107,11 +107,12 @@
       opacity: 0.5;
       position: absolute;
       right: 0;
-      top: 585px;
+      top: 500px;
       width: 40%;
     }
 
     & .MainWrapper {
+      padding-top: 50px;
       width: 90%;
 
       & .CardContainer {

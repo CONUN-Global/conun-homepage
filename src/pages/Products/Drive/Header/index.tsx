@@ -1,17 +1,8 @@
-import { Trans } from "@lingui/macro";
 import { MAIN_PAGES } from "../../../Home/Main/SlideMain/SlideContent";
-import MainSlide from "@/components/MainSlide";
+import CustomHeader from "../../CustomHeader";
 
 function Header() {
   const { title, description, image } = MAIN_PAGES[2];
-  return (
-    <MainSlide
-      title={title}
-      description={description}
-      image={image}
-      btnMsg={<Trans id="Download" />}
-      link="../download"
-    />
-  );
+  return <CustomHeader title={title} description={description} image={image} />;
 }
 export default Header;
