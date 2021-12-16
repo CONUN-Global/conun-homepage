@@ -266,6 +266,7 @@
     "Join our ecosystem": "Join our ecosystem",
     Jul: "Jul",
     Jun: "Jun",
+    "LATEST NEWS": "LATEST NEWS",
     "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain":
       "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain",
     "Launch CONUN Blockchain Explorer Testnet":
@@ -334,6 +335,8 @@
     "Metacon has the same functionality as the CONUN Manager.":
       "Metacon has the same functionality as the CONUN Manager.",
     "Metacon web extension": "Metacon web extension",
+    "Metacon, CONUN's new brower extension is now available.":
+      "Metacon, CONUN's new brower extension is now available.",
     "Monitor live transactions made on the CONUN Private Blockchain network\n          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n          monitoring and data service platform where you can view Blockchain\n          transactions, block data inquiries, and related charts simultaneously.":
       "Monitor live transactions made on the CONUN Private Blockchain network\n          with CONUN Private Blockchain Explorer. CONUN Explorer is a block\n          monitoring and data service platform where you can view Blockchain\n          transactions, block data inquiries, and related charts simultaneously.",
     "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously.":
@@ -505,6 +508,7 @@
     "Version 1.2.1 of CONUN Drive is now available.":
       "Version 1.2.1 of CONUN Drive is now available.",
     "Virtual Machine (Docker Container)": "Virtual Machine (Docker Container)",
+    "Visit the website": "Visit the website",
     "Visit the website ": "웹사이트 방문하기",
     Wallet: "Wallet",
     "We envision a global decentralized network of various blockchains\n            with thier own rules and functionalities operated in one seamless\n            ecosystem.":
@@ -537,6 +541,7 @@
     "reduced fees": "reduced fees",
     "rule modification": "rule modification",
     secure: "secure",
+    "{type}": [["type"]],
     "{type} whitepaper": [["type"], " whitepaper"],
     "① Collection of some or all of the additional benefits provided by the Company":
       "① Collection of some or all of the additional benefits provided by the Company",

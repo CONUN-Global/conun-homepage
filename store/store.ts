@@ -1,10 +1,20 @@
 import create from "zustand";
 import { AppState } from "@/types/index";
+import detectLocale from "@/helpers/localeDetector";
+
+const lang = detectLocale();
+const getLabels = () => {
+  if (lang === "ko") {
+    return "한국어";
+  } else {
+    return "English";
+  }
+};
 
 const useStore = create<AppState>((set) => ({
   currentLocale: {
-    value: "ko",
-    label: "한국어",
+    value: lang,
+    label: getLabels(),
   },
   setCurrentLocale: ({ value, label }) =>
     set({

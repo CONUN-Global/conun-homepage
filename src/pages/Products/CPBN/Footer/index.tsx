@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { Trans } from "@lingui/macro";
 
 import Caption from "@/components/Caption";
 import Text from "@/components/Text";
+import LinkCustomButton from "@/components/LinkCustomButton";
 
 import ChartBCE from "@/assets/icons/charts_BCE.svg";
 import styles from "./Footer.module.scss";
@@ -28,11 +28,10 @@ function Footer() {
             }
           />
           <div className={styles.LinkContainer}>
-            <Link href="/">
-              <a className={styles.Link} rel="noreferrer">
-                <Trans id="Visit the website " />
-              </a>
-            </Link>
+            <LinkCustomButton
+              path="https://conscan.conun.io/"
+              linkText={<Trans id="Visit the website" />}
+            />
           </div>
         </div>
       </div>

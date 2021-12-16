@@ -12,6 +12,7 @@ interface Layout {
 }
 function Layout({ children }: Layout) {
   const locale = useStore((state) => state.currentLocale);
+
   return (
     <div className={classNames(styles.Appwrapper, styles[locale.value])}>
       <div className={styles.LayoutHeader}>

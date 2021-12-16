@@ -19,10 +19,6 @@
       flex-direction: row;
       width: 40%;
 
-      & .SocialButtons {
-        margin-top: 30px;
-      }
-
       & .TextBox {
         display: flex;
         flex-direction: column;
@@ -67,12 +63,15 @@
 @media only screen and (max-width: 800px) {
   .MainSlide {
     & .HorizontalCard {
-      margin-bottom: 30px;
-      width: 90%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 50px;
+      width: 100%;
 
       & .TextContainer {
-        padding: 10%;
-        width: 100%;
+        width: 90%;
 
         & .TextBox {
           z-index: 1;

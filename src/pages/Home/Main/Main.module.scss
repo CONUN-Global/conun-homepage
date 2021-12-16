@@ -4,12 +4,15 @@
 
   & .Dots {
     bottom: 15%;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
     margin-left: 50%;
     position: absolute;
     z-index: 98;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    @media only screen and (max-width: 800px) {
+      margin-left: 40%;
+    }
 
     & .Dot {
       background-color: var(--conun-white);

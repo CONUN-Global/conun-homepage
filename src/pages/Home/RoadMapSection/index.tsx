@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
@@ -49,7 +50,9 @@ function RoadMap() {
   return (
     <section id="roadmap" className={styles.RoadMapSection}>
       <div className={styles.TitleBox}>
-        <p className={styles.Title}>ROADMAP</p>
+        <p className={styles.Title}>
+          <Trans id="ROADMAP" />
+        </p>
       </div>
       <div className={styles.LineBox}>
         <div className={styles.VerticalLine}>&nbsp;</div>

@@ -383,7 +383,7 @@ msgstr "Conun DSC 생태계"
 #: src/pages/Home/Product/ProductCardContent/index.tsx:9
 #: src/pages/Products/Drive/Intro/index.tsx:16
 msgid "Conun Drive"
-msgstr "코넌 드라이브란?"
+msgstr "코넌 드라이브란"
 
 #: src/pages/Products/Drive/Intro/index.tsx:19
 msgid "Conun Drive P2P File Share Powered by IPFS. Conun Drive is a decentralized content sharing system, this means there is no centralized server storing content. All content will be verified on Conun’s Private Blockchain. As soon as users connect to the Conun Drive network their computer becomes a Conun Drive network participant. Participants can choose which files to store or publish, if published, rewards can be gained by other participants. In addition, all actions that occur on the Conun Drive network will be stored on the Conun Private Blockchain, thus all actions are immutable and secure."
@@ -566,10 +566,6 @@ msgstr "분산형 스토리지 시스템"
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:14
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:24
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:33
-#: src/pages/Products/CPBN/Header/index.tsx:12
-#: src/pages/Products/DSC/Header/index.tsx:12
-#: src/pages/Products/Drive/Header/index.tsx:12
-#: src/pages/Products/Metacon/Header/index.tsx:13
 msgid "Download"
 msgstr "다운로드"
 
@@ -776,6 +772,10 @@ msgstr "7월"
 msgid "Jun"
 msgstr "6월"
 
+#: src/pages/Home/ConunNews/index.tsx:28
+msgid "LATEST NEWS"
+msgstr "최근 소식"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:282
 msgid "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
 msgstr "Ethereum Blockchain 과 Conun Private Blockchain 간의 자산 교환할 수 있는 서비스를 런칭합니다."
@@ -972,6 +972,10 @@ msgstr "Metacon 지갑"
 msgid "Metacon web extension"
 msgstr "Metacon 웹 익스텐션"
 
+#: src/components/DownloadBar/index.tsx:10
+msgid "Metacon, CONUN's new brower extension is now available."
+msgstr "코넌의 새로운 브라우저 익스텐션인 Metacon 지금 다운로드 가능합니다."
+
 #: src/pages/Products/CPBN/Footer/index.tsx:14
 #~ msgid ""
 #~ "Monitor live transactions made on the CONUN Private Blockchain network\n"
@@ -1116,9 +1120,15 @@ msgstr "CONUN 플랫폼의 기반을 정의하는 기술에 대하여 연구개�
 msgid "Products"
 msgstr "프로덕트"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:5
 msgid "Purpose and Overview"
 msgstr ""
+=======
+#: src/pages/Home/RoadMapSection/index.tsx:54
+msgid "ROADMAP"
+msgstr "로드맵"
+>>>>>>> main
 
 #: src/pages/Home/ConunNews/Content/index.tsx:11
 #: src/pages/Home/ConunNews/Content/index.tsx:23
@@ -1393,16 +1403,21 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/DownloadBar/index.tsx:10
-msgid "Version 1.2.1 of CONUN Drive is now available."
-msgstr "CONUN 드라이브 버전 1.2.1이 출시되었습니다."
+#~ msgid "Version 1.2.1 of CONUN Drive is now available."
+#~ msgstr "CONUN 드라이브 버전 1.2.1이 출시되었습니다."
 
 #: src/pages/Products/DSC/Architecture/Content/index.tsx:11
 msgid "Virtual Machine (Docker Container)"
 msgstr "가상 머신 (도커 컨테이너)"
 
 #: src/pages/Products/CPBN/Footer/index.tsx:33
-msgid "Visit the website "
+#: src/pages/Products/Metacon/IntroBottom/index.tsx:35
+msgid "Visit the website"
 msgstr "웹사이트 방문하기"
+
+#: src/pages/Products/CPBN/Footer/index.tsx:33
+#~ msgid "Visit the website "
+#~ msgstr "웹사이트 방문하기"
 
 #: src/pages/Home/Footer/Content/index.tsx:37
 msgid "Wallet"
@@ -1496,10 +1511,15 @@ msgstr ""
 msgid "secure"
 msgstr ""
 
+#: src/components/LinkCustomButton/index.tsx:13
+#~ msgid "{type}"
+#~ msgstr ""
+
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"
 msgstr "{type} 백서"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:268
 msgid "① Collection of some or all of the additional benefits provided by the Company"
 msgstr ""
@@ -1571,3 +1591,8 @@ msgstr ""
 #: src/pages/TermsAndConditions/Data/index.tsx:240
 msgid "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company."
 msgstr ""
+=======
+#: src/components/LinkCustomButton/index.tsx:13
+#~ msgid "{values}"
+#~ msgstr ""
+>>>>>>> main

@@ -574,10 +574,6 @@ msgstr "Distributed decentralized storage system"
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:14
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:24
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:33
-#: src/pages/Products/CPBN/Header/index.tsx:12
-#: src/pages/Products/DSC/Header/index.tsx:12
-#: src/pages/Products/Drive/Header/index.tsx:12
-#: src/pages/Products/Metacon/Header/index.tsx:13
 msgid "Download"
 msgstr "Download"
 
@@ -784,6 +780,10 @@ msgstr "Jul"
 msgid "Jun"
 msgstr "Jun"
 
+#: src/pages/Home/ConunNews/index.tsx:28
+msgid "LATEST NEWS"
+msgstr "LATEST NEWS"
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:282
 msgid "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
 msgstr "Launch Bridge Swap, that enables asset swapping between Ethereum Blockchain and Conun Private Blockchain"
@@ -979,6 +979,10 @@ msgstr "Metacon Wallet"
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:29
 msgid "Metacon web extension"
 msgstr "Metacon web extension"
+
+#: src/components/DownloadBar/index.tsx:10
+msgid "Metacon, CONUN's new brower extension is now available."
+msgstr "Metacon, CONUN's new brower extension is now available."
 
 #: src/pages/Products/CPBN/Footer/index.tsx:14
 #~ msgid ""
@@ -1412,16 +1416,21 @@ msgstr "Users acknowledge that users have read, understood, abide by and comply 
 #~ msgstr "VISION"
 
 #: src/components/DownloadBar/index.tsx:10
-msgid "Version 1.2.1 of CONUN Drive is now available."
-msgstr "Version 1.2.1 of CONUN Drive is now available."
+#~ msgid "Version 1.2.1 of CONUN Drive is now available."
+#~ msgstr "Version 1.2.1 of CONUN Drive is now available."
 
 #: src/pages/Products/DSC/Architecture/Content/index.tsx:11
 msgid "Virtual Machine (Docker Container)"
 msgstr "Virtual Machine (Docker Container)"
 
 #: src/pages/Products/CPBN/Footer/index.tsx:33
-msgid "Visit the website "
-msgstr "웹사이트 방문하기"
+#: src/pages/Products/Metacon/IntroBottom/index.tsx:35
+msgid "Visit the website"
+msgstr "Visit the website"
+
+#: src/pages/Products/CPBN/Footer/index.tsx:33
+#~ msgid "Visit the website "
+#~ msgstr "웹사이트 방문하기"
 
 #: src/pages/Home/Footer/Content/index.tsx:37
 msgid "Wallet"
@@ -1517,6 +1526,10 @@ msgstr "rule modification"
 #: src/pages/Products/CPBN/Icons/index.tsx:16
 msgid "secure"
 msgstr "secure"
+
+#: src/components/LinkCustomButton/index.tsx:13
+#~ msgid "{type}"
+#~ msgstr "{type}"
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"

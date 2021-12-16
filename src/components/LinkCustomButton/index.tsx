@@ -1,16 +1,16 @@
-import { Trans } from "@lingui/macro";
 import Link from "next/link";
 
 import styles from "./LinkCustomButton.module.scss";
 
 interface Props {
-  linkText: string;
+  linkText: React.ReactNode;
+  path: string;
 }
-function LinkCustomButton({ linkText }: Props) {
+function LinkCustomButton({ linkText, path }: Props) {
   return (
-    <Link href="/">
-      <a className={styles.LinkButton} rel="noreferrer">
-        <Trans id={linkText} />
+    <Link href={path}>
+      <a className={styles.LinkButton} target="_blank" rel="noreferrer">
+        {linkText}
       </a>
     </Link>
   );

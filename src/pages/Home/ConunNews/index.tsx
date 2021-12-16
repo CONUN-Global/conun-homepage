@@ -24,7 +24,9 @@ function ConunNews() {
           })}
         </div>
         <div className={styles.TitleBox}>
-          <p className={styles.Title}>NEWS</p>
+          <p className={styles.Title}>
+            <Trans id="LATEST NEWS" />
+          </p>
         </div>
         <div className={styles.CardContainer}>
           {DataStream.map((news, i: number) => {

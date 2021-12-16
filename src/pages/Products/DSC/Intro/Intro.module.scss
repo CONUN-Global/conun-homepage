@@ -32,6 +32,8 @@
 }
 @media only screen and (max-width: 800px) {
   .IntroContainer {
+    padding: 100px 0;
+
     & .HorizontalCard {
       flex-direction: column;
       width: 100%;

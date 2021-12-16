@@ -1,0 +1,79 @@
+.NavMenuElement {
+  align-items: center;
+  border-right: 1px solid var(--conun-blue);
+  display: flex;
+  padding: 10px 20px;
+  position: relative;
+  width: 120px;
+
+  & .NavMenuCell {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    left: 0;
+    padding-top: 2px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    & .CellInner {
+      &:active {
+        transform: translateY(1px);
+      }
+    }
+
+    & .NonClick {
+      cursor: pointer;
+    }
+
+    & .SubMenu {
+      background-color: white;
+      border-radius: 10px;
+      display: none;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      position: absolute;
+      top: 30px;
+      width: 210px;
+
+      & .SubItem {
+        cursor: pointer;
+
+        & .Title {
+          font-size: 0.8rem;
+          font-weight: 800;
+        }
+
+        & .Description {
+          color: silver;
+          font-size: 0.6rem;
+          font-weight: normal;
+        }
+
+        &:hover {
+          opacity: 0.6;
+        }
+
+        &:active {
+          transform: translateY(1px);
+        }
+      }
+    }
+
+    &:hover {
+      color: #2b70cf;
+      font-weight: 800;
+
+      &.SubMenuParent {
+        height: 300px;
+
+        & .SubMenu {
+          display: flex;
+        }
+      }
+    }
+  }
+}

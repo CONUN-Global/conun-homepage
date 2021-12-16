@@ -67,6 +67,7 @@
           & .Description {
             font-size: 0.8rem;
             font-weight: normal;
+            letter-spacing: 0.045em;
             margin-bottom: 5%;
           }
         }
@@ -76,6 +77,8 @@
 }
 @media only screen and (max-width: 767px) {
   .UseCase {
+    padding: 100px 0;
+
     & .UseCaseContainer {
       width: 80%;
 
