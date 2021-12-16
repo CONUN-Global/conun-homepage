@@ -21,6 +21,10 @@ msgstr ""
 msgid "A FAST, SECURE, and AFFORDABLE BLOCKCHAIN"
 msgstr "빠르고 안전하며 보다 저렴한 블록체인"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:196
+msgid "A competent court"
+msgstr ""
+
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:20
 msgid "A wallet for your crypto"
 msgstr "당신을 위한 지갑"
@@ -60,6 +64,10 @@ msgstr "CONUN P2P 플랫폼 분석"
 #: src/pages/Faqs/index.tsx:17
 msgid "Answers to commonly asked questions regarding CONUN."
 msgstr "CONUN에 자주 문의해 주시는 질문에 대한 답변입니다."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:199
+msgid "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company."
+msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:164
 msgid "Apply for blockchain and task processing based on docker task"
@@ -260,6 +268,10 @@ msgstr "블록체인 기반의 분산슈퍼컴퓨팅(DSC) 플랫폼을 연구하
 #~ "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\n"
 #~ "Over the last several months, CONUN’s blockchain team has expanded with new members from..."
 #~ msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:25
+msgid "CONUN is the name of Distributed Computing Platform Service and services are provided with active participation of users."
+msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:244
 msgid "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols"
@@ -522,6 +534,14 @@ msgstr "데스크톱과 모바일을 통합해서 관리할 수 있는 CONUN Orc
 msgid "Development project utility and portal server for CONUN market"
 msgstr "CONUN market 을 위한 project utility 및 포털 서버 구축"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:166
+msgid "Disclaimer"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:138
+msgid "Disclaimer of warranty"
+msgstr ""
+
 #: src/pages/Home/Footer/Content/index.tsx:54
 msgid "Discord"
 msgstr "디스코드"
@@ -615,6 +635,10 @@ msgstr "2월"
 #~ msgid "Find out More"
 #~ msgstr ""
 
+#: src/pages/TermsAndConditions/Data/index.tsx:19
+msgid "General Definition"
+msgstr ""
+
 #: src/pages/Home/Business/CardContent/index.tsx:9
 msgid "Get Power By Conun"
 msgstr "코넌을 통해 추진력을 얻으세요."
@@ -630,6 +654,10 @@ msgstr "수익 창출의 기회를 얻으세요."
 #: src/pages/Home/Business/CardContent/index.tsx:23
 #~ msgid "Give power to earn"
 #~ msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:174
+msgid "Global Business Relations"
+msgstr ""
 
 #: src/pages/Products/DSC/Architecture/Content/index.tsx:17
 msgid "Grid Computing Core"
@@ -652,6 +680,26 @@ msgstr "CON 및 CONX 토큰 사용 시 수수료는 얼마인가요?"
 msgid "INTRODUCTION"
 msgstr "소개"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:118
+msgid "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:82
+msgid "If the Company needs to provide personal information of a member to a third party in order to protect the personal information of the member, the Company shall disclose the personal information item actually provided, the purpose of using the personal information of the person to be provided with the consent of the member; when entrusting the use of personal information to the Company, the Company establishes a 'Personal Information Handling Policy' as stipulated by relevant laws and regulations of each country, designates the person in charge of personal information protection and posts it and operates it. "
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:97
+msgid "If the Company terminates the service contract, the Company shall notify the member of the reason for termination by e-mail, it will be terminated when the company notifies the member of its intention to terminate the service contract."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:61
+msgid "If the members recognize that the ID or password has been stolen or used by a third party without permission, they shall immediately notify it to the Company and the Company shall immediately handle its efforts to swiftly. The members shall be responsible for the management of ID and password, and in any case, the members shall not transfer or rent their ID or password to others. The members and the users shall be responsible for any loss or damage caused by leakage, transfer, or loan of the ID or password without cause to the Company. "
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:34
+msgid "If there is any change in the contents of the service, how to use it, and the time it is used, the company shall post it on the initial screen of the service prior to change with the reason for the change, the content of the service to be changed, and the date of delivery."
+msgstr ""
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:128
 msgid "Implement for Client / Server platform network architecture"
 msgstr "Client / Server platform으로 구성된 네트워크 아키텍처를 구현합니다."
@@ -660,6 +708,14 @@ msgstr "Client / Server platform으로 구성된 네트워크 아키텍처를 �
 msgid "Implement for client application program"
 msgstr "사용자 응용프로그램 인터페이스를 구현합니다."
 
+#: src/pages/TermsAndConditions/Data/index.tsx:100
+msgid "In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. "
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:58
+msgid "In the event that the ID with an e-mail address is lost, the member shall submit the relevant documents to prove the member's identity by e-mail provided by the Company and confirms his/her identity through consultation with the administrator."
+msgstr ""
+
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:28
 msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
 msgstr "인공지능분야에서 기계학습 기술인 컨볼루션신경망(CNN), 순환신경망(RNN), 강화학습(Reinforcement Learning) 등의 분야에서 사용자가 설계한 Deep Learning 모델을 빠르게 생성하여 Deep Learning 알고리즘을 학습할 수 있는 다중 프로세스 환경을 구현할 수 있습니다."
@@ -667,6 +723,10 @@ msgstr "인공지능분야에서 기계학습 기술인 컨볼루션신경망(CN
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:28
 #~ msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
 #~ msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:177
+msgid "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries."
+msgstr ""
 
 #: src/pages/Products/Metacon/Intro/index.tsx:22
 msgid "Introduction"
@@ -793,9 +853,17 @@ msgstr "상세보기"
 msgid "Learn more"
 msgstr "상세보기"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:205
+msgid "Legal Considerations (Pre-sale related)"
+msgstr ""
+
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:12
 msgid "Life Science and Research Projects"
 msgstr "생명과학 연구 프로젝트"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:152
+msgid "Limitation of Liability"
+msgstr ""
 
 #: src/components/Navbar/NavbarItems/index.tsx:24
 msgid "METACON"
@@ -849,6 +917,10 @@ msgstr "개인용 PC 앱 UI/UX용 가상머신 시스템 구축"
 msgid "Manager, and Manager Extension."
 msgstr "매니저, 매니저 익스텐션"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:55
+msgid "Managing your ID and password"
+msgstr ""
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:47
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:54
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:123
@@ -869,6 +941,14 @@ msgstr "5월"
 #: src/pages/Home/Footer/Content/index.tsx:50
 msgid "Medium"
 msgstr "Medium"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:147
+msgid "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:91
+msgid "Members may at any time notify the Company of their intention to terminate the Company through consultation with the Company's manager and may terminate the contract by e-mail. However, if the member has coins, withdrawal is not possible."
+msgstr ""
 
 #: src/pages/Products/Metacon/MetaconBenefits/index.tsx:17
 #~ msgid "Metacon Benefits"
@@ -912,6 +992,10 @@ msgstr "거래소 네트워크 코어"
 msgid "News"
 msgstr "뉴스"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:73
+msgid "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability."
+msgstr ""
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:16
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:98
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:308
@@ -944,6 +1028,10 @@ msgstr "CONUN의 기술적 목표와 방향성을 기술하며 아키텍쳐 및 
 msgid "Organize distributed computing system for CONUN's client activities monitoring system"
 msgstr "CONUN 사용자의 활동 및 작업처리 상황을 모니터링 및 사용자의 분산 컴퓨팅 요청을 처리할 수 있는 할 수 있는 관리 체제를 구축합니다."
 
+#: src/pages/TermsAndConditions/Data/index.tsx:185
+msgid "Other provisions"
+msgstr ""
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:113
 msgid "PC Application UI/UX/Virtual Machine"
 msgstr "PC 어플리케이션 UI/UX/가상 머신"
@@ -959,6 +1047,10 @@ msgstr "다양한 학술적 연구, 사회적 문화적 이슈 등을 범용 네
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:12
 msgid "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product."
 msgstr "개인과 개인이 직접 연결되어 파일공유가 가능한 P2P 형식의 마켓 플레이스입니다. 독특한 상품이나 세계 곳곳의 자산들을 둘러보고 구매할 수 있습니다."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:67
+msgid "Personal Information Changes, Protection"
+msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:17
 msgid "Planning CONUN digital currency exchange"
@@ -1024,6 +1116,10 @@ msgstr "CONUN 플랫폼의 기반을 정의하는 기술에 대하여 연구개�
 msgid "Products"
 msgstr "프로덕트"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:5
+msgid "Purpose and Overview"
+msgstr ""
+
 #: src/pages/Home/ConunNews/Content/index.tsx:11
 #: src/pages/Home/ConunNews/Content/index.tsx:23
 #: src/pages/Home/ConunNews/Content/index.tsx:36
@@ -1072,6 +1168,10 @@ msgstr "다운로드할 운영 체제를 선택하십시오. CONUN 드라이브"
 msgid "Sep"
 msgstr "9월"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:106
+msgid "Service Period and Suspension"
+msgstr ""
+
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:22
 msgid "Software Development"
 msgstr "소프트웨어 개발"
@@ -1100,9 +1200,13 @@ msgstr "스토리지"
 msgid "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage."
 msgstr "하나의 서버에 모든 데이터를 저장하는 중앙 집중식이 아닌, 데이터를 각각 나눠서 저장하는 탈중앙화된 스토리지입니다. 클라우드 스토리지의 필요성이 사라지게 됩니다."
 
+#: src/pages/TermsAndConditions/Data/index.tsx:88
+msgid "Termination of use contract"
+msgstr ""
+
 #: src/pages/Home/Footer/Content/index.tsx:8
-#~ msgid "Terms of Service"
-#~ msgstr "서비스 약관"
+msgid "Terms of Service"
+msgstr "서비스 약관"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:92
 msgid "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement"
@@ -1111,6 +1215,58 @@ msgstr "실제 암호화폐 거래소를 운영하기 위한 플랫폼 베타버
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:31
 msgid "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
 msgstr "코넌 웹 익스텐션은 온라인 상태에서 언제든 암호화 지갑에 간단하게 액세스할 수 있는 쉬운 경로입니다."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:188
+msgid "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:214
+msgid "The Company does not guarantee any benefits to the participants participating in the pre-sale, including principal, in connection with the coin, nor grant any other rights. Participants are fully aware of the content of the white paper provided by the Company and fully understand that there is a risk that the project may fail and will be able to participate in the pre-sale on this website. The participant fully understood that the coins were not applicable to any form of currency or securities."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:144
+msgid "The Company does not warrant and guarantee any technical errors on the website, any termination or interruption caused by service errors. Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:208
+msgid "The Company makes no representations or guarantees of any contents related to the pre-sales sale on its website, and all responsibilities associated with the pre-sales event are entirely borne by the pre-sales participant."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:211
+msgid "The Company may carry out pre-sale through the website in accordance with the Singapore legislation and the participant may participate in the pre-sale with all procedures and qualifications according to his/her country’s laws and regulations. All possible consequences of the procedures and qualifications of the participants will be borne by the participants."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:115
+msgid "The Company may restrict or suspend the provision of the service if it is unable to provide the service due to natural disasters or similar force majeure."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:127
+msgid "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:112
+msgid "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:94
+msgid "The Company may terminate the service contract if any of the following reasons arises or is confirmed."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:43
+msgid "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:155
+msgid "The Company shall not be liable if it cannot provide the service and interruption of the website due to natural disasters or other force majeure. "
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:76
+msgid "The Company shall not use the information provided by the members for the purpose of using the service for purposes other than the purpose for the operation of the Company Service agreed by the members and if the new purpose of use occurs or is provided to a third party, the Company shall notify the members of that purpose and obtain consent. However, except in cases where there is a difference from the relevant laws and regulations."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:180
+msgid "The Company websites may provide links to third-party websites and resources or references. The Company's Website makes no representations, warranties, or other promises or comments about the third-party websites or resources associated with it either referred to or accessed. In addition, the Company is not a party to any transactions made with any third party and shall not be held liable for such transactions. This is true even if a member becomes aware of the party on the website or uses a link to that party. Although the company's CONUN logo is included when a member accesses a third-party website other than the website, the website is unrelated to the company and the company does not control the contents of the web site. It is the responsibility of the members to protect their own information from viruses, worms, Trojan horses, and other potentially destructive programs."
+msgstr ""
 
 #: src/pages/Products/Metacon/Intro/index.tsx:25
 msgid "The Gateway to the CONUN Ecosystem!"
@@ -1127,13 +1283,73 @@ msgstr "코넌 생태계로 통하는 문!"
 msgid "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! "
 msgstr "Metacon 지갑을 사용하면 다른 토큰 지갑도 함께 보관할 수 있으며, JSON 인증서를 사용하여 액세스할 수 있습니다. 현재 메타콘 버전에서는 ETH, CON, CONX 지갑만 인증서 안에 보관할 수 있으며, 다음 버전에서는 지갑을 더 추가할 수 있습니다. 그럼 뉴스 페이지에서 메타콘의 새로운 소식을 만나보세요!"
 
+#: src/pages/TermsAndConditions/Data/index.tsx:79
+msgid "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:37
+msgid "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:40
+msgid "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:32
+msgid "The company offers the following services."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:141
+msgid "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:46
+msgid "The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members."
+msgstr ""
+
 #: src/pages/Products/DSC/Intro/index.tsx:13
 msgid "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices."
 msgstr "우리는 매일같이 컴퓨터와 스마트폰과 같은 고성능 전자제품을 사용하며 인터넷 검색이나 복잡한 게 임을 하기도 하고 다양한 사람들과 소통을 하기도 합니다. 하지만 일상적인 사용 이외에도, 이런 기기 들을 슈퍼컴퓨팅 플랫폼에 연결하면 자원으로 활용할 수 있습니다. DSC라 불리는 슈퍼컴퓨팅 플랫폼은 수많은 컴퓨터와 스마트폰의 CPU GPU와 RAM 자원을 수집 및 공유하는 세계적인 네트워크입니다."
 
+#: src/pages/TermsAndConditions/Data/index.tsx:191
+msgid "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service."
+msgstr ""
+
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:263
 msgid "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
 msgstr "코넌 블록체인 메인 서비스 '한라-릴리스' 첫 출시. 코넌 드라이브 완료"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:133
+msgid "The member may make a protest against the company's actions if there is a reason for the defense. "
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:49
+msgid "The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:70
+msgid "The members are not allowed to provide false information when applying for service use, and shall modify the changes immediately with the latest information if the details listed are changed. ID, name, etc. cannot be modified, but it can be modified in exceptional cases according to the laws."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:8
+msgid "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io)."
+msgstr "이 텀즈 오브 컨디션은 "
+
+#: src/pages/TermsAndConditions/Data/index.tsx:109
+msgid "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:169
+msgid "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:22
+msgid "The terms used in this terms of service are defined as follows."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:161
+msgid "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory."
+msgstr ""
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:374
 msgid "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications"
@@ -1147,6 +1363,14 @@ msgstr "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로�
 msgid "To know more about Conan's {type}, download Conan's white paper."
 msgstr "Conan의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
 
+#: src/pages/TermsAndConditions/Data/index.tsx:158
+msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:30
+msgid "Type and Change of Service"
+msgstr ""
+
 #: src/pages/Products/CPBN/Body/index.tsx:28
 #~ msgid "UNIVERSAL ADVANTAGES"
 #~ msgstr ""
@@ -1155,6 +1379,14 @@ msgstr "Conan의 {type}에 대해 자세히 알아보려면 Conan의 백서를 �
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:274
 msgid "Update CONUN p2p network traffic"
 msgstr "CONUN P2P 네트워크 트래픽 업데이트"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:124
+msgid "User management"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:12
+msgid "Users acknowledge that users have read, understood, abide by and comply with all applicable laws and regulations in order to access or use the Website. If users do not agree to the terms of service, you will not be able to access the website."
+msgstr ""
 
 #: src/pages/Products/CPBN/Body/index.tsx:13
 #~ msgid "VISION"
@@ -1190,6 +1422,10 @@ msgstr "코넌 드라이브에 오신 것을 환영합니다. CONUN DRIVE는 블
 #: src/pages/Home/ConunNews/Content/index.tsx:21
 #~ msgid "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live..."
 #~ msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:130
+msgid "When the company takes the actions specified in the previous paragraph, the company shall notify the member by email in advance. In the case of an emergency, the company may notify the member after taking a follow-up action."
+msgstr ""
 
 #: src/pages/Faqs/QnAs/index.tsx:5
 #: src/pages/Faqs/QnAs/index.tsx:11
@@ -1263,3 +1499,75 @@ msgstr ""
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"
 msgstr "{type} 백서"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:268
+msgid "① Collection of some or all of the additional benefits provided by the Company"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:246
+msgid "① Distributed computing platform development and operation service"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:257
+msgid "① In case of a member violates the rights, honor, credit or other legitimate interests of another member or any other person"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:222
+msgid "① Membership refers to the accounts of users who participate in various services of the company."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:248
+msgid "② CONUN Pre-sale related service"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:225
+msgid "② ID means the member's e-mail address for member identification and use of the company's services."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:260
+msgid "② In case of an act or attempt to interfere with the smooth operation of the services provided by the Company"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:272
+msgid "② Restricted use of certain services"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:249
+msgid "③ CONUN wallet service"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:263
+msgid "③ In case the company admits that it is necessary to refuse to provide the service for reasonable judgment"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:228
+msgid "③ Password means the combination of English alphabet and number registered by the member himself/herself in order to check the identity of the member and to protect the interests and confidentiality of the member."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:273
+msgid "③ Termination of the service contract"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:251
+msgid "④ All services provided to members through other services and partnerships with other companies"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:274
+msgid "④ Claim for damages"
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:231
+msgid "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:234
+msgid "⑤ Pre-Sale refers to the pre-sale of the CONUN coin that the company conducts in the form of a cloud funding. Members can participate in coin-sale with all procedures and qualifications in accordance with the laws and regulations of their respective countries. The company is not responsible for any consequences that may arise due to the procedures and qualifications."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:237
+msgid "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later."
+msgstr ""
+
+#: src/pages/TermsAndConditions/Data/index.tsx:240
+msgid "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company."
+msgstr ""

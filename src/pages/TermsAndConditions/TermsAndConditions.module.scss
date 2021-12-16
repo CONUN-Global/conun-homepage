@@ -1,0 +1,37 @@
+.TermsAndConditions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  width: 100%;
+
+  & .TermsAndConditionsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    width: 70%;
+
+    & .Navigation {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+    }
+
+    & .TermsAndConditionsContent {
+      color: var(--conun-blue);
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+
+      & .MainTitle {
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+
+      & .Paragraph {
+        margin-top: 10px;
+      }
+    }
+  }
+}

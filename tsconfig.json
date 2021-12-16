@@ -19,6 +19,7 @@
         "name": "typescript-plugin-css-modules"
       }
     ],
+    "types": ["./node_modules/@lingui/macro/global"],
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["src/components/*"],

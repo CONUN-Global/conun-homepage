@@ -4,6 +4,7 @@
       "A Cryptocurrency Wallet for Google Chrome!",
     "A FAST, SECURE, and AFFORDABLE BLOCKCHAIN":
       "빠르고 안전하며 보다 저렴한 블록체인",
+    "A competent court": "A competent court",
     "A wallet for your crypto": "당신을 위한 지갑",
     ARCHITECTURE: "아키텍처",
     "About Conun": "코넌은...",
@@ -17,6 +18,8 @@
       "코넌 메인넷 1.0, 백두 론칭 — 만나서 반가워요! ",
     "Answers to commonly asked questions regarding CONUN.":
       "CONUN에 자주 문의해 주시는 질문에 대한 답변입니다.",
+    "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company.":
+      "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company.",
     "Apply for blockchain and task processing based on docker task":
       "Docker 기반의 task processing 및 블록체인 연동을 구현합니다",
     "Apply for blockchain(Ethereum test-net: ropsten) and distributed processing platform based on docker task":
@@ -91,6 +94,8 @@
       "블록체인 기반의 분산슈퍼컴퓨팅(DSC) 플랫폼을 연구하고 만듭니다. 분산슈퍼컴퓨팅이란 네트워크를 통해 연결된 사용자 개인의 컴퓨터와 스마트폰의 유휴 자원을 공유하여 슈퍼컴퓨터의 성능과 유사한 고성능 컴퓨팅을 실현하는 기술입니다. 코넌이 꿈꾸는 미래는 누구나 DSC 플랫폼을 통해 고성능 컴퓨팅을 보다 저렴한 가격에 이용하고 다양한 프로젝트에 사용되며 더 나은 내일을 향해 함께 나아가는 것입니다.",
     "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\nOver the last several months, CONUN’s blockchain team has expanded with new members from...":
       "CONUN is excited to announce the pre-release of our new CONUN DSC homepage.\nOver the last several months, CONUN’s blockchain team has expanded with new members from...",
+    "CONUN is the name of Distributed Computing Platform Service and services are provided with active participation of users.":
+      "CONUN is the name of Distributed Computing Platform Service and services are provided with active participation of users.",
     "CONUN p2p protocol is designed for delivering a secure network between trustless users. Security protocols":
       "CONUN P2P 탈중앙 네트워크에서의 서로를 신뢰할 수 있는 강력한 보안을 제공하도록 설계합니다.",
     "CONUN private blockchain network has the ability to give users a\n            more affordable, secure and faster network, with the all same\n            capabilities as the Ethereum Network. This is because our network\n            runs alongside the Ethereum main blockchain.":
@@ -139,6 +144,7 @@
     "Conun Private Blockchain Network": "코넌 프라이빗 블록체인 네트워크",
     "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)":
       "Conun Private Blockchain Network v.3 Performance Evaluation -> In Progress: (코넌 프라이빗 블록체인 네트워크 v.3 성능 평가)",
+    "Conun Product Downloads": "Conun Product Downloads",
     "Crowdfunding for pre-sale": "크라우드펀딩 사전판매",
     DRIVE: "드라이브",
     DSC: "DSC",
@@ -179,6 +185,8 @@
       "데스크톱과 모바일을 통합해서 관리할 수 있는 CONUN Orchestration(web base)을 개발",
     "Development project utility and portal server for CONUN market":
       "CONUN market 을 위한 project utility 및 포털 서버 구축",
+    Disclaimer: "Disclaimer",
+    "Disclaimer of warranty": "Disclaimer of warranty",
     Discord: "디스코드",
     "Distributed Computing": "분산 컴퓨팅",
     "Distributed Super Computing": "분산 슈퍼 컴퓨팅",
@@ -206,10 +214,12 @@
     "Fast and secure cryptocurrency wallet": "빠르고 안전한 암호화폐 지갑",
     Feb: "2월",
     "Find out More": "Find out More",
+    "General Definition": "General Definition",
     "Get Power By Conun": "코넌을 통해 추진력을 얻으세요.",
     Github: "Github",
     "Give Power to Earn": "수익 창출의 기회를 얻으세요.",
     "Give power to earn": "Give power to earn",
+    "Global Business Relations": "Global Business Relations",
     "Grid Computing Core": "그리드 컴퓨팅 코어",
     "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you":
       "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you",
@@ -218,14 +228,30 @@
     "How much are fees when using CON and CONX tokens? ":
       "How much are fees when using CON and CONX tokens? ",
     INTRODUCTION: "소개",
+    "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site.":
+      "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site.",
+    "If the Company needs to provide personal information of a member to a third party in order to protect the personal information of the member, the Company shall disclose the personal information item actually provided, the purpose of using the personal information of the person to be provided with the consent of the member; when entrusting the use of personal information to the Company, the Company establishes a 'Personal Information Handling Policy' as stipulated by relevant laws and regulations of each country, designates the person in charge of personal information protection and posts it and operates it. ":
+      "If the Company needs to provide personal information of a member to a third party in order to protect the personal information of the member, the Company shall disclose the personal information item actually provided, the purpose of using the personal information of the person to be provided with the consent of the member; when entrusting the use of personal information to the Company, the Company establishes a 'Personal Information Handling Policy' as stipulated by relevant laws and regulations of each country, designates the person in charge of personal information protection and posts it and operates it. ",
+    "If the Company terminates the service contract, the Company shall notify the member of the reason for termination by e-mail, it will be terminated when the company notifies the member of its intention to terminate the service contract.":
+      "If the Company terminates the service contract, the Company shall notify the member of the reason for termination by e-mail, it will be terminated when the company notifies the member of its intention to terminate the service contract.",
+    "If the members recognize that the ID or password has been stolen or used by a third party without permission, they shall immediately notify it to the Company and the Company shall immediately handle its efforts to swiftly. The members shall be responsible for the management of ID and password, and in any case, the members shall not transfer or rent their ID or password to others. The members and the users shall be responsible for any loss or damage caused by leakage, transfer, or loan of the ID or password without cause to the Company. ":
+      "If the members recognize that the ID or password has been stolen or used by a third party without permission, they shall immediately notify it to the Company and the Company shall immediately handle its efforts to swiftly. The members shall be responsible for the management of ID and password, and in any case, the members shall not transfer or rent their ID or password to others. The members and the users shall be responsible for any loss or damage caused by leakage, transfer, or loan of the ID or password without cause to the Company. ",
+    "If there is any change in the contents of the service, how to use it, and the time it is used, the company shall post it on the initial screen of the service prior to change with the reason for the change, the content of the service to be changed, and the date of delivery.":
+      "If there is any change in the contents of the service, how to use it, and the time it is used, the company shall post it on the initial screen of the service prior to change with the reason for the change, the content of the service to be changed, and the date of delivery.",
     "Implement for Client / Server platform network architecture":
       "Client / Server platform으로 구성된 네트워크 아키텍처를 구현합니다.",
     "Implement for client application program":
       "사용자 응용프로그램 인터페이스를 구현합니다.",
+    "In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. ":
+      "In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. ",
+    "In the event that the ID with an e-mail address is lost, the member shall submit the relevant documents to prove the member's identity by e-mail provided by the Company and confirms his/her identity through consultation with the administrator.":
+      "In the event that the ID with an e-mail address is lost, the member shall submit the relevant documents to prove the member's identity by e-mail provided by the Company and confirms his/her identity through consultation with the administrator.",
     "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.":
       "인공지능분야에서 기계학습 기술인 컨볼루션신경망(CNN), 순환신경망(RNN), 강화학습(Reinforcement Learning) 등의 분야에서 사용자가 설계한 Deep Learning 모델을 빠르게 생성하여 Deep Learning 알고리즘을 학습할 수 있는 다중 프로세스 환경을 구현할 수 있습니다.",
     "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.":
       "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.",
+    "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries.":
+      "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries.",
     Introduction: "소개",
     "It also provides a decentralized swapping service. Any transactions made on METACON will be peer-to-peer without an intermediator. All transaction information is transparent to the public, so anyone can see and check the transaction history updated live on CONSCAN. If you already have an Ethereum wallet, you can link it to METACON and use it. Of course, you can create a new wallet here.":
       "메타콘은 탈중앙화 교환 서비스를 제공합니다. 때문에 모든 거래는 제3자의 개입 없이 P2P로 이루어집니다. 또한 모든 거래 정보는 대중에게 투명하게 공개되므로, 블록체인 익스플로러인 콘스캔을 통해서 실시간으로 업데이트되는 거래 내역을 확인할 수 있습니다. 메타콘을 통해 여러분의 암호화폐를 관리할 수 있다는 것도 잊지마세요! 이미 이더리움 지갑을 가지고 있는 사용자라면, 이더리움의 지갑을 연결하여 사용할 수 있습니다. 물론 새 지갑을 생성하는 것도 가능합니다.",
@@ -267,9 +293,11 @@
     "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform":
       "코넌 멤버십 출시와 함께 코넌 모니터링 서비스를 시작하여 CONUN 플랫폼에서 서비스사용자들이 각각의 고유한 비즈니스 또는 개인 요구 사항에 맞는 비용추정 및 유휴자원을 빌려주는 사용자들에게는 받을 보상금액을 알 수 있습니다.",
     "Learn More": "상세보기",
-    "Learn More": "상세보기",
     "Learn more": "상세보기",
+    "Legal Considerations (Pre-sale related)":
+      "Legal Considerations (Pre-sale related)",
     "Life Science and Research Projects": "생명과학 연구 프로젝트",
+    "Limitation of Liability": "Limitation of Liability",
     METACON: "METACON",
     "METACON plays the role of a mediator that connects you to the applications that exist in the CONUN ecosystem. Since it's connected to the CONUN Mainnet, we guarantee fast and safe payment and rewards system for users in the CONUN's services like the DSC platform and the Drive.":
       "메타콘은 여러분들이 코넌 생태계에 존재하는 응용 프로그램들을 이용할 수 있도록 연결시켜주는 매개체 역할을 담당합니다. 동시에 구글 크롬에서 이용할 수 있는 암호화폐지갑이기도 합니다. 코넌 메인넷과 연결되어 있기때문에, DSC 플랫폼 및 코넌 드라이브와 같은 서비스를 이용 할 때 발생하는 결제 및 리워딩을 빠르고 안전하게 처리합니다.",
@@ -291,10 +319,15 @@
     "Make virtual machine system for personal PC app UI/UX":
       "개인용 PC 앱 UI/UX용 가상머신 시스템 구축",
     "Manager, and Manager Extension.": "매니저, 매니저 익스텐션",
+    "Managing your ID and password": "Managing your ID and password",
     Mar: "3월",
     Marketplace: "마켓 플레이스",
     May: "5월",
     Medium: "Medium",
+    "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk.":
+      "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk.",
+    "Members may at any time notify the Company of their intention to terminate the Company through consultation with the Company's manager and may terminate the contract by e-mail. However, if the member has coins, withdrawal is not possible.":
+      "Members may at any time notify the Company of their intention to terminate the Company through consultation with the Company's manager and may terminate the contract by e-mail. However, if the member has coins, withdrawal is not possible.",
     "Metacon Benefits": "메타콘 장점들",
     "Metacon Extension": "Metacon 익스텐션",
     "Metacon Wallet": "Metacon 지갑",
@@ -307,6 +340,8 @@
       "콘스캔(CONUN Blockchain Explorer)은 블록체인 거래, 블록 데이터, 관련 그래프를 동시에 조회할 수 있는 블록 모니터링 및 데이터 서비스 플랫폼입니다. 콘스캔을 통하여 코넌 메인넷에서 이루어지는 거래들을 실시간으로 확인할 수 있습니다.",
     "Network Core for exchange platform": "거래소 네트워크 코어",
     News: "뉴스",
+    "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability.":
+      "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability.",
     Nov: "11월",
     "Nov 11 2021": "11월 11일 2021",
     "Nov 24 2021": "11월 24일 2021",
@@ -316,12 +351,15 @@
       "CONUN의 기술적 목표와 방향성을 기술하며 아키텍쳐 및 플랫폼 등에 대해 자세히 기술되어있는 백서를 발표합니다.",
     "Organize distributed computing system for CONUN's client activities monitoring system":
       "CONUN 사용자의 활동 및 작업처리 상황을 모니터링 및 사용자의 분산 컴퓨팅 요청을 처리할 수 있는 할 수 있는 관리 체제를 구축합니다.",
+    "Other provisions": "Other provisions",
     "PC Application UI/UX/Virtual Machine": "PC 어플리케이션 UI/UX/가상 머신",
     "PDF Download": "PDF 다운로드",
     "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion.":
       "다양한 학술적 연구, 사회적 문화적 이슈 등을 범용 네트워크의 참여자들이 직간접적으로 참여하여 추가적인 부가 수익을 얻을 수 있는 동시에 연구와 토론을 통해 삶의 질을 개선하고 문화를 발전시키는 공동체를 만들 수 있습니다.",
     "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product.":
       "개인과 개인이 직접 연결되어 파일공유가 가능한 P2P 형식의 마켓 플레이스입니다. 독특한 상품이나 세계 곳곳의 자산들을 둘러보고 구매할 수 있습니다.",
+    "Personal Information Changes, Protection":
+      "Personal Information Changes, Protection",
     "Planning CONUN digital currency exchange": "암호화폐 거래소",
     "Planning business goal and technology strategy of CONUN":
       "CONUN의 기술 및 사업 목표와 방향성을 제시하고 개발을 기획합니다.",
@@ -345,6 +383,7 @@
     "Proceed research and development for CONUN's platform CONUN":
       "CONUN 플랫폼의 기반을 정의하는 기술에 대하여 연구개발을 진행합니다.",
     Products: "프로덕트",
+    "Purpose and Overview": "Purpose and Overview",
     "Read More": "상세보기",
     "Release CONUN Blockchain Explorer Mainnet":
       "코넌 블록체인 익스플로러 메인넷 런칭",
@@ -359,6 +398,7 @@
     "Select your operating system to dowload CONUN Drive,":
       "다운로드할 운영 체제를 선택하십시오. CONUN 드라이브",
     Sep: "9월",
+    "Service Period and Suspension": "Service Period and Suspension",
     "Software Development": "소프트웨어 개발",
     "Staring to manage CONUN algorithm finding key version":
       "CONUN 플랫폼을 위한 분산 프로젝트",
@@ -369,20 +409,77 @@
     Storage: "스토리지",
     "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.":
       "하나의 서버에 모든 데이터를 저장하는 중앙 집중식이 아닌, 데이터를 각각 나눠서 저장하는 탈중앙화된 스토리지입니다. 클라우드 스토리지의 필요성이 사라지게 됩니다.",
+    "Termination of use contract": "Termination of use contract",
     "Terms of Service": "서비스 약관",
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "실제 암호화폐 거래소를 운영하기 위한 플랫폼 베타버전을 테스트합니다. 거래시스템 및 코어를 점검하고, 보안성을 강화하는 작업을 진행합니다.",
     "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.":
       "코넌 웹 익스텐션은 온라인 상태에서 언제든 암호화 지갑에 간단하게 액세스할 수 있는 쉬운 경로입니다.",
+    "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other.":
+      "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other.",
+    "The Company does not guarantee any benefits to the participants participating in the pre-sale, including principal, in connection with the coin, nor grant any other rights. Participants are fully aware of the content of the white paper provided by the Company and fully understand that there is a risk that the project may fail and will be able to participate in the pre-sale on this website. The participant fully understood that the coins were not applicable to any form of currency or securities.":
+      "The Company does not guarantee any benefits to the participants participating in the pre-sale, including principal, in connection with the coin, nor grant any other rights. Participants are fully aware of the content of the white paper provided by the Company and fully understand that there is a risk that the project may fail and will be able to participate in the pre-sale on this website. The participant fully understood that the coins were not applicable to any form of currency or securities.",
+    "The Company does not warrant and guarantee any technical errors on the website, any termination or interruption caused by service errors. Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk.":
+      "The Company does not warrant and guarantee any technical errors on the website, any termination or interruption caused by service errors. Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk.",
+    "The Company makes no representations or guarantees of any contents related to the pre-sales sale on its website, and all responsibilities associated with the pre-sales event are entirely borne by the pre-sales participant.":
+      "The Company makes no representations or guarantees of any contents related to the pre-sales sale on its website, and all responsibilities associated with the pre-sales event are entirely borne by the pre-sales participant.",
+    "The Company may carry out pre-sale through the website in accordance with the Singapore legislation and the participant may participate in the pre-sale with all procedures and qualifications according to his/her country’s laws and regulations. All possible consequences of the procedures and qualifications of the participants will be borne by the participants.":
+      "The Company may carry out pre-sale through the website in accordance with the Singapore legislation and the participant may participate in the pre-sale with all procedures and qualifications according to his/her country’s laws and regulations. All possible consequences of the procedures and qualifications of the participants will be borne by the participants.",
+    "The Company may restrict or suspend the provision of the service if it is unable to provide the service due to natural disasters or similar force majeure.":
+      "The Company may restrict or suspend the provision of the service if it is unable to provide the service due to natural disasters or similar force majeure.",
+    "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions.":
+      "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions.",
+    "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended.":
+      "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended.",
+    "The Company may terminate the service contract if any of the following reasons arises or is confirmed.":
+      "The Company may terminate the service contract if any of the following reasons arises or is confirmed.",
+    "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance.":
+      "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance.",
+    "The Company shall not be liable if it cannot provide the service and interruption of the website due to natural disasters or other force majeure. ":
+      "The Company shall not be liable if it cannot provide the service and interruption of the website due to natural disasters or other force majeure. ",
+    "The Company shall not use the information provided by the members for the purpose of using the service for purposes other than the purpose for the operation of the Company Service agreed by the members and if the new purpose of use occurs or is provided to a third party, the Company shall notify the members of that purpose and obtain consent. However, except in cases where there is a difference from the relevant laws and regulations.":
+      "The Company shall not use the information provided by the members for the purpose of using the service for purposes other than the purpose for the operation of the Company Service agreed by the members and if the new purpose of use occurs or is provided to a third party, the Company shall notify the members of that purpose and obtain consent. However, except in cases where there is a difference from the relevant laws and regulations.",
+    "The Company websites may provide links to third-party websites and resources or references. The Company's Website makes no representations, warranties, or other promises or comments about the third-party websites or resources associated with it either referred to or accessed. In addition, the Company is not a party to any transactions made with any third party and shall not be held liable for such transactions. This is true even if a member becomes aware of the party on the website or uses a link to that party. Although the company's CONUN logo is included when a member accesses a third-party website other than the website, the website is unrelated to the company and the company does not control the contents of the web site. It is the responsibility of the members to protect their own information from viruses, worms, Trojan horses, and other potentially destructive programs.":
+      "The Company websites may provide links to third-party websites and resources or references. The Company's Website makes no representations, warranties, or other promises or comments about the third-party websites or resources associated with it either referred to or accessed. In addition, the Company is not a party to any transactions made with any third party and shall not be held liable for such transactions. This is true even if a member becomes aware of the party on the website or uses a link to that party. Although the company's CONUN logo is included when a member accesses a third-party website other than the website, the website is unrelated to the company and the company does not control the contents of the web site. It is the responsibility of the members to protect their own information from viruses, worms, Trojan horses, and other potentially destructive programs.",
     "The Gateway to the CONUN Ecosystem!": "코넌 생태계로 통하는 문!",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "Metacon 지갑을 사용하면 다른 토큰 지갑도 함께 보관할 수 있으며, JSON 인증서를 사용하여 액세스할 수 있습니다. 현재 메타콘 버전에서는 ETH, CON, CONX 지갑만 인증서 안에 보관할 수 있으며, 다음 버전에서는 지갑을 더 추가할 수 있습니다. 그럼 뉴스 페이지에서 메타콘의 새로운 소식을 만나보세요!",
+    "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.":
+      "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.",
+    "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen.":
+      "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen.",
+    "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country.":
+      "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country.",
+    "The company offers the following services.":
+      "The company offers the following services.",
+    "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations.":
+      "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations.",
+    "The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members.":
+      "The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members.",
     "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.":
       "우리는 매일같이 컴퓨터와 스마트폰과 같은 고성능 전자제품을 사용하며 인터넷 검색이나 복잡한 게 임을 하기도 하고 다양한 사람들과 소통을 하기도 합니다. 하지만 일상적인 사용 이외에도, 이런 기기 들을 슈퍼컴퓨팅 플랫폼에 연결하면 자원으로 활용할 수 있습니다. DSC라 불리는 슈퍼컴퓨팅 플랫폼은 수많은 컴퓨터와 스마트폰의 CPU GPU와 RAM 자원을 수집 및 공유하는 세계적인 네트워크입니다.",
+    "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service.":
+      "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service.",
     "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE":
       "코넌 블록체인 메인 서비스 '한라-릴리스' 첫 출시. 코넌 드라이브 완료",
+    "The member may make a protest against the company's actions if there is a reason for the defense. ":
+      "The member may make a protest against the company's actions if there is a reason for the defense. ",
+    "The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes.":
+      "The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes.",
+    "The members are not allowed to provide false information when applying for service use, and shall modify the changes immediately with the latest information if the details listed are changed. ID, name, etc. cannot be modified, but it can be modified in exceptional cases according to the laws.":
+      "The members are not allowed to provide false information when applying for service use, and shall modify the changes immediately with the latest information if the details listed are changed. ID, name, etc. cannot be modified, but it can be modified in exceptional cases according to the laws.",
+    "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io).":
+      "이 텀즈 오브 컨디션은 ",
+    "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract.":
+      "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract.",
+    "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.":
+      "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.",
+    "The terms used in this terms of service are defined as follows.":
+      "The terms used in this terms of service are defined as follows.",
+    "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.":
+      "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.",
     "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications":
       "CONUN Network SDK 를 통해 CONUN 블록체인 네트워크를 통합합니다. CONUN 에서 제공하는 API를 통해 각 서비스 사용자들은 자체의 맞춤형 비즈니스 애플리케이션을 구현할 수 있습니다",
     "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably.":
@@ -392,8 +489,14 @@
       ["type"],
       "에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요.",
     ],
+    "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)":
+      "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)",
+    "Type and Change of Service": "Type and Change of Service",
     "UNIVERSAL ADVANTAGES": "UNIVERSAL ADVANTAGES",
     "Update CONUN p2p network traffic": "CONUN P2P 네트워크 트래픽 업데이트",
+    "User management": "User management",
+    "Users acknowledge that users have read, understood, abide by and comply with all applicable laws and regulations in order to access or use the Website. If users do not agree to the terms of service, you will not be able to access the website.":
+      "Users acknowledge that users have read, understood, abide by and comply with all applicable laws and regulations in order to access or use the Website. If users do not agree to the terms of service, you will not be able to access the website.",
     VISION: "VISION",
     "Version 1.2.1 of CONUN Drive is now available.":
       "CONUN 드라이브 버전 1.2.1이 출시되었습니다.",
@@ -406,6 +509,8 @@
       "코넌 드라이브에 오신 것을 환영합니다. CONUN DRIVE는 블록체인 네트워크에 구축된 P2P 파일 공유 서비스입니다. 다른 P2P 서비스와 달리 CONUN DRIVE의 분산된 블록체인의 특성은 다운로드할 수 있는 파일을 아무도 제어할 수 없다는 것 입니다. 데스크탑 애플리케이션을 다운로드하여 공유하고 탐색하고 수익을 올리십시오.",
     "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...":
       "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...",
+    "When the company takes the actions specified in the previous paragraph, the company shall notify the member by email in advance. In the case of an emergency, the company may notify the member after taking a follow-up action.":
+      "When the company takes the actions specified in the previous paragraph, the company shall notify the member by email in advance. In the case of an emergency, the company may notify the member after taking a follow-up action.",
     "Where are the coins to be distributed sent to?":
       "Where are the coins to be distributed sent to?",
     "White Paper": "백서",
@@ -429,5 +534,38 @@
     "rule modification": "rule modification",
     secure: "secure",
     "{type} whitepaper": [["type"], " 백서"],
+    "① Collection of some or all of the additional benefits provided by the Company":
+      "① Collection of some or all of the additional benefits provided by the Company",
+    "① Distributed computing platform development and operation service":
+      "① Distributed computing platform development and operation service",
+    "① In case of a member violates the rights, honor, credit or other legitimate interests of another member or any other person":
+      "① In case of a member violates the rights, honor, credit or other legitimate interests of another member or any other person",
+    "① Membership refers to the accounts of users who participate in various services of the company.":
+      "① Membership refers to the accounts of users who participate in various services of the company.",
+    "② CONUN Pre-sale related service": "② CONUN Pre-sale related service",
+    "② ID means the member's e-mail address for member identification and use of the company's services.":
+      "② ID means the member's e-mail address for member identification and use of the company's services.",
+    "② In case of an act or attempt to interfere with the smooth operation of the services provided by the Company":
+      "② In case of an act or attempt to interfere with the smooth operation of the services provided by the Company",
+    "② Restricted use of certain services":
+      "② Restricted use of certain services",
+    "③ CONUN wallet service": "③ CONUN wallet service",
+    "③ In case the company admits that it is necessary to refuse to provide the service for reasonable judgment":
+      "③ In case the company admits that it is necessary to refuse to provide the service for reasonable judgment",
+    "③ Password means the combination of English alphabet and number registered by the member himself/herself in order to check the identity of the member and to protect the interests and confidentiality of the member.":
+      "③ Password means the combination of English alphabet and number registered by the member himself/herself in order to check the identity of the member and to protect the interests and confidentiality of the member.",
+    "③ Termination of the service contract":
+      "③ Termination of the service contract",
+    "④ All services provided to members through other services and partnerships with other companies":
+      "④ All services provided to members through other services and partnerships with other companies",
+    "④ Claim for damages": "④ Claim for damages",
+    "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company.":
+      "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company.",
+    "⑤ Pre-Sale refers to the pre-sale of the CONUN coin that the company conducts in the form of a cloud funding. Members can participate in coin-sale with all procedures and qualifications in accordance with the laws and regulations of their respective countries. The company is not responsible for any consequences that may arise due to the procedures and qualifications.":
+      "⑤ Pre-Sale refers to the pre-sale of the CONUN coin that the company conducts in the form of a cloud funding. Members can participate in coin-sale with all procedures and qualifications in accordance with the laws and regulations of their respective countries. The company is not responsible for any consequences that may arise due to the procedures and qualifications.",
+    "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later.":
+      "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later.",
+    "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company.":
+      "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company.",
   },
 };
