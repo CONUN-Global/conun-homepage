@@ -42,7 +42,7 @@ function Navbar() {
             <span className={styles.NetworkCircle}></span>
             <Link href="https://conscan.conun.io/">
               <a target="_blank" rel="noreferrer">
-                <Trans id="Mainnet is online" />
+                <Trans id="Mainnet is live" />
               </a>
             </Link>
           </div>

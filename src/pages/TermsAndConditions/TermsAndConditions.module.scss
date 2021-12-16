@@ -1,37 +1,53 @@
 .TermsAndConditions {
-  align-items: center;
   display: flex;
-  flex-direction: column;
-  padding: 200px 0;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
 
-  & .TermsAndConditionsContainer {
+  & .NavigationContainer {
+    align-items: center;
+    background: var(--conun-bg-blue-dark);
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: center;
-    width: 70%;
+    flex-direction: column;
+    padding: 200px 0;
+    width: 30%;
 
     & .Navigation {
-      display: flex;
-      flex-direction: column;
-      width: 20%;
-    }
+      font-size: 0.8rem;
+      margin-top: 80px;
+      width: 60%;
 
-    & .TermsAndConditionsContent {
-      color: var(--conun-blue);
-      display: flex;
-      flex-direction: column;
-      width: 70%;
+      & .NavItems {
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  & .TermsAndConditionsContainer {
+    align-items: center;
+    background: var(--conun-bg-blue);
+    color: var(--conun-blue);
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0;
+    width: 70%;
+
+    & .TermsAndConditContent {
+      width: 80%;
 
       & .MainTitle {
         font-size: 2rem;
         text-transform: uppercase;
       }
 
-      & .Paragraph {
-        margin-top: 10px;
+      & .Title {
+        margin-top: 40px;
       }
+    }
+
+    & .Paragraph {
+      margin-top: 10px;
     }
   }
 }
