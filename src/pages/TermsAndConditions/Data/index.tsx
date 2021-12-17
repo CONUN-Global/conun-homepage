@@ -33,34 +33,32 @@ export const DATA = [
     id: "type-and-change-of-service",
     title: <Trans id="Type and Change of Service" />,
     description: [
-      <Trans key="0" id="The company offers the following services." />,
-
       <Trans
-        key="1"
+        key="0"
         id="If there is any change in the contents of the service, how to use it, and the time it is used, the company shall post it on the initial screen of the service prior to change with the reason for the change, the content of the service to be changed, and the date of delivery."
       />,
 
       <Trans
-        key="2"
+        key="1"
         id="The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen."
       />,
 
       <Trans
-        key="3"
+        key="2"
         id="The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country."
       />,
 
       <Trans
-        key="4"
+        key="3"
         id="The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
       />,
       <Trans
-        key="5"
+        key="4"
         id="The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members."
       />,
 
       <Trans
-        key="6"
+        key="5"
         id="The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes."
       />,
     ],
@@ -115,18 +113,10 @@ export const DATA = [
     description: [
       <Trans
         key="0"
-        id="Members may at any time notify the Company of their intention to terminate the Company through consultation with the Company's manager and may terminate the contract by e-mail. However, if the member has coins, withdrawal is not possible."
-      />,
-      <Trans
-        key="1"
-        id="The Company may terminate the service contract if any of the following reasons arises or is confirmed."
-      />,
-      <Trans
-        key="2"
         id="If the Company terminates the service contract, the Company shall notify the member of the reason for termination by e-mail, it will be terminated when the company notifies the member of its intention to terminate the service contract."
       />,
       <Trans
-        key="3"
+        key="1"
         id="In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. "
       />,
     ],
@@ -163,14 +153,10 @@ export const DATA = [
     description: [
       <Trans
         key="0"
-        id="The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions."
-      />,
-      <Trans
-        key="1"
         id="When the company takes the actions specified in the previous paragraph, the company shall notify the member by email in advance. In the case of an emergency, the company may notify the member after taking a follow-up action."
       />,
       <Trans
-        key="2"
+        key="1"
         id="The member may make a protest against the company's actions if there is a reason for the defense. "
       />,
     ],
@@ -275,6 +261,10 @@ export const DATA = [
       <Trans
         key="2"
         id="The Company does not guarantee any benefits to the participants participating in the pre-sale, including principal, in connection with the coin, nor grant any other rights. Participants are fully aware of the content of the white paper provided by the Company and fully understand that there is a risk that the project may fail and will be able to participate in the pre-sale on this website. The participant fully understood that the coins were not applicable to any form of currency or securities."
+      />,
+      <Trans
+        key="3"
+        id="This Privacy Policy will be effective March 16, 2018."
       />,
     ],
   },
