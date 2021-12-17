@@ -305,6 +305,7 @@
     "METACON, Cryptocurrency Wallet":
       "구글 크롬에서 사용 가능한 암호화폐 지갑!",
     "Main Benefits": "주요 장점들",
+    "Mainnet is live": "Mainnet is live",
     "Mainnet is online": "메인넷은 온라인 상태입니다.",
     "Make project for CONUN platform Test application in science circulation, deep learning, big data":
       "CONUN 플랫폼 개발을 위한 과학계산용, 딥러닝, 빅데이터 테스트 적용 프로젝트 제작 ",
@@ -387,6 +388,7 @@
       "CONUN 플랫폼의 기반을 정의하는 기술에 대하여 연구개발을 진행합니다.",
     Products: "프로덕트",
     "Purpose and Overview": "Purpose and Overview",
+    ROADMAP: "로드맵",
     "Read More": "상세보기",
     "Release CONUN Blockchain Explorer Mainnet":
       "코넌 블록체인 익스플로러 메인넷 런칭",
@@ -413,6 +415,7 @@
     "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.":
       "하나의 서버에 모든 데이터를 저장하는 중앙 집중식이 아닌, 데이터를 각각 나눠서 저장하는 탈중앙화된 스토리지입니다. 클라우드 스토리지의 필요성이 사라지게 됩니다.",
     "Termination of use contract": "Termination of use contract",
+    "Terms and Conditions": "Terms and Conditions",
     "Terms of Service": "서비스 약관",
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "실제 암호화폐 거래소를 운영하기 위한 플랫폼 베타버전을 테스트합니다. 거래시스템 및 코어를 점검하고, 보안성을 강화하는 작업을 진행합니다.",
@@ -474,13 +477,15 @@
     "The members are not allowed to provide false information when applying for service use, and shall modify the changes immediately with the latest information if the details listed are changed. ID, name, etc. cannot be modified, but it can be modified in exceptional cases according to the laws.":
       "The members are not allowed to provide false information when applying for service use, and shall modify the changes immediately with the latest information if the details listed are changed. ID, name, etc. cannot be modified, but it can be modified in exceptional cases according to the laws.",
     "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io).":
-      "이 텀즈 오브 컨디션은 ",
+      "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io).",
     "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract.":
       "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract.",
     "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.":
       "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.",
     "The terms used in this terms of service are defined as follows.":
       "The terms used in this terms of service are defined as follows.",
+    "This Privacy Policy will be effective March 16, 2018.":
+      "This Privacy Policy will be effective March 16, 2018.",
     "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.":
       "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.",
     "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications":
@@ -538,7 +543,8 @@
     "rule modification": "rule modification",
     secure: "secure",
     "{type}": [["type"]],
-    "{type} whitepaper": [["type"], " 백서"],
+    "{type} whitepaper": [["type"], " 백서<<<<<<< HEAD"],
+    "{values}": ">>>>>>> main",
     "① Collection of some or all of the additional benefits provided by the Company":
       "① Collection of some or all of the additional benefits provided by the Company",
     "① Distributed computing platform development and operation service":
@@ -571,6 +577,6 @@
     "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later.":
       "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later.",
     "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company.":
-      "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company.",
+      "=======",
   },
 };

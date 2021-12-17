@@ -304,6 +304,7 @@
       "METACON plays the role of a mediator that connects you to the applications that exist in the CONUN ecosystem. Since it's connected to the CONUN Mainnet, we guarantee fast and safe payment and rewards system for users in the CONUN's services like the DSC platform and the Drive.",
     "METACON, Cryptocurrency Wallet": "METACON, Cryptocurrency Wallet",
     "Main Benefits": "Main Benefits",
+    "Mainnet is live": "Mainnet is live",
     "Mainnet is online": "Mainnet is online",
     "Make project for CONUN platform Test application in science circulation, deep learning, big data":
       "Make project for CONUN platform Test application in science circulation, deep learning, big data",
@@ -390,6 +391,7 @@
       "Proceed research and development for CONUN's platform CONUN",
     Products: "Products",
     "Purpose and Overview": "Purpose and Overview",
+    ROADMAP: "ROADMAP",
     "Read More": "Read More",
     "Release CONUN Blockchain Explorer Mainnet":
       "Release CONUN Blockchain Explorer Mainnet",
@@ -416,6 +418,7 @@
     "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.":
       "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.",
     "Termination of use contract": "Termination of use contract",
+    "Terms and Conditions": "Terms and Conditions",
     "Terms of Service": "Terms of Service",
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement",
@@ -485,6 +488,8 @@
       "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.",
     "The terms used in this terms of service are defined as follows.":
       "The terms used in this terms of service are defined as follows.",
+    "This Privacy Policy will be effective March 16, 2018.":
+      "This Privacy Policy will be effective March 16, 2018.",
     "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.":
       "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.",
     "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications":
