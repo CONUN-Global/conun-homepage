@@ -40,25 +40,28 @@ export const DATA = [
 
       <Trans
         key="1"
-        id="The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen."
+        id="The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified."
       />,
-
       <Trans
         key="2"
+        id="The company will post the contents of this terms of service on the registration screen."
+      />,
+      <Trans
+        key="3"
         id="The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country."
       />,
 
       <Trans
-        key="3"
+        key="4"
         id="The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
       />,
       <Trans
-        key="4"
+        key="5"
         id="The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members."
       />,
 
       <Trans
-        key="5"
+        key="6"
         id="The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes."
       />,
     ],
@@ -173,10 +176,6 @@ export const DATA = [
         key="1"
         id="The Company does not warrant and guarantee any technical errors on the website, any termination or interruption caused by service errors. Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
       />,
-      <Trans
-        key="2"
-        id="Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
-      />,
     ],
   },
   {
@@ -261,10 +260,6 @@ export const DATA = [
       <Trans
         key="2"
         id="The Company does not guarantee any benefits to the participants participating in the pre-sale, including principal, in connection with the coin, nor grant any other rights. Participants are fully aware of the content of the white paper provided by the Company and fully understand that there is a risk that the project may fail and will be able to participate in the pre-sale on this website. The participant fully understood that the coins were not applicable to any form of currency or securities."
-      />,
-      <Trans
-        key="3"
-        id="This Privacy Policy will be effective March 16, 2018."
       />,
     ],
   },

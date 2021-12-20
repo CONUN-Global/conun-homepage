@@ -304,6 +304,7 @@
       "METACON plays the role of a mediator that connects you to the applications that exist in the CONUN ecosystem. Since it's connected to the CONUN Mainnet, we guarantee fast and safe payment and rewards system for users in the CONUN's services like the DSC platform and the Drive.",
     "METACON, Cryptocurrency Wallet": "METACON, Cryptocurrency Wallet",
     "Main Benefits": "Main Benefits",
+    "Mainnet is live": "Mainnet is live",
     "Mainnet is online": "Mainnet is online",
     "Make project for CONUN platform Test application in science circulation, deep learning, big data":
       "Make project for CONUN platform Test application in science circulation, deep learning, big data",
@@ -390,6 +391,7 @@
       "Proceed research and development for CONUN's platform CONUN",
     Products: "Products",
     "Purpose and Overview": "Purpose and Overview",
+    ROADMAP: "ROADMAP",
     "Read More": "Read More",
     "Release CONUN Blockchain Explorer Mainnet":
       "Release CONUN Blockchain Explorer Mainnet",
@@ -416,6 +418,7 @@
     "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.":
       "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.",
     "Termination of use contract": "Termination of use contract",
+    "Terms and Conditions": "Terms and Conditions",
     "Terms of Service": "Terms of Service",
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement",
@@ -455,6 +458,8 @@
       "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.":
       "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.",
+    "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified.":
+      "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified.",
     "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen.":
       "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen.",
     "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country.":
@@ -465,6 +470,8 @@
       "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations.",
     "The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members.":
       "The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members.",
+    "The company will post the contents of this terms of service on the registration screen.":
+      "The company will post the contents of this terms of service on the registration screen.",
     "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.":
       "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.",
     "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service.":
@@ -485,6 +492,8 @@
       "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.",
     "The terms used in this terms of service are defined as follows.":
       "The terms used in this terms of service are defined as follows.",
+    "This Privacy Policy will be effective March 16, 2018.":
+      "This Privacy Policy will be effective March 16, 2018.",
     "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.":
       "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory.",
     "Through CONUN Network SDKs, organizations can efficiently integrate their business into the CONUN Blockchain Network. With CONUN provided APIs, organizations can implement their own business applications":
