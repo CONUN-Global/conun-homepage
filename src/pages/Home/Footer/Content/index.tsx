@@ -8,10 +8,10 @@ export const CONTENT = [
         name: <Trans id="Terms of Service" />,
         path: "/termsandconditions",
       },
-      // {
-      //   name: <Trans id="Privacy Policy" />,
-      //   path: "https://conun.io/policy/privacypolicy",
-      // },
+      {
+        name: <Trans id="Privacy Policy" />,
+        path: "/privacypolicy",
+      },
       {
         name: <Trans id="White Paper" />,
         path: "/whitepaper",

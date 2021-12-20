@@ -1,4 +1,4 @@
-.TermsAndConditions {
+.PrivacyPolicy {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,7 +35,7 @@
     }
   }
 
-  & .TermsAndConditionsContainer {
+  & .PrivacyPolicyContainer {
     align-items: center;
     background: var(--conun-bg-blue);
     color: var(--conun-blue);
@@ -44,7 +44,7 @@
     padding: 200px 0;
     width: 70%;
 
-    & .TermsAndConditionContent {
+    & .PrivacyPolicyContent {
       width: 80%;
 
       & .MainTitle {
@@ -55,14 +55,6 @@
       & .Section {
         & .Title {
           margin-top: 40px;
-        }
-
-        & .Line {
-          margin-bottom: 10px;
-        }
-
-        & .SubList {
-          margin-bottom: 20px;
         }
       }
     }
