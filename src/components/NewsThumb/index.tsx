@@ -1,5 +1,4 @@
 import React from "react";
-// import Image from "next/image";
 
 import DiscordIcon from "@/assets/icons/discord.svg";
 import YoutubeIcon from "@/assets/icons/youtube.svg";

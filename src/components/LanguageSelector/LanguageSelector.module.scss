@@ -64,9 +64,9 @@
       }
 
       & .LocaleOption {
+        border: 1px solid transparent;
         color: var(--conun-blue);
         padding: 5px;
-        border: 1px solid transparent;
 
         &:hover {
           border: 1px solid var(--conun-blue);

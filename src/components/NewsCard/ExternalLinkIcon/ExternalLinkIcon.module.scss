@@ -5,6 +5,11 @@
   height: 100%;
 
   & .Icon {
+    &.internal {
+      height: 20px;
+      padding-right: 5px;
+    }
+
     &.github {
       height: 20px;
     }
