@@ -6,6 +6,7 @@ import YoutubeIcon from "@/assets/icons/youtube.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import XangleIcon from "@/assets/icons/xangle.svg";
 import MediumIcon from "@/assets/icons/medium.svg";
+import ConunIcon from "@/assets/icons/conun-logo.svg";
 import ExternalIcon from "@/assets/icons/external.svg";
 
 import styles from "./ExternalLinkIcon.module.scss";
@@ -27,7 +28,9 @@ function Icon({ source }: { source: string }) {
     case "medium":
       return <MediumIcon className={classNames(styles.Icon, styles[source])} />;
     default:
-      return null;
+      return (
+        <ConunIcon className={classNames(styles.Icon, styles["internal"])} />
+      );
   }
 }
 

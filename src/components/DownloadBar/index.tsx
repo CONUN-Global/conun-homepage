@@ -13,7 +13,7 @@ function DownloadBar() {
       </p>
       <Link href={link}>
         <a target="_blank" className={styles.DownloadLink} rel="noreferrer">
-          Download Now
+          Find It Here!
         </a>
       </Link>
     </div>
