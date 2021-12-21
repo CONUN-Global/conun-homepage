@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Trans } from "@lingui/macro";
 
 import Link from "next/link";
 
@@ -39,7 +38,7 @@ function SimpleCard({ data, index }: SimpleCardProps) {
                   className={styles.DownloadLink}
                   rel="noreferrer"
                 >
-                  <Trans id="Fid It Here" />
+                  Find It Here
                 </a>
               </Link>
             </div>
