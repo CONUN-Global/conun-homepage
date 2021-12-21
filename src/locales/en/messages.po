@@ -836,8 +836,12 @@ msgid "Feb"
 msgstr "Feb"
 
 #: src/components/SimpleCard/index.tsx:42
-msgid "Fid It Here"
-msgstr "Fid It Here"
+#~ msgid "Fid It Here"
+#~ msgstr "Fid It Here"
+
+#: src/components/SimpleCard/index.tsx:42
+msgid "Find It Here"
+msgstr "Find It Here"
 
 #: src/components/DownloadBar/index.tsx:16
 msgid "Find It Here!"
