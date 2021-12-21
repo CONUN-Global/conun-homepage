@@ -262,7 +262,7 @@ msgstr "데스크톱 그리드 컴퓨팅 기술을 기반으로 하는 코넌의
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:15
 msgid "Basic principle"
-msgstr ""
+msgstr "기본원칙"
 
 #: src/pages/Home/Business/CardContent/index.tsx:18
 msgid "Become part of the CONUN network and you can benefit from our current and future blockchain-based projects."
