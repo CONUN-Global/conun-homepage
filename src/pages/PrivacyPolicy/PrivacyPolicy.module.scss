@@ -68,6 +68,12 @@
         & .List {
           margin-top: 20px;
         }
+
+        & .DutyOfNotificationContainer {
+          & .ContactCard {
+            margin: 20px 0;
+          }
+        }
       }
     }
   }

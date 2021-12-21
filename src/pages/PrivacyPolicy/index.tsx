@@ -80,39 +80,43 @@ function PrivacyPolicy() {
                   )}
                 </div>
                 {content.id === "duty-of-notification" && (
-                  <div>
+                  <div className={styles.DutyOfNotificationContainer}>
                     <Text
                       description={
                         <Trans id="Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)" />
                       }
                     />
-                    <ContactCard
-                      internal={false}
-                      task={
-                        <Trans id="Reporting the violation of personal information and requesting counseling" />
-                      }
-                      homepage={<Trans id="privacy.kisa.or.kr" />}
-                      phone={<Trans id=" (without area code)118" />}
-                      address={
-                        <Trans id="(58324) 9 Jinheung-gil, Naju, Jeollanam-do, 3rd Floor Personal Information Infringement Notification Center" />
-                      }
-                    />
+                    <div className={styles.ContactCard}>
+                      <ContactCard
+                        internal={false}
+                        task={
+                          <Trans id="Reporting the violation of personal information and requesting counseling" />
+                        }
+                        homepage={<Trans id="privacy.kisa.or.kr" />}
+                        phone={<Trans id=" (without area code)118" />}
+                        address={
+                          <Trans id="(58324) 9 Jinheung-gil, Naju, Jeollanam-do, 3rd Floor Personal Information Infringement Notification Center" />
+                        }
+                      />
+                    </div>
                     <Text
                       description={
                         <Trans id="B. Personal Information Dispute Mediation Committee" />
                       }
                     />
-                    <ContactCard
-                      internal={false}
-                      task={
-                        <Trans id="Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)" />
-                      }
-                      homepage={<Trans id="www.kopico.go.kr" />}
-                      phone={<Trans id="1833-6972" />}
-                      address={
-                        <Trans id="(03171) 209, Sejong-daero, Jongno-gu, Seoul, KOREA 4th Floor Government Seoul Building" />
-                      }
-                    />
+                    <div className={styles.ContactCard}>
+                      <ContactCard
+                        internal={false}
+                        task={
+                          <Trans id="Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)" />
+                        }
+                        homepage={<Trans id="www.kopico.go.kr" />}
+                        phone={<Trans id="1833-6972" />}
+                        address={
+                          <Trans id="(03171) 209, Sejong-daero, Jongno-gu, Seoul, KOREA 4th Floor Government Seoul Building" />
+                        }
+                      />
+                    </div>
                     <Text
                       description={
                         <Trans id="C. Cyber Investigation Division, Supreme Prosecutors' Office : 1301 (cybercid.spo.go.kr)" />
