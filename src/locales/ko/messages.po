@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/PrivacyPolicy/index.tsx:95
+#: src/pages/PrivacyPolicy/index.tsx:96
 msgid " (without area code)118"
 msgstr ""
 
@@ -25,11 +25,11 @@ msgstr ""
 msgid " Sung-Soo Hong"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:113
+#: src/pages/PrivacyPolicy/index.tsx:116
 msgid "(03171) 209, Sejong-daero, Jongno-gu, Seoul, KOREA 4th Floor Government Seoul Building"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:97
+#: src/pages/PrivacyPolicy/index.tsx:98
 msgid "(58324) 9 Jinheung-gil, Naju, Jeollanam-do, 3rd Floor Personal Information Infringement Notification Center"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "12. Duty of Notification"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:111
+#: src/pages/PrivacyPolicy/index.tsx:114
 msgid "1833-6972"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr "학술/연구/사회문화적 이슈 등의 Survey"
 msgid "Access to Conun's Services"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:60
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:62
 msgid "Address: "
 msgstr ""
 
@@ -239,7 +239,7 @@ msgstr ""
 msgid "B. How to decline cookie settings"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:102
+#: src/pages/PrivacyPolicy/index.tsx:104
 msgid "B. Personal Information Dispute Mediation Committee"
 msgstr ""
 
@@ -300,7 +300,7 @@ msgstr "사용자들에게 비즈니스 기회를 제공합니다. 유휴 자원
 msgid "By sharing your personal computing resources you become part of a P2P network where earning is easy."
 msgstr "개인 PC 자원을 공유하고 코넌의 P2P 네트워크의 구성원이 되어서 부수적인 수익을 창출할 수 있는 기회를 얻으세요."
 
-#: src/pages/PrivacyPolicy/index.tsx:118
+#: src/pages/PrivacyPolicy/index.tsx:122
 msgid "C. Cyber Investigation Division, Supreme Prosecutors' Office : 1301 (cybercid.spo.go.kr)"
 msgstr ""
 
@@ -578,7 +578,7 @@ msgstr "크라우드펀딩 사전판매"
 msgid "D. Additional information created and collected during the using service"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:123
+#: src/pages/PrivacyPolicy/index.tsx:127
 msgid "D. National Police Agency Cyber Bureau : 182 (cyberbureau.police.go.kr)"
 msgstr ""
 
@@ -642,7 +642,7 @@ msgstr "딥러닝 프로젝트"
 #~ msgid "Deep Learning and Models Projects"
 #~ msgstr ""
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:35
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:37
 msgid "Department: "
 msgstr ""
 
@@ -757,7 +757,7 @@ msgstr "지금 메타콘을 다운로드하여 코넌의 다양한 서비스를 
 msgid "E. Destruction Methods"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:128
+#: src/pages/PrivacyPolicy/index.tsx:132
 msgid "E. Online Privacy Association : 02-550-9500 (www.opa.or.kr)"
 msgstr ""
 
@@ -773,7 +773,7 @@ msgstr "탐색 및 공유"
 msgid "Easy Management of Your Crypto"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:39
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:41
 msgid "Email: "
 msgstr ""
 
@@ -827,6 +827,10 @@ msgstr "빠르고 안전한 암호화폐 지갑"
 msgid "Feb"
 msgstr "2월"
 
+#: src/components/SimpleCard/index.tsx:42
+msgid "Fid It Here"
+msgstr ""
+
 #: src/components/DownloadBar/index.tsx:16
 msgid "Find It Here!"
 msgstr "여기서 확인하세요!"
@@ -867,9 +871,13 @@ msgstr "그리드 컴퓨팅 코어"
 #~ msgid "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you"
 #~ msgstr ""
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:52
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:54
 msgid "Homepage: "
 msgstr ""
+
+#: src/pages/Faqs/QnAs/index.tsx:27
+msgid "How can I withdraw my CON tokens?"
+msgstr "락업 물량 배분은 어떻게 받을 수 있나요?"
 
 #: src/pages/Faqs/QnAs/index.tsx:13
 msgid "How much are fees when using CON and CONX tokens?"
@@ -1224,7 +1232,7 @@ msgstr "Metacon 웹 익스텐션"
 msgid "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously."
 msgstr "콘스캔(CONUN Blockchain Explorer)은 블록체인 거래, 블록 데이터, 관련 그래프를 동시에 조회할 수 있는 블록 모니터링 및 데이터 서비스 플랫폼입니다. 콘스캔을 통하여 코넌 메인넷에서 이루어지는 거래들을 실시간으로 확인할 수 있습니다."
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:31
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:33
 msgid "Name: "
 msgstr ""
 
@@ -1296,15 +1304,15 @@ msgstr "개인과 개인이 직접 연결되어 파일공유가 가능한 P2P �
 msgid "Personal Information Changes, Protection"
 msgstr "개인정보의 변경, 보호"
 
-#: src/pages/PrivacyPolicy/index.tsx:108
+#: src/pages/PrivacyPolicy/index.tsx:111
 msgid "Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:28
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:30
 msgid "Personal Information Manager "
 msgstr ""
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:56
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:58
 msgid "Phone: "
 msgstr ""
 
@@ -1319,6 +1327,14 @@ msgstr "CONUN의 기술 및 사업 목표와 방향성을 제시하고 개발을
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:72
 msgid "Platform development"
 msgstr "플랫폼 개발￼    aspect-ratio: 16/9;"
+
+#: src/pages/Faqs/QnAs/index.tsx:29
+msgid "Please check out our CON token withdrawal verification guide"
+msgstr "CON 토큰 출금 확인 가이드를 여기서 확인하세요."
+
+#: src/pages/Faqs/QnAs/index.tsx:29
+#~ msgid "Please checkout our CON token withdrawal verification guide"
+#~ msgstr ""
 
 #: src/pages/PrivacyPolicy/index.tsx:86
 msgid "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
@@ -1392,7 +1408,7 @@ msgstr "로드맵"
 #~ msgid "Read More"
 #~ msgstr "상세보기"
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:48
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:50
 msgid "Related Task: "
 msgstr ""
 
@@ -1412,7 +1428,7 @@ msgstr "코넌 멤버십 서비스 출시"
 msgid "Release CONUN whitepaper"
 msgstr "코넌 백서 출시"
 
-#: src/pages/PrivacyPolicy/index.tsx:92
+#: src/pages/PrivacyPolicy/index.tsx:93
 msgid "Reporting the violation of personal information and requesting counseling"
 msgstr ""
 
@@ -1479,7 +1495,7 @@ msgstr "이용계약의종료"
 
 #: src/pages/TermsAndConditions/index.tsx:42
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "서비스 약관"
 
 #: src/pages/Home/Footer/Content/index.tsx:8
 msgid "Terms of Service"
@@ -1688,7 +1704,7 @@ msgstr "이 약관에서 사용하는 용어의 정의는 다음과 같습니다
 msgid "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:133
+#: src/pages/PrivacyPolicy/index.tsx:137
 msgid "This Privacy Policy will be effective March 16, 2018."
 msgstr ""
 
@@ -1854,7 +1870,7 @@ msgstr "한국어 전용 타이틀"
 msgid "korean-sub-only algorithm key"
 msgstr "한글 하위 전용 알고리즘 키"
 
-#: src/pages/PrivacyPolicy/index.tsx:94
+#: src/pages/PrivacyPolicy/index.tsx:95
 msgid "privacy.kisa.or.kr"
 msgstr ""
 
@@ -1870,7 +1886,7 @@ msgstr ""
 msgid "secure"
 msgstr ""
 
-#: src/pages/PrivacyPolicy/index.tsx:110
+#: src/pages/PrivacyPolicy/index.tsx:113
 msgid "www.kopico.go.kr"
 msgstr ""
 
@@ -1914,10 +1930,12 @@ msgstr "① 회원이라 함은 회사의 다양한 서비스 이용을 위해 �
 msgid "① The user must keep his / her personal information up to date and the user is responsible for the problem caused by the incorrect information input by the user."
 msgstr ""
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:300
 #: src/pages/PrivacyPolicy/Data/index.tsx:437
 msgid "① Those who perform marketing work directly against the user"
 msgstr ""
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:282
 #: src/pages/PrivacyPolicy/Data/index.tsx:425
 msgid "① User's personal information is protected by password, and important data is protected by separate security function by encrypting file and transmission data or using file lock function (Lock)."
 msgstr ""
@@ -1938,6 +1956,7 @@ msgstr "② 회사가 제공하는 서비스의 원활한 진행을 방해하는
 msgid "② It is possible to provide personal information without the consent of the user even if there is a request by the investigation agency in accordance with procedures and methods set forth in laws and regulations for the purposes of investigation or for the purpose of investigation."
 msgstr ""
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:306
 #: src/pages/PrivacyPolicy/Data/index.tsx:441
 msgid "② Person who performs personal information management duties such as person in charge of personal information manager and employees"
 msgstr ""
@@ -1950,6 +1969,7 @@ msgstr ""
 msgid "② Restricted use of certain services"
 msgstr "② 특정서비스 이용제한"
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:288
 #: src/pages/PrivacyPolicy/Data/index.tsx:430
 msgid "② The company uses security systems such as intrusion prevention system and vulnerability analysis system for each server in preparation for external intrusion such as hacking."
 msgstr ""
@@ -1958,6 +1978,7 @@ msgstr ""
 msgid "② You may be penalized in accordance with the related laws along with the loss of user qualification when processing the payment by stealing the membership or ID etc. of the other's personal information."
 msgstr ""
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:312
 #: src/pages/PrivacyPolicy/Data/index.tsx:446
 msgid "③ Any other person who is obliged to handle personal information in business"
 msgstr ""
@@ -2006,6 +2027,7 @@ msgstr ""
 msgid "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company."
 msgstr "④ 관리자라 함은 회사가 제공하는 서비스의 전반적인 관리와 원활한 운영을 위하여 회사가 지정한 자를 말합니다."
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:318
 #: src/pages/PrivacyPolicy/Data/index.tsx:450
 msgid "④ Regular in-house training and outsourcing training is conducted for employees who handle personal information, such as acquiring new security technologies and obligation to protect personal information."
 msgstr ""
@@ -2018,6 +2040,7 @@ msgstr "⑤ 프리세일이라 함은 크라우드펀딩 형태로 회사가 진
 msgid "⑤ The user must comply with laws related to personal information of other countries such as 'Act on Promotion of Information and Communications Network Utilization and Information Protection, Etc. ', 'Personal Information Protection Act ', 'Resident Registration Act'."
 msgstr ""
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:324
 #: src/pages/PrivacyPolicy/Data/index.tsx:455
 msgid "⑤ When join the company, internal procedures are prepared to prevent leakage of information by people through security pledge form and to monitor the performance of privacy policy and compliance with employees."
 msgstr ""
@@ -2025,6 +2048,10 @@ msgstr ""
 #: src/pages/TermsAndConditions/Data/index.tsx:289
 msgid "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later."
 msgstr "⑥ 코넌코인이라 함은 분산컴퓨팅플랫폼 서비스에서 발행되는 암호화폐를 말합니다. 코넌 코인은 추후 회원에게 토큰으로 발행이 됩니다."
+
+#: src/pages/PrivacyPolicy/Data/index.tsx:330
+msgid "⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company."
+msgstr ""
 
 #: src/pages/TermsAndConditions/Data/index.tsx:293
 msgid "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company."

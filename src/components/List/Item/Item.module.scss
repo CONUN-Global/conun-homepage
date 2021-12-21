@@ -3,6 +3,10 @@
   font-weight: normal;
   margin-top: 20px;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   & .SocialIcon {
     align-items: center;
     background-color: var(--conun-white);

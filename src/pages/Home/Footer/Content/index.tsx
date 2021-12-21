@@ -23,11 +23,11 @@ export const CONTENT = [
     items: [
       {
         name: <Trans id="Distributed Computing" />,
-        path: "/products/sdc",
+        path: "/products/dsc",
       },
       {
         name: <Trans id="Private Blockchain" />,
-        path: "/products/CPBN",
+        path: "/products/cpbn",
       },
       {
         name: <Trans id="Explore" />,

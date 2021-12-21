@@ -18,7 +18,7 @@ function Faqs() {
         </p>
         <div className={styles.FaqsContainer}>
           {QNAS.map((qna, i: number) => {
-            return <SimpleCard key={i} data={qna} />;
+            return <SimpleCard key={i} data={qna} index={i} />;
           })}
         </div>
       </div>

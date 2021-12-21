@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/PrivacyPolicy/index.tsx:95
+#: src/pages/PrivacyPolicy/index.tsx:96
 msgid " (without area code)118"
 msgstr " (without area code)118"
 
@@ -25,11 +25,11 @@ msgstr " CONUN GLOBAL COO"
 msgid " Sung-Soo Hong"
 msgstr " Sung-Soo Hong"
 
-#: src/pages/PrivacyPolicy/index.tsx:113
+#: src/pages/PrivacyPolicy/index.tsx:116
 msgid "(03171) 209, Sejong-daero, Jongno-gu, Seoul, KOREA 4th Floor Government Seoul Building"
 msgstr "(03171) 209, Sejong-daero, Jongno-gu, Seoul, KOREA 4th Floor Government Seoul Building"
 
-#: src/pages/PrivacyPolicy/index.tsx:97
+#: src/pages/PrivacyPolicy/index.tsx:98
 msgid "(58324) 9 Jinheung-gil, Naju, Jeollanam-do, 3rd Floor Personal Information Infringement Notification Center"
 msgstr "(58324) 9 Jinheung-gil, Naju, Jeollanam-do, 3rd Floor Personal Information Infringement Notification Center"
 
@@ -109,7 +109,7 @@ msgstr "11. Personal Information Request"
 msgid "12. Duty of Notification"
 msgstr "12. Duty of Notification"
 
-#: src/pages/PrivacyPolicy/index.tsx:111
+#: src/pages/PrivacyPolicy/index.tsx:114
 msgid "1833-6972"
 msgstr "1833-6972"
 
@@ -165,7 +165,7 @@ msgstr "Academic / sociocultural ISSUES"
 msgid "Access to Conun's Services"
 msgstr "Access to Conun's Services"
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:60
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:62
 msgid "Address: "
 msgstr "Address: "
 
@@ -239,7 +239,7 @@ msgstr "B. Administrative measures"
 msgid "B. How to decline cookie settings"
 msgstr "B. How to decline cookie settings"
 
-#: src/pages/PrivacyPolicy/index.tsx:102
+#: src/pages/PrivacyPolicy/index.tsx:104
 msgid "B. Personal Information Dispute Mediation Committee"
 msgstr "B. Personal Information Dispute Mediation Committee"
 
@@ -300,7 +300,7 @@ msgstr "Business opportunity for all users - rewards by sharing your personal id
 msgid "By sharing your personal computing resources you become part of a P2P network where earning is easy."
 msgstr "By sharing your personal computing resources you become part of a P2P network where earning is easy."
 
-#: src/pages/PrivacyPolicy/index.tsx:118
+#: src/pages/PrivacyPolicy/index.tsx:122
 msgid "C. Cyber Investigation Division, Supreme Prosecutors' Office : 1301 (cybercid.spo.go.kr)"
 msgstr "C. Cyber Investigation Division, Supreme Prosecutors' Office : 1301 (cybercid.spo.go.kr)"
 
@@ -586,7 +586,7 @@ msgstr "Crowdfunding for pre-sale"
 msgid "D. Additional information created and collected during the using service"
 msgstr "D. Additional information created and collected during the using service"
 
-#: src/pages/PrivacyPolicy/index.tsx:123
+#: src/pages/PrivacyPolicy/index.tsx:127
 msgid "D. National Police Agency Cyber Bureau : 182 (cyberbureau.police.go.kr)"
 msgstr "D. National Police Agency Cyber Bureau : 182 (cyberbureau.police.go.kr)"
 
@@ -650,7 +650,7 @@ msgstr "Deep Learning Projects"
 #~ msgid "Deep Learning and Models Projects"
 #~ msgstr "Deep Learning and Models Projects"
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:35
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:37
 msgid "Department: "
 msgstr "Department: "
 
@@ -765,7 +765,7 @@ msgstr "Download now and enjoy the various services of CONUN through METACON in 
 msgid "E. Destruction Methods"
 msgstr "E. Destruction Methods"
 
-#: src/pages/PrivacyPolicy/index.tsx:128
+#: src/pages/PrivacyPolicy/index.tsx:132
 msgid "E. Online Privacy Association : 02-550-9500 (www.opa.or.kr)"
 msgstr "E. Online Privacy Association : 02-550-9500 (www.opa.or.kr)"
 
@@ -781,7 +781,7 @@ msgstr "EXPLORE AND SHARE"
 msgid "Easy Management of Your Crypto"
 msgstr "Easy Management of Your Crypto"
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:39
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:41
 msgid "Email: "
 msgstr "Email: "
 
@@ -835,6 +835,10 @@ msgstr "Fast and secure cryptocurrency wallet"
 msgid "Feb"
 msgstr "Feb"
 
+#: src/components/SimpleCard/index.tsx:42
+msgid "Fid It Here"
+msgstr "Fid It Here"
+
 #: src/components/DownloadBar/index.tsx:16
 msgid "Find It Here!"
 msgstr "Find It Here!"
@@ -875,9 +879,13 @@ msgstr "Grid Computing Core"
 #~ msgid "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you"
 #~ msgstr "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you"
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:52
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:54
 msgid "Homepage: "
 msgstr "Homepage: "
+
+#: src/pages/Faqs/QnAs/index.tsx:27
+msgid "How can I withdraw my CON tokens?"
+msgstr "How can I withdraw my CON tokens?"
 
 #: src/pages/Faqs/QnAs/index.tsx:13
 msgid "How much are fees when using CON and CONX tokens?"
@@ -1236,7 +1244,7 @@ msgstr "Metacon web extension"
 msgid "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously."
 msgstr "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously."
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:31
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:33
 msgid "Name: "
 msgstr "Name: "
 
@@ -1308,15 +1316,15 @@ msgstr "Peer to peer marketplace - meaning unique products, worldwide assets, an
 msgid "Personal Information Changes, Protection"
 msgstr "Personal Information Changes, Protection"
 
-#: src/pages/PrivacyPolicy/index.tsx:108
+#: src/pages/PrivacyPolicy/index.tsx:111
 msgid "Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)"
 msgstr "Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)"
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:28
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:30
 msgid "Personal Information Manager "
 msgstr "Personal Information Manager "
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:56
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:58
 msgid "Phone: "
 msgstr "Phone: "
 
@@ -1331,6 +1339,14 @@ msgstr "Planning business goal and technology strategy of CONUN"
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:72
 msgid "Platform development"
 msgstr "Platform development"
+
+#: src/pages/Faqs/QnAs/index.tsx:29
+msgid "Please check out our CON token withdrawal verification guide"
+msgstr "Please check out our CON token withdrawal verification guide"
+
+#: src/pages/Faqs/QnAs/index.tsx:29
+#~ msgid "Please checkout our CON token withdrawal verification guide"
+#~ msgstr "Please checkout our CON token withdrawal verification guide"
 
 #: src/pages/PrivacyPolicy/index.tsx:86
 msgid "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
@@ -1408,7 +1424,7 @@ msgstr "ROADMAP"
 #~ msgid "Read More"
 #~ msgstr "Read More"
 
-#: src/pages/PrivacyPolicy/ContactCard/index.tsx:48
+#: src/pages/PrivacyPolicy/ContactCard/index.tsx:50
 msgid "Related Task: "
 msgstr "Related Task: "
 
@@ -1428,7 +1444,7 @@ msgstr "Release CONUN membership service"
 msgid "Release CONUN whitepaper"
 msgstr "Release CONUN whitepaper"
 
-#: src/pages/PrivacyPolicy/index.tsx:92
+#: src/pages/PrivacyPolicy/index.tsx:93
 msgid "Reporting the violation of personal information and requesting counseling"
 msgstr "Reporting the violation of personal information and requesting counseling"
 
@@ -1707,7 +1723,7 @@ msgstr "The terms used in this terms of service are defined as follows."
 msgid "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 msgstr "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 
-#: src/pages/PrivacyPolicy/index.tsx:133
+#: src/pages/PrivacyPolicy/index.tsx:137
 msgid "This Privacy Policy will be effective March 16, 2018."
 msgstr "This Privacy Policy will be effective March 16, 2018."
 
@@ -1876,7 +1892,7 @@ msgstr "korean-only-title"
 msgid "korean-sub-only algorithm key"
 msgstr "korean-sub-only algorithm key"
 
-#: src/pages/PrivacyPolicy/index.tsx:94
+#: src/pages/PrivacyPolicy/index.tsx:95
 msgid "privacy.kisa.or.kr"
 msgstr "privacy.kisa.or.kr"
 
@@ -1892,7 +1908,7 @@ msgstr "rule modification"
 msgid "secure"
 msgstr "secure"
 
-#: src/pages/PrivacyPolicy/index.tsx:110
+#: src/pages/PrivacyPolicy/index.tsx:113
 msgid "www.kopico.go.kr"
 msgstr "www.kopico.go.kr"
 
@@ -1932,10 +1948,12 @@ msgstr "① Membership refers to the accounts of users who participate in variou
 msgid "① The user must keep his / her personal information up to date and the user is responsible for the problem caused by the incorrect information input by the user."
 msgstr "① The user must keep his / her personal information up to date and the user is responsible for the problem caused by the incorrect information input by the user."
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:300
 #: src/pages/PrivacyPolicy/Data/index.tsx:437
 msgid "① Those who perform marketing work directly against the user"
 msgstr "① Those who perform marketing work directly against the user"
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:282
 #: src/pages/PrivacyPolicy/Data/index.tsx:425
 msgid "① User's personal information is protected by password, and important data is protected by separate security function by encrypting file and transmission data or using file lock function (Lock)."
 msgstr "① User's personal information is protected by password, and important data is protected by separate security function by encrypting file and transmission data or using file lock function (Lock)."
@@ -1956,6 +1974,7 @@ msgstr "② In case of an act or attempt to interfere with the smooth operation 
 msgid "② It is possible to provide personal information without the consent of the user even if there is a request by the investigation agency in accordance with procedures and methods set forth in laws and regulations for the purposes of investigation or for the purpose of investigation."
 msgstr "② It is possible to provide personal information without the consent of the user even if there is a request by the investigation agency in accordance with procedures and methods set forth in laws and regulations for the purposes of investigation or for the purpose of investigation."
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:306
 #: src/pages/PrivacyPolicy/Data/index.tsx:441
 msgid "② Person who performs personal information management duties such as person in charge of personal information manager and employees"
 msgstr "② Person who performs personal information management duties such as person in charge of personal information manager and employees"
@@ -1968,6 +1987,7 @@ msgstr "② Providing services: Providing contents and providing services"
 msgid "② Restricted use of certain services"
 msgstr "② Restricted use of certain services"
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:288
 #: src/pages/PrivacyPolicy/Data/index.tsx:430
 msgid "② The company uses security systems such as intrusion prevention system and vulnerability analysis system for each server in preparation for external intrusion such as hacking."
 msgstr "② The company uses security systems such as intrusion prevention system and vulnerability analysis system for each server in preparation for external intrusion such as hacking."
@@ -1976,6 +1996,7 @@ msgstr "② The company uses security systems such as intrusion prevention syste
 msgid "② You may be penalized in accordance with the related laws along with the loss of user qualification when processing the payment by stealing the membership or ID etc. of the other's personal information."
 msgstr "② You may be penalized in accordance with the related laws along with the loss of user qualification when processing the payment by stealing the membership or ID etc. of the other's personal information."
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:312
 #: src/pages/PrivacyPolicy/Data/index.tsx:446
 msgid "③ Any other person who is obliged to handle personal information in business"
 msgstr "③ Any other person who is obliged to handle personal information in business"
@@ -2024,6 +2045,7 @@ msgstr "④ Improvement of service: Purpose of checking the validity of the serv
 msgid "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company."
 msgstr "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company."
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:318
 #: src/pages/PrivacyPolicy/Data/index.tsx:450
 msgid "④ Regular in-house training and outsourcing training is conducted for employees who handle personal information, such as acquiring new security technologies and obligation to protect personal information."
 msgstr "④ Regular in-house training and outsourcing training is conducted for employees who handle personal information, such as acquiring new security technologies and obligation to protect personal information."
@@ -2036,6 +2058,7 @@ msgstr "⑤ Pre-Sale refers to the pre-sale of the CONUN coin that the company c
 msgid "⑤ The user must comply with laws related to personal information of other countries such as 'Act on Promotion of Information and Communications Network Utilization and Information Protection, Etc. ', 'Personal Information Protection Act ', 'Resident Registration Act'."
 msgstr "⑤ The user must comply with laws related to personal information of other countries such as 'Act on Promotion of Information and Communications Network Utilization and Information Protection, Etc. ', 'Personal Information Protection Act ', 'Resident Registration Act'."
 
+#: src/pages/PrivacyPolicy/Data/index.tsx:324
 #: src/pages/PrivacyPolicy/Data/index.tsx:455
 msgid "⑤ When join the company, internal procedures are prepared to prevent leakage of information by people through security pledge form and to monitor the performance of privacy policy and compliance with employees."
 msgstr "⑤ When join the company, internal procedures are prepared to prevent leakage of information by people through security pledge form and to monitor the performance of privacy policy and compliance with employees."
@@ -2043,6 +2066,10 @@ msgstr "⑤ When join the company, internal procedures are prepared to prevent l
 #: src/pages/TermsAndConditions/Data/index.tsx:289
 msgid "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later."
 msgstr "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later."
+
+#: src/pages/PrivacyPolicy/Data/index.tsx:330
+msgid "⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company."
+msgstr "⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:293
 msgid "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company."

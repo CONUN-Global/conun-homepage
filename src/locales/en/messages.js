@@ -294,18 +294,20 @@
     "Fast and secure cryptocurrency wallet":
       "Fast and secure cryptocurrency wallet",
     Feb: "Feb",
+    "Fid It Here": "Fid It Here",
     "Find It Here!": "Find It Here!",
     "Find out More": "Find out More",
     "General Definition": "General Definition",
     "Get Power By Conun": "Get Power By Conun",
     Github: "Github",
     "Give Power to Earn": "Give Power to Earn",
-    "Give power to earn": "Give power to earn ",
+    "Give power to earn": "Give power to earn",
     "Global Business Relations": "Global Business Relations",
     "Grid Computing Core": "Grid Computing Core",
     "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you":
       "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you",
     "Homepage: ": "Homepage: ",
+    "How can I withdraw my CON tokens?": "How can I withdraw my CON tokens?",
     "How much are fees when using CON and CONX tokens?":
       "How much are fees when using CON and CONX tokens?",
     "How much are fees when using CON and CONX tokens? ":
@@ -469,6 +471,10 @@
     "Planning business goal and technology strategy of CONUN":
       "Planning business goal and technology strategy of CONUN",
     "Platform development": "Platform development",
+    "Please check out our CON token withdrawal verification guide":
+      "Please check out our CON token withdrawal verification guide",
+    "Please checkout our CON token withdrawal verification guide":
+      "Please checkout our CON token withdrawal verification guide",
     "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)":
       "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)",
     "Prediction, forecasting, simulation, and advanced calculation -\n            these are all functions that need advanced computing. There are many\n            societal demands that lack physical computing resources or financial\n            means to actuate or process a project.":
@@ -575,7 +581,7 @@
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
-      "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
+      "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page!",
     "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.":
       "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.",
     "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified.":
@@ -762,6 +768,8 @@
       "⑤ When join the company, internal procedures are prepared to prevent leakage of information by people through security pledge form and to monitor the performance of privacy policy and compliance with employees.",
     "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later.":
       "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later.",
+    "⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company.":
+      "⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company.",
     "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company.":
       "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company.",
   },

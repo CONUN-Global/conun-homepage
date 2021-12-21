@@ -293,6 +293,7 @@
     "Fast Transactions": "Fast Transactions",
     "Fast and secure cryptocurrency wallet": "빠르고 안전한 암호화폐 지갑",
     Feb: "2월",
+    "Fid It Here": "Fid It Here",
     "Find It Here!": "여기서 확인하세요!",
     "Find out More": "Find out More",
     "General Definition": "일반적인 정의",
@@ -305,6 +306,8 @@
     "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you":
       "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you",
     "Homepage: ": "Homepage: ",
+    "How can I withdraw my CON tokens?":
+      "락업 물량 배분은 어떻게 받을 수 있나요?",
     "How much are fees when using CON and CONX tokens?":
       "CON 및 CONX 토큰 사용 시 수수료는 얼마인가요?",
     "How much are fees when using CON and CONX tokens? ":
@@ -466,6 +469,10 @@
     "Planning business goal and technology strategy of CONUN":
       "CONUN의 기술 및 사업 목표와 방향성을 제시하고 개발을 기획합니다.",
     "Platform development": "플랫폼 개발￼    aspect-ratio: 16/9;",
+    "Please check out our CON token withdrawal verification guide":
+      "CON 토큰 출금 확인 가이드를 여기서 확인하세요.",
+    "Please checkout our CON token withdrawal verification guide":
+      "Please checkout our CON token withdrawal verification guide",
     "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)":
       "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)",
     "Prediction, forecasting, simulation, and advanced calculation -\n            these are all functions that need advanced computing. There are many\n            societal demands that lack physical computing resources or financial\n            means to actuate or process a project.":
@@ -518,7 +525,7 @@
     "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.":
       "하나의 서버에 모든 데이터를 저장하는 중앙 집중식이 아닌, 데이터를 각각 나눠서 저장하는 탈중앙화된 스토리지입니다. 클라우드 스토리지의 필요성이 사라지게 됩니다.",
     "Termination of use contract": "이용계약의종료",
-    "Terms and Conditions": "Terms and Conditions",
+    "Terms and Conditions": "서비스 약관",
     "Terms of Service": "서비스 약관",
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "실제 암호화폐 거래소를 운영하기 위한 플랫폼 베타버전을 테스트합니다. 거래시스템 및 코어를 점검하고, 보안성을 강화하는 작업을 진행합니다.",
@@ -689,7 +696,7 @@
     secure: "secure",
     "www.kopico.go.kr": "www.kopico.go.kr",
     "{type}": [["type"]],
-    "{type} whitepaper": [["type"], " 백서<<<<<<< HEAD"],
+    "{type} whitepaper": [["type"], " 백서"],
     "{values}": ">>>>>>> main",
     "① Collection of some or all of the additional benefits provided by the Company":
       "① 회사가 부가적으로 제공한 혜택의 일부 또는 전부의 회수",
@@ -756,6 +763,8 @@
       "⑤ When join the company, internal procedures are prepared to prevent leakage of information by people through security pledge form and to monitor the performance of privacy policy and compliance with employees.",
     "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later.":
       "⑥ 코넌코인이라 함은 분산컴퓨팅플랫폼 서비스에서 발행되는 암호화폐를 말합니다. 코넌 코인은 추후 회원에게 토큰으로 발행이 됩니다.",
+    "⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company.":
+      "⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company.",
     "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company.":
       "⑦ 추천인(Advisor)이라 함은 회사의 소개, 홍보 등을 회원에게 안내 해준 회원을 추천하는 것을 말합니다. 추천인은 회사의 회원으로 가입되어 있어야 합니다.",
   },
