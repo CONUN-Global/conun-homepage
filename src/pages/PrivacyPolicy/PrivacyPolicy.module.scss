@@ -1,4 +1,4 @@
-.TermsAndConditions {
+.PrivacyPolicy {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,16 +12,12 @@
     padding: 200px 0;
     width: 40%;
 
-    @media only screen and (max-width: 768px) {
-      padding: 100px 0;
-    }
-
     & .Navigation {
       align-items: flex-start;
       display: flex;
       flex-direction: column;
       font-size: 0.8rem;
-      margin-top: 110px;
+      margin-top: 100px;
       width: 60%;
 
       & .NavItems {
@@ -39,7 +35,7 @@
     }
   }
 
-  & .TermsAndConditionsContainer {
+  & .PrivacyPolicyContainer {
     align-items: center;
     background: var(--conun-bg-blue);
     color: var(--conun-blue);
@@ -47,15 +43,12 @@
     flex-direction: column;
     padding: 200px 0;
     width: 70%;
-    @media only screen and (max-width: 768px) {
-      padding: 100px 0;
-    }
 
-    & .TermsAndConditionContent {
+    & .PrivacyPolicyContent {
       width: 80%;
 
       & .MainTitle {
-        font-size: 1.8rem;
+        font-size: 2rem;
         text-transform: uppercase;
       }
 
@@ -64,12 +57,8 @@
           margin-top: 40px;
         }
 
-        & .Line {
-          margin-bottom: 10px;
-        }
-
-        & .SubList {
-          margin-bottom: 20px;
+        & .List {
+          margin-top: 20px;
         }
       }
     }

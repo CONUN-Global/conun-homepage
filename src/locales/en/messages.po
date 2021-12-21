@@ -21,7 +21,7 @@ msgstr "A Cryptocurrency Wallet for Google Chrome!"
 msgid "A FAST, SECURE, and AFFORDABLE BLOCKCHAIN"
 msgstr "A FAST, SECURE, and AFFORDABLE BLOCKCHAIN"
 
-#: src/pages/TermsAndConditions/Data/index.tsx:240
+#: src/pages/TermsAndConditions/Data/index.tsx:239
 msgid "A competent court"
 msgstr "A competent court"
 
@@ -65,7 +65,11 @@ msgstr "Analyze for CONUN P2P platform"
 msgid "Answers to commonly asked questions regarding CONUN."
 msgstr "Answers to commonly asked questions regarding CONUN."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:242
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:241
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company."
 msgstr "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company."
 
@@ -542,11 +546,19 @@ msgstr "Development for total control web version management system in PC and mo
 msgid "Development project utility and portal server for CONUN market"
 msgstr "Development project utility and portal server for CONUN market"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:202
 msgid "Disclaimer"
 msgstr "Disclaimer"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:166
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:201
+msgid "Disclaimer"
+msgstr "Disclaimer"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:169
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Disclaimer of warranty"
 msgstr "Disclaimer of warranty"
 
@@ -659,7 +671,11 @@ msgstr "Give Power to Earn"
 #~ msgid "Give power to earn"
 #~ msgstr "Give power to earn"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:212
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:211
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Global Business Relations"
 msgstr "Global Business Relations"
 
@@ -684,6 +700,7 @@ msgstr "How much are fees when using CON and CONX tokens?"
 msgid "INTRODUCTION"
 msgstr "INTRODUCTION"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:143
 msgid "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site."
 msgstr "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site."
@@ -697,6 +714,21 @@ msgid "If the Company terminates the service contract, the Company shall notify 
 msgstr "If the Company terminates the service contract, the Company shall notify the member of the reason for termination by e-mail, it will be terminated when the company notifies the member of its intention to terminate the service contract."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:75
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:146
+msgid "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site."
+msgstr "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:106
+msgid "If the Company needs to provide personal information of a member to a third party in order to protect the personal information of the member, the Company shall disclose the personal information item actually provided, the purpose of using the personal information of the person to be provided with the consent of the member; when entrusting the use of personal information to the Company, the Company establishes a 'Personal Information Handling Policy' as stipulated by relevant laws and regulations of each country, designates the person in charge of personal information protection and posts it and operates it. "
+msgstr "If the Company needs to provide personal information of a member to a third party in order to protect the personal information of the member, the Company shall disclose the personal information item actually provided, the purpose of using the personal information of the person to be provided with the consent of the member; when entrusting the use of personal information to the Company, the Company establishes a 'Personal Information Handling Policy' as stipulated by relevant laws and regulations of each country, designates the person in charge of personal information protection and posts it and operates it. "
+
+#: src/pages/TermsAndConditions/Data/index.tsx:117
+msgid "If the Company terminates the service contract, the Company shall notify the member of the reason for termination by e-mail, it will be terminated when the company notifies the member of its intention to terminate the service contract."
+msgstr "If the Company terminates the service contract, the Company shall notify the member of the reason for termination by e-mail, it will be terminated when the company notifies the member of its intention to terminate the service contract."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:78
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "If the members recognize that the ID or password has been stolen or used by a third party without permission, they shall immediately notify it to the Company and the Company shall immediately handle its efforts to swiftly. The members shall be responsible for the management of ID and password, and in any case, the members shall not transfer or rent their ID or password to others. The members and the users shall be responsible for any loss or damage caused by leakage, transfer, or loan of the ID or password without cause to the Company. "
 msgstr "If the members recognize that the ID or password has been stolen or used by a third party without permission, they shall immediately notify it to the Company and the Company shall immediately handle its efforts to swiftly. The members shall be responsible for the management of ID and password, and in any case, the members shall not transfer or rent their ID or password to others. The members and the users shall be responsible for any loss or damage caused by leakage, transfer, or loan of the ID or password without cause to the Company. "
 
@@ -712,11 +744,19 @@ msgstr "Implement for Client / Server platform network architecture"
 msgid "Implement for client application program"
 msgstr "Implement for client application program"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:118
 msgid "In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. "
 msgstr "In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. "
 
 #: src/pages/TermsAndConditions/Data/index.tsx:71
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:121
+msgid "In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. "
+msgstr "In the event a member's service contract is terminated by the Company, the Company may refuse to accept the member's re-application of service use. "
+
+#: src/pages/TermsAndConditions/Data/index.tsx:74
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "In the event that the ID with an e-mail address is lost, the member shall submit the relevant documents to prove the member's identity by e-mail provided by the Company and confirms his/her identity through consultation with the administrator."
 msgstr "In the event that the ID with an e-mail address is lost, the member shall submit the relevant documents to prove the member's identity by e-mail provided by the Company and confirms his/her identity through consultation with the administrator."
 
@@ -728,7 +768,11 @@ msgstr "In the field of artificial intelligence, you can quickly create a deep l
 #~ msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
 #~ msgstr "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:214
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:213
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries."
 msgstr "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries."
 
@@ -861,7 +905,11 @@ msgstr "Learn More"
 msgid "Learn more"
 msgstr "Learn more"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:251
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:250
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Legal Considerations (Pre-sale related)"
 msgstr "Legal Considerations (Pre-sale related)"
 
@@ -869,7 +917,11 @@ msgstr "Legal Considerations (Pre-sale related)"
 msgid "Life Science and Research Projects"
 msgstr "Life Science and Research Projects"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:184
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:183
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Limitation of Liability"
 msgstr "Limitation of Liability"
 
@@ -929,7 +981,11 @@ msgstr "Make virtual machine system for personal PC app UI/UX"
 msgid "Manager, and Manager Extension."
 msgstr "Manager, and Manager Extension."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:69
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:72
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Managing your ID and password"
 msgstr "Managing your ID and password"
 
@@ -954,9 +1010,15 @@ msgstr "May"
 msgid "Medium"
 msgstr "Medium"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:176
 msgid "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
 msgstr "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:179
+#~ msgid "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
+#~ msgstr "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 
 #: src/pages/TermsAndConditions/index.tsx:79
 msgid "Members may at any time notify the Company of their intention to terminate the Company through consultation with the Company's manager and may terminate the contract by e-mail. However, if the member has coins, withdrawal is not possible."
@@ -1012,7 +1074,11 @@ msgstr "Network Core for exchange platform"
 msgid "News"
 msgstr "News"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:90
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:93
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability."
 msgstr "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability."
 
@@ -1048,7 +1114,11 @@ msgstr "Open CONUN's whitepaper describing technical architecture and aim in det
 msgid "Organize distributed computing system for CONUN's client activities monitoring system"
 msgstr "Organize distributed computing system for CONUN's client activities monitoring system"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:226
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:225
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Other provisions"
 msgstr "Other provisions"
 
@@ -1068,7 +1138,11 @@ msgstr "Participants in the general-purpose network can directly or indirectly p
 msgid "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product."
 msgstr "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:84
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:87
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Personal Information Changes, Protection"
 msgstr "Personal Information Changes, Protection"
 
@@ -1196,7 +1270,11 @@ msgstr "Select your operating system to dowload CONUN Drive,"
 msgid "Sep"
 msgstr "Sep"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:127
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:130
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Service Period and Suspension"
 msgstr "Service Period and Suspension"
 
@@ -1228,7 +1306,11 @@ msgstr "Storage"
 msgid "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage."
 msgstr "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:112
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:115
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "Termination of use contract"
 msgstr "Termination of use contract"
 
@@ -1248,6 +1330,7 @@ msgstr "Test Beta version for managing digital exchange. Making the core and tra
 msgid "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
 msgstr "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:228
 msgid "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other."
 msgstr "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other."
@@ -1269,6 +1352,29 @@ msgid "The Company may carry out pre-sale through the website in accordance with
 msgstr "The Company may carry out pre-sale through the website in accordance with the Singapore legislation and the participant may participate in the pre-sale with all procedures and qualifications according to his/her country’s laws and regulations. All possible consequences of the procedures and qualifications of the participants will be borne by the participants."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:139
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:227
+msgid "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other."
+msgstr "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:260
+msgid "The Company does not guarantee any benefits to the participants participating in the pre-sale, including principal, in connection with the coin, nor grant any other rights. Participants are fully aware of the content of the white paper provided by the Company and fully understand that there is a risk that the project may fail and will be able to participate in the pre-sale on this website. The participant fully understood that the coins were not applicable to any form of currency or securities."
+msgstr "The Company does not guarantee any benefits to the participants participating in the pre-sale, including principal, in connection with the coin, nor grant any other rights. Participants are fully aware of the content of the white paper provided by the Company and fully understand that there is a risk that the project may fail and will be able to participate in the pre-sale on this website. The participant fully understood that the coins were not applicable to any form of currency or securities."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:175
+msgid "The Company does not warrant and guarantee any technical errors on the website, any termination or interruption caused by service errors. Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
+msgstr "The Company does not warrant and guarantee any technical errors on the website, any termination or interruption caused by service errors. Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:252
+msgid "The Company makes no representations or guarantees of any contents related to the pre-sales sale on its website, and all responsibilities associated with the pre-sales event are entirely borne by the pre-sales participant."
+msgstr "The Company makes no representations or guarantees of any contents related to the pre-sales sale on its website, and all responsibilities associated with the pre-sales event are entirely borne by the pre-sales participant."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:256
+msgid "The Company may carry out pre-sale through the website in accordance with the Singapore legislation and the participant may participate in the pre-sale with all procedures and qualifications according to his/her country’s laws and regulations. All possible consequences of the procedures and qualifications of the participants will be borne by the participants."
+msgstr "The Company may carry out pre-sale through the website in accordance with the Singapore legislation and the participant may participate in the pre-sale with all procedures and qualifications according to his/her country’s laws and regulations. All possible consequences of the procedures and qualifications of the participants will be borne by the participants."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:142
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The Company may restrict or suspend the provision of the service if it is unable to provide the service due to natural disasters or similar force majeure."
 msgstr "The Company may restrict or suspend the provision of the service if it is unable to provide the service due to natural disasters or similar force majeure."
 
@@ -1276,7 +1382,11 @@ msgstr "The Company may restrict or suspend the provision of the service if it i
 msgid "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions."
 msgstr "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:134
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:137
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended."
 msgstr "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended."
 
@@ -1284,6 +1394,7 @@ msgstr "The Company may temporarily suspend the provision of services in the eve
 msgid "The Company may terminate the service contract if any of the following reasons arises or is confirmed."
 msgstr "The Company may terminate the service contract if any of the following reasons arises or is confirmed."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:51
 msgid "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
 msgstr "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
@@ -1297,6 +1408,21 @@ msgid "The Company shall not use the information provided by the members for the
 msgstr "The Company shall not use the information provided by the members for the purpose of using the service for purposes other than the purpose for the operation of the Company Service agreed by the members and if the new purpose of use occurs or is provided to a third party, the Company shall notify the members of that purpose and obtain consent. However, except in cases where there is a difference from the relevant laws and regulations."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:218
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:54
+msgid "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
+msgstr "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:185
+msgid "The Company shall not be liable if it cannot provide the service and interruption of the website due to natural disasters or other force majeure. "
+msgstr "The Company shall not be liable if it cannot provide the service and interruption of the website due to natural disasters or other force majeure. "
+
+#: src/pages/TermsAndConditions/Data/index.tsx:98
+msgid "The Company shall not use the information provided by the members for the purpose of using the service for purposes other than the purpose for the operation of the Company Service agreed by the members and if the new purpose of use occurs or is provided to a third party, the Company shall notify the members of that purpose and obtain consent. However, except in cases where there is a difference from the relevant laws and regulations."
+msgstr "The Company shall not use the information provided by the members for the purpose of using the service for purposes other than the purpose for the operation of the Company Service agreed by the members and if the new purpose of use occurs or is provided to a third party, the Company shall notify the members of that purpose and obtain consent. However, except in cases where there is a difference from the relevant laws and regulations."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:217
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The Company websites may provide links to third-party websites and resources or references. The Company's Website makes no representations, warranties, or other promises or comments about the third-party websites or resources associated with it either referred to or accessed. In addition, the Company is not a party to any transactions made with any third party and shall not be held liable for such transactions. This is true even if a member becomes aware of the party on the website or uses a link to that party. Although the company's CONUN logo is included when a member accesses a third-party website other than the website, the website is unrelated to the company and the company does not control the contents of the web site. It is the responsibility of the members to protect their own information from viruses, worms, Trojan horses, and other potentially destructive programs."
 msgstr "The Company websites may provide links to third-party websites and resources or references. The Company's Website makes no representations, warranties, or other promises or comments about the third-party websites or resources associated with it either referred to or accessed. In addition, the Company is not a party to any transactions made with any third party and shall not be held liable for such transactions. This is true even if a member becomes aware of the party on the website or uses a link to that party. Although the company's CONUN logo is included when a member accesses a third-party website other than the website, the website is unrelated to the company and the company does not control the contents of the web site. It is the responsibility of the members to protect their own information from viruses, worms, Trojan horses, and other potentially destructive programs."
 
@@ -1318,15 +1444,30 @@ msgstr "The Gateway to the CONUN Ecosystem!"
 msgid "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! "
 msgstr "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! "
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:99
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:102
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다."
 msgstr "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:41
+<<<<<<< HEAD
 msgid "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen."
 msgstr "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:46
+=======
+msgid "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified."
+msgstr "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:37
+#~ msgid "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen."
+#~ msgstr "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified. The company will post the contents of this terms of service on the registration screen."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:49
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country."
 msgstr "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country."
 
@@ -1334,19 +1475,35 @@ msgstr "The company may revise these terms of service, and all matters not speci
 msgid "The company offers the following services."
 msgstr "The company offers the following services."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:168
 msgid "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations."
 msgstr "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:55
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:171
+msgid "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations."
+msgstr "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:58
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members."
 msgstr "The company shall notify the changes to the individual terms of service of the previous paragraph 30 days before implementation, notify them by email, and seek the consent of the members."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:45
+msgid "The company will post the contents of this terms of service on the registration screen."
+msgstr "The company will post the contents of this terms of service on the registration screen."
 
 #: src/pages/Products/DSC/Intro/index.tsx:13
 msgid "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices."
 msgstr "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:232
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:231
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service."
 msgstr "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service."
 
@@ -1354,6 +1511,7 @@ msgstr "The contract, agreement, notice, etc., which are further written by agre
 msgid "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
 msgstr "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:158
 msgid "The member may make a protest against the company's actions if there is a reason for the defense. "
 msgstr "The member may make a protest against the company's actions if there is a reason for the defense. "
@@ -1363,6 +1521,17 @@ msgid "The member shall pay attention to whether there are any changes in the co
 msgstr "The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:86
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:161
+msgid "The member may make a protest against the company's actions if there is a reason for the defense. "
+msgstr "The member may make a protest against the company's actions if there is a reason for the defense. "
+
+#: src/pages/TermsAndConditions/Data/index.tsx:63
+msgid "The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes."
+msgstr "The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:89
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The members are not allowed to provide false information when applying for service use, and shall modify the changes immediately with the latest information if the details listed are changed. ID, name, etc. cannot be modified, but it can be modified in exceptional cases according to the laws."
 msgstr "The members are not allowed to provide false information when applying for service use, and shall modify the changes immediately with the latest information if the details listed are changed. ID, name, etc. cannot be modified, but it can be modified in exceptional cases according to the laws."
 
@@ -1370,11 +1539,19 @@ msgstr "The members are not allowed to provide false information when applying f
 msgid "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io)."
 msgstr "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io)."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:129
 msgid "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract."
 msgstr "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:204
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:132
+msgid "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract."
+msgstr "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:203
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected."
 msgstr "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected."
 
@@ -1382,11 +1559,19 @@ msgstr "The services provided by the company may be technically inaccurate or ha
 msgid "The terms used in this terms of service are defined as follows."
 msgstr "The terms used in this terms of service are defined as follows."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:265
 msgid "This Privacy Policy will be effective March 16, 2018."
 msgstr "This Privacy Policy will be effective March 16, 2018."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:194
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:268
+#~ msgid "This Privacy Policy will be effective March 16, 2018."
+#~ msgstr "This Privacy Policy will be effective March 16, 2018."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:193
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory."
 msgstr "This is true even if the Company knew about the possibility of such damages. Exclusion and disclaimer of liability shall apply to any claim, based on contract, warranty, tort, or any other legal theory."
 
@@ -1402,7 +1587,11 @@ msgstr "Through our distributed super computing platform you can get the power t
 msgid "To know more about Conan's {type}, download Conan's white paper."
 msgstr "To know more about Conan's {type}, download Conan's white paper."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:190
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:189
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"
 msgstr "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"
 
@@ -1419,7 +1608,11 @@ msgstr "Type and Change of Service"
 msgid "Update CONUN p2p network traffic"
 msgstr "Update CONUN p2p network traffic"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:152
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:155
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "User management"
 msgstr "User management"
 
@@ -1470,7 +1663,11 @@ msgstr "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our
 #~ msgid "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live..."
 #~ msgstr "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live..."
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:154
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:157
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "When the company takes the actions specified in the previous paragraph, the company shall notify the member by email in advance. In the case of an emergency, the company may notify the member after taking a follow-up action."
 msgstr "When the company takes the actions specified in the previous paragraph, the company shall notify the member by email in advance. In the case of an emergency, the company may notify the member after taking a follow-up action."
 
@@ -1551,6 +1748,7 @@ msgstr "secure"
 msgid "{type} whitepaper"
 msgstr "{type} whitepaper"
 
+<<<<<<< HEAD
 #: src/pages/TermsAndConditions/Data/index.tsx:333
 msgid "① Collection of some or all of the additional benefits provided by the Company"
 msgstr "① Collection of some or all of the additional benefits provided by the Company"
@@ -1620,5 +1818,76 @@ msgid "⑥ CONUN coin refers to an cryptocurrency issued by a distributed comput
 msgstr "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:298
+=======
+#: src/pages/TermsAndConditions/Data/index.tsx:328
+msgid "① Collection of some or all of the additional benefits provided by the Company"
+msgstr "① Collection of some or all of the additional benefits provided by the Company"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:300
+msgid "① Distributed computing platform development and operation service"
+msgstr "① Distributed computing platform development and operation service"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:313
+msgid "① In case of a member violates the rights, honor, credit or other legitimate interests of another member or any other person"
+msgstr "① In case of a member violates the rights, honor, credit or other legitimate interests of another member or any other person"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:269
+msgid "① Membership refers to the accounts of users who participate in various services of the company."
+msgstr "① Membership refers to the accounts of users who participate in various services of the company."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:304
+msgid "② CONUN Pre-sale related service"
+msgstr "② CONUN Pre-sale related service"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:273
+msgid "② ID means the member's e-mail address for member identification and use of the company's services."
+msgstr "② ID means the member's e-mail address for member identification and use of the company's services."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:317
+msgid "② In case of an act or attempt to interfere with the smooth operation of the services provided by the Company"
+msgstr "② In case of an act or attempt to interfere with the smooth operation of the services provided by the Company"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:332
+msgid "② Restricted use of certain services"
+msgstr "② Restricted use of certain services"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:305
+msgid "③ CONUN wallet service"
+msgstr "③ CONUN wallet service"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:321
+msgid "③ In case the company admits that it is necessary to refuse to provide the service for reasonable judgment"
+msgstr "③ In case the company admits that it is necessary to refuse to provide the service for reasonable judgment"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:277
+msgid "③ Password means the combination of English alphabet and number registered by the member himself/herself in order to check the identity of the member and to protect the interests and confidentiality of the member."
+msgstr "③ Password means the combination of English alphabet and number registered by the member himself/herself in order to check the identity of the member and to protect the interests and confidentiality of the member."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:333
+msgid "③ Termination of the service contract"
+msgstr "③ Termination of the service contract"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:306
+msgid "④ All services provided to members through other services and partnerships with other companies"
+msgstr "④ All services provided to members through other services and partnerships with other companies"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:334
+msgid "④ Claim for damages"
+msgstr "④ Claim for damages"
+
+#: src/pages/TermsAndConditions/Data/index.tsx:281
+msgid "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company."
+msgstr "④ Manager is a person designated by the Company for overall management and smooth operation of services provided by the Company."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:285
+msgid "⑤ Pre-Sale refers to the pre-sale of the CONUN coin that the company conducts in the form of a cloud funding. Members can participate in coin-sale with all procedures and qualifications in accordance with the laws and regulations of their respective countries. The company is not responsible for any consequences that may arise due to the procedures and qualifications."
+msgstr "⑤ Pre-Sale refers to the pre-sale of the CONUN coin that the company conducts in the form of a cloud funding. Members can participate in coin-sale with all procedures and qualifications in accordance with the laws and regulations of their respective countries. The company is not responsible for any consequences that may arise due to the procedures and qualifications."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:289
+msgid "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later."
+msgstr "⑥ CONUN coin refers to an cryptocurrency issued by a distributed computing platform service. CONUN coin is issued to the member as a token later."
+
+#: src/pages/TermsAndConditions/Data/index.tsx:293
+>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319
 msgid "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company."
 msgstr "⑦ Advisor refers to the recommendation of the member who introduced the company to the member. The advisor must be a member of the company."
