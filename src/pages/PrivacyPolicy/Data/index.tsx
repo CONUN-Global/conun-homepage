@@ -276,60 +276,60 @@ export const DATA: DataType[] = [
           <Trans id="The Company takes the following technical measures to ensure the safety of personal information in order to prevent personal information from being lost, stolen, leaked, altered or damaged in handling personal information of users." />
         ),
       },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="① User's personal information is protected by password, and important data is protected by separate security function by encrypting file and transmission data or using file lock function (Lock)." />
-      //   ),
-      // },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="② The company uses security systems such as intrusion prevention system and vulnerability analysis system for each server in preparation for external intrusion such as hacking." />
-      //   ),
-      // },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="① User's personal information is protected by password, and important data is protected by separate security function by encrypting file and transmission data or using file lock function (Lock)." />
+        ),
+      },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="② The company uses security systems such as intrusion prevention system and vulnerability analysis system for each server in preparation for external intrusion such as hacking." />
+        ),
+      },
       {
         article: <Trans id="B. Administrative measures" />,
         section: (
           <Trans id="- The Company limits access to users' personal information to the minimum number of persons. The minimum number of persons is as follows." />
         ),
       },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="① Those who perform marketing work directly against the user" />
-      //   ),
-      // },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="② Person who performs personal information management duties such as person in charge of personal information manager and employees" />
-      //   ),
-      // },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="③ Any other person who is obliged to handle personal information in business" />
-      //   ),
-      // },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="④ Regular in-house training and outsourcing training is conducted for employees who handle personal information, such as acquiring new security technologies and obligation to protect personal information." />
-      //   ),
-      // },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="⑤ When join the company, internal procedures are prepared to prevent leakage of information by people through security pledge form and to monitor the performance of privacy policy and compliance with employees." />
-      //   ),
-      // },
-      // {
-      //   article: <Trans id="" />,
-      //   section: (
-      //     <Trans id="⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company." />
-      //   ),
-      // },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="① Those who perform marketing work directly against the user" />
+        ),
+      },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="② Person who performs personal information management duties such as person in charge of personal information manager and employees" />
+        ),
+      },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="③ Any other person who is obliged to handle personal information in business" />
+        ),
+      },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="④ Regular in-house training and outsourcing training is conducted for employees who handle personal information, such as acquiring new security technologies and obligation to protect personal information." />
+        ),
+      },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="⑤ When join the company, internal procedures are prepared to prevent leakage of information by people through security pledge form and to monitor the performance of privacy policy and compliance with employees." />
+        ),
+      },
+      {
+        article: <Trans id="" />,
+        section: (
+          <Trans id="⑥ The transfer of duties of employees handling personal information is carried out in a secure manner, and responsibilities for personal information accidents are clearly disclosed after joining and retiring the company." />
+        ),
+      },
     ],
   },
   {

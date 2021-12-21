@@ -1,4 +1,5 @@
 import { Trans } from "@lingui/macro";
+
 import styles from "./ContactCard.module.scss";
 
 interface Props {
@@ -10,6 +11,7 @@ interface Props {
   phone?: JSX.Element;
   address?: JSX.Element;
   task?: JSX.Element;
+  className?: string;
 }
 function ContactCard({
   internal,
@@ -29,15 +31,15 @@ function ContactCard({
         </p>
         <p>
           <Trans id="Name: " />
-          {name}
+          <span>{name}</span>
         </p>
         <p>
           <Trans id="Department: " />
-          {department}
+          <span>{department}</span>
         </p>
         <p>
           <Trans id="Email: " />
-          {email}
+          <span>{email}</span>
         </p>
       </div>
     );
@@ -46,11 +48,11 @@ function ContactCard({
     <div className={styles.Card}>
       <p>
         <Trans id="Related Task: " />
-        {task}
+        <span>{task}</span>
       </p>
       <p>
         <Trans id="Homepage: " />
-        {homepage}
+        <span>{homepage}</span>
       </p>
       <p>
         <Trans id="Phone: " />
@@ -58,7 +60,7 @@ function ContactCard({
       </p>
       <p>
         <Trans id="Address: " />
-        {address}
+        <span>{address}</span>
       </p>
     </div>
   );

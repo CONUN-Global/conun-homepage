@@ -23,4 +23,10 @@ export const QNAS = [
       <Trans id="The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! " />
     ),
   },
+  {
+    question: <Trans id="How can I withdraw my CON tokens?" />,
+    answer: (
+      <Trans id="Please check out our CON token withdrawal verification guide" />
+    ),
+  },
 ];
