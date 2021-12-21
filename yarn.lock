@@ -1183,6 +1183,18 @@
     jest-validate "^26.5.2"
     lodash.get "^4.4.2"
 
+"@lingui/conf@^3.13.0":
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/@lingui/conf/-/conf-3.13.0.tgz#caaef1b29e59e0e40adea92eb942edd676b239f7"
+  integrity sha512-1vl7NEZWMuiM2JCqnvlGmoyqlwB4isSEZrzvKWGAGMRLxMuuKR6PrH1Khgl4x2WRLZxfEysXTe6YR08Ra68irQ==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    "@endemolshinegroup/cosmiconfig-typescript-loader" "^3.0.2"
+    chalk "^4.1.0"
+    cosmiconfig "^7.0.0"
+    jest-validate "^26.5.2"
+    lodash.get "^4.4.2"
+
 "@lingui/core@^3.12.1":
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/@lingui/core/-/core-3.12.1.tgz#f657deb375521c1cf820f4f6a9ca422fdc1a276e"
@@ -1196,6 +1208,15 @@
   version "3.13.0"
   resolved "https://registry.yarnpkg.com/@lingui/detect-locale/-/detect-locale-3.13.0.tgz#fb703f055e189d861dc05fe8cc4ac14395409855"
   integrity sha512-psOk1BQRzxOIUVc6jCXdn3GzsuNqHDk5Jk0cTX73+dMMKv8KxzYb2UXcatl/BDaeUHSvQ5xP69FpqUv+40gsMg==
+
+"@lingui/macro@*":
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-3.13.0.tgz#accb4a97ff7109d76647a1114f6527037cab5fef"
+  integrity sha512-TmwAiFnxtutDEKp7KFtUmq5vIfv56zn0FV0ZgrISUcW1liVlRyqW6YnQ7cv4AzsPnkBhO2+O2YVoHY1r5owMvA==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    "@lingui/conf" "^3.13.0"
+    ramda "^0.27.1"
 
 "@lingui/macro@^3.12.1":
   version "3.12.1"
@@ -1475,6 +1496,13 @@
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
+
+"@types/lingui__macro@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/lingui__macro/-/lingui__macro-3.0.0.tgz#35cd73d98189aa84c09bceceeafaaf7d1d16f49e"
+  integrity sha512-gpg0COOM35pcS5dkmy0VyQP/rfwG4XkHAbiNr9Gd9PF/uyCZKX7AO66kTDJdupZonMC/neW4EgSWCQ2AbTuM3w==
+  dependencies:
+    "@lingui/macro" "*"
 
 "@types/minimist@^1.2.0":
   version "1.2.1"

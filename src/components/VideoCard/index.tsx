@@ -18,7 +18,7 @@ function VideoCard({ newsData, size }: Props) {
   return (
     <div className={classNames(styles.VideoCard, styles[size])}>
       <div className={classNames(styles.Video, styles[size])}>
-        {size === "large" ? (
+        {size === "large" && newsData.source === "youtube" ? (
           <VideoPlayer url={newsData.url} />
         ) : (
           <NewsThumb newsData={newsData} />
