@@ -6,7 +6,6 @@
   flex-direction: row;
   height: 100vh;
   justify-content: center;
-  padding-top: 80px;
   width: 100%;
 
   & .CardContainer {
@@ -35,9 +34,8 @@
 
 @media only screen and (max-width: 800px) {
   .VerticalCard {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 30px;
 
     & .CardContainer {
       align-items: center;

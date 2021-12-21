@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-// import styles from "./NavLinkButton.module.scss";
 import styles from "../NavMenuCommon.module.scss";
 
 interface Props {
