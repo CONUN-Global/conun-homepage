@@ -187,7 +187,7 @@ msgstr "Analyze for CONUN P2P platform"
 
 #: src/pages/Faqs/index.tsx:17
 msgid "Answers to commonly asked questions regarding CONUN."
-msgstr "Answers to commonly asked questions regarding CONUN.<<<<<<< HEAD"
+msgstr "Answers to commonly asked questions regarding CONUN."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:241
 msgid "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company."
@@ -720,7 +720,7 @@ msgstr "Development for total control web version management system in PC and mo
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:252
 msgid "Development project utility and portal server for CONUN market"
-msgstr "Development project utility and portal server for CONUN market<<<<<<< HEAD"
+msgstr "Development project utility and portal server for CONUN market"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:201
 msgid "Disclaimer"
@@ -861,7 +861,7 @@ msgstr "Give Power to Earn"
 
 #: src/pages/Home/Business/CardContent/index.tsx:23
 #~ msgid "Give power to earn"
-#~ msgstr "Give power to earn<<<<<<< HEAD"
+#~ msgstr "Give power to earn"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:211
 msgid "Global Business Relations"
@@ -894,7 +894,7 @@ msgstr "IMPORTANT! CON Token withdrawal verification guide"
 #: src/pages/Products/CPBN/Intro/index.tsx:24
 #: src/pages/Products/DSC/Intro/index.tsx:11
 msgid "INTRODUCTION"
-msgstr "INTRODUCTION<<<<<<< HEAD"
+msgstr "INTRODUCTION"
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:136
 msgid "If necessary to preserve in accordance with the provisions of relevant laws and regulations, the user's personal information will be kept for a certain period of time. In this case, the company keeps the information separately, uses it only for its own storage purposes, and does not use it for other purpose such as marketing."
@@ -930,7 +930,7 @@ msgstr "Implement for Client / Server platform network architecture"
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:154
 msgid "Implement for client application program"
-msgstr "Implement for client application program<<<<<<< HEAD"
+msgstr "Implement for client application program"
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:144
 msgid "In case of disagreement, the Company shall destroy the personal information of the user without delay except for the period of storing the information in accordance with the reasons stated above. If the personal information processing is entrusted to the third party, the company shall instruct the fiduciary to destroy it."
@@ -954,7 +954,7 @@ msgstr "In the field of artificial intelligence, you can quickly create a deep l
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:28
 #~ msgid "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
-#~ msgstr "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.<<<<<<< HEAD"
+#~ msgstr "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:213
 msgid "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries."
@@ -1087,7 +1087,7 @@ msgstr "Learn More"
 #: src/pages/Home/Product/ProductCardContent/index.tsx:26
 #: src/pages/Home/Product/ProductCardContent/index.tsx:37
 msgid "Learn more"
-msgstr "Learn more<<<<<<< HEAD"
+msgstr "Learn more"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:250
 msgid "Legal Considerations (Pre-sale related)"
@@ -1095,7 +1095,7 @@ msgstr "Legal Considerations (Pre-sale related)"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:12
 msgid "Life Science and Research Projects"
-msgstr "Life Science and Research Projects<<<<<<< HEAD"
+msgstr "Life Science and Research Projects"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:183
 msgid "Limitation of Liability"
@@ -1155,7 +1155,7 @@ msgstr "Make virtual machine system for personal PC app UI/UX"
 
 #: src/pages/Download/DownloadFooter/index.tsx:19
 msgid "Manager, and Manager Extension."
-msgstr "Manager, and Manager Extension.<<<<<<< HEAD"
+msgstr "Manager, and Manager Extension."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:72
 msgid "Managing your ID and password"
@@ -1180,7 +1180,7 @@ msgstr "May"
 
 #: src/pages/Home/Footer/Content/index.tsx:50
 msgid "Medium"
-msgstr "Medium<<<<<<< HEAD"
+msgstr "Medium"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:179
 #~ msgid "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk."
@@ -1246,7 +1246,7 @@ msgstr "Network Core for exchange platform"
 
 #: src/components/Navbar/NavbarItems/index.tsx:42
 msgid "News"
-msgstr "News<<<<<<< HEAD"
+msgstr "News"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:93
 msgid "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability."
@@ -1282,7 +1282,7 @@ msgstr "Open CONUN's whitepaper describing technical architecture and aim in det
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:255
 msgid "Organize distributed computing system for CONUN's client activities monitoring system"
-msgstr "Organize distributed computing system for CONUN's client activities monitoring system<<<<<<< HEAD"
+msgstr "Organize distributed computing system for CONUN's client activities monitoring system"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:225
 msgid "Other provisions"
@@ -1302,7 +1302,7 @@ msgstr "Participants in the general-purpose network can directly or indirectly p
 
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:12
 msgid "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product."
-msgstr "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product.<<<<<<< HEAD"
+msgstr "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:87
 msgid "Personal Information Changes, Protection"
@@ -1455,7 +1455,7 @@ msgstr "Select your operating system to dowload CONUN Drive,"
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:208
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:288
 msgid "Sep"
-msgstr "Sep<<<<<<< HEAD"
+msgstr "Sep"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:130
 msgid "Service Period and Suspension"
@@ -1487,7 +1487,7 @@ msgstr "Storage"
 
 #: src/pages/Products/Drive/Benefits/Data/index.tsx:6
 msgid "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage."
-msgstr "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.<<<<<<< HEAD"
+msgstr "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:115
 msgid "Termination of use contract"
@@ -1507,7 +1507,7 @@ msgstr "Test Beta version for managing digital exchange. Making the core and tra
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:31
 msgid "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
-msgstr "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.<<<<<<< HEAD"
+msgstr "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:227
 msgid "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other."
@@ -1547,7 +1547,7 @@ msgstr "The Company may restrict or suspend the provision of the service if it i
 
 #: src/pages/TermsAndConditions/index.tsx:112
 msgid "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions."
-msgstr "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions.<<<<<<< HEAD"
+msgstr "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:137
 msgid "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended."
@@ -1555,7 +1555,7 @@ msgstr "The Company may temporarily suspend the provision of services in the eve
 
 #: src/pages/TermsAndConditions/index.tsx:85
 msgid "The Company may terminate the service contract if any of the following reasons arises or is confirmed."
-msgstr "The Company may terminate the service contract if any of the following reasons arises or is confirmed.<<<<<<< HEAD"
+msgstr "The Company may terminate the service contract if any of the following reasons arises or is confirmed."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:54
 msgid "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance."
@@ -1609,7 +1609,7 @@ msgstr "The Gateway to the CONUN Ecosystem!"
 
 #: src/pages/Faqs/QnAs/index.tsx:23
 msgid "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! "
-msgstr "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! <<<<<<< HEAD"
+msgstr "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page!"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:102
 msgid "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다."
@@ -1629,7 +1629,7 @@ msgstr "The company may revise these terms of service, and all matters not speci
 
 #: src/pages/TermsAndConditions/index.tsx:52
 msgid "The company offers the following services."
-msgstr "The company offers the following services.<<<<<<< HEAD"
+msgstr "The company offers the following services."
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:226
 msgid "The company operates 'cookies' which store and find information of users from time to time. A cookie is a very small text file sent to your browser by the server used to run the website and stored on your computer hard disk. The company uses cookies for the following purposes."
@@ -1653,7 +1653,7 @@ msgstr "The company will post the contents of this terms of service on the regis
 
 #: src/pages/Products/DSC/Intro/index.tsx:13
 msgid "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices."
-msgstr "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.<<<<<<< HEAD"
+msgstr "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:231
 msgid "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service."
@@ -1665,7 +1665,7 @@ msgstr "The current privacy policy can be changed according to the policy of the
 
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:263
 msgid "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
-msgstr "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE<<<<<<< HEAD"
+msgstr "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:161
 msgid "The member may make a protest against the company's actions if there is a reason for the defense. "
@@ -1685,7 +1685,7 @@ msgstr "The privacy policy will be updated if there is a change in the statute o
 
 #: src/pages/TermsAndConditions/Data/index.tsx:8
 msgid "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io)."
-msgstr "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io).<<<<<<< HEAD"
+msgstr "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io)."
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:46
 msgid "The purpose of the company's collection of personal information is to verify the identity of the user and the intention to use the service, to provide optimized and customized services."
@@ -1701,7 +1701,7 @@ msgstr "The services provided by the company may be technically inaccurate or ha
 
 #: src/pages/TermsAndConditions/Data/index.tsx:22
 msgid "The terms used in this terms of service are defined as follows."
-msgstr "The terms used in this terms of service are defined as follows.<<<<<<< HEAD"
+msgstr "The terms used in this terms of service are defined as follows."
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:212
 msgid "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
@@ -1725,7 +1725,7 @@ msgstr "Through our distributed super computing platform you can get the power t
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
 msgid "To know more about Conan's {type}, download Conan's white paper."
-msgstr "To know more about Conan's {type}, download Conan's white paper.<<<<<<< HEAD"
+msgstr "To know more about Conan's {type}, download Conan's white paper."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:189
 msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"
@@ -1742,7 +1742,7 @@ msgstr "Type and Change of Service"
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:273
 #: src/pages/Home/RoadMapSection/RoadMapContent/index.tsx:274
 msgid "Update CONUN p2p network traffic"
-msgstr "Update CONUN p2p network traffic<<<<<<< HEAD"
+msgstr "Update CONUN p2p network traffic"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:155
 msgid "User management"
@@ -1805,7 +1805,7 @@ msgstr "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our
 
 #: src/pages/Home/ConunNews/Content/index.tsx:21
 #~ msgid "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live..."
-#~ msgstr "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...<<<<<<< HEAD"
+#~ msgstr "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live..."
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:64
 msgid "When collecting user's personal information, the company collects it with the consent of the user, information such as race, place of birth, homeland, ideology, political orientation, criminal record, and health condition that may infringe the basic human rights of the user is not collected except by the consent of the user or the regulation."
@@ -1902,7 +1902,7 @@ msgstr "www.kopico.go.kr"
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"
-msgstr "{type} whitepaper<<<<<<< HEAD"
+msgstr "{type} whitepaper"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:328
 msgid "① Collection of some or all of the additional benefits provided by the Company"

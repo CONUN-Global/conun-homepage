@@ -66,7 +66,7 @@
     "Announcing the CONUN Mainnet 1.0, BAEKDU, Launch — Excited to meet you all":
       "Announcing the CONUN Mainnet 1.0, BAEKDU, Launch — Excited to meet you all",
     "Answers to commonly asked questions regarding CONUN.":
-      "Answers to commonly asked questions regarding CONUN.<<<<<<< HEAD",
+      "Answers to commonly asked questions regarding CONUN.",
     "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company.":
       "Any lawsuit filed against the Company over these terms of service and disputes between the members shall be made by the Singapore court, the headquarters of the Company.",
     "Apply for blockchain and task processing based on docker task":
@@ -255,7 +255,7 @@
     "Development for total control web version management system in PC and mobile 'CONUN orchestration":
       "Development for total control web version management system in PC and mobile 'CONUN orchestration",
     "Development project utility and portal server for CONUN market":
-      "Development project utility and portal server for CONUN market<<<<<<< HEAD",
+      "Development project utility and portal server for CONUN market",
     Disclaimer: "Disclaimer",
     "Disclaimer of warranty": "Disclaimer of warranty",
     Discord: "Discord",
@@ -300,7 +300,7 @@
     "Get Power By Conun": "Get Power By Conun",
     Github: "Github",
     "Give Power to Earn": "Give Power to Earn",
-    "Give power to earn": "Give power to earn<<<<<<< HEAD",
+    "Give power to earn": "Give power to earn ",
     "Global Business Relations": "Global Business Relations",
     "Grid Computing Core": "Grid Computing Core",
     "Hello. This is CONUN Korea. This is video CONUN DSC PLATFORM REWARDING PROCESS For the details, please check the video. Thank you":
@@ -312,7 +312,7 @@
       "How much are fees when using CON and CONX tokens? ",
     "IMPORTANT! CON Token withdrawal verification guide":
       "IMPORTANT! CON Token withdrawal verification guide",
-    INTRODUCTION: "INTRODUCTION<<<<<<< HEAD",
+    INTRODUCTION: "INTRODUCTION",
     "If necessary to preserve in accordance with the provisions of relevant laws and regulations, the user's personal information will be kept for a certain period of time. In this case, the company keeps the information separately, uses it only for its own storage purposes, and does not use it for other purpose such as marketing.":
       "If necessary to preserve in accordance with the provisions of relevant laws and regulations, the user's personal information will be kept for a certain period of time. In this case, the company keeps the information separately, uses it only for its own storage purposes, and does not use it for other purpose such as marketing.",
     "If necessary, the company may temporarily or permanently modify or suspend certain services after making public announcements on the Internet site.":
@@ -330,7 +330,7 @@
     "Implement for Client / Server platform network architecture":
       "Implement for Client / Server platform network architecture",
     "Implement for client application program":
-      "Implement for client application program<<<<<<< HEAD",
+      "Implement for client application program",
     "In case of disagreement, the Company shall destroy the personal information of the user without delay except for the period of storing the information in accordance with the reasons stated above. If the personal information processing is entrusted to the third party, the company shall instruct the fiduciary to destroy it.":
       "In case of disagreement, the Company shall destroy the personal information of the user without delay except for the period of storing the information in accordance with the reasons stated above. If the personal information processing is entrusted to the third party, the company shall instruct the fiduciary to destroy it.",
     "In order to protect user's personal information and to handle complaints and inquiries related to personal information, the Company has designated the related department and personal information manager as follows.":
@@ -342,7 +342,7 @@
     "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.":
       "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as Convolutional Neural Networks (CNNs), Circulatory Neural Networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.",
     "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.":
-      "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.<<<<<<< HEAD",
+      "In the field of artificial intelligence, you can quickly create a deep learning model designed by users in areas such as convolutional neural networks (CNNs), circulatory neural networks (RNNs), and reinforcement learning to implement a multi-process environment that allows you to learn deep learning algorithms.",
     "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries.":
       "Information posted on the Internet, including websites, may contain references or cross-references to products, programs, and services that are not disclosed or available in the country. Such references do not imply that the Company intends to disclose or provide such products, programs or services in those countries.",
     Introduction: "Introduction",
@@ -386,11 +386,10 @@
     "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform":
       "Launching the CONUN membership service and CONUN Resource Monitoring allows you to configure a cost estimate and income estimate that fits your unique business or personal needs with CONUN platform",
     "Learn More": "Learn More",
-    "Learn more": "Learn more<<<<<<< HEAD",
+    "Learn more": "Learn more",
     "Legal Considerations (Pre-sale related)":
       "Legal Considerations (Pre-sale related)",
-    "Life Science and Research Projects":
-      "Life Science and Research Projects<<<<<<< HEAD",
+    "Life Science and Research Projects": "Life Science and Research Projects",
     "Limitation of Liability": "Limitation of Liability",
     METACON: "METACON",
     "METACON plays the role of a mediator that connects you to the applications that exist in the CONUN ecosystem. Since it's connected to the CONUN Mainnet, we guarantee fast and safe payment and rewards system for users in the CONUN's services like the DSC platform and the Drive.":
@@ -413,13 +412,12 @@
       "Make transportation & distributed data storage management in application",
     "Make virtual machine system for personal PC app UI/UX":
       "Make virtual machine system for personal PC app UI/UX",
-    "Manager, and Manager Extension.":
-      "Manager, and Manager Extension.<<<<<<< HEAD",
+    "Manager, and Manager Extension.": "Manager, and Manager Extension.",
     "Managing your ID and password": "Managing your ID and password",
     Mar: "Mar",
     Marketplace: "Marketplace",
     May: "May",
-    Medium: "Medium<<<<<<< HEAD",
+    Medium: "Medium",
     "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk.":
       "Members are responsible for downloading or using the information, products, software, programs and other services provided by the website, and all risks are solely at their own risk.>>>>>>> 15129aeb92e088d93941112f11c6f8c89e4e3319",
     "Members may at any time notify the Company of their intention to terminate the Company through consultation with the Company's manager and may terminate the contract by e-mail. However, if the member has coins, withdrawal is not possible.":
@@ -440,7 +438,7 @@
       "Monitor live transactions made on the CONUN Private Blockchain network with CONUN Private Blockchain Explorer. CONUN Explorer is a block monitoring and data service platform where you can view Blockchain transactions, block data inquiries, and related charts simultaneously.",
     "Name: ": "Name: ",
     "Network Core for exchange platform": "Network Core for exchange platform",
-    News: "News<<<<<<< HEAD",
+    News: "News",
     "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability.":
       "Notice to the members of the company shall be deemed to have been notified by reaching the addresses or email addresses provided by the members, and any damages caused by the unmodified information shall be borne entirely by the members and the Company shall have no liability.",
     Nov: "Nov",
@@ -451,7 +449,7 @@
     "Open CONUN's whitepaper describing technical architecture and aim in details":
       "Open CONUN's whitepaper describing technical architecture and aim in details",
     "Organize distributed computing system for CONUN's client activities monitoring system":
-      "Organize distributed computing system for CONUN's client activities monitoring system<<<<<<< HEAD",
+      "Organize distributed computing system for CONUN's client activities monitoring system",
     "Other provisions": "Other provisions",
     "PC Application UI/UX/Virtual Machine":
       "PC Application UI/UX/Virtual Machine",
@@ -459,7 +457,7 @@
     "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion.":
       "Participants in the general-purpose network can directly or indirectly participate in various academic research and social and cultural issues to obtain additional revenue, while creating a community that improves the quality of life and develops culture through research and discussion.",
     "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product.":
-      "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product.<<<<<<< HEAD",
+      "Peer to peer marketplace - meaning unique products, worldwide assets, and increased availability of product.",
     "Personal Information Changes, Protection":
       "Personal Information Changes, Protection",
     "Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)":
@@ -511,7 +509,7 @@
     "See Whitepaper": "See Whitepaper",
     "Select your operating system to dowload CONUN Drive,":
       "Select your operating system to dowload CONUN Drive,",
-    Sep: "Sep<<<<<<< HEAD",
+    Sep: "Sep",
     "Service Period and Suspension": "Service Period and Suspension",
     "Software Development": "Software Development",
     "Staring to manage CONUN algorithm finding key version":
@@ -522,14 +520,14 @@
       "Starting to test 'CONUN blockchain network service version 'Halla'. We pick the beautiful mountain name in Jeju island as a CONUN's first release service name",
     Storage: "Storage",
     "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.":
-      "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.<<<<<<< HEAD",
+      "Stores data separately instead of storing all data on one centralized server - eliminates need for cloud storage.",
     "Termination of use contract": "Termination of use contract",
     "Terms and Conditions": "Terms and Conditions",
     "Terms of Service": "Terms of Service",
     "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement":
       "Test Beta version for managing digital exchange. Making the core and trading system and security enforcement",
     "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.":
-      "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.<<<<<<< HEAD",
+      "The CONUN web extension is an easy route to accessing your crypto funds while online. WIth the same functionality as CONUN Manager you can access your crypto quickly and securely.",
     "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other.":
       "The Company and its members may not transfer their rights and obligations under these terms of service to any third party without express consent of the other.",
     "The Company collects and uses member's personal information for the purpose of each of the following items.":
@@ -549,11 +547,11 @@
     "The Company may restrict or suspend the provision of the service if it is unable to provide the service due to natural disasters or similar force majeure.":
       "The Company may restrict or suspend the provision of the service if it is unable to provide the service due to natural disasters or similar force majeure.",
     "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions.":
-      "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions.<<<<<<< HEAD",
+      "The Company may take the following actions against members who violate the terms of this terms of service and related laws and general principles of business transactions.",
     "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended.":
       "The Company may temporarily suspend the provision of services in the event of maintenance, inspection, replacement or breakdown of information and communication facilities such as computers, or loss of communication. In this case, the Internet site's initial screen will be notified of the suspension of the service and why it was suspended.",
     "The Company may terminate the service contract if any of the following reasons arises or is confirmed.":
-      "The Company may terminate the service contract if any of the following reasons arises or is confirmed.<<<<<<< HEAD",
+      "The Company may terminate the service contract if any of the following reasons arises or is confirmed.",
     "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance.":
       "The Company may, if necessary, decide what to apply to a particular service (referred to as 'individual terms of service') and notify it on the website in advance.",
     "The Company reserves and uses the personal information of the user in principle for the period of notice and agreement, and if the purpose of collection and use of personal information is achieved or the user's request is destroyed, it will be destroyed without delay. However, the following information will be retained for the period specified below for the following reasons.":
@@ -577,7 +575,7 @@
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
       "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. \n\nThe current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ":
-      "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! <<<<<<< HEAD",
+      "The Metacon wallet allows you to keep wallets for different tokens together, and access them using a JSON certificate. The current version of Metacon only allows you to keep ETH, CON, and CONX wallets inside the certificate. Later versions will allow you to add more wallets. Look out for Metacon news over on the News page! ",
     "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.":
       "The company does not set the consent section for the collection, use, and provision of personal information to be pre-selected. 또한 개인정보의 수집•이용•제공에 관한 이용자의 동의거절 시, 제한되는 서비스를 구체적으로 명시하고, 필수수집항목이 아닌 개인정보의 수집•이용•제공에 관한 구매서비스를 이용하고자 하는 자의 동의 거절을 이유로 회원가입 등 서비스 제공을 제한하거나 거절하지 않습니다.",
     "The company may modify, suspend or change some or all of its services provided free of charge according to the Company's operating policy unless otherwise specified.":
@@ -587,7 +585,7 @@
     "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country.":
       "The company may revise these terms of service, and all matters not specified in these terms of service shall comply with the provisions of relevant laws and regulations in each country.",
     "The company offers the following services.":
-      "The company offers the following services.<<<<<<< HEAD",
+      "The company offers the following services.",
     "The company operates 'cookies' which store and find information of users from time to time. A cookie is a very small text file sent to your browser by the server used to run the website and stored on your computer hard disk. The company uses cookies for the following purposes.":
       "The company operates 'cookies' which store and find information of users from time to time. A cookie is a very small text file sent to your browser by the server used to run the website and stored on your computer hard disk. The company uses cookies for the following purposes.",
     "The company shall be solely responsible for all risks arising from the use of services through the system provided by the company. All services, including products, software, and programs of the Company, are provided without warranty or guarantee, and the Company shall not be liable for any damages whatsoever including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, express, implied, or otherwise expressly disclaim any and all warranties, guarantees, or representations.":
@@ -599,13 +597,13 @@
     "The company will post the contents of this terms of service on the registration screen.":
       "The company will post the contents of this terms of service on the registration screen.",
     "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.":
-      "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.<<<<<<< HEAD",
+      "The computers and smartphones we use daily are high performance devices used for complex games, internet browsing, and socializing. Yet when connected to a supercomputing platform that device becomes a resource. A supercomputing platform is a worldwide network that gathers CPU GPU and RAM resources of smart devices.",
     "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service.":
       "The contract, agreement, notice, etc., which are further written by agreement between the parties with respect to this service contract, and the company's policy change, enactment, amendment or public announcements made by the Company through the Internet site by the notice, guidelines, etc. constitute a part of these Terms of service.",
     "The current privacy policy can be changed according to the policy of the government or the company. If there is any addition, deletion or modification of the contents, it will be notified in advance on the homepage or e-mail 7 days prior to enforcement. This policy will be enforced from the date of notification. However, if important matters, such as the purpose of collecting/using and the target for providing a third party, are added, deleted, or modified, it will be notified 30 days in advance and will be implemented after 30 days. In addition, the Company shall comply with the relevant laws and regulations, such as the Act on Promotion of Information and Communications Network Utilization and Information Protection, etc for the collection and utilization of personal information and the provision of third parties, and in the event that the contents related to the items requiring consent of the user are added or changed, the Company will obtain the user's consent in accordance with the relevant laws and regulations.":
       "The current privacy policy can be changed according to the policy of the government or the company. If there is any addition, deletion or modification of the contents, it will be notified in advance on the homepage or e-mail 7 days prior to enforcement. This policy will be enforced from the date of notification. However, if important matters, such as the purpose of collecting/using and the target for providing a third party, are added, deleted, or modified, it will be notified 30 days in advance and will be implemented after 30 days. In addition, the Company shall comply with the relevant laws and regulations, such as the Act on Promotion of Information and Communications Network Utilization and Information Protection, etc for the collection and utilization of personal information and the provision of third parties, and in the event that the contents related to the items requiring consent of the user are added or changed, the Company will obtain the user's consent in accordance with the relevant laws and regulations.",
     "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE":
-      "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE<<<<<<< HEAD",
+      "The first release of CONUN blockchain main services 'Halla - Release'. Complete CONUN DRIVE",
     "The member may make a protest against the company's actions if there is a reason for the defense. ":
       "The member may make a protest against the company's actions if there is a reason for the defense. ",
     "The member shall pay attention to whether there are any changes in the contents of these terms of service, and shall notify them of any changes.":
@@ -615,7 +613,7 @@
     "The privacy policy will be updated if there is a change in the statute or guideline related to personal information, which may also vary as company policies change. The company's Privacy Policy includes the following.":
       "The privacy policy will be updated if there is a change in the statute or guideline related to personal information, which may also vary as company policies change. The company's Privacy Policy includes the following.",
     "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io).":
-      "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io).<<<<<<< HEAD",
+      "The purpose of terms of service is to define and fulfill the rights, duties and responsibilities of the users who are used in relation to the overall service use of distributed computing platforms provided by CONUN Global (hereinafter referred to as 'the Company') and are provided services through the Company's website (www.conun.io).",
     "The purpose of the company's collection of personal information is to verify the identity of the user and the intention to use the service, to provide optimized and customized services.":
       "The purpose of the company's collection of personal information is to verify the identity of the user and the intention to use the service, to provide optimized and customized services.",
     "The service period under these terms of service is from the date of application for membership to the time of termination of the service contract.":
@@ -623,7 +621,7 @@
     "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.":
       "The services provided by the company may be technically inaccurate or have errors in writing, but the company cannot guarantee the accuracy of the information posted. Please check the accuracy and completeness of the information before making a decision to receive services related to the products or other items described on the website. If the authority having jurisdiction determines that a particular provision of these terms of service is unenforceable but that non-enforceable provision does not affect the rights of the parties as set forth in these terms of service, the validity of the remainder of these terms of service will not be affected.",
     "The terms used in this terms of service are defined as follows.":
-      "The terms used in this terms of service are defined as follows.<<<<<<< HEAD",
+      "The terms used in this terms of service are defined as follows.",
     "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures.":
       "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures.",
     "This Privacy Policy will be effective March 16, 2018.":
@@ -637,14 +635,13 @@
     "To know more about Conan's {type}, download Conan's white paper.": [
       "To know more about Conan's ",
       ["type"],
-      ", download Conan's white paper.<<<<<<< HEAD",
+      ", download Conan's white paper.",
     ],
     "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)":
       "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)",
     "Type and Change of Service": "Type and Change of Service",
     "UNIVERSAL ADVANTAGES": "UNIVERSAL ADVANTAGES",
-    "Update CONUN p2p network traffic":
-      "Update CONUN p2p network traffic<<<<<<< HEAD",
+    "Update CONUN p2p network traffic": "Update CONUN p2p network traffic",
     "User management": "User management",
     "Users acknowledge that users have read, understood, abide by and comply with all applicable laws and regulations in order to access or use the Website. If users do not agree to the terms of service, you will not be able to access the website.":
       "Users acknowledge that users have read, understood, abide by and comply with all applicable laws and regulations in order to access or use the Website. If users do not agree to the terms of service, you will not be able to access the website.",
@@ -666,7 +663,7 @@
     "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn.":
       "Welcome to CONUN DRIVE, a peer-to-peer file sharing service built on our blockchain network. Unlike other peer-to-peer services, the decentralized nature of the blockchain means no-one has control of what files are available to download. Download our desktop application to share, explore, and earn.",
     "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...":
-      "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...<<<<<<< HEAD",
+      "We’re thrilled to announce that CONUN’s very first mainnet, Baekdu, is ready to meet all users and has gone live...",
     "When collecting user's personal information, the company collects it with the consent of the user, information such as race, place of birth, homeland, ideology, political orientation, criminal record, and health condition that may infringe the basic human rights of the user is not collected except by the consent of the user or the regulation.":
       "When collecting user's personal information, the company collects it with the consent of the user, information such as race, place of birth, homeland, ideology, political orientation, criminal record, and health condition that may infringe the basic human rights of the user is not collected except by the consent of the user or the regulation.",
     "When the company takes the actions specified in the previous paragraph, the company shall notify the member by email in advance. In the case of an emergency, the company may notify the member after taking a follow-up action.":
@@ -697,7 +694,7 @@
     secure: "secure",
     "www.kopico.go.kr": "www.kopico.go.kr",
     "{type}": [["type"]],
-    "{type} whitepaper": [["type"], " whitepaper<<<<<<< HEAD"],
+    "{type} whitepaper": [["type"], " whitepaper"],
     "① Collection of some or all of the additional benefits provided by the Company":
       "① Collection of some or all of the additional benefits provided by the Company",
     "① Distributed computing platform development and operation service":

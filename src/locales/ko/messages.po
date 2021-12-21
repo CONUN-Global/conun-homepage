@@ -1880,7 +1880,7 @@ msgstr ""
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
 msgid "{type} whitepaper"
-msgstr "{type} 백서<<<<<<< HEAD"
+msgstr "{type} 백서"
 
 #: src/components/LinkCustomButton/index.tsx:13
 #~ msgid "{values}"
