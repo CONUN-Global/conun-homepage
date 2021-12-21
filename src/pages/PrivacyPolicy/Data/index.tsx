@@ -35,7 +35,7 @@ export const DATA: DataType[] = [
     ],
   },
   {
-    id: "purpose-of-Collection-and-use-of-personal-information",
+    id: "purpose-of-collection-and-use-of-personal-information",
     title: (
       <Trans id="01. Purpose of Collection and Use of Personal Information" />
     ),
