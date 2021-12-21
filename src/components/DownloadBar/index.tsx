@@ -3,15 +3,17 @@ import { Trans } from "@lingui/macro";
 import Link from "next/link";
 import styles from "./DownloadBar.module.scss";
 
+const link = "./assets/KYC_verification_guide.pdf";
+
 function DownloadBar() {
   return (
     <div className={styles.DownloadBar}>
       <p>
-        <Trans id="Metacon, CONUN's new brower extension is now available." />
+        <Trans id="IMPORTANT! CON Token withdrawal verification guide" />
       </p>
-      <Link href="https://chrome.google.com/webstore/detail/metacon/fpklpminiiiopkibkfamkglecdgfoaia?authuser=1&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLg6EuaasCIcy616zWE-x8hv-3Vl8PEUo9v-7naXFON7CWTiimiMwRoCUUgQAvD_BwE">
+      <Link href={link}>
         <a target="_blank" className={styles.DownloadLink} rel="noreferrer">
-          Download Now
+          Find It Here!
         </a>
       </Link>
     </div>
