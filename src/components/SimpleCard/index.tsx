@@ -1,13 +1,19 @@
 import React, { useState } from "react";
+
+import Link from "next/link";
+
 import styles from "./SimpleCard.module.scss";
+
+const link = "./assets/KYC_verification_guide.pdf";
 
 export interface SimpleCardProps {
   data: {
     question?: JSX.Element;
     answer?: JSX.Element;
   };
+  index: number;
 }
-function SimpleCard({ data }: SimpleCardProps) {
+function SimpleCard({ data, index }: SimpleCardProps) {
   const [isQuestionBoxOpen, setQuestionBox] = useState(false);
 
   return (
@@ -23,7 +29,22 @@ function SimpleCard({ data }: SimpleCardProps) {
       </div>
       {isQuestionBoxOpen && (
         <div className={styles.AnswerBox}>
-          <p>{data.answer}</p>
+          {index === 3 ? (
+            <div>
+              {data.answer}
+              <Link href={link}>
+                <a
+                  target="_blank"
+                  className={styles.DownloadLink}
+                  rel="noreferrer"
+                >
+                  Find It Here
+                </a>
+              </Link>
+            </div>
+          ) : (
+            <p>{data.answer}</p>
+          )}
         </div>
       )}
     </div>

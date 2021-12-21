@@ -47,5 +47,11 @@
     font-weight: normal;
     line-height: 30px;
     padding: 20px;
+
+    & .DownloadLink {
+      font-weight: 600;
+      margin-left: 10px;
+      text-decoration: underline;
+    }
   }
 }
