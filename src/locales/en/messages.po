@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/PrivacyPolicy/index.tsx:96
+#: src/pages/PrivacyPolicy/index.tsx:101
 msgid " (without area code)118"
 msgstr " (without area code)118"
 
@@ -25,11 +25,11 @@ msgstr " CONUN GLOBAL COO"
 msgid " Sung-Soo Hong"
 msgstr " Sung-Soo Hong"
 
-#: src/pages/PrivacyPolicy/index.tsx:116
+#: src/pages/PrivacyPolicy/index.tsx:121
 msgid "(03171) 209, Sejong-daero, Jongno-gu, Seoul, KOREA 4th Floor Government Seoul Building"
 msgstr "(03171) 209, Sejong-daero, Jongno-gu, Seoul, KOREA 4th Floor Government Seoul Building"
 
-#: src/pages/PrivacyPolicy/index.tsx:98
+#: src/pages/PrivacyPolicy/index.tsx:103
 msgid "(58324) 9 Jinheung-gil, Naju, Jeollanam-do, 3rd Floor Personal Information Infringement Notification Center"
 msgstr "(58324) 9 Jinheung-gil, Naju, Jeollanam-do, 3rd Floor Personal Information Infringement Notification Center"
 
@@ -109,7 +109,7 @@ msgstr "11. Personal Information Request"
 msgid "12. Duty of Notification"
 msgstr "12. Duty of Notification"
 
-#: src/pages/PrivacyPolicy/index.tsx:114
+#: src/pages/PrivacyPolicy/index.tsx:119
 msgid "1833-6972"
 msgstr "1833-6972"
 
@@ -128,6 +128,10 @@ msgstr "A competent court"
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:20
 msgid "A wallet for your crypto"
 msgstr "A wallet for your crypto"
+
+#: src/pages/PrivacyPolicy/index.tsx:91
+msgid "A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
+msgstr "A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
 
 #: src/pages/PrivacyPolicy/Data/index.tsx:230
 msgid "A. Purpose of Use"
@@ -239,7 +243,7 @@ msgstr "B. Administrative measures"
 msgid "B. How to decline cookie settings"
 msgstr "B. How to decline cookie settings"
 
-#: src/pages/PrivacyPolicy/index.tsx:104
+#: src/pages/PrivacyPolicy/index.tsx:109
 msgid "B. Personal Information Dispute Mediation Committee"
 msgstr "B. Personal Information Dispute Mediation Committee"
 
@@ -300,7 +304,7 @@ msgstr "Business opportunity for all users - rewards by sharing your personal id
 msgid "By sharing your personal computing resources you become part of a P2P network where earning is easy."
 msgstr "By sharing your personal computing resources you become part of a P2P network where earning is easy."
 
-#: src/pages/PrivacyPolicy/index.tsx:122
+#: src/pages/PrivacyPolicy/index.tsx:127
 msgid "C. Cyber Investigation Division, Supreme Prosecutors' Office : 1301 (cybercid.spo.go.kr)"
 msgstr "C. Cyber Investigation Division, Supreme Prosecutors' Office : 1301 (cybercid.spo.go.kr)"
 
@@ -586,7 +590,7 @@ msgstr "Crowdfunding for pre-sale"
 msgid "D. Additional information created and collected during the using service"
 msgstr "D. Additional information created and collected during the using service"
 
-#: src/pages/PrivacyPolicy/index.tsx:127
+#: src/pages/PrivacyPolicy/index.tsx:132
 msgid "D. National Police Agency Cyber Bureau : 182 (cyberbureau.police.go.kr)"
 msgstr "D. National Police Agency Cyber Bureau : 182 (cyberbureau.police.go.kr)"
 
@@ -765,7 +769,7 @@ msgstr "Download now and enjoy the various services of CONUN through METACON in 
 msgid "E. Destruction Methods"
 msgstr "E. Destruction Methods"
 
-#: src/pages/PrivacyPolicy/index.tsx:132
+#: src/pages/PrivacyPolicy/index.tsx:137
 msgid "E. Online Privacy Association : 02-550-9500 (www.opa.or.kr)"
 msgstr "E. Online Privacy Association : 02-550-9500 (www.opa.or.kr)"
 
@@ -840,8 +844,8 @@ msgstr "Feb"
 #~ msgstr "Fid It Here"
 
 #: src/components/SimpleCard/index.tsx:42
-msgid "Find It Here"
-msgstr "Find It Here"
+#~ msgid "Find It Here"
+#~ msgstr "Find It Here"
 
 #: src/components/DownloadBar/index.tsx:16
 msgid "Find It Here!"
@@ -1320,7 +1324,7 @@ msgstr "Peer to peer marketplace - meaning unique products, worldwide assets, an
 msgid "Personal Information Changes, Protection"
 msgstr "Personal Information Changes, Protection"
 
-#: src/pages/PrivacyPolicy/index.tsx:111
+#: src/pages/PrivacyPolicy/index.tsx:116
 msgid "Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)"
 msgstr "Personal Information Conflicts Adjustment Application, Group Conflicts Adjustment (Civil settlement)"
 
@@ -1353,8 +1357,12 @@ msgstr "Please check out our CON token withdrawal verification guide"
 #~ msgstr "Please checkout our CON token withdrawal verification guide"
 
 #: src/pages/PrivacyPolicy/index.tsx:86
-msgid "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
-msgstr "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
+msgid "Please contact the following organizations if you need to report or consult about personal information infringement."
+msgstr "Please contact the following organizations if you need to report or consult about personal information infringement."
+
+#: src/pages/PrivacyPolicy/index.tsx:86
+#~ msgid "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
+#~ msgstr "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)"
 
 #: src/pages/Products/DSC/UseCase/index.tsx:22
 #~ msgid ""
@@ -1448,7 +1456,7 @@ msgstr "Release CONUN membership service"
 msgid "Release CONUN whitepaper"
 msgstr "Release CONUN whitepaper"
 
-#: src/pages/PrivacyPolicy/index.tsx:93
+#: src/pages/PrivacyPolicy/index.tsx:98
 msgid "Reporting the violation of personal information and requesting counseling"
 msgstr "Reporting the violation of personal information and requesting counseling"
 
@@ -1727,7 +1735,7 @@ msgstr "The terms used in this terms of service are defined as follows."
 msgid "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 msgstr "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 
-#: src/pages/PrivacyPolicy/index.tsx:137
+#: src/pages/PrivacyPolicy/index.tsx:148
 msgid "This Privacy Policy will be effective March 16, 2018."
 msgstr "This Privacy Policy will be effective March 16, 2018."
 
@@ -1744,8 +1752,12 @@ msgid "Through our distributed super computing platform you can get the power to
 msgstr "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
-msgid "To know more about Conan's {type}, download Conan's white paper."
-msgstr "To know more about Conan's {type}, download Conan's white paper."
+#~ msgid "To know more about Conan's {type}, download Conan's white paper."
+#~ msgstr "To know more about Conan's {type}, download Conan's white paper."
+
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
+msgid "To know more about Conun's {type}, download Conun's white paper."
+msgstr "To know more about Conun's {type}, download Conun's white paper."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:189
 msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"
@@ -1896,7 +1908,7 @@ msgstr "korean-only-title"
 msgid "korean-sub-only algorithm key"
 msgstr "korean-sub-only algorithm key"
 
-#: src/pages/PrivacyPolicy/index.tsx:95
+#: src/pages/PrivacyPolicy/index.tsx:100
 msgid "privacy.kisa.or.kr"
 msgstr "privacy.kisa.or.kr"
 
@@ -1912,7 +1924,7 @@ msgstr "rule modification"
 msgid "secure"
 msgstr "secure"
 
-#: src/pages/PrivacyPolicy/index.tsx:113
+#: src/pages/PrivacyPolicy/index.tsx:118
 msgid "www.kopico.go.kr"
 msgstr "www.kopico.go.kr"
 

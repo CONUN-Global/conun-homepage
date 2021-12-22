@@ -7,14 +7,14 @@
   color: var(--conun-white);
   display: flex;
   flex-direction: column;
-  height: auto;
+  height: 450px;
   justify-content: space-between;
   padding: 5%;
   text-align: center;
   width: 25%;
 
   @media only screen and (min-width: 415px) and (max-width: 1204px) {
-    padding: 15%;
+    padding: 10%;
     width: 45%;
   }
   @media only screen and (max-width: 414px) {
@@ -40,7 +40,7 @@
       font-weight: 500;
       line-height: 92.5%;
       text-transform: uppercase;
-      width: 240px;
+      width: 200px;
     }
 
     & .Description {
