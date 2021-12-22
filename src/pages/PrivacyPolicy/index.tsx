@@ -43,9 +43,9 @@ function PrivacyPolicy() {
           <p className={styles.MainTitle}>
             <Trans id="Privacy Policy" />
           </p>
-          {DATA.map((content) => {
+          {DATA.map((content, i: number) => {
             return (
-              <section key={content.id} className={styles.Section}>
+              <section key={i} id={content.id} className={styles.Section}>
                 <Caption className={styles.Title} title={content.title} />
                 {content.description.map((clause, i: number) => {
                   return (
@@ -57,7 +57,7 @@ function PrivacyPolicy() {
                 })}
                 <div className={styles.List}>
                   {content.id ===
-                    "purpose-of-Collection-and-use-of-personal-information" &&
+                    "purpose-of-collection-and-use-of-personal-information" &&
                     PURPOSE_OF_COLLECTION_LIST.map((list, i: number) => {
                       return <Text key={i} description={list} />;
                     })}

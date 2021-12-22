@@ -14,7 +14,7 @@ function Item({ name, path, icon, noStyle }: ItemProps) {
   const router = useRouter();
 
   const handlePath = (path: string) => {
-    router.replace(path);
+    router.push(path);
   };
   if (noStyle) {
     return (
