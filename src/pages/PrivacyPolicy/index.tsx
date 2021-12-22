@@ -83,7 +83,12 @@ function PrivacyPolicy() {
                   <div className={styles.DutyOfNotificationContainer}>
                     <Text
                       description={
-                        <Trans id="Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)" />
+                        <Trans id="Please contact the following organizations if you need to report or consult about personal information infringement." />
+                      }
+                    />
+                    <Text
+                      description={
+                        <Trans id="A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)" />
                       }
                     />
                     <div className={styles.ContactCard}>
@@ -132,16 +137,17 @@ function PrivacyPolicy() {
                         <Trans id="E. Online Privacy Association : 02-550-9500 (www.opa.or.kr)" />
                       }
                     />
-                    <Text
-                      description={
-                        <Trans id="This Privacy Policy will be effective March 16, 2018." />
-                      }
-                    />
                   </div>
                 )}
               </section>
             );
           })}
+          <Text
+            className={styles.LastLine}
+            description={
+              <Trans id="This Privacy Policy will be effective March 16, 2018." />
+            }
+          />
         </div>
       </div>
     </div>
