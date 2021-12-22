@@ -67,7 +67,7 @@ function WhitePaperCard({ whitePaper }: WhitePaperCardProps) {
         </h3>
         <p className={styles.Description}>
           <Trans
-            id="To know more about Conan's {type}, download Conan's white paper."
+            id="To know more about Conun's {type}, download Conun's white paper."
             values={{ type: whitePaper }}
           />
         </p>

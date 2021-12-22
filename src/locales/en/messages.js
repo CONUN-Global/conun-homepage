@@ -47,6 +47,8 @@
       "A FAST, SECURE, and AFFORDABLE BLOCKCHAIN",
     "A competent court": "A competent court",
     "A wallet for your crypto": "A wallet for your crypto",
+    "A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)":
+      "A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)",
     "A. Purpose of Use": "A. Purpose of Use",
     "A. Reason for holding information according to related laws and company policy":
       "A. Reason for holding information according to related laws and company policy",
@@ -295,6 +297,7 @@
       "Fast and secure cryptocurrency wallet",
     Feb: "Feb",
     "Fid It Here": "Fid It Here",
+    "Find It Here": "Find It Here",
     "Find It Here!": "Find It Here!",
     "Find out More": "Find out More",
     "General Definition": "General Definition",
@@ -475,6 +478,8 @@
       "Please check out our CON token withdrawal verification guide",
     "Please checkout our CON token withdrawal verification guide":
       "Please checkout our CON token withdrawal verification guide",
+    "Please contact the following organizations if you need to report or consult about personal information infringement.":
+      "Please contact the following organizations if you need to report or consult about personal information infringement.",
     "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)":
       "Please contact the following organizations if you need to report or consult about personal information infringement. A. Personal Information Infringement Notification Center (operated by Korea Internet & Security Agency)",
     "Prediction, forecasting, simulation, and advanced calculation -\n            these are all functions that need advanced computing. There are many\n            societal demands that lack physical computing resources or financial\n            means to actuate or process a project.":
@@ -642,6 +647,11 @@
       "To know more about Conan's ",
       ["type"],
       ", download Conan's white paper.",
+    ],
+    "To know more about Conun's {type}, download Conun's white paper.": [
+      "To know more about Conun's ",
+      ["type"],
+      ", download Conun's white paper.",
     ],
     "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)":
       "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)",
