@@ -391,8 +391,7 @@
       "코넌 멤버십 출시와 함께 코넌 모니터링 서비스를 시작하여 CONUN 플랫폼에서 서비스사용자들이 각각의 고유한 비즈니스 또는 개인 요구 사항에 맞는 비용추정 및 유휴자원을 빌려주는 사용자들에게는 받을 보상금액을 알 수 있습니다.",
     "Learn More": "상세보기",
     "Learn more": "상세보기",
-    "Legal Considerations (Pre-sale related)":
-      '법적 고려사항(프리세일 관련)"￼    aspect-ratio: 16/9;',
+    "Legal Considerations (Pre-sale related)": "법적 고려사항(프리세일 관련)",
     "Life Science and Research Projects": "생명과학 연구 프로젝트",
     "Limitation of Liability": "책임의 제한",
     METACON: "METACON",
@@ -639,6 +638,11 @@
       "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로젝트를 완료하거나 복잡한 작업을 처리할 수 있습니다.",
     "To know more about Conan's {type}, download Conan's white paper.": [
       "Conan의 ",
+      ["type"],
+      "에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요.",
+    ],
+    "To know more about Conun's {type}, download Conun's white paper.": [
+      "Conun의 ",
       ["type"],
       "에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요.",
     ],

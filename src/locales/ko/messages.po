@@ -1099,7 +1099,7 @@ msgstr "상세보기"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:250
 msgid "Legal Considerations (Pre-sale related)"
-msgstr "법적 고려사항(프리세일 관련)\"￼    aspect-ratio: 16/9;"
+msgstr "법적 고려사항(프리세일 관련)"
 
 #: src/pages/Products/DSC/UseCase/UseCaseCardContent/index.tsx:12
 msgid "Life Science and Research Projects"
@@ -1716,7 +1716,7 @@ msgstr "이 약관에서 사용하는 용어의 정의는 다음과 같습니다
 msgid "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 msgstr "이용자는 자신의 개인정보를 보호할 의무가 있으며, 회사의 귀책사유가 없이 ID, 비밀번호, 접근매체 등의 양도•대여•분실이나 로그인 상태에서 이석 등 이용자 본인의 부주의나 관계법령에 의한 보안조치로 차단할 수 없는 방법이나 기술을 사용한 해킹 등 회사가 상당한 주의에도 불구하고 통제할 수 없는 인터넷 상의 문제 등으로 개인정보가 유출되어 발생한 문제에 대해 회사는 책임을 지지 않습니다."
 
-#: src/pages/PrivacyPolicy/index.tsx:147
+#: src/pages/PrivacyPolicy/index.tsx:148
 msgid "This Privacy Policy will be effective March 16, 2018."
 msgstr "본 개인정보처리방침은 2018년 3월 16일부터 시행됩니다."
 
@@ -1733,8 +1733,12 @@ msgid "Through our distributed super computing platform you can get the power to
 msgstr "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로젝트를 완료하거나 복잡한 작업을 처리할 수 있습니다."
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
-msgid "To know more about Conan's {type}, download Conan's white paper."
-msgstr "Conan의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
+#~ msgid "To know more about Conan's {type}, download Conan's white paper."
+#~ msgstr "Conan의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
+
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
+msgid "To know more about Conun's {type}, download Conun's white paper."
+msgstr "Conun의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:189
 msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"

@@ -1735,7 +1735,7 @@ msgstr "The terms used in this terms of service are defined as follows."
 msgid "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 msgstr "The user is obliged to protect his/her personal information, the Company shall not be liable for any problems caused by leakage of personal information due to user's negligence such as transferring or lending of ID, password, access media, lost of ID or leave your account while logged in.etc., without the fault of the Company in spite of the company's considerable care, if it is a problem on the internet that cannot be controlled, such as a hacking attack using high-techniques that cannot be blocked by security measures."
 
-#: src/pages/PrivacyPolicy/index.tsx:147
+#: src/pages/PrivacyPolicy/index.tsx:148
 msgid "This Privacy Policy will be effective March 16, 2018."
 msgstr "This Privacy Policy will be effective March 16, 2018."
 
@@ -1752,8 +1752,12 @@ msgid "Through our distributed super computing platform you can get the power to
 msgstr "Through our distributed super computing platform you can get the power to run large projects, files, and applications affordably."
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
-msgid "To know more about Conan's {type}, download Conan's white paper."
-msgstr "To know more about Conan's {type}, download Conan's white paper."
+#~ msgid "To know more about Conan's {type}, download Conan's white paper."
+#~ msgstr "To know more about Conan's {type}, download Conan's white paper."
+
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
+msgid "To know more about Conun's {type}, download Conun's white paper."
+msgstr "To know more about Conun's {type}, download Conun's white paper."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:189
 msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"

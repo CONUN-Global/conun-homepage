@@ -648,6 +648,11 @@
       ["type"],
       ", download Conan's white paper.",
     ],
+    "To know more about Conun's {type}, download Conun's white paper.": [
+      "To know more about Conun's ",
+      ["type"],
+      ", download Conun's white paper.",
+    ],
     "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)":
       "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)",
     "Type and Change of Service": "Type and Change of Service",
