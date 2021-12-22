@@ -434,6 +434,8 @@
     "Metacon Wallet": "Metacon Wallet",
     "Metacon has the same functionality as the CONUN Manager.":
       "Metacon has the same functionality as the CONUN Manager.",
+    "Metacon is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download.":
+      "Metacon is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download.",
     "Metacon web extension": "Metacon web extension",
     "Metacon, CONUN's new brower extension is now available.":
       "Metacon, CONUN's new brower extension is now available.",
