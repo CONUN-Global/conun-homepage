@@ -37,7 +37,7 @@ export const MAIN_PAGES = [
   {
     title: <Trans id="Fast and secure cryptocurrency wallet" />,
     description: (
-      <Trans id="CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download." />
+      <Trans id="Metacon is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download." />
     ),
     image: <WalletSlide />,
     btnMsg: <Trans id="Learn More" />,

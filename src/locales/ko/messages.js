@@ -432,6 +432,8 @@
     "Metacon Wallet": "Metacon 지갑",
     "Metacon has the same functionality as the CONUN Manager.":
       "Metacon has the same functionality as the CONUN Manager.",
+    "Metacon is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download.":
+      "메타콘은 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!",
     "Metacon web extension": "Metacon 웹 익스텐션",
     "Metacon, CONUN's new brower extension is now available.":
       "코넌의 새로운 브라우저 익스텐션인 Metacon 지금 다운로드 가능합니다.",
