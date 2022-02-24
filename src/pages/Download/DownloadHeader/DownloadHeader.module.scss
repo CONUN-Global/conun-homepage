@@ -43,9 +43,21 @@
             margin-bottom: 14px;
           }
 
-          & .Button {
+          & .MetaconButton {
+            background: var(--conun-skyblue-gradient);
+            border-radius: 20px;
+            color: var(--conun-white);
             font-size: 0.8rem;
-            margin-right: 30px;
+            padding: 10px 15px;
+          }
+
+          & .Button {
+            background: var(--conun-blue-gradient);
+            border-radius: 20px;
+            color: var(--conun-white);
+            font-size: 0.8rem;
+            margin-right: 20px;
+            padding: 10px 15px;
           }
 
           & .ButtonContainer {
@@ -96,17 +108,9 @@
           & .DownloadButtonContainer {
             display: column;
 
-            & .Button {
-              padding: 2.5%;
-            }
-
             & .ButtonContainer {
               display: flex;
               flex-direction: row;
-
-              & .Button {
-                padding: 2.5% 3.5%;
-              }
             }
           }
         }
