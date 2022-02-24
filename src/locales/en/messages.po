@@ -371,8 +371,8 @@ msgid "CONUN METACON VERSION 1.1"
 msgstr "CONUN METACON VERSION 1.1"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:40
-msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
-msgstr "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
+#~ msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
+#~ msgstr "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:41
 #~ msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
@@ -1227,6 +1227,10 @@ msgstr "Metacon Wallet"
 #: src/pages/Home/Product/ProductCardContent/index.tsx:25
 #~ msgid "Metacon has the same functionality as the CONUN Manager."
 #~ msgstr "Metacon has the same functionality as the CONUN Manager."
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:40
+msgid "Metacon is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
+msgstr "Metacon is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:29
 msgid "Metacon web extension"

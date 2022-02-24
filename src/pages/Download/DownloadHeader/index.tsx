@@ -1,9 +1,10 @@
+import Link from "next/link";
+
 import { MAIN_PAGES } from "../../Home/Main/SlideMain/SlideContent";
 
 import Horizontal from "@/components/Card/Horizontal";
 import Caption from "@/components/Caption";
 import Socials from "@/components/Socials";
-import Button from "@/components/Button";
 import DownloadBar from "@/components/DownloadBar";
 
 import styles from "./DownloadHeader.module.scss";
@@ -27,19 +28,29 @@ function DownloadHeader() {
             <p className={styles.Description}>{downloadData.description}</p>
             <div className={styles.DownloadButtonContainer}>
               <h3 className={styles.SubTitle}>Web Products</h3>
-              <Button className={styles.Button} variant="secondary" round>
-                CONUN Metacon
-              </Button>
+              <Link href="https://chrome.google.com/webstore/detail/metacon/fpklpminiiiopkibkfamkglecdgfoaia?authuser=1&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLg6EuaasCIcy616zWE-x8hv-3Vl8PEUo9v-7naXFON7CWTiimiMwRoCUUgQAvD_BwE">
+                <a
+                  className={styles.MetaconButton}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CONUN Metacon
+                </a>
+              </Link>
             </div>
             <div className={styles.DownloadButtonContainer}>
               <h3 className={styles.SubTitle}>Desktop Products</h3>
               <div className={styles.ButtonContainer}>
-                <Button className={styles.Button} round>
-                  CONUN Drive
-                </Button>
-                <Button className={styles.Button} round>
-                  CONUN Manager
-                </Button>
+                <Link href="https://dappstore.conun.io/">
+                  <a target="_blank" className={styles.Button} rel="noreferrer">
+                    CONUN Drive
+                  </a>
+                </Link>
+                <Link href="https://dappstore.conun.io/">
+                  <a target="_blank" className={styles.Button} rel="noreferrer">
+                    CONUN Manager
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

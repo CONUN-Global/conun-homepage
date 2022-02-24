@@ -370,8 +370,8 @@ msgid "CONUN METACON VERSION 1.1"
 msgstr "코넌 METACON 페이지 1.1"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:40
-msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
-msgstr "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!"
+#~ msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
+#~ msgstr "코넌 매니저는 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!"
 
 #: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:41
 #~ msgid "CONUN Manager is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seemlessly incorporates Ethereum wallets, access with one easy download."
@@ -1219,6 +1219,10 @@ msgstr "Metacon 지갑"
 #: src/pages/Home/Product/ProductCardContent/index.tsx:25
 #~ msgid "Metacon has the same functionality as the CONUN Manager."
 #~ msgstr ""
+
+#: src/pages/Home/Main/SlideMain/SlideContent/index.tsx:40
+msgid "Metacon is CONUN’s cryptocurrency wallet. With our wallet you can access the products within our ecosystem as well as swap and transfer cryptocurrency quickly and securely. Our wallet seamlessly incorporates Ethereum wallets, access with one easy download."
+msgstr "메타콘은 이더리움 지갑을 완벽하게 통합할 수 있는 코넌의 암호화폐 지갑입니다. 사용자들은 코넌 매니저를 통해 코넌의 생태계 안에 존재하는 서비스를 이용할 수 있고 암호화폐를 빠르고 안전하게 교환하거나 전송할 수 있습니다. 한 번의 클릭으로 다운로드하시고 코넌 매니저를 만나보세요!"
 
 #: src/pages/Download/DownloadBody/DownloadContent/index.tsx:29
 msgid "Metacon web extension"
