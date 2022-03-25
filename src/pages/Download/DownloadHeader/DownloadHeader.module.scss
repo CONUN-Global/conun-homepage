@@ -16,6 +16,7 @@
     justify-content: center;
 
     & .HorizontalCard {
+      align-items: flex-start;
       color: var(--conun-blue);
       height: 100%;
       width: 70%;
@@ -49,19 +50,6 @@
             color: var(--conun-white);
             font-size: 0.8rem;
             padding: 10px 15px;
-          }
-
-          & .Button {
-            background: var(--conun-blue-gradient);
-            border-radius: 20px;
-            color: var(--conun-white);
-            font-size: 0.8rem;
-            margin-right: 20px;
-            padding: 10px 15px;
-          }
-
-          & .ButtonContainer {
-            display: flex;
           }
         }
       }

@@ -38,21 +38,6 @@ function DownloadHeader() {
                 </a>
               </Link>
             </div>
-            <div className={styles.DownloadButtonContainer}>
-              <h3 className={styles.SubTitle}>Desktop Products</h3>
-              <div className={styles.ButtonContainer}>
-                <Link href="https://dappstore.conun.io/">
-                  <a target="_blank" className={styles.Button} rel="noreferrer">
-                    CONUN Drive
-                  </a>
-                </Link>
-                <Link href="https://dappstore.conun.io/">
-                  <a target="_blank" className={styles.Button} rel="noreferrer">
-                    CONUN Manager
-                  </a>
-                </Link>
-              </div>
-            </div>
           </div>
           <div className={styles.ImageContainer}>{downloadData.image}</div>
         </Horizontal>
