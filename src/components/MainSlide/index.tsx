@@ -6,6 +6,7 @@ import Caption from "@/components/Caption";
 import useDetectMobile from "@/hooks/useDetectMobile";
 
 import styles from "./MainSlide.module.scss";
+import { motion } from "framer-motion";
 
 interface Props {
   caption?: JSX.Element;
@@ -17,6 +18,7 @@ interface Props {
 }
 function MainSlide({ title, description, image, btnMsg, link }: Props) {
   const isMobile = useDetectMobile();
+
   return (
     <div className={styles.MainSlide}>
       <Horizontal className={styles.HorizontalCard}>
@@ -36,7 +38,9 @@ function MainSlide({ title, description, image, btnMsg, link }: Props) {
             </div>
           </div>
         </div>
-        <div className={styles.ImageContainer}>{image}</div>
+        <div className={styles.ImageContainer}>
+          <motion.div whileHover={{ scale: 1.05 }}>{image}</motion.div>
+        </div>
       </Horizontal>
     </div>
   );

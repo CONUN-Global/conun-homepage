@@ -22,7 +22,7 @@ interface Props {
   sideNav?: boolean;
 }
 function LanguageSelector({ sideNav }: Props) {
-  const currentLocale = useStore((store) => store.currentLocale);
+  // const currentLocale = useStore((store) => store.currentLocale);
   const [localeOpen, setLocaleOpen] = useState(false);
   const setCurrentLocale = useStore((store) => store.setCurrentLocale);
 
@@ -47,13 +47,17 @@ function LanguageSelector({ sideNav }: Props) {
   }
   return (
     <div className={styles.LanguageSelector}>
-      <WorldIcon className={styles.WorldIcon} />
+      <WorldIcon
+        className={styles.WorldIcon}
+        onClick={handleLocaleToggle}
+        onMouseEnter={handleLocaleToggle}
+      />
       <div className={styles.LanguageDropdown}>
-        <div className={styles.Current} onClick={handleLocaleToggle}>
+        {/* <div className={styles.Current} onClick={handleLocaleToggle}>
           {LOCALES.find((lang) => lang.value === currentLocale.value)?.label}
-        </div>
+        </div> */}
         {localeOpen && (
-          <ul className={styles.LocaleSelect}>
+          <ul className={styles.LocaleSelect} onMouseLeave={handleLocaleToggle}>
             {LOCALES.map((locale: Locales) => {
               return (
                 <li

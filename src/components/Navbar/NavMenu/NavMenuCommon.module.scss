@@ -19,6 +19,10 @@
     width: 100%;
 
     & .CellInner {
+      &:hover {
+        text-decoration: underline;
+      }
+
       &:active {
         transform: translateY(1px);
       }
@@ -26,6 +30,10 @@
 
     & .NonClick {
       cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     & .SubMenu {
@@ -34,27 +42,32 @@
       display: none;
       flex-direction: column;
       gap: 20px;
-      padding: 20px;
+      left: 20px;
+      padding: 25px;
       position: absolute;
       top: 30px;
-      width: 210px;
+      width: 360px;
 
       & .SubItem {
+        border-radius: 5px;
         cursor: pointer;
+        padding: 8px 12px;
 
         & .Title {
-          font-size: 0.8rem;
+          color: #1e4489;
+          font-size: 16px;
           font-weight: 800;
         }
 
         & .Description {
-          color: silver;
-          font-size: 0.6rem;
+          color: #0993b1;
+          font-size: 14px;
           font-weight: normal;
+          text-transform: capitalize;
         }
 
         &:hover {
-          opacity: 0.6;
+          background-color: rgb(193 193 193 / 21.1%);
         }
 
         &:active {
@@ -64,9 +77,6 @@
     }
 
     &:hover {
-      color: #2b70cf;
-      font-weight: 800;
-
       &.SubMenuParent {
         height: 300px;
 

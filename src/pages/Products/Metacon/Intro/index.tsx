@@ -2,11 +2,11 @@ import { Trans } from "@lingui/macro";
 
 import { BenefitsIcons } from "../Icons";
 
-import Caption from "@/components/Caption";
+// import Caption from "@/components/Caption";
 import Text from "@/components/Text";
 import Benefits from "../../Benefits";
 
-import Chart_Computer_Blocks from "@/assets/icons/chart_computer_blocks.svg";
+import Computer from "@/assets/icons/drive_computer.svg";
 
 import styles from "./Intro.module.scss";
 
@@ -16,12 +16,12 @@ function Intro() {
       <div className={styles.IntroContainer}>
         <div className={styles.Card}>
           <div className={styles.TextContainer}>
-            <Caption
+            {/* <Caption
               headColor="sky"
               header={<Trans id="METACON, Cryptocurrency Wallet" />}
               textSize="large"
               title={<Trans id="Introduction" />}
-            />
+            /> */}
             <p className={styles.Caption}>
               <Trans id="The Gateway to the CONUN Ecosystem!" />
             </p>
@@ -32,7 +32,7 @@ function Intro() {
             />
           </div>
           <div className={styles.ImageContainer}>
-            <Chart_Computer_Blocks />
+            <Computer />
           </div>
         </div>
         <Benefits iconList={BenefitsIcons} />

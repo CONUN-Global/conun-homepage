@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./NavMenu.module.scss";
 
 import { NAV_ITEMS } from "../NavbarItems";

@@ -11,6 +11,7 @@
   }
 
   & .IntroContainer {
+    max-width: 1200px;
     width: 65%;
     @media only screen and (max-width: 800px) {
       width: 90%;
@@ -43,6 +44,7 @@
 
       & .ImageContainer {
         width: 40%;
+
         @media only screen and (max-width: 800px) {
           width: 80%;
         }

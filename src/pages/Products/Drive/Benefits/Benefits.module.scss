@@ -11,8 +11,13 @@
   }
 
   & .BenefitsContainer {
+    max-width: 1200px;
     text-align: center;
     width: 70%;
+
+    p {
+      text-transform: uppercase;
+    }
 
     @media only screen and (max-width: 800px) {
       width: 90%;

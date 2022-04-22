@@ -1,6 +1,9 @@
 .Footer {
+  align-items: center;
   background-color: var(--conun-bg-blue);
   display: flex;
+  flex-direction: column;
+  height: 100vh;
   justify-content: center;
   padding: 200px 0;
   width: 100%;
@@ -10,9 +13,12 @@
   }
 
   & .FooterContainer {
+    align-items: center;
     color: var(--conun-blue);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
     width: 65%;
 
     @media only screen and (max-width: 800px) {
@@ -20,9 +26,12 @@
       width: 90%;
     }
 
+    div p {
+      text-align: center;
+    }
+
     & .DiagramContainer {
-      align-self: flex-start;
-      width: 40%;
+      width: 70%;
 
       @media only screen and (max-width: 800px) {
         padding-bottom: 50px;
@@ -31,9 +40,7 @@
     }
 
     & .Card {
-      align-self: flex-end;
-      text-align: left;
-      width: 45%;
+      width: 70%;
       word-break: break-word;
 
       @media only screen and (max-width: 800px) {
@@ -42,26 +49,24 @@
 
       & .Description {
         margin-bottom: 50px;
-      }
-
-      & .LinkContainer {
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 30px;
-
-        & .Link {
-          align-self: right;
-          background: linear-gradient(
-            99.17deg,
-            #77aceb 12.18%,
-            #1e4489 106.22%
-          );
-          border-radius: 30px;
-          color: var(--conun-white);
-          font-size: 0.8rem;
-          padding: 10px 20px;
-        }
+        text-align: justify;
       }
     }
+  }
+}
+
+.LinkContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  width: 70%;
+
+  & .Link {
+    align-self: right;
+    background: linear-gradient(99.17deg, #77aceb 12.18%, #1e4489 106.22%);
+    border-radius: 30px;
+    color: var(--conun-white);
+    font-size: 0.8rem;
+    padding: 10px 20px;
   }
 }

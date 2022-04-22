@@ -36,6 +36,7 @@ function TermsAndConditions() {
           })}
         </div>
       </div>
+
       <div className={styles.TermsAndConditionsContainer}>
         <div className={styles.TermsAndConditionContent}>
           <p className={styles.MainTitle}>

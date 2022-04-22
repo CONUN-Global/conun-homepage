@@ -53,7 +53,12 @@ function DisplayEvents({
               })}
               round
             >
-              <Caption headColor="green" header={month} title={title} />
+              <Caption
+                titleColor="green"
+                headColor="green"
+                header={month}
+                title={title}
+              />
               <div className={styles.Description}>{subtitle}</div>
             </Vertical>
           );

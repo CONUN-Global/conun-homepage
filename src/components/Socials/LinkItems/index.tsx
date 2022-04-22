@@ -5,29 +5,33 @@ import Github from "@/assets/socials/github.svg";
 import Discord from "@/assets/socials/discord.svg";
 import Medium from "@/assets/socials/medium.svg";
 
+const iconStyles = {
+  width: "28px",
+};
+
 export const LINKS_ITEMS = [
   {
-    icon: <Youtube style={{ width: "27.82px" }} />,
+    icon: <Youtube style={iconStyles} />,
     link: "https://www.youtube.com/channel/UCVbpETcXaPRZkL2HACUXOsA",
   },
   {
-    icon: <Facebook style={{ width: "27.82px" }} />,
+    icon: <Facebook style={iconStyles} />,
     link: "https://www.facebook.com/conunglobal",
   },
   {
-    icon: <Linkedin style={{ width: "27.82px" }} />,
+    icon: <Linkedin style={iconStyles} />,
     link: "https://www.linkedin.com/company/conun-global",
   },
   {
-    icon: <Github style={{ width: "27.82px" }} />,
+    icon: <Github style={iconStyles} />,
     link: "https://github.com/CONUN-Global/",
   },
   {
-    icon: <Discord style={{ width: "27.82px" }} />,
+    icon: <Discord style={iconStyles} />,
     link: "https://discord.gg/RnzB2tjAW6",
   },
   {
-    icon: <Medium style={{ width: "25px" }} />,
+    icon: <Medium style={iconStyles} />,
     link: "https://medium.com/conun-korea",
   },
 ];

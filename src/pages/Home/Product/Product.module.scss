@@ -4,10 +4,11 @@
   display: flex;
   flex-direction: column;
   min-height: 900px;
-  padding-bottom: 200px;
+  padding: 200px 0;
   width: 100%;
 
   & .ProductPageContainer {
+    max-width: 1200px;
     width: 70%;
 
     & .ProductCardsNav {
@@ -80,15 +81,22 @@
         }
 
         & .Button {
-          background: linear-gradient(
-            99.17deg,
-            #a0b6e4 12.18%,
-            #83c8e3 106.22%
+          background-image: linear-gradient(
+            to left,
+            #77aceb 12.18%,
+            #1d428a 106.22%
           );
+          background-size: 200% auto;
           border-radius: 30px;
           color: var(--conun-white);
           font-size: 0.8rem;
           padding: 10px 20px;
+          transition: all 0.5s ease-in-out;
+        }
+
+        & .Button:hover {
+          background-position: right center;
+          cursor: pointer;
         }
       }
     }

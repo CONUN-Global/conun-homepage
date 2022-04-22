@@ -13,7 +13,7 @@ function InfoCard({ newsData }: { newsData: NewsDataObj }) {
         <NewsThumb newsData={newsData} />
       </div>
       <div className={styles.Title}>{newsData.title}</div>
-      <div className={styles.Read}>Read More</div>
+      {/* <div className={styles.Read}>Read More</div> */}
     </div>
   );
 }

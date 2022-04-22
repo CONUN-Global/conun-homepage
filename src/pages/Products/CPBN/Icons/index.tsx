@@ -1,30 +1,25 @@
 import { Trans } from "@lingui/macro";
 
-import Anonymous from "@/assets/icons/anonymous.svg";
-import Fees from "@/assets/icons/fees.svg";
-import Immutable from "@/assets/icons/immutable.svg";
-import RuleModification from "@/assets/icons/rule_modification.svg";
 import Security from "@/assets/icons/security.svg";
+import Fast from "@/assets/icons/fast.svg";
+import ReducedFees from "@/assets/icons/reducedFees.svg";
+import Immutable from "@/assets/icons/immutable.svg";
 
 export const BenefitsIcons = [
   {
-    icon: <Immutable styles={{ width: "80%" }} />,
-    text: <Trans id="immutable" />,
-  },
-  {
     icon: <Security styles={{ width: "80%" }} />,
-    text: <Trans id="secure" />,
+    text: <Trans id="" />,
   },
   {
-    icon: <Anonymous styles={{ width: "80%" }} />,
-    text: <Trans id="anonymous" />,
+    icon: <Fast styles={{ width: "80%" }} />,
+    text: <Trans id="" />,
   },
   {
-    icon: <Fees styles={{ width: "80%" }} />,
-    text: <Trans id="reduced fees" />,
+    icon: <ReducedFees styles={{ width: "80%" }} />,
+    text: <Trans id="" />,
   },
   {
-    icon: <RuleModification styles={{ width: "80%" }} />,
-    text: <Trans id="rule modification" />,
+    icon: <Immutable styles={{ width: "80%" }} />,
+    text: <Trans id="" />,
   },
 ];

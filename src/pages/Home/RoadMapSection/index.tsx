@@ -63,14 +63,7 @@ function RoadMap() {
           );
         })}
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          width: "100%",
-          justifyContent: "center",
-        }}
-      >
+      <div className={styles.TimelineContainer}>
         <div className={styles.YearSelector}>
           {getArch.map((a, i: number) => {
             const { top, left, year } = a;
@@ -83,7 +76,7 @@ function RoadMap() {
                 })}
                 style={
                   isMobile
-                    ? { position: "relative", width: "100%" }
+                    ? { position: "relative" }
                     : {
                         position: "absolute",
                         top: top + "%",

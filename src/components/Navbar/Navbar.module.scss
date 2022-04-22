@@ -11,8 +11,9 @@
     color: var(--conun-blue);
     display: flex;
     font-size: 0.8rem;
+    max-width: 1200px;
     padding-top: 30px;
-    width: 80%;
+    width: 62.5%;
 
     & .NavbarLeft {
       align-items: center;

@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 1200px;
   width: 100%;
 
   &.inversed {
@@ -99,7 +100,7 @@
       margin-bottom: 53px;
       padding: 20px;
       text-align: start;
-      width: 60%;
+      width: 90%;
 
       @media only screen and (min-width: 769px) and (max-width: 1024px) {
         margin-bottom: 20px;
@@ -117,6 +118,7 @@
 
       & .Description {
         color: #77aceb;
+        font-size: 0.8rem;
         margin-top: 20px;
       }
     }

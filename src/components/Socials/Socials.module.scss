@@ -14,4 +14,8 @@
     flex-direction: row;
     gap: 9px;
   }
+
+  & svg:hover {
+    opacity: 0.8;
+  }
 }

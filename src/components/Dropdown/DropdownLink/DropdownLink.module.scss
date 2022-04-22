@@ -1,23 +1,27 @@
 .DropdownBlueHover {
+  align-items: center;
   color: var(--conun-blue);
-  font-weight: normal;
-  letter-spacing: -0.005em;
-  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
 
   &:hover {
     background: #d6e5f3;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 }
 
 .DropdownGreenHover {
+  align-items: center;
   color: var(--conun-green);
-  font-weight: normal;
-  letter-spacing: -0.005em;
-  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
 
   &:hover {
     background: #c7e7e9;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 }

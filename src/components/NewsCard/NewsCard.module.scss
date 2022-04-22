@@ -1,34 +1,20 @@
 .NewsCard {
   align-items: center;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr auto;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 0 15px;
   width: 100%;
 
-  &.gap {
-    grid-gap: 20px;
-  }
-
-  &.large {
-    grid-template-areas: "title title" "caption caption" "date author";
-    grid-template-rows: auto 40px 1fr;
-  }
-
-  &.small {
-    grid-template-areas: "title title" "date author";
-    grid-template-rows: 1fr 1fr;
-  }
-
   & .Title {
+    color: var(--conun-blue);
     font-size: 18px;
     font-weight: 600;
     grid-area: title;
-    line-height: 21px;
     text-transform: uppercase;
-
-    &:visited {
-      color: var(--illustration-blue);
-    }
 
     &:hover {
       color: var(--conun-green);
@@ -38,7 +24,46 @@
   & .Caption {
     font-size: 14px;
     font-weight: 400;
-    grid-area: caption;
+    margin-top: 10px;
+  }
+
+  & .dateLinkContainer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 100%;
+
+    & div {
+      font-size: 14px;
+    }
+
+    & button {
+      align-items: center;
+      background-color: var(--conun-skyblue);
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      padding: 8px;
+      text-transform: uppercase;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    & a {
+      font-size: 0.8rem;
+    }
+
+    & .svgContainer {
+      height: 10px;
+      margin: 0 0 5px 5px;
+      width: 10px;
+    }
   }
 
   & .DateLabel {
@@ -57,37 +82,6 @@
     }
 
     & .Source {
-      text-transform: uppercase;
-    }
-  }
-
-  & .Author {
-    align-items: center;
-    color: var(--topic-text-blue);
-    display: flex;
-    font-size: 11px;
-    gap: 5px;
-    grid-area: author;
-    height: 28px;
-    justify-content: flex-end;
-    justify-self: flex-end;
-
-    & .Picture {
-      align-items: center;
-      background-color: blueviolet;
-      border-radius: 50%;
-      color: lightgreen;
-      display: flex;
-      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-      font-size: 20px;
-      font-weight: 400;
-      height: 28px;
-      justify-content: center;
-      width: 28px;
-    }
-
-    & .Name {
-      font-weight: 500;
       text-transform: uppercase;
     }
   }

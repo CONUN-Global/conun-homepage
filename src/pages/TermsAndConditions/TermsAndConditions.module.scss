@@ -1,7 +1,5 @@
 .TermsAndConditions {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   width: 100%;
 
   & .NavigationContainer {
@@ -9,10 +7,14 @@
     background: var(--conun-bg-blue-dark);
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    min-width: 200px;
     padding: 200px 0;
     width: 40%;
 
     @media only screen and (max-width: 768px) {
+      max-width: 200px;
+      min-width: 160px;
       padding: 100px 0;
     }
 
@@ -22,7 +24,13 @@
       flex-direction: column;
       font-size: 0.8rem;
       margin-top: 110px;
-      width: 60%;
+      max-width: 200px;
+
+      @media only screen and (max-width: 768px) {
+        left: 20px;
+        max-width: 135px;
+        top: 10px;
+      }
 
       & .NavItems {
         color: var(--conun-green);
@@ -46,12 +54,14 @@
     display: flex;
     flex-direction: column;
     padding: 200px 0;
-    width: 70%;
+    width: 85%;
+
     @media only screen and (max-width: 768px) {
       padding: 100px 0;
     }
 
     & .TermsAndConditionContent {
+      max-width: 1200px;
       width: 80%;
 
       & .MainTitle {

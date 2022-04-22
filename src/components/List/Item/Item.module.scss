@@ -4,6 +4,7 @@
   margin-top: 20px;
 
   &:hover {
+    color: var(--conun-skyblue);
     cursor: pointer;
   }
 
@@ -22,4 +23,8 @@
       width: 70px;
     }
   }
+}
+
+.ItemContainerWithNoStyle {
+  padding: 3px 0;
 }

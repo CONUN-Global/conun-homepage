@@ -27,7 +27,7 @@ function DownloadHeader() {
             />
             <p className={styles.Description}>{downloadData.description}</p>
             <div className={styles.DownloadButtonContainer}>
-              <h3 className={styles.SubTitle}>Web Products</h3>
+              {/* <h3 className={styles.SubTitle}>Web Products</h3> */}
               <Link href="https://chrome.google.com/webstore/detail/metacon/fpklpminiiiopkibkfamkglecdgfoaia?authuser=1&gclid=CjwKCAiA-9uNBhBTEiwAN3IlNLg6EuaasCIcy616zWE-x8hv-3Vl8PEUo9v-7naXFON7CWTiimiMwRoCUUgQAvD_BwE">
                 <a
                   className={styles.MetaconButton}

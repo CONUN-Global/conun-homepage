@@ -5,6 +5,7 @@ import classNames from "classnames";
 import DropdownLink from "@/components/Dropdown/DropdownLink";
 
 import WorldIcon from "@/assets/icons/world.svg";
+import Dropdown from "@/assets/icons/dropdown.svg";
 
 import styles from "./WhitePaperCard.module.scss";
 
@@ -51,12 +52,10 @@ interface WhitePaperCardProps {
 }
 function WhitePaperCard({ whitePaper }: WhitePaperCardProps) {
   const isWhitePaperGreen = whitePaper === "technology";
-  const [isLanguageDropdownOpen, setLanguageDropdown] = useState(true);
-  const [language, setLanguage] = useState("English");
+  const [isLanguageDropdownOpen, setLanguageDropdown] = useState(false);
 
   return (
     <div
-      onClick={() => setLanguageDropdown((prev) => !prev)}
       className={classNames(styles.WhitePaperCard, {
         [styles.whitepaperGreen]: isWhitePaperGreen,
       })}
@@ -76,22 +75,25 @@ function WhitePaperCard({ whitePaper }: WhitePaperCardProps) {
         <p>
           <Trans id="PDF Download" />
         </p>
-        <div className={styles.LanguageSelector}>
+        <div
+          className={styles.LanguageSelector}
+          onClick={() => setLanguageDropdown((prev) => !prev)}
+        >
           <div
             className={classNames(
               isWhitePaperGreen ? styles.SelectedGreen : styles.SelectedBlue
             )}
           >
             <WorldIcon className={styles.WorldIcon} />
-            <p>{language}</p>
+            <p>Select Language</p>
+            <div className={styles.DropdownIcon}>
+              <Dropdown />
+            </div>
           </div>
           {isLanguageDropdownOpen && (
             <ul className={styles.LanguageOptions}>
               {LANGUAGE[whitePaper].map((lang, i: number) => (
                 <DropdownLink
-                  onclick={() => {
-                    setLanguage(lang.name);
-                  }}
                   key={i}
                   name={lang.name}
                   link={lang.path}

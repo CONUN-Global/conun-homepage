@@ -1,8 +1,14 @@
 .LinkButton {
   align-self: right;
-  background: linear-gradient(99.17deg, #77aceb 12.18%, #1e4489 106.22%);
+  background-image: var(--conun-blue-gradient-bg);
+  background-size: 200% auto;
   border-radius: 30px;
   color: var(--conun-white);
   font-size: 0.8rem;
   padding: 10px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.LinkButton:hover {
+  background-position: right center;
 }

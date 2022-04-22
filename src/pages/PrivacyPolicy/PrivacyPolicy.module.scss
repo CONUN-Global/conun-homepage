@@ -1,7 +1,5 @@
 .PrivacyPolicy {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   width: 100%;
 
   & .NavigationContainer {
@@ -9,10 +7,14 @@
     background: var(--conun-bg-blue-dark);
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    min-width: 200px;
     padding: 200px 0;
     width: 40%;
 
     @media only screen and (max-width: 768px) {
+      max-width: 200px;
+      min-width: 160px;
       padding: 100px 0;
     }
 
@@ -46,7 +48,7 @@
     display: flex;
     flex-direction: column;
     padding: 200px 0;
-    width: 70%;
+    width: 85%;
 
     @media only screen and (max-width: 768px) {
       padding: 100px 0;

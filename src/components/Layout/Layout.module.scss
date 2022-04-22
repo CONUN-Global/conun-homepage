@@ -12,6 +12,8 @@
   }
 
   & .LayoutHeader {
+    display: flex;
+    justify-content: center;
     left: 0;
     position: absolute;
     top: 0;

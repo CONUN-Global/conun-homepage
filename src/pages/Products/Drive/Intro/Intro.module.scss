@@ -5,12 +5,14 @@
   flex-direction: column;
   padding: 200px 0;
   width: 100%;
+
   @media only screen and (max-width: 800px) {
     padding: 100px 0;
   }
 
   & .IntroContainer {
     color: var(--conun-blue);
+    max-width: 1200px;
     width: 70%;
 
     @media only screen and (max-width: 800px) {
@@ -19,6 +21,7 @@
 
     & .Caption {
       text-align: center;
+      text-transform: uppercase;
     }
 
     & .Description {
