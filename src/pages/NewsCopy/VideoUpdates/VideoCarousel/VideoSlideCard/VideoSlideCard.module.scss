@@ -1,40 +1,30 @@
-.VideoCard {
-  --large-height: 360px;
-  --small-height: 180px;
-
+.NewsCard {
   align-items: center;
+  border: 1px solid grey;
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  height: 100%;
-  width: 100%;
+  padding: 10px;
+  width: 90%;
 
-  &.large {
-    padding: 24px 60px;
-    @media only screen and (max-width: 745px) {
-      padding: 5%;
-    }
+  & .Thumbnail {
+    background-color: pink;
+    height: 200px;
+    width: 100px;
   }
 
-  &.small {
-    padding: 24px 0 0;
-    @media only screen and (max-width: 745px) {
-      padding: 5%;
-    }
-  }
-
-  & .Video {
-    flex: 100% 0 0;
-    position: relative;
+  & .TextContainer {
+    max-width: 280px;
     width: 100%;
 
-    &.small {
-      max-height: var(--small-height);
+    & .Title {
+      font-size: 20px;
+      margin-bottom: 10px;
     }
 
-    &.large {
-      max-height: var(--large-height);
+    & .Caption {
+      color: #666;
+      font-size: 16px;
     }
   }
 }

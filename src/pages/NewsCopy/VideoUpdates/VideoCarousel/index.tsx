@@ -9,9 +9,8 @@ import {
 
 import VideoSlide from "./VideoSlide";
 
-import Left from "@/assets/icons/News_Icons_Arrow_Left.svg";
-import Right from "@/assets/icons/News_Icons_Arrow_Right.svg";
-// import Right from "@/assets/icons/News_Icons_Arrow.svg";
+import LeftIcon from "@/assets/icons/Carousel_Arrow_Left.svg";
+import RightIcon from "@/assets/icons/Carousel_Arrow_Right.svg";
 
 import styles from "./VideoCarousel.module.scss";
 import "pure-react-carousel/dist/react-carousel.es.css";
@@ -26,7 +25,7 @@ function VideoCarousel() {
   return (
     <div>
       <CarouselProvider
-        naturalSlideWidth={320}
+        naturalSlideWidth={280}
         naturalSlideHeight={300}
         totalSlides={videoData.length}
         visibleSlides={3}
@@ -38,10 +37,10 @@ function VideoCarousel() {
           ))}
         </Slider>
         <ButtonBack className={classNames(styles.Button, styles.BackBtn)}>
-          <Left />
+          <LeftIcon />
         </ButtonBack>
         <ButtonNext className={classNames(styles.Button, styles.NextBtn)}>
-          <Right />
+          <RightIcon />
         </ButtonNext>
       </CarouselProvider>
     </div>

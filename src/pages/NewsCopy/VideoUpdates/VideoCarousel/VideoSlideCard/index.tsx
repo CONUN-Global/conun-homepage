@@ -1,25 +1,20 @@
-import React from "react";
-import classNames from "classnames";
-
-import NewsCard from "@/components/NewsCard";
-
 import { NewsDataObj } from "@/types/index";
-
 import styles from "./VideoSlideCard.module.scss";
-import NewsThumb from "@/components/NewsThumb";
-
 interface Props {
   newsData: NewsDataObj;
-  size: "small" | "large";
 }
 
-function VideoSlideCard({ newsData, size }: Props) {
+function VideoSlideCard({ newsData }: Props) {
+  console.log(newsData);
   return (
-    <div className={classNames(styles.VideoCard, styles[size])}>
-      <div className={classNames(styles.Video, styles[size])}>
-        <NewsThumb newsData={newsData} />
+    <div className={styles.NewsCard}>
+      <div>
+        <img src={newsData.url} className={styles.Thumbnail} />
       </div>
-      <NewsCard newsData={newsData} size={size} />
+      <div className={styles.TextContainer}>
+        <div className={styles.Title}>{newsData.title}</div>
+        <div className={styles.Caption}>{newsData.caption}</div>
+      </div>
     </div>
   );
 }

@@ -16,7 +16,7 @@ function VideoSlide({ slideIndex, newsData }: Props) {
   return (
     <Slide index={slideIndex}>
       <div className={styles.VideoSlide}>
-        <VideoSlideCard newsData={newsData} size={"small"} />
+        <VideoSlideCard newsData={newsData} />
       </div>
     </Slide>
   );
