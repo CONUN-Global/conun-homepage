@@ -11,9 +11,14 @@
     color: var(--conun-blue);
     display: flex;
     font-size: 0.8rem;
+    justify-content: center;
     max-width: 1200px;
     padding-top: 30px;
     width: 62.5%;
+
+    @media only screen and (max-width: 800px) {
+      width: 85%;
+    }
 
     & .NavbarLeft {
       align-items: center;

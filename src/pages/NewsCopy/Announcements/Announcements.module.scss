@@ -1,0 +1,32 @@
+.Announcements {
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  flex: 0 1 470px;
+  grid-template-rows: 80px 1fr 80px;
+  height: 640px;
+
+  @media only screen and (max-width: 1240px) {
+    flex: 1 1 470px;
+    height: fit-content;
+    width: 100%;
+  }
+
+  & .CellContainer {
+    & .Cell {
+      border-bottom: 1px solid var(--conun-blue);
+      color: var(--conun-blue);
+      padding: 20px 60px;
+      width: 100%;
+
+      @media only screen and (max-width: 745px) {
+        height: fit-content;
+        padding: 5%;
+      }
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}

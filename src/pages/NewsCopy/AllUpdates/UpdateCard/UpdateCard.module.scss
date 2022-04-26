@@ -1,0 +1,21 @@
+.UpdateCard {
+  align-items: center;
+  border-bottom: 1px solid #1e4489;
+  color: var(--conun-blue);
+  display: grid;
+  gap: 45px;
+  grid-template-columns: 160px 1fr;
+  min-height: 150px;
+  padding: 10px 60px;
+
+  @media only screen and (max-width: 745px) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}

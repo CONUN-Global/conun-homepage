@@ -54,7 +54,9 @@
     padding: 0 15%;
     position: relative;
     width: 100%;
+
     @media only screen and (max-width: 1204px) {
+      align-items: center;
       display: flex;
       justify-content: center;
       min-height: 100px;
@@ -84,8 +86,8 @@
         width: 70px;
       }
       @media only screen and (max-width: 800px) {
-        height: 55px;
-        width: 55px;
+        height: 60px;
+        width: 60px;
       }
 
       &:hover {
@@ -111,6 +113,9 @@
       width: 100%;
 
       @media only screen and (max-width: 1204px) {
+        width: 70%;
+      }
+      @media only screen and (max-width: 800px) {
         display: none;
       }
     }

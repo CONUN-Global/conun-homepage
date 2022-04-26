@@ -1,0 +1,40 @@
+.VideoCard {
+  --large-height: 360px;
+  --small-height: 180px;
+
+  align-items: center;
+  color: var(--conun-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+
+  &.large {
+    padding: 24px 60px;
+    @media only screen and (max-width: 745px) {
+      padding: 5%;
+    }
+  }
+
+  &.small {
+    padding: 24px 0 0;
+    @media only screen and (max-width: 745px) {
+      padding: 5%;
+    }
+  }
+
+  & .Video {
+    flex: 100% 0 0;
+    position: relative;
+    width: 100%;
+
+    &.small {
+      max-height: var(--small-height);
+    }
+
+    &.large {
+      max-height: var(--large-height);
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.Container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  & .Image {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  & .InfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 5px 30px;
+
+    & .TextContainer {
+      & .Title {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+      }
+
+      & .Caption {
+        color: #666;
+      }
+    }
+
+    & .PostInfo {
+      & .Author {
+        font-size: 14px;
+      }
+
+      & .Date {
+        color: #666;
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+}

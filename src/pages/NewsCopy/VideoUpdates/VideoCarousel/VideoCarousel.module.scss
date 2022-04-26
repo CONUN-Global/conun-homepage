@@ -1,0 +1,35 @@
+.VideoCarousel {
+  position: relative;
+}
+
+.Slider {
+  height: 320px;
+}
+
+.Button {
+  background: none;
+  border: none;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+
+  & svg {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.BackBtn {
+  left: -60px;
+  top: 25%;
+}
+
+.NextBtn {
+  right: -70px;
+  top: 25%;
+}

@@ -1,3 +1,3 @@
-import News from "@/pages/News";
+import News from "@/pages/NewsCopy";
 
 export default News;

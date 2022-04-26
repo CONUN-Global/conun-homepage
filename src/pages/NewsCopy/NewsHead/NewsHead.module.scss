@@ -1,0 +1,77 @@
+.HeadlineContainer {
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  margin-bottom: 60px;
+  padding: 80px 0 20px;
+  width: 100%;
+}
+
+.HeadlineBox {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  & h1 {
+    color: var(--conun-blue);
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+}
+
+.SocialSearch {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (max-width: 1025px) {
+    flex-direction: column;
+
+    form {
+      padding-bottom: 10px;
+    }
+  }
+
+  & form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    & button {
+      background-color: inherit;
+      border: none;
+      border-radius: 20px;
+      color: grey;
+      cursor: pointer;
+      height: 17px;
+      position: absolute;
+      right: 35px;
+      width: 17px;
+      z-index: 100;
+    }
+
+    & input {
+      background-color: var(--searchbox-background-blue);
+      border: 1px solid lightgrey;
+      border-radius: 20px;
+      padding: 7px 0 7px 20px;
+      width: 90%;
+    }
+
+    & input:focus {
+      border: 1px solid rgb(185 185 185);
+      outline: none;
+    }
+  }
+
+  & .SocialLinks {
+    flex-direction: row;
+  }
+}

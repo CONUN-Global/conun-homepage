@@ -1,0 +1,11 @@
+.PostInfo {
+  & .Author {
+    font-size: 14px;
+  }
+
+  & .Date {
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
