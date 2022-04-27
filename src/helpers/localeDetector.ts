@@ -6,7 +6,7 @@ const DEFAULT_LOCALE: Locale = "en";
 const AVAILABLE_LANGUAGES = ["en", "ko"];
 
 function detectLocale(): Locale {
-  console.log("process.browser", process.browser);
+  // console.log("process.browser", process.browser);
   if (process.browser) {
     const locale = detect(fromNavigator());
 

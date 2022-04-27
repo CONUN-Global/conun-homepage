@@ -1,5 +1,3 @@
-import React from "react";
-
 import Socials from "@/components/Socials";
 import SearchIcon from "@/assets/icons/search_icon.svg";
 
@@ -12,6 +10,7 @@ function NewsHead() {
   function handleSubmit(e: React.FormEvent<HTMLInputElement>) {
     e.preventDefault();
     console.log(inputtedText);
+
     setInputtedText("");
   }
 

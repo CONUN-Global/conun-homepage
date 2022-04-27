@@ -4,8 +4,9 @@ import Featured from "./Featured";
 
 import styles from "./News.module.scss";
 import VideoUpdates from "./VideoUpdates";
+import Press from "./Press";
 
-function News() {
+function News({ data }: any) {
   return (
     <div className={styles.NewsPage}>
       <div className={styles.Container}>
@@ -13,7 +14,7 @@ function News() {
         <NewsHeader>Information</NewsHeader>
         <Featured />
         <VideoUpdates />
-        <NewsHeader>Press publicity</NewsHeader>
+        <Press data={data} />
       </div>
     </div>
   );

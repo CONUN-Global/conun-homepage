@@ -8,7 +8,6 @@ interface Props {
 }
 
 function VideoSlideCard({ newsData }: Props) {
-  console.log(newsData);
   return (
     <Link passHref href={newsData.url}>
       <a target="_blank" rel="noopener noreferrer">
