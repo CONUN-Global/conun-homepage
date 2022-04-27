@@ -20,15 +20,33 @@ import { NewsDataObj } from "@/types/index";
 import data from "../../newsData.json";
 
 const videoData = data.filter((news) => news.source === "youtube");
+import { useState, useEffect } from "react";
 
 function VideoCarousel() {
+  const [visibleSlideCount, setVisibleSlideCount] = useState(3);
+
+  function handleResize() {
+    if (window.innerWidth > 1200) {
+      setVisibleSlideCount(3);
+    } else if (window.innerWidth < 1200 && window.innerWidth > 800) {
+      setVisibleSlideCount(2);
+    } else if (window.innerWidth < 800) {
+      setVisibleSlideCount(1);
+    }
+  }
+
+  useEffect(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div>
       <CarouselProvider
         naturalSlideWidth={280}
         naturalSlideHeight={300}
         totalSlides={videoData.length}
-        visibleSlides={3}
+        visibleSlides={visibleSlideCount}
         className={styles.VideoCarousel}
       >
         <Slider className={styles.Slider}>
@@ -36,12 +54,16 @@ function VideoCarousel() {
             <VideoSlide key={news.id} slideIndex={i} newsData={news} />
           ))}
         </Slider>
-        <ButtonBack className={classNames(styles.Button, styles.BackBtn)}>
-          <LeftIcon />
-        </ButtonBack>
-        <ButtonNext className={classNames(styles.Button, styles.NextBtn)}>
-          <RightIcon />
-        </ButtonNext>
+        {visibleSlideCount > 0 && (
+          <div>
+            <ButtonBack className={classNames(styles.Button, styles.BackBtn)}>
+              <LeftIcon />
+            </ButtonBack>
+            <ButtonNext className={classNames(styles.Button, styles.NextBtn)}>
+              <RightIcon />
+            </ButtonNext>
+          </div>
+        )}
       </CarouselProvider>
     </div>
   );

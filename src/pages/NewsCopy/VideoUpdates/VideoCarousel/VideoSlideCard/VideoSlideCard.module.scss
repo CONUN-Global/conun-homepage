@@ -1,21 +1,24 @@
 .NewsCard {
   align-items: center;
-  border: 1px solid grey;
+  align-items: flex-start;
   color: var(--conun-blue);
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  justify-content: space-between;
+  min-height: 350px;
   width: 90%;
 
   & .Thumbnail {
-    background-color: pink;
-    height: 200px;
-    width: 100px;
+    border: 8px solid white;
+    max-width: 280px;
+
+    @media only screen and (max-width: 800px) {
+      max-width: 100%;
+    }
   }
 
   & .TextContainer {
-    max-width: 280px;
-    width: 100%;
+    width: 90%;
 
     & .Title {
       font-size: 20px;

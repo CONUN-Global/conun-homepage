@@ -13,6 +13,7 @@ function News() {
         <NewsHeader>Information</NewsHeader>
         <Featured />
         <VideoUpdates />
+        <NewsHeader>Press publicity</NewsHeader>
       </div>
     </div>
   );
