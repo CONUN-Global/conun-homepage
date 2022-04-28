@@ -12,10 +12,11 @@ const config: {
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const title = req.title || "Conun";
-  const url = `https://openapi.naver.com/v1/search/iamge?query=${title}`;
-
-  const response = await fetch(url, config);
+  const { query } = req.query;
+  const encodedUri = encodeURI(
+    `https://openapi.naver.com/v1/search/image?query=${query}`
+  );
+  const response = await fetch(encodedUri, config);
   const data = await response.json();
 
   res.send(data);

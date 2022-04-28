@@ -1,0 +1,42 @@
+.CardContainer {
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+
+  & .Image {
+    height: 160px;
+    object-fit: cover;
+    object-position: bottom;
+    width: 180px;
+  }
+
+  & .TextContainer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+    margin-left: 10px;
+
+    & .Title {
+      font-size: 24px;
+    }
+
+    & .Description {
+      color: #666;
+      font-size: 16px;
+      font-weight: 100;
+    }
+
+    & .Date {
+      color: #999;
+      font-size: 14px;
+      font-weight: 100;
+    }
+  }
+}
