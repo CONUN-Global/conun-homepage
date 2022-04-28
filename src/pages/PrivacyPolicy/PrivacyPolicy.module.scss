@@ -11,17 +11,18 @@
     flex-direction: column;
     padding: 200px 0;
     width: 40%;
-
     @media only screen and (max-width: 768px) {
       padding: 100px 0;
     }
 
     & .Navigation {
       align-items: flex-start;
+      bottom: 400px;
       display: flex;
       flex-direction: column;
       font-size: 0.8rem;
       margin-top: 100px;
+      position: fixed;
       width: 60%;
 
       & .NavItems {
