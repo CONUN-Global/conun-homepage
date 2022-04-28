@@ -3,10 +3,13 @@ import { useEffect, useState } from "react";
 
 import { Article } from "@/types/index";
 
+// import photo from "@/assets/pics/xangle-thumbnail.jpg";
+
 import styles from "./PressItem.module.scss";
 
 function PressItem({ article }: Article) {
-  const [image, setImage] = useState({});
+  console.log("ARTICLE", article);
+  const [image, setImage] = useState<Article>({});
 
   useEffect(() => {
     async function getPhoto(article: Article) {
@@ -17,12 +20,11 @@ function PressItem({ article }: Article) {
     getPhoto(article);
   }, [article]);
 
-  console.log("Image", image.items);
   let photoURL;
   if (image?.items?.length > 0) {
     photoURL = image.items[0].thumbnail;
   } else {
-    photoURL = "THIS IS NOT AVAILABLE";
+    photoURL = "photo";
   }
 
   const date = new Date(article.pubDate);
