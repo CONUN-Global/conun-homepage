@@ -8,9 +8,16 @@ import { Article } from "@/types/index";
 import styles from "./PressItem.module.scss";
 
 type Image = {
+  display: number;
   items: {
+    link: string;
+    sizeHeight: string;
+    sizeWidth: string;
     thumbnail: string;
-  };
+    title: string;
+  }[];
+  start: number;
+  total: number;
 };
 
 function PressItem({ article }: Article) {
