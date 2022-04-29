@@ -1,0 +1,25 @@
+.CommunityContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  & .BtnContainer {
+    display: flex;
+
+    & button {
+      background-color: inherit;
+      border: 1.5px solid #aebfd7;
+      border-radius: 30px;
+      color: #1d428a;
+      cursor: pointer;
+      font-size: 12px;
+      margin-left: 3px;
+      width: 80px;
+
+      & button:active {
+        background-color: #339;
+        color: white;
+      }
+    }
+  }
+}

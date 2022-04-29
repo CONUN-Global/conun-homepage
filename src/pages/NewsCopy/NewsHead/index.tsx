@@ -9,7 +9,7 @@ function NewsHead() {
 
   function handleSubmit(e: React.FormEvent<HTMLInputElement>) {
     e.preventDefault();
-    console.log(inputtedText);
+    // console.log(inputtedText);
 
     setInputtedText("");
   }

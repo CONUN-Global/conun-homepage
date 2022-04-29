@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const usePagination = (pageSize: number, dataset: any[]) => {
   const [currentPage, setCurrentPage] = useState(0);
+  console.log(dataset);
 
   const currentData = dataset.slice(
     currentPage * pageSize,
