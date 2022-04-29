@@ -1312,7 +1312,7 @@ msgstr "Other provisions"
 msgid "PC Application UI/UX/Virtual Machine"
 msgstr "PC Application UI/UX/Virtual Machine"
 
-#: src/pages/WhitePaper/WhitePaperCard/index.tsx:77
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:21
 msgid "PDF Download"
 msgstr "PDF Download"
 
@@ -1759,9 +1759,13 @@ msgstr "Through our distributed super computing platform you can get the power t
 #~ msgid "To know more about Conan's {type}, download Conan's white paper."
 #~ msgstr "To know more about Conan's {type}, download Conan's white paper."
 
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:15
+msgid "To know more about Conun's business, download Conun's white paper."
+msgstr "To know more about Conun's business, download Conun's white paper."
+
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
-msgid "To know more about Conun's {type}, download Conun's white paper."
-msgstr "To know more about Conun's {type}, download Conun's white paper."
+#~ msgid "To know more about Conun's {type}, download Conun's white paper."
+#~ msgstr "To know more about Conun's {type}, download Conun's white paper."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:189
 msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"
@@ -1864,6 +1868,10 @@ msgstr "When the company takes the actions specified in the previous paragraph, 
 msgid "White Paper"
 msgstr "White Paper"
 
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:12
+msgid "Whitepaper"
+msgstr "Whitepaper"
+
 #: src/pages/Faqs/QnAs/index.tsx:6
 msgid "Why has CONUN developed its own private blockchain network?"
 msgstr "Why has CONUN developed its own private blockchain network?"
@@ -1937,8 +1945,8 @@ msgstr "www.kopico.go.kr"
 #~ msgstr "{type}"
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
-msgid "{type} whitepaper"
-msgstr "{type} whitepaper"
+#~ msgid "{type} whitepaper"
+#~ msgstr "{type} whitepaper"
 
 #: src/pages/TermsAndConditions/Data/index.tsx:328
 msgid "① Collection of some or all of the additional benefits provided by the Company"

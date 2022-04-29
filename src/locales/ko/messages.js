@@ -643,6 +643,8 @@
       ["type"],
       "에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요.",
     ],
+    "To know more about Conun's business, download Conun's white paper.":
+      "Conun의 비지니스에 대해 자세히 알아보려면 Conun의 백서를 다운로드하세요.",
     "To know more about Conun's {type}, download Conun's white paper.": [
       "Conun의 ",
       ["type"],
@@ -682,6 +684,7 @@
     "Where are the coins to be distributed sent to?":
       "Where are the coins to be distributed sent to?",
     "White Paper": "백서",
+    Whitepaper: "백서",
     "Why has CONUN developed its own private blockchain network?":
       "CONUN이 자체 프라이빗 블록체인 네트워크를 개발한 이유는 무엇입니까?",
     "Why has CONUN developed its own private blockchain network? ":

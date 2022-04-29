@@ -1,4 +1,4 @@
-import classNames from "classnames";
+// import classNames from "classnames";
 
 import styles from "./DropdownLink.module.scss";
 
@@ -9,19 +9,9 @@ interface DropdownLinkProps {
   onclick?: () => void;
 }
 
-function DropdownLink({
-  isWhitePaperGreen,
-  link,
-  name,
-  onclick,
-}: DropdownLinkProps) {
+function DropdownLink({ link, name, onclick }: DropdownLinkProps) {
   return (
-    <li
-      onClick={onclick}
-      className={classNames(
-        isWhitePaperGreen ? styles.DropdownGreenHover : styles.DropdownBlueHover
-      )}
-    >
+    <li onClick={onclick} className={styles.DropdownGreenHover}>
       <a href={link} target="_blank" rel="noreferrer">
         {name}
       </a>
