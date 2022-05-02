@@ -2,6 +2,10 @@ import NewsHeader from "@/components/NewsHeader";
 import styles from "./Press.module.scss";
 
 import { Article } from "@/types/index";
+import usePagination from "@/hooks/usePagination";
+
+import PaginationBar from "@/components/PaginationBar";
+
 import PressItem from "./PressItem";
 
 export type Props = {
@@ -15,14 +19,21 @@ export type Props = {
 };
 
 function Press({ data }: Props) {
+  const { currentData, handleNext, handlePrev } = usePagination(
+    4,
+    data.items,
+    0
+  );
+
   return (
     <div className={styles.Container}>
       <div className={styles.HeaderContainer}>
         <NewsHeader>Press publicity</NewsHeader>
       </div>
-      {data.items.map((article, index) => (
+      {currentData.map((article, index) => (
         <PressItem key={index} article={article} />
       ))}
+      <PaginationBar next={handleNext} prev={handlePrev} />
     </div>
   );
 }

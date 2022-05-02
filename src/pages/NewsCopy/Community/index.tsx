@@ -1,13 +1,30 @@
-import NewsHeader from "@/components/NewsHeader";
 import styles from "./Community.module.scss";
+
+import NewsHeader from "@/components/NewsHeader";
 import Button from "./SocialMediaButton";
 import NewsItem from "./NewsItem";
 
 import { NewsDataObj } from "@/types/index";
 
+import usePagination from "@/hooks/usePagination";
 import data from "../newsData.json";
 
+import { useState } from "react";
+import PaginationBar from "@/components/PaginationBar";
+
 function Community() {
+  // const paginationCount = Math.ceil(data.length / 4);
+
+  const [selectedPage, setSelectedPage] = useState(0);
+  const { currentData, handleNext, handlePrev } = usePagination(
+    4,
+    data,
+    selectedPage
+  );
+
+  ///ERASE THIS
+  setSelectedPage(0);
+
   return (
     <div className={styles.PageContainer}>
       <div className={styles.CommunityContainer}>
@@ -24,10 +41,11 @@ function Community() {
         </div>
       </div>
       <div className={styles.NewsContainer}>
-        {data.map((newsItem: NewsDataObj) => (
+        {currentData.map((newsItem: NewsDataObj) => (
           <NewsItem newsData={newsItem} key={newsItem.id} />
         ))}
       </div>
+      <PaginationBar next={handleNext} prev={handlePrev} />
     </div>
   );
 }

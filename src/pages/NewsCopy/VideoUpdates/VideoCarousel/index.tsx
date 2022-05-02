@@ -26,11 +26,11 @@ function VideoCarousel() {
   const [visibleSlideCount, setVisibleSlideCount] = useState(3);
 
   function handleResize() {
-    if (window.innerWidth > 1200) {
+    if (window.innerWidth > 1350) {
       setVisibleSlideCount(3);
-    } else if (window.innerWidth < 1200 && window.innerWidth > 800) {
+    } else if (window.innerWidth < 1350 && window.innerWidth > 900) {
       setVisibleSlideCount(2);
-    } else if (window.innerWidth < 800) {
+    } else if (window.innerWidth < 900) {
       setVisibleSlideCount(1);
     }
   }

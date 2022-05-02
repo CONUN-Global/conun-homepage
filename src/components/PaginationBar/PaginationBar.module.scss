@@ -1,0 +1,12 @@
+.PaginationSelect {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  & .PaginationButton {
+    border: none;
+    border-radius: 8px;
+    color: #333;
+    padding: 10px 15px;
+  }
+}

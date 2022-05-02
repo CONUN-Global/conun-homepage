@@ -13,7 +13,6 @@ import getYoutubeThumbUrlClean from "@/helpers/getYoutubeThumbUrlClean";
 import classNames from "classnames";
 
 function Placeholder({ newsData }: { newsData: NewsDataObj }) {
-  console.log(newsData.source);
   switch (newsData.source) {
     case "youtube":
       return (
