@@ -1,20 +1,35 @@
-.CommunityContainer {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 500px;
+.PageContainer {
+  margin: 50px 0 500px;
   width: 100%;
 
-  @media only screen and (max-width: 1200px) {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  & .BtnContainer {
+  .CommunityContainer {
+    border-bottom: 2px solid black;
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%;
 
     @media only screen and (max-width: 1200px) {
-      margin-top: 15px;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    & .BtnContainer {
+      display: flex;
+
+      @media only screen and (max-width: 1200px) {
+        margin-top: 15px;
+      }
+    }
+
+    .NewsContainer {
+      display: flex;
+      flex-direction: column;
+
+      .NewsItem {
+        height: 50px;
+      }
     }
   }
 }

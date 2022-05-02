@@ -1,0 +1,76 @@
+.NewsItemContainer {
+  border-bottom: 2px solid lightgray;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  width: 100%;
+
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  .TextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    min-height: 160px;
+
+    & .Title {
+      font-size: 24px;
+    }
+
+    & .Description {
+      color: #666;
+      font-size: 16px;
+      font-weight: 100;
+    }
+  }
+
+  .ImageContainer {
+    align-items: center;
+    background-color: rgb(242 242 242);
+    border: 8px solid white;
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    max-width: 180px;
+    min-width: 180px;
+    width: 100%;
+
+    & .Image {
+      border: 8px solid white;
+      height: 160px;
+      max-width: 180px;
+      object-fit: cover;
+    }
+
+    & .Icon {
+      &.github {
+        height: 13%;
+      }
+
+      &.medium {
+        height: 18%;
+      }
+
+      &.discord {
+        height: 13%;
+      }
+
+      &.youtube {
+        height: 18%;
+      }
+
+      &.xangle {
+        fill: #4e33c2;
+        height: 13%;
+      }
+
+      &.internal {
+        height: 20%;
+      }
+    }
+  }
+}
