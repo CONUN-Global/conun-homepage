@@ -27,7 +27,8 @@ function AllUpdates() {
 
   const { currentData, handleNext, handlePrev } = usePagination(
     SLICE_SIZE,
-    dataStream
+    dataStream,
+    0
   );
 
   return (

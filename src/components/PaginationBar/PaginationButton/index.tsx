@@ -1,6 +1,11 @@
 import styles from "./PaginationButton.module.scss";
 
-function PaginationButton({ setCurrentPage, index }: any) {
+interface Props {
+  setCurrentPage: (argument: number) => void;
+  index: number;
+}
+
+function PaginationButton({ setCurrentPage, index }: Props) {
   return (
     <button
       className={styles.PaginationButton}

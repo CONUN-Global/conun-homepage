@@ -16,7 +16,8 @@ const SLICE_SIZE = 2;
 function Information() {
   const { currentData, handleNext, handlePrev } = usePagination(
     SLICE_SIZE,
-    infoData
+    infoData,
+    0
   );
 
   return (
