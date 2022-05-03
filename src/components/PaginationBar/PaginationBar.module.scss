@@ -4,9 +4,15 @@
   width: 100%;
 
   & .PaginationButton {
+    background-color: inherit;
     border: none;
     border-radius: 8px;
     color: #333;
+    cursor: pointer;
     padding: 10px 15px;
+
+    &:hover {
+      background-color: rgb(206 206 206 / 49.8%);
+    }
   }
 }

@@ -23,7 +23,7 @@ const usePagination = (
     }
   };
 
-  return { currentData, handleNext, handlePrev };
+  return { currentData, handleNext, handlePrev, setCurrentPage };
 };
 
 export default usePagination;

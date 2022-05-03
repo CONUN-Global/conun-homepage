@@ -9,21 +9,18 @@ import { NewsDataObj } from "@/types/index";
 import usePagination from "@/hooks/usePagination";
 import data from "../newsData.json";
 
-import { useState } from "react";
 import PaginationBar from "@/components/PaginationBar";
+import PaginationButton from "@/components/PaginationBar/PaginationButton";
 
 function Community() {
-  // const paginationCount = Math.ceil(data.length / 4);
+  const sliceSize = 4;
+  const buttonCount = Math.ceil(data.length / sliceSize);
 
-  const [selectedPage, setSelectedPage] = useState(0);
-  const { currentData, handleNext, handlePrev } = usePagination(
-    4,
+  const { currentData, handleNext, handlePrev, setCurrentPage } = usePagination(
+    sliceSize,
     data,
-    selectedPage
+    0
   );
-
-  ///ERASE THIS
-  setSelectedPage(0);
 
   return (
     <div className={styles.PageContainer}>
@@ -45,7 +42,17 @@ function Community() {
           <NewsItem newsData={newsItem} key={newsItem.id} />
         ))}
       </div>
-      <PaginationBar next={handleNext} prev={handlePrev} />
+      <PaginationBar next={handleNext} prev={handlePrev}>
+        {Array.from(Array(buttonCount).keys()).map((item, index) => {
+          return (
+            <PaginationButton
+              key={index}
+              index={index}
+              setCurrentPage={setCurrentPage}
+            />
+          );
+        })}
+      </PaginationBar>
     </div>
   );
 }

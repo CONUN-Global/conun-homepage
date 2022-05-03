@@ -7,6 +7,7 @@ import usePagination from "@/hooks/usePagination";
 import PaginationBar from "@/components/PaginationBar";
 
 import PressItem from "./PressItem";
+import PaginationButton from "@/components/PaginationBar/PaginationButton";
 
 export type Props = {
   data: {
@@ -19,8 +20,11 @@ export type Props = {
 };
 
 function Press({ data }: Props) {
-  const { currentData, handleNext, handlePrev } = usePagination(
-    4,
+  const sliceSize = 4;
+  const buttonCount = Math.ceil(data.items.length / sliceSize);
+
+  const { currentData, handleNext, handlePrev, setCurrentPage } = usePagination(
+    sliceSize,
     data.items,
     0
   );
@@ -33,7 +37,17 @@ function Press({ data }: Props) {
       {currentData.map((article, index) => (
         <PressItem key={index} article={article} />
       ))}
-      <PaginationBar next={handleNext} prev={handlePrev} />
+      <PaginationBar next={handleNext} prev={handlePrev}>
+        {Array.from(Array(buttonCount).keys()).map((item, index) => {
+          return (
+            <PaginationButton
+              key={index}
+              index={index}
+              setCurrentPage={setCurrentPage}
+            />
+          );
+        })}
+      </PaginationBar>
     </div>
   );
 }

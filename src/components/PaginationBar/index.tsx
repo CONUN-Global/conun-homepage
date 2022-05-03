@@ -1,17 +1,18 @@
 import styles from "./PaginationBar.module.scss";
 
-type Props = {
+interface Props {
   next: () => void;
   prev: () => void;
-};
+  children: React.ReactNode;
+}
 
-function PaginationBar({ next, prev }: Props) {
+function PaginationBar({ next, prev, children }: Props) {
   return (
     <div className={styles.PaginationSelect}>
       <button onClick={prev} className={styles.PaginationButton}>
         Previous
       </button>
-      {/* {paginationCount} */}
+      {children}
       <button onClick={next} className={styles.PaginationButton}>
         Next
       </button>
