@@ -1,4 +1,6 @@
 import styles from "./PaginationBar.module.scss";
+import Right from "@/assets/icons/RightCaret.svg";
+import Left from "@/assets/icons/LeftCaret.svg";
 
 interface Props {
   next: () => void;
@@ -10,11 +12,11 @@ function PaginationBar({ next, prev, children }: Props) {
   return (
     <div className={styles.PaginationSelect}>
       <button onClick={prev} className={styles.PaginationButton}>
-        Previous
+        <Left />
       </button>
       {children}
       <button onClick={next} className={styles.PaginationButton}>
-        Next
+        <Right />
       </button>
     </div>
   );

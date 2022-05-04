@@ -16,6 +16,11 @@ function Community() {
   const sliceSize = 4;
   // const buttonCount = Math.ceil(data.length / sliceSize);
 
+  // const { currentData, handleNext, handlePrev, setCurrentPage } = usePagination(
+  //   sliceSize,
+  //   data,
+  //   0
+  // );
   const { currentData, handleNext, handlePrev } = usePagination(
     sliceSize,
     data,

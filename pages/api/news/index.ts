@@ -12,12 +12,16 @@ const config: {
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const url = "https://openapi.naver.com/v1/search/news?query=conun";
+  try {
+    const url = "https://openapi.naver.com/v1/search/news?query=conun";
 
-  const response = await fetch(url, config);
-  const data = await response.json();
+    const response = await fetch(url, config);
+    const data = await response.json();
 
-  res.send(data);
+    res.send(data);
+  } catch (error) {
+    res.status(500).send({ err: error });
+  }
 }
 
 export default handler;

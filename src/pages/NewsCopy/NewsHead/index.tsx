@@ -2,11 +2,8 @@ import Socials from "@/components/Socials";
 import SearchIcon from "@/assets/icons/search_icon.svg";
 
 import styles from "./NewsHead.module.scss";
-import { useState } from "react";
 
-function NewsHead() {
-  const [inputtedText, setInputtedText] = useState("");
-
+function NewsHead({ inputtedText, setInputtedText }: any) {
   function handleSubmit(e: React.FormEvent<HTMLInputElement>) {
     e.preventDefault();
 
@@ -20,6 +17,7 @@ function NewsHead() {
         <div className={styles.SocialSearch}>
           <form action="" onSubmit={(e) => handleSubmit(e)}>
             <input
+              placeholder="Search"
               type="text"
               value={inputtedText}
               onChange={(e) => setInputtedText(e.target.value)}

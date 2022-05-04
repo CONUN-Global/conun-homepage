@@ -12,14 +12,18 @@ const config: {
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const { query } = req.query;
-  const encodedUri = encodeURI(
-    `https://openapi.naver.com/v1/search/image?query=${query}`
-  );
-  const response = await fetch(encodedUri, config);
-  const data = await response.json();
+  try {
+    const { query } = req.query;
+    const encodedUri = encodeURI(
+      `https://openapi.naver.com/v1/search/image?query=${query}`
+    );
+    const response = await fetch(encodedUri, config);
+    const data = await response.json();
 
-  res.send(data);
+    res.send(data);
+  } catch (error) {
+    res.status(500).send({ err: error });
+  }
 }
 
 export default handler;
