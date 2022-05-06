@@ -2,8 +2,13 @@
   background-color: inherit;
   border: none;
   border-radius: 10px;
+  color: rgb(111 111 111);
   cursor: pointer;
   padding: 5px 10px;
+
+  &.active {
+    background-color: rgb(206 206 206 / 49.8%);
+  }
 
   &:hover {
     background-color: rgb(206 206 206 / 49.8%);

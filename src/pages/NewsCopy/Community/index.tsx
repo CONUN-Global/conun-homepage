@@ -1,31 +1,24 @@
 import styles from "./Community.module.scss";
 
-import NewsHeader from "@/components/NewsHeader";
-// import Button from "./SocialMediaButton";
 import NewsItem from "./NewsItem";
 
 import { NewsDataObj } from "@/types/index";
 
 import usePagination from "@/hooks/usePagination";
-import data from "../newsData.json";
 
+import NewsHeader from "@/components/NewsHeader";
 import PaginationBar from "@/components/PaginationBar";
-// import PaginationButton from "@/components/PaginationBar/PaginationButton";
+import NoResultCard from "../NewsSearchable/NoResultCard";
 
-function Community() {
+function Community({ localdata, searchTerm }: any) {
   const sliceSize = 4;
-  // const buttonCount = Math.ceil(data.length / sliceSize);
+  const pages = [];
+  for (let i = 0; i < Math.ceil(localdata.length / sliceSize); i++) {
+    pages.push(i);
+  }
 
-  // const { currentData, handleNext, handlePrev, setCurrentPage } = usePagination(
-  //   sliceSize,
-  //   data,
-  //   0
-  // );
-  const { currentData, handleNext, handlePrev } = usePagination(
-    sliceSize,
-    data,
-    0
-  );
+  const { currentData, handleNext, handlePrev, currentPage, setCurrentPage } =
+    usePagination(sliceSize, localdata, 0);
 
   return (
     <div className={styles.PageContainer}>
@@ -43,22 +36,28 @@ function Community() {
         </div> */}
       </div>
       <div className={styles.NewsContainer}>
-        {currentData.map((newsItem: NewsDataObj) => (
-          <NewsItem newsData={newsItem} key={newsItem.id} />
-        ))}
+        {searchTerm.length > 1 ? (
+          <div
+            className={styles.Results}
+          >{`Showing results for '${searchTerm}'`}</div>
+        ) : null}
+        {currentData.length > 0 ? (
+          currentData.map((newsItem: NewsDataObj) => (
+            <NewsItem newsData={newsItem} key={newsItem.id} />
+          ))
+        ) : (
+          <NoResultCard />
+        )}
       </div>
-      <PaginationBar next={handleNext} prev={handlePrev}>
-        {/* CREATES ARRAY THE SIZE OF BUTTON COUNT UNDER CONsTRUCTION*/}
-        {/* {Array.from(Array(buttonCount).keys()).map((item, index) => {
-          return (
-            <PaginationButton
-              key={index}
-              index={index}
-              setCurrentPage={setCurrentPage}
-            />
-          );
-        })} */}
-      </PaginationBar>
+      {localdata.length > sliceSize && (
+        <PaginationBar
+          next={handleNext}
+          prev={handlePrev}
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        />
+      )}
     </div>
   );
 }

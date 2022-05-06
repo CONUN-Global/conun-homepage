@@ -1,9 +1,12 @@
 .Container {
-  margin-top: 20px;
-  width: 100%;
-}
+  min-width: 62.5vw;
 
-.HeaderContainer {
-  border-bottom: 2px solid black;
-  padding-bottom: 20px;
+  & .Results {
+    align-items: center;
+    color: grey;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    width: 100%;
+  }
 }

@@ -1,53 +1,55 @@
-import NewsHeader from "@/components/NewsHeader";
 import styles from "./Press.module.scss";
-
-import { Article } from "@/types/index";
 import usePagination from "@/hooks/usePagination";
 
 import PaginationBar from "@/components/PaginationBar";
 
 import PressItem from "./PressItem";
-// import PaginationButton from "@/components/PaginationBar/PaginationButton";
+import NoResultCard from "../NewsSearchable/NoResultCard";
 
-export type Props = {
-  data: {
-    display: number;
-    items: Article[];
-    lastBuildData: string;
-    start: number;
-    total: number;
-  };
-};
+interface Props {
+  APIdata: {
+    description: string;
+    link: string;
+    originallink: string;
+    pubDate: string;
+    title: string;
+  }[];
+  searchTerm: string;
+}
 
-function Press({ data }: Props) {
+function Press({ APIdata, searchTerm }: Props) {
   const sliceSize = 4;
-  // const buttonCount = Math.ceil(data.items.length / sliceSize);
 
-  const { currentData, handleNext, handlePrev } = usePagination(
-    sliceSize,
-    data.items,
-    0
-  );
+  //Get page count
+  const pages = [];
+  for (let i = 0; i < Math.ceil(APIdata.length / sliceSize); i++) pages.push(i);
+
+  const { currentData, handleNext, handlePrev, currentPage, setCurrentPage } =
+    usePagination(sliceSize, APIdata, 0);
 
   return (
     <div className={styles.Container}>
-      <div className={styles.HeaderContainer}>
-        <NewsHeader>Press publicity</NewsHeader>
-      </div>
-      {currentData.map((article, index) => (
-        <PressItem key={index} article={article} />
-      ))}
-      <PaginationBar next={handleNext} prev={handlePrev}>
-        {/* {Array.from(Array(buttonCount).keys()).map((item, index) => {
-          return (
-            <PaginationButton
-              key={index}
-              index={index}
-              setCurrentPage={setCurrentPage}
-            />
-          );
-        })} */}
-      </PaginationBar>
+      {searchTerm.length > 1 ? (
+        <div
+          className={styles.Results}
+        >{`Showing results for '${searchTerm}'`}</div>
+      ) : null}
+      {currentData.length > 0 ? (
+        currentData.map((article, index) => (
+          <PressItem key={index} article={article} />
+        ))
+      ) : (
+        <NoResultCard />
+      )}
+      {APIdata.length > sliceSize && (
+        <PaginationBar
+          next={handleNext}
+          prev={handlePrev}
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        />
+      )}
     </div>
   );
 }

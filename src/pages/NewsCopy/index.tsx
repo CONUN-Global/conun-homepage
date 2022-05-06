@@ -1,11 +1,10 @@
 import NewsHead from "./NewsHead";
 import NewsHeader from "@/components/NewsHeader";
 import Featured from "./Featured";
+import NewsSearchable from "./NewsSearchable/";
 
 import styles from "./News.module.scss";
 import VideoUpdates from "./VideoUpdates";
-import Press from "./Press";
-import Community from "./Community";
 
 import { useState } from "react";
 
@@ -22,8 +21,7 @@ function News({ data }: any) {
         <NewsHeader>Information</NewsHeader>
         <Featured />
         <VideoUpdates />
-        <Press data={data} />
-        <Community />
+        <NewsSearchable data={data} />
       </div>
     </div>
   );

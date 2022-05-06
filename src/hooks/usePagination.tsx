@@ -3,9 +3,9 @@ import { useState } from "react";
 const usePagination = (
   pageSize: number,
   dataset: any[],
-  selectedPage: number
+  selectedPage?: number
 ) => {
-  const [currentPage, setCurrentPage] = useState(selectedPage);
+  const [currentPage, setCurrentPage] = useState(selectedPage || 0);
 
   const currentData = dataset.slice(
     currentPage * pageSize,
@@ -23,7 +23,7 @@ const usePagination = (
     }
   };
 
-  return { currentData, handleNext, handlePrev, setCurrentPage };
+  return { currentData, handleNext, handlePrev, currentPage, setCurrentPage };
 };
 
 export default usePagination;
