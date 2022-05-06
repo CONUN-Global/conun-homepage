@@ -36,7 +36,7 @@ function PressItem({ article }: Article) {
   if (image?.items?.length > 0) {
     photoURL = image.items[0].thumbnail;
   } else {
-    photoURL = Photo;
+    photoURL = <Photo />;
   }
 
   const date = new Date(article.pubDate);

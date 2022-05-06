@@ -1,5 +1,3 @@
-import React from "react";
-
 import Socials from "@/components/Socials";
 import ConunLogo from "@/assets/icons/conun-logo.svg";
 

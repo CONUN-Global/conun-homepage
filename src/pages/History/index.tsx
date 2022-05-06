@@ -3,8 +3,9 @@ import styles from "./History.module.scss";
 function History() {
   return (
     <div className={styles.Container}>
-      History Page
-      <ul></ul>
+      <div className={styles.HeadlineContainer}>
+        <h1>History Page</h1>
+      </div>
     </div>
   );
 }

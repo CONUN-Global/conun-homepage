@@ -1,3 +1,3 @@
-// import History from "@/pages/History";
+import History from "@/pages/History";
 
-// export default History;
+export default History;

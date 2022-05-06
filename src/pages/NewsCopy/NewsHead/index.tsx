@@ -7,7 +7,7 @@ function NewsHead({ inputtedText, setInputtedText }: any) {
   function handleSubmit(e: React.FormEvent<HTMLInputElement>) {
     e.preventDefault();
 
-    setInputtedText("");
+    setInputtedText(inputtedText);
   }
 
   return (
