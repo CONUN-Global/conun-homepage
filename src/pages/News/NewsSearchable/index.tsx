@@ -27,6 +27,7 @@ function NewsSearchable({ data: { items } }: Props) {
   // Data provided by LocalData in newsData.json
   const [localData, setLocalData] = useState(newsData);
 
+  //Reset data if the searchbox is empty
   function filter(apiData: any, localData: any, inputtedText: string) {
     if (inputtedText.length <= 1) {
       setApiData(items);

@@ -9,6 +9,7 @@ import usePagination from "@/hooks/usePagination";
 import NewsHeader from "@/components/NewsHeader";
 import PaginationBar from "@/components/PaginationBar";
 import NoResultCard from "../NewsSearchable/NoResultCard";
+// import Button from "./SocialMediaButton";
 
 function Community({ localdata, searchTerm }: any) {
   const sliceSize = 4;

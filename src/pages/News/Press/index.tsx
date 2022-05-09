@@ -17,7 +17,7 @@ interface Props {
   searchTerm: string;
 }
 
-function Press({ APIdata, searchTerm }: Props) {
+function Press({ APIdata = [], searchTerm }: Props) {
   const sliceSize = 4;
 
   //Get page count

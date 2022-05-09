@@ -1,31 +1,11 @@
-.HeadlineContainer {
+.HeaderContainer {
   align-items: center;
-  border-bottom: 2px solid lightgray;
+  border-bottom: 2px solid black;
   display: flex;
-  margin-bottom: 60px;
-  padding: 80px 0 20px;
-  width: 100%;
+  padding-bottom: 20px;
 }
 
-.HeadlineBox {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-
-  @media only screen and (max-width: 800px) {
-    flex-direction: column;
-  }
-
-  & h1 {
-    color: var(--conun-blue);
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 3px;
-  }
-}
-
-.SocialSearch {
+.Search {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -52,7 +32,7 @@
       cursor: pointer;
       height: 17px;
       position: absolute;
-      right: 25px;
+      right: 15px;
       width: 17px;
       z-index: 100;
     }
@@ -62,7 +42,7 @@
       border: 1px solid lightgrey;
       border-radius: 20px;
       padding: 7px 0 7px 20px;
-      width: 90%;
+      width: 200px;
       @media only screen and (max-width: 800px) {
         width: 213px;
       }
@@ -72,9 +52,5 @@
       border: 1px solid rgb(185 185 185);
       outline: none;
     }
-  }
-
-  & .SocialLinks {
-    flex-direction: row;
   }
 }

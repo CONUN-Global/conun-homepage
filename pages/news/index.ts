@@ -1,4 +1,4 @@
-import News from "@/pages/NewsCopy";
+import News from "@/pages/News";
 import { server } from "@/helpers/serverConfig";
 
 export default News;

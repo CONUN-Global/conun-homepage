@@ -1,7 +1,7 @@
 import React from "react";
 import { Slide } from "pure-react-carousel";
 
-import VideoCard from "@/components/VideoCard";
+import VideoSlideCard from "../VideoSlideCard";
 
 import { NewsDataObj } from "@/types/index";
 
@@ -16,7 +16,7 @@ function VideoSlide({ slideIndex, newsData }: Props) {
   return (
     <Slide index={slideIndex}>
       <div className={styles.VideoSlide}>
-        <VideoCard newsData={newsData} size={"small"} />
+        <VideoSlideCard newsData={newsData} />
       </div>
     </Slide>
   );
