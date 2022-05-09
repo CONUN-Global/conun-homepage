@@ -20,7 +20,7 @@ interface Props {
 function Press({ APIdata = [], searchTerm }: Props) {
   const sliceSize = 4;
 
-  //Get page count
+  //Get page count for display w/ pagination
   const pages = [];
   for (let i = 0; i < Math.ceil(APIdata.length / sliceSize); i++) pages.push(i);
 

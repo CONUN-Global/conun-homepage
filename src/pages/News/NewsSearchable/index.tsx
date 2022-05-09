@@ -6,17 +6,14 @@ import SearchIcon from "@/assets/icons/search_icon.svg";
 import NewsHeader from "@/components/NewsHeader";
 import Community from "../Community";
 import Press from "../Press";
+import { localNewsItem } from "@/types/index";
 
 import newsData from "../newsData.json";
 import filterData from "@/helpers/filterData";
 
 export type Props = {
   data: {
-    display: number;
-    items: Article[];
-    lastBuildData: string;
-    start: number;
-    total: number;
+    items: localNewsItem[];
   };
 };
 
