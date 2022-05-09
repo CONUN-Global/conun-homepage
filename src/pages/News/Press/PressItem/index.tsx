@@ -1,9 +1,9 @@
 import photoFetch from "@/helpers/photoFetch";
 import { useEffect, useState } from "react";
 
-import { Article } from "@/types/index";
+import { Article, localNewsItem } from "@/types/index";
 
-import Photo from "@/assets/icons/conun-logo.svg";
+// import Photo from "@/assets/icons/conun-logo.svg";
 
 import styles from "./PressItem.module.scss";
 
@@ -24,7 +24,7 @@ function PressItem({ article }: Article) {
   const [image, setImage] = useState<Image>({});
 
   useEffect(() => {
-    async function getPhoto(article: Article) {
+    async function getPhoto(article: localNewsItem) {
       const data = await photoFetch(article);
       setImage(data);
     }
@@ -36,7 +36,7 @@ function PressItem({ article }: Article) {
   if (image?.items?.length > 0) {
     photoURL = image.items[0].thumbnail;
   } else {
-    photoURL = <Photo />;
+    photoURL = "";
   }
 
   const date = new Date(article.pubDate);
