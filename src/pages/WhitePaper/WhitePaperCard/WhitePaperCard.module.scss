@@ -1,6 +1,6 @@
 .WhitePaperCard {
   align-items: center;
-  background-image: url("../../../assets/background/whitepaper-bg-blue.png");
+  background-image: url("../../../assets/background/whitepaper-bg-green.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -8,24 +8,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 565px;
   min-width: 300px;
-  padding: 5%;
+  padding: 40px 20px;
   text-align: center;
-  width: 35%;
+  width: 320px;
 
-  @media only screen and (min-width: 415px) and (max-width: 1204px) {
-    padding: 10%;
-    width: 45%;
+  @media only screen and (min-width: 768px) and (max-width: 1204px) {
+    padding: 40px 20px;
   }
-  @media only screen and (max-width: 414px) {
-    height: auto;
-    padding: 15%;
+  @media only screen and (max-width: 767px) {
+    height: 350px;
+    padding: 40px 20px;
     width: 90%;
-  }
-
-  &.whitepaperGreen {
-    background-image: url("../../../assets/background/whitepaper-bg-green.png");
   }
 
   & .TextContainer {
@@ -37,14 +31,14 @@
     row-gap: 30px;
 
     & .Title {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: 500;
-      line-height: 92.5%;
       text-transform: uppercase;
       width: 200px;
     }
 
     & .Description {
+      font-size: 1rem;
       font-weight: normal;
     }
   }
@@ -54,53 +48,15 @@
     padding-top: 20px;
     width: 170px;
 
-    & .LanguageSelector {
-      background-color: var(--conun-white);
-      border-radius: 10px;
-      color: var(--conun-blue);
-      margin-top: 20px;
-      padding: 5px 0;
-      width: 100%;
+    & .DownloadButton {
+      border: 1px solid white;
+      border-radius: 15px;
+      padding: 10px;
 
-      & .DropdownIcon {
-        padding-left: 5px;
-      }
-
-      & .SelectedGreen {
-        align-items: center;
-        color: var(--conun-green);
-        cursor: pointer;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 5% 0;
-
-        & .WorldIcon {
-          fill: var(--conun-green);
-          margin-right: 10px;
-          width: 18px;
-        }
-      }
-
-      & .SelectedBlue {
-        align-items: center;
+      &:hover {
+        background: white;
         color: var(--conun-blue);
-        cursor: pointer;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 5% 0;
-
-        & .WorldIcon {
-          fill: var(--conun-blue);
-          margin-right: 10px;
-          width: 18px;
-        }
-      }
-
-      & .LanguageOptions {
-        list-style: none;
-        padding: 20px;
+        font-weight: 600;
       }
     }
   }

@@ -1,4 +1,3 @@
-import classNames from "classnames";
 import styles from "./DropdownLink.module.scss";
 import DownloadArrow from "../../../assets/icons/downloadArrow.svg";
 
@@ -9,26 +8,14 @@ interface DropdownLinkProps {
   onclick?: () => void;
 }
 
-function DropdownLink({
-  isWhitePaperGreen,
-  link,
-  name,
-  onclick,
-}: DropdownLinkProps) {
+function DropdownLink({ link, name, onclick }: DropdownLinkProps) {
   return (
-    <a href={link} target="_blank" rel="noreferrer">
-      <li
-        onClick={onclick}
-        className={classNames(
-          isWhitePaperGreen
-            ? styles.DropdownGreenHover
-            : styles.DropdownBlueHover
-        )}
-      >
+    <li onClick={onclick} className={styles.DropdownGreenHover}>
+      <a href={link} target="_blank" rel="noreferrer">
         {name}
         <DownloadArrow />
-      </li>
-    </a>
+      </a>
+    </li>
   );
 }
 export default DropdownLink;

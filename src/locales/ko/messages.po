@@ -1300,7 +1300,7 @@ msgstr "기타조항"
 msgid "PC Application UI/UX/Virtual Machine"
 msgstr "PC 어플리케이션 UI/UX/가상 머신"
 
-#: src/pages/WhitePaper/WhitePaperCard/index.tsx:77
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:21
 msgid "PDF Download"
 msgstr "PDF 다운로드"
 
@@ -1740,9 +1740,13 @@ msgstr "DSC 플랫폼을 통해 고성능 컴퓨팅이 필요한 대형 프로�
 #~ msgid "To know more about Conan's {type}, download Conan's white paper."
 #~ msgstr "Conan의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
 
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:15
+msgid "To know more about Conun's business, download Conun's white paper."
+msgstr "Conun의 비지니스에 대해 자세히 알아보려면 Conun의 백서를 다운로드하세요."
+
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:69
-msgid "To know more about Conun's {type}, download Conun's white paper."
-msgstr "Conun의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
+#~ msgid "To know more about Conun's {type}, download Conun's white paper."
+#~ msgstr "Conun의 {type}에 대해 자세히 알아보려면 Conan의 백서를 다운로드하세요."
 
 #: src/pages/TermsAndConditions/Data/index.tsx:189
 msgid "To the fullest extent permitted by applicable law, the Company shall not be liable for any damages arising out of the use, download or access of any data, information, products or services that are caused by linked, referenced or accessed data related to the use of the website or the website in no event will his losses be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (Including but not limited to loss of profits, business interruption, loss of profits, loss of programs or other data)"
@@ -1842,6 +1846,10 @@ msgstr "회사가 전항 각 호에 정한 조치를 할 경우 회사는 사전
 msgid "White Paper"
 msgstr "백서"
 
+#: src/pages/WhitePaper/WhitePaperCard/index.tsx:12
+msgid "Whitepaper"
+msgstr "백서"
+
 #: src/pages/Faqs/QnAs/index.tsx:6
 msgid "Why has CONUN developed its own private blockchain network?"
 msgstr "CONUN이 자체 프라이빗 블록체인 네트워크를 개발한 이유는 무엇입니까?"
@@ -1915,8 +1923,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/pages/WhitePaper/WhitePaperCard/index.tsx:66
-msgid "{type} whitepaper"
-msgstr "{type} 백서"
+#~ msgid "{type} whitepaper"
+#~ msgstr "{type} 백서"
 
 #: src/components/LinkCustomButton/index.tsx:13
 #~ msgid "{values}"

@@ -650,6 +650,8 @@
       ["type"],
       ", download Conan's white paper.",
     ],
+    "To know more about Conun's business, download Conun's white paper.":
+      "To know more about Conun's business, download Conun's white paper.",
     "To know more about Conun's {type}, download Conun's white paper.": [
       "To know more about Conun's ",
       ["type"],
@@ -689,6 +691,7 @@
     "Where are the coins to be distributed sent to?":
       "Where are the coins to be distributed sent to?",
     "White Paper": "White Paper",
+    Whitepaper: "Whitepaper",
     "Why has CONUN developed its own private blockchain network?":
       "Why has CONUN developed its own private blockchain network?",
     "Why has CONUN developed its own private blockchain network? ":
