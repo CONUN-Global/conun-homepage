@@ -50,6 +50,16 @@ export type StringKeyObj = {
   [key: string]: string;
 };
 
+export type Article = {
+  article: {
+    description: string;
+    link: string;
+    originallink: string;
+    pubDate: string;
+    title: string;
+  };
+};
+
 export type localNewsItem = {
   description: string;
   link: string;
