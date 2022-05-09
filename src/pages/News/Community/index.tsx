@@ -1,17 +1,23 @@
 import styles from "./Community.module.scss";
 
-import NewsItem from "./NewsItem";
-
 import { NewsDataObj } from "@/types/index";
 
 import usePagination from "@/hooks/usePagination";
 
 import NewsHeader from "@/components/NewsHeader";
+import NewsItem from "./NewsItem";
 import PaginationBar from "@/components/PaginationBar";
 import NoResultCard from "../NewsSearchable/NoResultCard";
-// import Button from "./SocialMediaButton";
+import Button from "./SocialMediaButton";
 
-function Community({ localdata, searchTerm }: any) {
+import buttons from "./SocialMediaButton/socialmediabuttons.json";
+
+function Community({
+  localdata = [],
+  searchTerm,
+  socialMediaFilter,
+  setSocialMediaFilter,
+}: any) {
   const sliceSize = 4;
   const pages = [];
   for (let i = 0; i < Math.ceil(localdata.length / sliceSize); i++) {
@@ -27,14 +33,18 @@ function Community({ localdata, searchTerm }: any) {
         <div>
           <NewsHeader>Official Community</NewsHeader>
         </div>
-        {/* <div className={styles.BtnContainer}>
-          <Button>ALL</Button>
-          <Button>XANGLE</Button>
-          <Button>YOUTUBE</Button>
-          <Button>MEDIUM</Button>
-          <Button>GITHUB</Button>
-          <Button>DISCORD</Button>
-        </div> */}
+        <div className={styles.BtnContainer}>
+          {buttons.map((btn: any) => (
+            <Button
+              key={btn.value}
+              value={btn.value}
+              socialMediaFilter={socialMediaFilter}
+              setSocialMediaFilter={setSocialMediaFilter}
+            >
+              {btn.name}
+            </Button>
+          ))}
+        </div>
       </div>
       <div className={styles.NewsContainer}>
         {searchTerm.length > 1 ? (
