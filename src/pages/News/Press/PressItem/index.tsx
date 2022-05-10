@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 
 import { Article, localNewsItem } from "@/types/index";
 
-// import Photo from "@/assets/icons/conun-logo.svg";
-
 import styles from "./PressItem.module.scss";
 
 type Image = {
@@ -26,6 +24,7 @@ function PressItem({ article }: Article) {
   useEffect(() => {
     async function getPhoto(article: localNewsItem) {
       const data = await photoFetch(article);
+
       setImage(data);
     }
 
