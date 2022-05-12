@@ -19,7 +19,7 @@ function button({
     <button
       className={classNames(styles.Button, { [styles.active]: active })}
       value={value}
-      onClick={(e) => setSocialMediaFilter(e.target?.value)}
+      onClick={(event: any) => setSocialMediaFilter(event.target?.value)}
     >
       {children}
     </button>
@@ -27,12 +27,3 @@ function button({
 }
 
 export default button;
-
-{
-  /* <button
-      className={classNames(styles.PaginationButton, {
-        [styles.active]: active,
-      })}
-      onClick={() => setCurrentPage(index)}
-    ></button> */
-}

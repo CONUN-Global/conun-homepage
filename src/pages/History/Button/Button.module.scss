@@ -1,0 +1,19 @@
+.yearSelectBtn {
+  background-color: #f2f9ff;
+  border: 1px solid #aebfd7;
+  border-radius: 40px;
+  color: #3759ae;
+  cursor: pointer;
+  height: 45px;
+  margin: 5px;
+  min-width: 130px;
+  padding: 10px;
+  @media only screen and (max-width: 800px) {
+    max-width: 400px;
+    width: 90%;
+  }
+}
+
+.active {
+  border: 1.5px solid var(--conun-blue);
+}

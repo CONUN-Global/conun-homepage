@@ -9,7 +9,7 @@ function Year({ year, currentYear }: any) {
       <div className={styles.singleYear}>
         <h1>{currentYear}</h1>
         {year.map((item: any) => (
-          <div key={item.data}>
+          <div className={styles.item} key={item.data}>
             <div className={styles.month}>{item.month}월</div>
             <div className={styles.description}>• {item.data}</div>
             <img src={item.thumbnail} alt="" className={styles.image} />

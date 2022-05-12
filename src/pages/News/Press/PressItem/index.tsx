@@ -19,7 +19,7 @@ type Image = {
 };
 
 function PressItem({ article }: Article) {
-  const [image, setImage] = useState<Image>({});
+  const [image, setImage] = useState({} as Image);
 
   useEffect(() => {
     async function getPhoto(article: localNewsItem) {

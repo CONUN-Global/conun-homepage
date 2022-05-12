@@ -6,18 +6,11 @@ import NewsSearchable from "./NewsSearchable";
 import styles from "./News.module.scss";
 import VideoUpdates from "./VideoUpdates";
 
-import { useState } from "react";
-
 function News({ data }: any) {
-  const [inputtedText, setInputtedText] = useState("");
-
   return (
     <div className={styles.NewsPage}>
       <div className={styles.Container}>
-        <NewsHead
-          inputtedText={inputtedText}
-          setInputtedText={setInputtedText}
-        />
+        <NewsHead />
         <NewsHeader>Information</NewsHeader>
         <Featured />
         <VideoUpdates />

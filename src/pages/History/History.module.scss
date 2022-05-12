@@ -8,75 +8,83 @@
   padding-top: 100px;
   width: 100%;
 
-  & .HeadlineContainer {
-    align-items: center;
-    border-bottom: 2px solid lightgray;
-    display: flex;
-    margin-bottom: 60px;
-    padding: 80px 0 20px;
+  .contentContainer {
+    max-width: 1200px;
     width: 62.5%;
 
-    & h1 {
-      color: var(--conun-blue);
-      font-size: 48px;
-      font-weight: bold;
-      margin-bottom: 3px;
-    }
-  }
-
-  & .subtitleSelectContainer {
-    width: 62.5%;
-
-    & h3 {
-      color: #1e4489;
-      font-size: 24px;
-      font-weight: 300;
+    @media only screen and (max-width: 800px) {
+      width: calc(100vw - 80px);
     }
 
-    & .buttonContainer {
-      margin-top: 10px;
-      width: 100%;
-
-      & button {
-        background-color: #3759ae;
-        border: none;
-        color: white;
-        font-size: 12px;
-        height: 30px;
-        margin: 2px;
-        width: calc(50% - 4px);
-        width: 100%;
-      }
-    }
-  }
-
-  & .container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    width: 62.5%;
-
-    & .yearBtnContainer {
-      display: flex;
-      flex-direction: column;
-
-      & .yearBtn {
-        border: 1px solid #aebfd7;
-        border-radius: 40px;
-        color: #3759ae;
-        cursor: pointer;
-        height: 50px;
-        margin: 5px;
-        padding: 10px;
-        width: 200px;
-      }
-    }
-
-    & .historyContainer {
+    & .HeadlineContainer {
       align-items: center;
+      border-bottom: 2px solid lightgray;
       display: flex;
-      justify-content: space-around;
-      width: 100%;
+      margin-bottom: 60px;
+      padding: 80px 0 20px;
+
+      & h1 {
+        color: var(--conun-blue);
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+    }
+
+    & .subtitleSelectContainer {
+      & h3 {
+        color: #1e4489;
+        font-size: 24px;
+        font-weight: 300;
+
+        @media only screen and (min-width: 1200px) {
+          margin-bottom: 50px;
+        }
+      }
+    }
+
+    & .container {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 0;
+
+      @media only screen and (max-width: 1200px) {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+      }
+
+      & .yearBtnContainer {
+        display: flex;
+        flex-direction: column;
+
+        @media only screen and (max-width: 1200px) {
+          flex-direction: row;
+          justify-content: space-around;
+          margin: 50px 0;
+        }
+        @media only screen and (max-width: 800px) {
+          align-items: center;
+          flex-direction: column;
+          margin: 50px 0;
+        }
+      }
+
+      & .historyContainer {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        @media only screen and (max-width: 1200px) {
+          align-items: flex-start;
+          justify-content: space-between;
+        }
+        @media only screen and (max-width: 850px) {
+          align-items: center;
+          flex-direction: column;
+        }
+      }
     }
   }
 }

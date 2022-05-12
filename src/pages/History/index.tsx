@@ -2,62 +2,51 @@ import styles from "./History.module.scss";
 import { useState } from "react";
 import Year from "./Year";
 import historyData from "./historyData.json";
+import Button from "./Button";
 
 function History() {
-  const [selectedYear, setSelectedYear] = useState([0, 1]);
+  const [selectedYear, setSelectedYear] = useState(0);
+  const currentData = historyData[selectedYear];
 
-  const currentData = [
-    historyData[selectedYear[0]],
-    historyData[selectedYear[1]],
-  ];
-
+  //Set the variable 'years' to the string for the H1
   let years: number[] = [];
+  if (selectedYear === 0) years = [2022, 2021];
+  if (selectedYear === 1) years = [2020, 2019];
+  if (selectedYear === 2) years = [2018, 2017];
 
-  if (JSON.stringify(selectedYear) === JSON.stringify([0, 1]))
-    years = [2022, 2021];
-  if (JSON.stringify(selectedYear) === JSON.stringify([2, 3]))
-    years = [2020, 2019];
-  if (JSON.stringify(selectedYear) === JSON.stringify([4, 5]))
-    years = [2018, 2017];
+  const buttonInfo = [
+    [2022, 2021],
+    [2020, 2019],
+    [2018, ""],
+  ];
 
   return (
     <div className={styles.pageContainer}>
-      <div className={styles.HeadlineContainer}>
-        <h1>History Page</h1>
-      </div>
-      <div className={styles.subtitleSelectContainer}>
-        <h3>Our History</h3>
-        <div className={styles.buttonContainer}>
-          <button>공지 & 소식</button>
-          {/* <button>개발관련</button> */}
+      <div className={styles.contentContainer}>
+        <div className={styles.HeadlineContainer}>
+          <h1>History Page</h1>
         </div>
-      </div>
-      <div className={styles.container}>
-        <div className={styles.yearBtnContainer}>
-          <button
-            className={styles.yearBtn}
-            onClick={() => setSelectedYear([0, 1])}
-          >
-            2022-2021
-          </button>
-          <button
-            className={styles.yearBtn}
-            onClick={() => setSelectedYear([2, 3])}
-          >
-            2020-2019
-          </button>
-          <button
-            className={styles.yearBtn}
-            onClick={() => setSelectedYear([4, 5])}
-          >
-            2018-
-          </button>
+        <div className={styles.subtitleSelectContainer}>
+          <h3>Our History</h3>
         </div>
+        <div className={styles.container}>
+          <div className={styles.yearBtnContainer}>
+            {buttonInfo.map((item, index) => (
+              <Button
+                key={index}
+                index={index}
+                item={item}
+                selectedYear={selectedYear}
+                setSelectedYear={setSelectedYear}
+              />
+            ))}
+          </div>
 
-        <div className={styles.historyContainer}>
-          {currentData.map((yeardata, i) => (
-            <Year key={i} year={yeardata} currentYear={years[i]} />
-          ))}
+          <div className={styles.historyContainer}>
+            {currentData.map((yeardata, i) => (
+              <Year key={i} year={yeardata} currentYear={years[i]} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
