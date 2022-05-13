@@ -13,7 +13,13 @@
   }
 
   & .ImageContainer {
-    height: 200px;
+    background-color: white;
+    display: grid;
+    margin-right: 10px;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 10px;
+    place-items: center;
 
     & .Image {
       height: 160px;

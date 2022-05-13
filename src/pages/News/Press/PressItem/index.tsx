@@ -1,51 +1,25 @@
-import photoFetch from "@/helpers/photoFetch";
-import { useEffect, useState } from "react";
-
-import { Article, localNewsItem } from "@/types/index";
-
+import { Article } from "@/types/index";
 import styles from "./PressItem.module.scss";
-
-type Image = {
-  display: number;
-  items: {
-    link: string;
-    sizeHeight: string;
-    sizeWidth: string;
-    thumbnail: string;
-    title: string;
-  }[];
-  start: number;
-  total: number;
-};
+import Icon from "@/assets/icons/conun-logo.svg";
 
 function PressItem({ article }: Article) {
-  const [image, setImage] = useState({} as Image);
-
-  useEffect(() => {
-    async function getPhoto(article: localNewsItem) {
-      const data = await photoFetch(article);
-
-      setImage(data);
-    }
-
-    getPhoto(article);
-  }, [article]);
-
-  let photoURL;
-  if (image?.items?.length > 0) {
-    photoURL = image.items[0].thumbnail;
-  } else {
-    photoURL = "";
-  }
-
   const date = new Date(article.pubDate);
+
+  const ImageUrl =
+    article?.image?.items?.length > 0 ? (
+      <img
+        alt={article.title}
+        src={article?.image?.items[0].thumbnail}
+        className={styles.Image}
+      />
+    ) : (
+      <Icon />
+    );
 
   return (
     <a href={article.link} target="_blank" rel="noopener noreferrer">
       <div className={styles.CardContainer}>
-        <div className={styles.ImageContainer}>
-          <img alt={article.title} src={photoURL} className={styles.Image} />
-        </div>
+        <div className={styles.ImageContainer}>{ImageUrl}</div>
         <div className={styles.TextContainer}>
           <h3 className={styles.Title}>{article.title}</h3>
           <div className={styles.Description}>

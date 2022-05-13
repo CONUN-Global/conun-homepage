@@ -12,24 +12,22 @@ import newsData from "../newsData.json";
 import filterData from "@/helpers/filterData";
 
 export type Props = {
-  data: {
-    items: localNewsItem[];
-  };
+  data: localNewsItem[];
 };
 
-function NewsSearchable({ data: { items } }: Props) {
+function NewsSearchable({ data }: Props) {
   const [socialMediaFilter, setSocialMediaFilter] = useState("all");
 
   const [inputtedText, setInputtedText] = useState("");
   // Data provided by Naver API call in Pages/News (getStaticProps)
-  const [apiData, setApiData] = useState(items);
+  const [apiData, setApiData] = useState(data);
   // Data provided by LocalData in newsData.json
   const [localData, setLocalData] = useState(newsData);
 
   //Filter Data on Search Input change
   function filter(apiData: any, localData: any, inputtedText: string) {
     if (inputtedText.length <= 1) {
-      setApiData(items);
+      setApiData(data);
       setLocalData(newsData);
       return;
     } else {

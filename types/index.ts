@@ -50,14 +50,37 @@ export type StringKeyObj = {
   [key: string]: string;
 };
 
+type Image = {
+  display: number;
+  items: {
+    link: string;
+    sizeHeight: string;
+    sizeWidth: string;
+    thumbnail: string;
+    title: string;
+  }[];
+  start: number;
+  total: number;
+};
+
 export type Article = {
   article: {
     description: string;
+    image: Image;
     link: string;
     originallink: string;
     pubDate: string;
     title: string;
   };
+};
+
+export type NewsArticle = {
+  description: string;
+  image: Image;
+  link: string;
+  originallink: string;
+  pubDate: string;
+  title: string;
 };
 
 export type localNewsItem = {
